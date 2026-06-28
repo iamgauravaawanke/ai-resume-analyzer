@@ -3,17 +3,15 @@ from database.database import Base, engine
 import uvicorn
 from models.resume import Resume
 from models.analysis import Analysis
+from routers.upload_resume import router
 
 
 app = FastAPI()
 
-@app.post("/home")
-def demo():
-    return{"msg": "susessfully creted fastapi"}
-
 
 Base.metadata.create_all(bind=engine)
-print("database created susefully")
+app.include_router(router)
+
 
 
 if __name__=="__main__":
