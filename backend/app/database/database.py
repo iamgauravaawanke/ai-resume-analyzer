@@ -1,17 +1,10 @@
-import psycopg2
+from sqlalchemy import create_engine
+from sqlalchemy.orm import declarative_base
 
-def get_db_connection():
+DATABASE_URL = "postgresql+psycopg2://postgres:Gaurav%401234@localhost:5432/financial_health"
+engine = create_engine(DATABASE_URL)
 
-    conn = psycopg2.connect(
-        host="localhost",
-        database="financial_health",
-        user="postgres",
-        password="Gaurav@1234",
-        port="5432"
-    )
-
-    return conn
-
+Base = declarative_base()
 
 # conn = get_db_connection()
 # print("database connected suesfully")
