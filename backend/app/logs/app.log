@@ -1,3 +1,20 @@
 2026-06-28 23:25:08,545 | INFO | upload_resume.py:16 | Resume upload request received.
 2026-06-28 23:25:08,545 | INFO | upload_resume.py:32 | Saving file: aiagent2.pdf
 2026-06-28 23:25:08,547 | INFO | upload_resume.py:37 | Resume uploaded successfully: aiagent2.pdf
+2026-06-28 23:57:03,656 | INFO | upload_resume.py:17 | Resume upload request received.
+2026-06-28 23:57:03,657 | INFO | upload_resume.py:33 | Saving file: aiagent2.pdf
+2026-06-28 23:57:03,660 | INFO | upload_resume.py:38 | Resume uploaded successfully: aiagent2.pdf
+2026-06-29 00:00:04,627 | INFO | upload_resume.py:17 | Resume upload request received.
+2026-06-29 00:00:04,628 | INFO | upload_resume.py:33 | Saving file: aiagent2.pdf
+2026-06-29 00:00:04,641 | INFO | upload_resume.py:38 | Resume uploaded successfully: aiagent2.pdf
+2026-06-29 00:03:22,979 | INFO | upload_resume.py:17 | Resume upload request received.
+2026-06-29 00:03:22,981 | INFO | upload_resume.py:32 | Saving resume: aiagent2.pdf
+2026-06-29 00:03:22,984 | INFO | upload_resume.py:37 | Resume saved successfully.
+2026-06-29 00:03:22,984 | INFO | upload_resume.py:39 | Extracting text from PDF.
+2026-06-29 00:03:23,216 | INFO | upload_resume.py:50 | Text extraction completed. Characters extracted: 1347
+2026-06-29 00:26:04,070 | INFO | upload_resume.py:18 | Resume upload request received.
+2026-06-29 00:26:04,071 | INFO | upload_resume.py:33 | Saving resume: aiagent2.pdf
+2026-06-29 00:26:04,074 | INFO | upload_resume.py:38 | Resume saved successfully.
+2026-06-29 00:26:04,074 | INFO | upload_resume.py:40 | Extracting text from PDF.
+2026-06-29 00:26:04,264 | INFO | upload_resume.py:51 | Text extraction completed. Characters extracted: 1347
+2026-06-29 00:26:04,320 | INFO | upload_resume.py:63 | Resume saved to database. Resume ID: 1
