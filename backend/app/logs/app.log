@@ -18,3 +18,48 @@
 2026-06-29 00:26:04,074 | INFO | upload_resume.py:40 | Extracting text from PDF.
 2026-06-29 00:26:04,264 | INFO | upload_resume.py:51 | Text extraction completed. Characters extracted: 1347
 2026-06-29 00:26:04,320 | INFO | upload_resume.py:63 | Resume saved to database. Resume ID: 1
+2026-06-30 22:14:08,274 | INFO | upload_resume.py:20 | Resume upload request received.
+2026-06-30 22:14:08,275 | INFO | upload_resume.py:35 | Saving resume: aiagent2.pdf
+2026-06-30 22:14:08,276 | INFO | upload_resume.py:40 | Resume saved successfully.
+2026-06-30 22:14:08,276 | INFO | upload_resume.py:42 | Extracting text from PDF.
+2026-06-30 22:14:08,376 | INFO | upload_resume.py:53 | Text extraction completed. Characters extracted: 1347
+2026-06-30 22:14:08,429 | INFO | upload_resume.py:66 | Resume saved to database. Resume ID: 2
+2026-06-30 22:28:18,808 | INFO | upload_resume.py:19 | Resume upload request received.
+2026-06-30 22:28:18,809 | INFO | upload_resume.py:34 | Saving resume: iamgauravaawankee1.2.pdf
+2026-06-30 22:28:18,810 | INFO | upload_resume.py:39 | Resume saved successfully.
+2026-06-30 22:28:18,810 | INFO | upload_resume.py:41 | Extracting text from PDF.
+2026-06-30 22:28:18,980 | INFO | upload_resume.py:52 | Text extraction completed. Characters extracted: 3702
+2026-06-30 22:28:19,023 | INFO | upload_resume.py:64 | Resume saved to database. Resume ID: 3
+2026-06-30 22:31:02,459 | INFO | upload_resume.py:19 | Resume upload request received.
+2026-06-30 22:31:02,459 | INFO | upload_resume.py:34 | Saving resume: iamgauravaawankee1.2.pdf
+2026-06-30 22:31:02,460 | INFO | upload_resume.py:39 | Resume saved successfully.
+2026-06-30 22:31:02,460 | INFO | upload_resume.py:41 | Extracting text from PDF.
+2026-06-30 22:31:02,639 | INFO | upload_resume.py:52 | Text extraction completed. Characters extracted: 3702
+2026-06-30 22:31:02,672 | INFO | upload_resume.py:64 | Resume saved to database. Resume ID: 4
+2026-06-30 22:36:58,690 | INFO | upload_resume.py:19 | Resume upload request received.
+2026-06-30 22:36:58,690 | INFO | upload_resume.py:34 | Saving resume: iamgauravaawankee1.3.pdf
+2026-06-30 22:36:58,692 | INFO | upload_resume.py:39 | Resume saved successfully.
+2026-06-30 22:36:58,693 | INFO | upload_resume.py:41 | Extracting text from PDF.
+2026-06-30 22:36:58,892 | INFO | upload_resume.py:52 | Text extraction completed. Characters extracted: 3509
+2026-06-30 22:36:58,932 | INFO | upload_resume.py:64 | Resume saved to database. Resume ID: 5
+2026-06-30 22:41:24,146 | INFO | upload_resume.py:19 | Resume upload request received.
+2026-06-30 22:41:24,146 | INFO | upload_resume.py:34 | Saving resume: iamgauravaawankee1.4.pdf
+2026-06-30 22:41:24,148 | INFO | upload_resume.py:39 | Resume saved successfully.
+2026-06-30 22:41:24,149 | INFO | upload_resume.py:41 | Extracting text from PDF.
+2026-06-30 22:41:24,475 | INFO | upload_resume.py:52 | Text extraction completed. Characters extracted: 4120
+2026-06-30 22:41:24,499 | INFO | upload_resume.py:64 | Resume saved to database. Resume ID: 6
+2026-06-30 23:16:56,040 | INFO | upload_resume.py:19 | Resume upload request received.
+2026-06-30 23:16:56,042 | INFO | upload_resume.py:34 | Saving resume: iamgauravaawankee1.4.pdf
+2026-06-30 23:16:56,046 | INFO | upload_resume.py:39 | Resume saved successfully.
+2026-06-30 23:16:56,047 | INFO | upload_resume.py:41 | Extracting text from PDF.
+2026-06-30 23:16:56,596 | INFO | upload_resume.py:52 | Text extraction completed. Characters extracted: 4120
+2026-06-30 23:16:56,647 | INFO | upload_resume.py:64 | Resume saved to database. Resume ID: 7
+2026-06-30 23:24:54,867 | INFO | upload_resume.py:19 | Resume upload request received.
+2026-06-30 23:24:54,869 | INFO | upload_resume.py:34 | Saving resume: iamgauravaawankee1.4.pdf
+2026-06-30 23:24:54,873 | INFO | upload_resume.py:39 | Resume saved successfully.
+2026-06-30 23:24:54,874 | INFO | upload_resume.py:41 | Extracting text from PDF.
+2026-06-30 23:24:55,557 | INFO | upload_resume.py:52 | Text extraction completed. Characters extracted: 4120
+2026-06-30 23:24:55,558 | INFO | upload_resume.py:53 | Saving resume to database
+2026-06-30 23:24:55,638 | INFO | upload_resume.py:66 | Resume saved to database. Resume ID: 8
+2026-06-30 23:24:55,639 | INFO | upload_resume.py:69 | Sending resume to Qwen for analysis
+2026-06-30 23:25:52,674 | INFO | upload_resume.py:73 | Resume analysis completed successfully

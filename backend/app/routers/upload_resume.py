@@ -4,6 +4,7 @@ from pypdf import PdfReader
 from core.logger import logger
 from database.database import SessionLocal
 from models.resume import Resume
+from services.ai_service import ask_llm
 router = APIRouter(
     tags=["Upload Resume"]
 )
@@ -49,6 +50,7 @@ async def upload_resume(file: UploadFile = File(...)):
             text += page_text
 
     logger.info(f"Text extraction completed. Characters extracted: {len(text)}")
+    logger.info("Saving resume to database")
     db = SessionLocal()
 
     resume = Resume(
@@ -59,13 +61,16 @@ async def upload_resume(file: UploadFile = File(...)):
     db.add(resume)
     db.commit()
     db.refresh(resume)
+    
 
     logger.info(f"Resume saved to database. Resume ID: {resume.id}")
 
     db.close()
-    
-    
+    logger.info("Sending resume to Qwen for analysis")
 
+    
+    analysis = ask_llm(text)
+    logger.info("Resume analysis completed successfully")
 
 
     # print(text)
