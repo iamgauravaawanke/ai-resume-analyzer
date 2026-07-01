@@ -63,3 +63,288 @@
 2026-06-30 23:24:55,638 | INFO | upload_resume.py:66 | Resume saved to database. Resume ID: 8
 2026-06-30 23:24:55,639 | INFO | upload_resume.py:69 | Sending resume to Qwen for analysis
 2026-06-30 23:25:52,674 | INFO | upload_resume.py:73 | Resume analysis completed successfully
+2026-07-01 22:11:04,109 | INFO | upload_resume.py:19 | Resume upload request received.
+2026-07-01 22:11:04,111 | INFO | upload_resume.py:34 | Saving resume: iamgauravaawankee1.4.pdf
+2026-07-01 22:11:04,113 | INFO | upload_resume.py:39 | Resume saved successfully.
+2026-07-01 22:11:04,113 | INFO | upload_resume.py:41 | Extracting text from PDF.
+2026-07-01 22:11:04,427 | INFO | upload_resume.py:52 | Text extraction completed. Characters extracted: 4120
+2026-07-01 22:11:04,428 | INFO | upload_resume.py:53 | Saving resume to database
+2026-07-01 22:11:04,482 | INFO | upload_resume.py:66 | Resume saved to database. Resume ID: 9
+2026-07-01 22:11:04,483 | INFO | upload_resume.py:69 | Sending resume to Qwen for analysis
+2026-07-01 22:13:40,345 | INFO | upload_resume.py:19 | Resume upload request received.
+2026-07-01 22:13:40,345 | INFO | upload_resume.py:34 | Saving resume: iamgauravaawankee1.3.pdf
+2026-07-01 22:13:40,347 | INFO | upload_resume.py:39 | Resume saved successfully.
+2026-07-01 22:13:40,347 | INFO | upload_resume.py:41 | Extracting text from PDF.
+2026-07-01 22:13:40,546 | INFO | upload_resume.py:52 | Text extraction completed. Characters extracted: 3509
+2026-07-01 22:13:40,547 | INFO | upload_resume.py:53 | Saving resume to database
+2026-07-01 22:13:40,595 | INFO | upload_resume.py:66 | Resume saved to database. Resume ID: 10
+2026-07-01 22:13:40,596 | INFO | upload_resume.py:69 | Sending resume to Qwen for analysis
+2026-07-01 22:13:58,230 | INFO | upload_resume.py:73 | Resume analysis completed successfully
+2026-07-01 22:14:54,402 | INFO | upload_resume.py:19 | Resume upload request received.
+2026-07-01 22:14:54,403 | INFO | upload_resume.py:34 | Saving resume: iamgauravaawankepy1.2.pdf
+2026-07-01 22:14:54,404 | INFO | upload_resume.py:39 | Resume saved successfully.
+2026-07-01 22:14:54,404 | INFO | upload_resume.py:41 | Extracting text from PDF.
+2026-07-01 22:14:54,665 | INFO | upload_resume.py:52 | Text extraction completed. Characters extracted: 2887
+2026-07-01 22:14:54,665 | INFO | upload_resume.py:53 | Saving resume to database
+2026-07-01 22:14:54,691 | INFO | upload_resume.py:66 | Resume saved to database. Resume ID: 11
+2026-07-01 22:14:54,692 | INFO | upload_resume.py:69 | Sending resume to Qwen for analysis
+2026-07-01 22:15:06,430 | INFO | upload_resume.py:74 | Resume analysis completed successfully
+2026-07-01 23:05:17,116 | INFO | upload_resume.py:25 | Resume upload request received.
+2026-07-01 23:05:17,125 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankepy1.2.pdf
+2026-07-01 23:05:17,713 | INFO | upload_resume.py:54 | Resume text extracted (2887 characters).
+2026-07-01 23:05:17,791 | INFO | upload_resume.py:71 | Resume stored in database. Resume ID: 12
+2026-07-01 23:05:17,791 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
+2026-07-01 23:05:56,338 | INFO | upload_resume.py:80 | AI analysis completed.
+2026-07-01 23:08:36,316 | INFO | upload_resume.py:25 | Resume upload request received.
+2026-07-01 23:08:36,329 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankee1.3.pdf
+2026-07-01 23:08:36,722 | INFO | upload_resume.py:54 | Resume text extracted (3509 characters).
+2026-07-01 23:08:36,767 | INFO | upload_resume.py:71 | Resume stored in database. Resume ID: 13
+2026-07-01 23:08:36,768 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
+2026-07-01 23:08:44,227 | INFO | upload_resume.py:80 | AI analysis completed.
+2026-07-01 23:08:44,229 | INFO | upload_resume.py:83 | Qwen Response:
+```json
+{
+  "name": "GAURAV AAWANKE",
+  "email": "gauravawanke@gmail.com",
+  "phone": "+91 75586 87453",
+  "linkedin_url": "LinkedIn",
+  "github_url": "GitHub"
+}
+```
+2026-07-01 23:15:34,453 | INFO | upload_resume.py:25 | Resume upload request received.
+2026-07-01 23:15:34,458 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankepy1.2.pdf
+2026-07-01 23:15:35,045 | INFO | upload_resume.py:54 | Resume text extracted (2887 characters).
+2026-07-01 23:15:35,099 | INFO | upload_resume.py:71 | Resume stored in database. Resume ID: 14
+2026-07-01 23:15:35,099 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
+2026-07-01 23:16:23,038 | INFO | upload_resume.py:80 | AI analysis completed.
+2026-07-01 23:16:23,039 | INFO | upload_resume.py:83 | Qwen Response:
+```json
+{
+  "name": "Gaurav Aawank",
+  "email": "gauravawanke@gmail.com",
+  "phone": "+917558687453",
+  "linkedin_url": "",
+  "github_url": "",
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Electronics and Telecommunication",
+      "institution": "SANT GADGE BABA AMRAVATI UNIVERSITY",
+      "start_date": "January 2021",
+      "end_date": "May 2025"
+    },
+    {
+      "degree": "Higher Secondary Board in Electronic Science",
+      "institution": "SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI",
+      "start_date": "July 2019",
+      "end_date": "November 2020"
+    }
+  ],
+  "experience": [
+    {
+      "company": "",
+      "position": "",
+      "start_date": "June 2024 - March 2025",
+      "end_date": "",
+      "description": ""
+    },
+    {
+      "company": "IMRABO",
+      "position": "AI Based Personal Companion",
+      "start_date": "June 2024 - Present",
+      "end_date": "",
+      "description": [
+        "Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%",
+        "Developed a cross-platform interface using Flutter, React.js, and Electron.js for mobile, web, and desktop, increasing user engagement by 30%",
+        "Built a backend with Django and FastAPI, leveraging WebSockets, WebRTC, and MQTT to reduce server response time by 20%"
+      ]
+    },
+    {
+      "company": "",
+      "position": "",
+      "start_date": "January 2024 - August 2024",
+      "end_date": "",
+      "description": [
+        "Built a web-based calculator using Flask with HTML/CSS/JS frontend, enabling real-time calculations. Implemented basic arithmetic operations with real-time result display, improving speed and accuracy.",
+        "Designed a responsive, user-friendly interface for desktop and mobile, enhancing UX. Strengthened Flask routing, template rendering, and backend/frontend integration, improving maintainability.",
+        "Implemented duplicate detection and domain suggestion, reducing email errors by 30%. Developed automatic logging and data storage for valid and invalid emails, enhancing workflow efficiency. Deployed on Render with GitHub CI/CD, making the app publicly accessible and maintainable. Optimized backend for concurrent requests, reducing validation latency and improving overall performance by 25%."
+      ]
+    },
+    {
+      "company": "",
+      "position": "",
+      "start_date": "July 2023 - December 2023",
+      "end_date": "",
+      "description": [
+        "Implemented duplicate detection and domain suggestion, improving email accuracy and reducing errors by 30%. Developed automatic logging and data storage for valid and invalid emails, enhancing workflow efficiency. Deployed on Render with GitHub CI/CD, making the app publicly accessible and maintainable. Optimized backend for concurrent requests, reducing validation latency and improving overall performance by 25%"
+      ]
+    }
+  ],
+  "technical_skills": [],
+  "soft_skills": [],
+  "certifications": [],
+  "ats_score": 0,
+  "summary": "",
+  "strengths": [],
+  "missing_skills": [],
+  "suggestions": []
+}
+```
+2026-07-01 23:24:59,522 | INFO | upload_resume.py:25 | Resume upload request received.
+2026-07-01 23:24:59,526 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankepy1.2.pdf
+2026-07-01 23:25:00,089 | INFO | upload_resume.py:54 | Resume text extracted (2887 characters).
+2026-07-01 23:25:00,144 | INFO | upload_resume.py:71 | Resume stored in database. Resume ID: 15
+2026-07-01 23:25:00,145 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
+2026-07-01 23:25:34,770 | INFO | upload_resume.py:82 | AI analysis completed.
+2026-07-01 23:25:34,771 | INFO | upload_resume.py:85 | Qwen Response:
+{'name': 'GAURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': 'May 2025'}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': '', 'position': '', 'start_date': 'June 2024 - March 2025', 'end_date': '', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40% and increasing user engagement by 30%. Developed a cross-platform interface using Flutter, React.js, and Electron.js for mobile, web, and desktop, reducing server response time by 20%. Integrated IoT capabilities for smart home device control, expanding functionality and user control options by 50%, and built a backend with Django and FastAPI.'}], 'projects': [{'name': '', 'description': '', 'technologies': []}], 'technical_skills': [], 'soft_skills': [], 'certifications': [], 'ats_score': 0, 'summary': None, 'strengths': [], 'missing_skills': ['HTML', 'CSS', 'JavaScript'], 'suggestions': ['Complete HTML, CSS, and JavaScript skills']}
+2026-07-01 23:31:19,384 | INFO | upload_resume.py:25 | Resume upload request received.
+2026-07-01 23:31:19,386 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankepy1.2.pdf
+2026-07-01 23:31:19,672 | INFO | upload_resume.py:54 | Resume text extracted (2887 characters).
+2026-07-01 23:31:19,718 | INFO | upload_resume.py:71 | Resume stored in database. Resume ID: 16
+2026-07-01 23:31:19,718 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
+2026-07-01 23:31:32,247 | INFO | upload_resume.py:82 | AI analysis completed.
+2026-07-01 23:31:32,248 | INFO | upload_resume.py:85 | Qwen Response:
+{'name': 'Gaurav Aawanke', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': 'May 2025'}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': 'Not Specified', 'position': '', 'start_date': 'June 2024 - Present', 'description': 'Designed and developed AI-based personal companion. Enhanced task management efficiency by 40% through Flutter, React.js, and Electron.js for mobile, web, and desktop platforms.'}, {'company': 'Not Specified', 'position': '', 'start_date': 'June 2024 - March 2025', 'description': 'Designed a physical AI assistant inspired by BB-8. Boosted task management efficiency by 40% through Flutter, React.js, and Electron.js for mobile, web, and desktop platforms.'}, {'company': 'Not Specified', 'position': '', 'start_date': 'July 2023 - December 2023', 'description': 'Implemented duplicate detection and domain suggestion for email checking. Improved accuracy by 30% through Flask, HTML/CSS/JS frontend.'}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8 and boosted task management efficiency by 40%. Developed a cross-platform interface using Flutter, React.js, and Electron.js for mobile, web, and desktop platforms. Increased user engagement by 30% through integration of IoT capabilities.'}, {'name': 'DART & Flutter | The Complete Flutter Development Course', 'description': 'Completed the course to become proficient in Dart and Flutter development.', 'technologies': ['Python', 'C++', 'Flask', 'React.js']}], 'technical_skills': [], 'soft_skills': [], 'certifications': [], 'ats_score': 0, 'summary': 'Gaurav Aawanke is a full stack developer with skills in Python, C++, Flask, and Flutter. He has experience in designing AI-based personal companions and physical assistants that enhance user engagement and efficiency.', 'strengths': [], 'missing_skills': ['Java'], 'suggestions': []}
+2026-07-01 23:31:32,262 | INFO | upload_resume.py:106 | Analysis stored in database. Analysis ID: 1
+2026-07-01 23:37:36,954 | INFO | upload_resume.py:25 | Resume upload request received.
+2026-07-01 23:37:36,957 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankepy1.2.pdf
+2026-07-01 23:37:37,238 | INFO | upload_resume.py:54 | Resume text extracted (2887 characters).
+2026-07-01 23:37:37,266 | INFO | upload_resume.py:71 | Resume stored in database. Resume ID: 17
+2026-07-01 23:37:37,267 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
+2026-07-01 23:37:46,953 | INFO | upload_resume.py:82 | AI analysis completed.
+2026-07-01 23:37:47,024 | INFO | upload_resume.py:108 | Analysis stored in database. Analysis ID: 2
+2026-07-01 23:40:07,311 | INFO | upload_resume.py:25 | Resume upload request received.
+2026-07-01 23:40:07,313 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankepy1.2.pdf
+2026-07-01 23:40:07,560 | INFO | upload_resume.py:54 | Resume text extracted (2887 characters).
+2026-07-01 23:40:07,601 | INFO | upload_resume.py:71 | Resume stored in database. Resume ID: 18
+2026-07-01 23:40:07,602 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
+2026-07-01 23:40:16,901 | INFO | upload_resume.py:82 | AI analysis completed.
+2026-07-01 23:40:16,901 | INFO | upload_resume.py:85 | Qwen Response:
+{
+  "name": "Gaurav Aawanke",
+  "email": "gauravawanke@gmail.com",
+  "phone": "+91 75586 87453",
+  "linkedin_url": "",
+  "github_url": "",
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Electronics and Telecommunication",
+      "institution": "SANT GADGE BABA AMRAVATI UNIVERSITY",
+      "start_date": "January 2021",
+      "end_date": "May 2025"
+    }
+  ],
+  "experience": [
+    {
+      "company": "",
+      "position": "",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "company": "IMRABO - AI Based Personal Companion",
+      "position": "",
+      "start_date": "June 2024 – March 2025",
+      "end_date": "Present"
+    }
+  ],
+  "projects": [
+    {
+      "name": "FLASK CALCULATOR",
+      "description": "Built a web-based calculator using Flask with HTML/CSS/JS frontend, enabling real-time calculations.",
+      "technologies": ["Flask", "HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "EMAIL CHECKER",
+      "description": "Implemented duplicate detection and domain suggestion, improving email accuracy and reducing errors by 30%. Deployed on Render with GitHub CI/CD for public accessibility and maintainability.",
+      "technologies": ["Flask", "HTML/CSS/JS", "JavaScript"]
+    }
+  ],
+  "technical_skills": [
+    "Python",
+    "C++",
+    "Django",
+    "FastAPI",
+    "React.js",
+    "Android Studio",
+    "Visual Studio Code",
+    "PowerBI"
+  ],
+  "soft_skills": [],
+  "certifications": [],
+  "ats_score": 0,
+  "summary": "",
+  "strengths": [],
+  "missing_skills": [],
+  "suggestions": []
+}
+2026-07-01 23:40:16,915 | INFO | upload_resume.py:108 | Analysis stored in database. Analysis ID: 3
+2026-07-01 23:42:42,577 | INFO | upload_resume.py:25 | Resume upload request received.
+2026-07-01 23:42:42,578 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankepy1.2.pdf
+2026-07-01 23:42:42,826 | INFO | upload_resume.py:54 | Resume text extracted (2887 characters).
+2026-07-01 23:42:42,850 | INFO | upload_resume.py:71 | Resume stored in database. Resume ID: 19
+2026-07-01 23:42:42,850 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
+2026-07-01 23:42:52,042 | INFO | upload_resume.py:82 | AI analysis completed.
+2026-07-01 23:42:52,042 | INFO | upload_resume.py:85 | Qwen Response:
+```json
+{
+  "name": "GAURAV AAWANKE",
+  "email": "gauravawanke@gmail.com",
+  "phone": "+91 75586 87453",
+  "linkedin_url": "",
+  "github_url": "",
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Electronics and Telecommunication",
+      "institution": "SANT GADGE BABA AMRAVATI UNIVERSITY",
+      "start_date": "January 2021",
+      "end_date": "May 2025"
+    },
+    {
+      "degree": "Higher Secondary Board in Electronic Science",
+      "institution": "SHRI RAMKRISHAN KRIDA VIDYALAYA AMRAVATI",
+      "start_date": "July 2019",
+      "end_date": "November 2020"
+    }
+  ],
+  "experience": [
+    {
+      "company": "",
+      "position": "",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "IMRABO - AI Based Personal Companion",
+      "description": "Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40% and increasing user engagement by 30%. Developed a cross-platform interface using Flutter, React.js, and Electron.js for mobile, web, and desktop, increasing server response time by 20%, integrated IoT capabilities for smart home device control, expanding functionality and user control options by 50%. Also built a backend with Django and FastAPI.",
+      "technologies": ["Python", "C++", "Flask", "JavaScript", "React.js"]
+    }
+  ],
+  "technical_skills": [],
+  "soft_skills": [],
+  "certifications": [],
+  "ats_score": 0,
+  "summary": "",
+  "strengths": [],
+  "missing_skills": [],
+  "suggestions": []
+}
+```
+2026-07-01 23:43:32,456 | INFO | upload_resume.py:25 | Resume upload request received.
+2026-07-01 23:43:32,457 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankee1.4.pdf
+2026-07-01 23:43:32,776 | INFO | upload_resume.py:54 | Resume text extracted (4120 characters).
+2026-07-01 23:43:32,793 | INFO | upload_resume.py:71 | Resume stored in database. Resume ID: 20
+2026-07-01 23:43:32,794 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
+2026-07-01 23:43:46,490 | INFO | upload_resume.py:82 | AI analysis completed.
+2026-07-01 23:43:46,522 | INFO | upload_resume.py:108 | Analysis stored in database. Analysis ID: 4
+2026-07-01 23:44:51,231 | INFO | upload_resume.py:25 | Resume upload request received.
+2026-07-01 23:44:51,233 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankepy1.2.pdf
+2026-07-01 23:44:51,499 | INFO | upload_resume.py:54 | Resume text extracted (2887 characters).
+2026-07-01 23:44:51,532 | INFO | upload_resume.py:71 | Resume stored in database. Resume ID: 21
+2026-07-01 23:44:51,532 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
+2026-07-01 23:45:04,663 | INFO | upload_resume.py:82 | AI analysis completed.
+2026-07-01 23:45:04,663 | INFO | upload_resume.py:85 | Qwen Response:
+{'name': 'GAURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': 'May 2025'}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}, {'company': 'Imrabo', 'position': 'AI Based Personal Companion Project Lead', 'start_date': 'June 2024 - Present', 'end_date': '', 'description': '- Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.\n- Developed a cross-platform interface using Flutter, React.js, and Electron.js for mobile, web, and desktop, increasing user engagement by 30%. \n- Built a backend with Django and FastAPI, leveraging WebSockets, WebRTC, and MQTT to reduce server response time by 20%.\n- Integrated IoT capabilities for smart home device control, expanding functionality and user control options by 50%.'}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': '- Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%\n- Developed a cross-platform interface using Flutter, React.js, and Electron.js for mobile, web, and desktop\n- Built a backend with Django and FastAPI, leveraging WebSockets, WebRTC, and MQTT to reduce server response time by 20%\n- Integrated IoT capabilities for smart home device control, expanding functionality and user control options by 50%', 'technologies': ['Flutter', 'React.js', 'Electron.js', 'Django', 'FastAPI', 'WebSockets', 'WebRTC', 'MQTT']}], 'technical_skills': [], 'soft_skills': [], 'certifications': [], 'ats_score': 0, 'summary': 'Full Stack Developer with experience in designing and implementing AI-based personal assistants, web applications using Flutter, React.js, Electron.js, and Django/FastAPI. Skilled in Python, C++, Flask, JavaScript, Android Studio, Visual Studio Code, PowerBI, HTML/CSS/JS, REST APIs, SQL, MongoDB, Git, GitHub, PyCharm, MATLAB, Dart & Flutter, Kotlin - Android App Development using Kotlin, Figma for UI UX Design, Node.js and Beyond: The Complete Developer Bootcamp.', 'strengths': [], 'missing_skills': [], 'suggestions': []}
+2026-07-01 23:45:04,671 | INFO | upload_resume.py:108 | Analysis stored in database. Analysis ID: 5

@@ -14,5 +14,6 @@ SessionLocal = sessionmaker(
     bind=engine
 )
 
+
 # conn = get_db_connection()
 # print("database connected suesfully")
