@@ -96,7 +96,11 @@ async def upload_resume(file: UploadFile = File(...)):
             technical_skills=", ".join(analysis["technical_skills"]),
             soft_skills=", ".join(analysis["soft_skills"]),
             missing_skills=", ".join(analysis["missing_skills"]),
-            suggestions=", ".join(analysis["suggestions"])
+            # suggestions=", ".join(analysis["suggestions"])
+            suggestions="\n".join(
+    f"{item['skill']} - {item['reasoning']}"
+    for item in analysis["suggestions"]
+)
         )
 
         db.add(analysis_db)
