@@ -119,7 +119,17 @@ async def upload_resume(file: UploadFile = File(...)):
     return {
     "message": "Resume uploaded and analyzed successfully.",
     "resume_id": resume_id,
-    "analysis_id": analysis_id
+    "analysis_id": analysis_id,
+    "technical_skills":analysis["technical_skills"],
+    "summary":analysis["summary"],
+    "missing_skills":analysis["missing_skills"],
+    "suggestions":analysis["suggestions"],
+    "ats_score":analysis["ats_score"],
+    "soft_skills":analysis["soft_skills"]
+    
+    
+    
+    
 }
     
     

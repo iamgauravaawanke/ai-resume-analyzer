@@ -8,7 +8,7 @@ export const analyzedResume = async(file) => {
         body:formData
 
     }   )
-    console.log(response.data)
+    // console.log(response.data)
 
     return response.json()
 }
