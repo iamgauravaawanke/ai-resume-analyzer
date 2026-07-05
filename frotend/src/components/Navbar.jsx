@@ -38,6 +38,11 @@ function Navbar() {
           <Button className="bg-blue-600 hover:bg-blue-700">
   Get Started
 </Button>
+
+
+<Button className="bg-blue-600 hover:bg-red-500 ">
+  new button 
+</Button>
         </nav>
 
       </div>
