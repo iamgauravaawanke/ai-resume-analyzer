@@ -1,10 +1,11 @@
-import ResumeUpload from "./components/ResumeUpload";
+
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div>
-      <h1>Dashboard</h1>
-      <ResumeUpload />
+      {/* <h1>Dashboard</h1> */}
+      <Home/>
     </div>
   );
 }
