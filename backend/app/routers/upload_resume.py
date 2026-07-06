@@ -10,8 +10,14 @@ from models.resume import Resume
 from models.analysis import Analysis
 from services.ai_service import ask_llm
 from utils.json_utils import clean_json_response
+from sqlalchemy.orm import declarative_base, sessionmaker, Session
+
+
+
+
 router = APIRouter(
-    tags=["Upload Resume"]
+    tags=["Upload Resume"],
+    
 )
 
 ALLOWED_EXTENSIONS = {".pdf"}
@@ -139,6 +145,4 @@ async def upload_resume(file: UploadFile = File(...)):
     
     
 }
-    
-    
     

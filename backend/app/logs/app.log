@@ -622,3 +622,7 @@
 2026-07-05 13:47:03,740 | INFO | upload_resume.py:54 | Resume text extracted (2887 characters).
 2026-07-05 13:47:03,805 | INFO | upload_resume.py:71 | Resume stored in database. Resume ID: 55
 2026-07-05 13:47:03,805 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
+2026-07-07 00:06:56,784 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 54
+2026-07-07 00:06:56,805 | WARNING | analysis.py:27 | Analysis not found. Analysis ID: 54
+2026-07-07 00:08:56,468 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 30
+2026-07-07 00:08:56,474 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 30

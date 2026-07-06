@@ -3,9 +3,12 @@ from database.database import Base, engine
 import uvicorn
 from models.resume import Resume
 from models.analysis import Analysis
-from routers.upload_resume import router
-from fastapi.middleware.cors import CORSMiddleware
+# from routers.upload_resume import resume_router
 
+from routers.upload_resume import router as upload_router
+
+from fastapi.middleware.cors import CORSMiddleware
+from routers.analysis import router as analysis_router
 
 app = FastAPI()
 
@@ -24,7 +27,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-app.include_router(router)
+
+app.include_router(analysis_router)
+app.include_router(upload_router)
 
 
 if __name__=="__main__":
