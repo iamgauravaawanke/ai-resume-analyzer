@@ -17,9 +17,15 @@ element={<Home/>}  />
 
 
 <Route
-path="/result"
+    path="/results/:analysis_id"
 element={<Results/>} />
 
+
+
+<Route
+    path="/result/:analysis_id"
+    element={<Results />}
+/>
 </Routes>
 
 

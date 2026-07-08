@@ -2,9 +2,33 @@ import { useState } from "react";
 import { Card, CardContent } from "../components/ui/card";
 import { Button } from "../components/ui/button";
 import { Upload, FileText } from "lucide-react";
+import { analyzedResume } from "../services/app";
+import { useNavigate } from "react-router-dom";
 
 function UploadCard() {
   const [file, setFile] = useState(null);
+
+  const navigate = useNavigate()
+
+
+  const handleAnalyse = async() =>{
+        if (!file){
+            alert("Please Select Pdf: ")
+            return;
+        }
+
+    try{
+        const response = await analyzedResume(file)
+          console.log(response)
+
+
+
+          navigate(`/results/${response.analysis_id}`);
+    }
+    catch(error){
+        console.error("Analysis failed:", error);    }  
+    };
+
 
   const handleFileChange = (e) => {
     if (e.target.files.length > 0) {
@@ -86,6 +110,8 @@ function UploadCard() {
             </div>
 
             <Button
+            onClick = {handleAnalyse}
+            
               size="lg"
               className="mt-8 w-full rounded-xl bg-blue-600 py-6 text-lg font-semibold hover:bg-blue-700"
             >

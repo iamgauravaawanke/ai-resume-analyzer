@@ -626,3 +626,272 @@
 2026-07-07 00:06:56,805 | WARNING | analysis.py:27 | Analysis not found. Analysis ID: 54
 2026-07-07 00:08:56,468 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 30
 2026-07-07 00:08:56,474 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 30
+2026-07-07 22:20:19,073 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 30
+2026-07-07 22:20:19,085 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 30
+2026-07-07 23:05:28,009 | INFO | upload_resume.py:31 | Resume upload request received.
+2026-07-07 23:05:28,013 | INFO | upload_resume.py:49 | Resume uploaded successfully: iamgauravaawankee1.2.pdf
+2026-07-07 23:05:28,457 | INFO | upload_resume.py:60 | Resume text extracted (3702 characters).
+2026-07-07 23:05:28,577 | INFO | upload_resume.py:77 | Resume stored in database. Resume ID: 56
+2026-07-07 23:05:28,578 | INFO | upload_resume.py:82 | Sending resume to Qwen for analysis.
+2026-07-07 23:06:27,925 | INFO | upload_resume.py:88 | AI analysis completed.
+2026-07-07 23:06:27,926 | INFO | upload_resume.py:91 | Qwen Response:
+{'name': 'Gaurav Aawankhe', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'Sant Gadghe Baba Amravati University', 'start_date': 'January 2021', 'end_date': ''}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'Shri Ramkrishna Krida Vidyalaya Amravati', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': 'Not Applicable', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}, {'company': 'Airbnb Clone - Full-Stack Web Application', 'position': 'Full Stack Developer', 'start_date': 'January 2024', 'end_date': 'August 2024', 'description': 'Developed a dynamic property listing and booking platform using Node.js and Express.js, enabling users to browse, book, and manage stays.'}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.', 'technologies': ['Flutter', 'React.js', 'Electron.js', 'Django', 'Fast API']}, {'name': 'Airbnb Clone - Full-Stack Web Application', 'description': 'Developed a dynamic property listing and booking platform using Node.js and Express.js, enabling users to browse, book, and manage stays.', 'technologies': ['Node.js', 'Express.js', 'MongoDB']}, {'name': 'AI-Powered NLP Chatbot', 'description': 'Developed a chatbot using NLP and machine learning algorithms for accurate user query responses, implemented sentiment analysis to enhance conversational relevance.', 'technologies': ['Python', 'NLP', 'machine learning']}], 'technical_skills': [{'title': 'Programming', 'description': 'Python, JavaScript; Django, Flask, Next.js, React.js'}, {'title': 'Frameworks & Tools', 'description': 'Django, Fast API, Flutter, React.js, Electron.js, Android Studio, Visual Studio Code, Power BI'}, {'title': 'Web Development', 'description': 'HTML, CSS, JavaScript; REST APIs'}, {'title': 'Database Management', 'description': 'SQL, MongoDB'}, {'title': 'Version Control & IDEs', 'description': 'Git, GitHub; PyCharm, MATLAB'}], 'soft_skills': ['Problem Solving', 'Critical Thinking', 'Time Management', 'Teamwork', 'Adaptability'], 'certifications': [], 'ats_score': 85, 'summary': '- Full Stack Developer with hands-on experience in building full-stack web applications using MERN stack. Skilled in designing and implementing scalable architecture, RESTful APIs, and clean code practices.', 'strengths': ['Mastery of Python', 'Strong problem-solving skills', 'Ability to handle complex projects'], 'missing_skills': [], 'suggestions': [{'title': '', 'description': ''}]}
+2026-07-07 23:06:28,593 | INFO | upload_resume.py:31 | Resume upload request received.
+2026-07-07 23:06:28,597 | INFO | upload_resume.py:49 | Resume uploaded successfully: iamgauravaawankee1.2.pdf
+2026-07-07 23:06:28,882 | INFO | upload_resume.py:60 | Resume text extracted (3702 characters).
+2026-07-07 23:06:28,929 | INFO | upload_resume.py:77 | Resume stored in database. Resume ID: 57
+2026-07-07 23:06:28,930 | INFO | upload_resume.py:82 | Sending resume to Qwen for analysis.
+2026-07-07 23:07:14,766 | INFO | upload_resume.py:88 | AI analysis completed.
+2026-07-07 23:07:14,782 | INFO | upload_resume.py:91 | Qwen Response:
+{'name': 'GAURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': ''}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.', 'technologies': []}, {'name': 'Airbnb Clone – Full-Stack Web Application', 'description': '', 'technologies': ['Node.js', 'Express.js', 'MongoDB']}, {'name': 'AI-Powered NLP Chatbot', 'description': 'Developed a chatbot using NLP and machine learning algorithms for accurate user query responses.', 'technologies': []}], 'technical_skills': ['Python', 'JavaScript', 'Django', 'Flask', 'Next.js', 'React.js', 'MongoDB'], 'soft_skills': ['Leadership', 'Communication', 'Problem Solving'], 'certifications': [], 'ats_score': 80, 'summary': 'Enthusiastic and self-driven MERN Stack Developer with hands-on experience building full-stack web applications using MongoDB, Express.js, React.js, and Node.js.', 'strengths': ['Analytical', 'Adaptable'], 'missing_skills': ['AWS', 'Azure'], 'suggestions': [{'title': 'Learn AWS', 'description': 'AWS knowledge is commonly expected for backend deployment.'}, {'title': 'Work on Node.js projects in a real-world scenario to enhance skills.', 'description': 'Projects that showcase advanced concepts of node.js and its ecosystem will be beneficial.'}]}
+2026-07-07 23:08:30,434 | INFO | upload_resume.py:31 | Resume upload request received.
+2026-07-07 23:08:30,437 | INFO | upload_resume.py:49 | Resume uploaded successfully: iamgauravaawankee1.2.pdf
+2026-07-07 23:08:30,763 | INFO | upload_resume.py:60 | Resume text extracted (3702 characters).
+2026-07-07 23:08:30,842 | INFO | upload_resume.py:77 | Resume stored in database. Resume ID: 58
+2026-07-07 23:08:30,842 | INFO | upload_resume.py:82 | Sending resume to Qwen for analysis.
+2026-07-07 23:09:32,306 | INFO | upload_resume.py:88 | AI analysis completed.
+2026-07-07 23:09:32,307 | INFO | upload_resume.py:91 | Qwen Response:
+{'name': 'GAURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': ''}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': 'Not Found - Project Not Specified', 'position': 'Not Found', 'start_date': '', 'end_date': ''}, {'company': 'IMRABO AI Ltd.', 'position': 'Full Stack Developer', 'start_date': 'June 2024', 'end_date': 'Present'}, {'company': 'Airbnb Clone', 'position': 'Developer', 'start_date': 'January 2024', 'end_date': 'August 2024'}, {'company': 'Not Found - Project Not Specified', 'position': 'Full Stack Developer', 'start_date': '', 'end_date': ''}], 'projects': [{'name': 'IMRABO AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.', 'technologies': ['Flutter', 'React.js', 'Electron.js']}, {'name': 'Airbnb Clone', 'description': '', 'technologies': []}], 'technical_skills': ['Python', 'JavaScript', 'Django', 'Flask', 'Next.js', 'React.js', 'MongoDB', 'WebSockets', 'WebRTC', 'MQTT'], 'soft_skills': ['Leadership', 'Communication', 'Problem Solving', 'Critical Thinking', 'Time Management', 'Teamwork'], 'certifications': [], 'ats_score': 90, 'summary': '', 'strengths': ['Python', 'React.js', 'Django', 'MongoDB'], 'missing_skills': ['Git', 'GitHub', 'PyCharm', 'MATLAB'], 'suggestions': [{'title': 'Learn Git', 'description': 'Git knowledge is commonly expected for backend deployment.'}, {'title': 'Improve Python', 'description': 'Python coding skills can be improved by practicing more and solving problems on platforms like LeetCode, HackerRank, etc.'}]}
+2026-07-07 23:13:11,512 | INFO | upload_resume.py:31 | Resume upload request received.
+2026-07-07 23:13:11,515 | INFO | upload_resume.py:49 | Resume uploaded successfully: iamgauravaawankee1.2.pdf
+2026-07-07 23:13:11,839 | INFO | upload_resume.py:60 | Resume text extracted (3702 characters).
+2026-07-07 23:13:11,901 | INFO | upload_resume.py:77 | Resume stored in database. Resume ID: 59
+2026-07-07 23:13:11,901 | INFO | upload_resume.py:82 | Sending resume to Qwen for analysis.
+2026-07-07 23:13:52,461 | INFO | upload_resume.py:88 | AI analysis completed.
+2026-07-07 23:13:52,462 | INFO | upload_resume.py:91 | Qwen Response:
+{'name': 'Gaurav Aawankhe', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'Sant Gadge Baba Amravati University, Amravati, IN', 'start_date': 'January 2021', 'end_date': ''}], 'experience': [{'company': 'Not specified', 'position': 'Full Stack Developer', 'start_date': '', 'end_date': '', 'description': 'Not applicable'}, {'company': 'Not specified', 'position': 'Not specified', 'start_date': '', 'end_date': '', 'description': 'Not applicable'}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%', 'technologies': ['Flutter', 'React.js', 'Electron.js']}, {'name': 'Airbnb Clone', 'description': 'Developed a dynamic property listing and booking platform using Node.js and Express.js', 'technologies': []}], 'technical_skills': ['Python', 'JavaScript', 'Django', 'Flask', 'Next.js', 'React.js', 'MongoDB'], 'soft_skills': ['Leadership', 'Communication', 'Problem Solving', 'Critical Thinking', 'Time Management', 'Teamwork', 'Adaptability', 'Project Ownership'], 'certifications': [], 'ats_score': 92, 'summary': '- Enthusiastic and self-driven MERN Stack Developer with hands-on experience building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. Skilled in developing RESTful APIs, managing databases, and creating responsive frontend interfaces.', 'strengths': ['Strong Python skills', 'Excellent problem-solving abilities', 'Proven project management'], 'missing_skills': [{'title': 'Learn JavaScript', 'description': 'JavaScript is commonly expected for backend deployment.'}, {'title': 'AWS Services', 'description': 'AWS knowledge would be beneficial for modern applications.'}], 'suggestions': []}
+2026-07-07 23:18:39,074 | INFO | upload_resume.py:31 | Resume upload request received.
+2026-07-07 23:18:39,076 | INFO | upload_resume.py:49 | Resume uploaded successfully: iamgauravaawankee1.2.pdf
+2026-07-07 23:18:39,266 | INFO | upload_resume.py:60 | Resume text extracted (3702 characters).
+2026-07-07 23:18:39,329 | INFO | upload_resume.py:77 | Resume stored in database. Resume ID: 60
+2026-07-07 23:18:39,331 | INFO | upload_resume.py:82 | Sending resume to Qwen for analysis.
+2026-07-07 23:20:33,442 | INFO | upload_resume.py:31 | Resume upload request received.
+2026-07-07 23:20:33,444 | INFO | upload_resume.py:49 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-07 23:20:33,719 | INFO | upload_resume.py:60 | Resume text extracted (3932 characters).
+2026-07-07 23:20:33,747 | INFO | upload_resume.py:77 | Resume stored in database. Resume ID: 61
+2026-07-07 23:20:33,748 | INFO | upload_resume.py:82 | Sending resume to Qwen for analysis.
+2026-07-07 23:20:49,462 | INFO | upload_resume.py:88 | AI analysis completed.
+2026-07-07 23:20:49,463 | INFO | upload_resume.py:91 | Qwen Response:
+{'name': 'Gaurav Aawanke', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': 'May 2025'}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': 'AI Resume Analyzer', 'position': 'AI Engineer and Python Backend Developer', 'start_date': 'June 2026', 'end_date': 'Present', 'description': 'Developed an AI-powered Resume Analyzer using React.js, FastAPI, PostgreSQL, and Qwen LLM to automate resume parsing and generate structured candidate insights. Built an end-to-end resume processing pipeline including PDF upload, text extraction, AI analysis, and structured JSON generation for efficient resume evaluation.'}], 'projects': [{'name': 'AI Resume Analyzer', 'description': 'Automated resume parsing and generated structured candidate insights using React.js, FastAPI, PostgreSQL, and Qwen LLM.', 'technologies': ['React.js', 'FastAPI', 'PostgreSQL', 'Qwen LLM']}, {'name': 'Smart AI Assistant', 'description': 'Full-stack AI assistant using React.js, FastAPI, PostgreSQL. Implemented Retrieval-Augmented Generation (RAG) using ChromaDB for PDF-based question answering.', 'technologies': ['React.js', 'FastAPI', 'PostgreSQL', 'ChromaDB']}], 'technical_skills': ['Python', 'JavaScript', 'Django', 'FastAPI', 'React.js', 'PostgreSQL', 'Qwen LLM', 'Matplotlib', 'Android Studio', 'Visual Studio Code', 'Power Bi'], 'soft_skills': ['Leadership', 'Communication', 'Problem Solving', 'Critical Thinking', 'Time Management', 'Teamwork'], 'certifications': [{'title': 'Dart & Flutter | The Complete Flutter Development Course', 'description': 'Complete course on Dart and Flutter development.'}, {'title': 'Kotlin - Android App Development using Kotlin', 'description': 'Course on building Android apps with Kotlin.'}, {'title': 'Figma for User Interface and User Experience UI UX Design', 'description': 'Learn Figma to design user interfaces and improve user experience.'}, {'title': 'Node.js and Beyond: The Complete Developer Bootcamp', 'description': 'Course on Node.js, MongoDB, and beyond to become a complete developer.'}], 'ats_score': 85, 'summary': '- AI Engineer with hands-on experience in building end-to-end AI applications using technologies like FastAPI, React.js, PostgreSQL, ChromaDB, and large language models.\n- Expertise in developing Retrieval-Augmented Generation (RAG) systems, AI agents, PDF processing pipelines, tool integration, and scalable backend APIs.', 'strengths': ['Technical Proficiency', 'Problem Solving', 'Adaptability'], 'missing_skills': [], 'suggestions': [{'title': 'Learn Docker', 'description': 'Docker knowledge is commonly expected for backend deployment.'}, {'title': 'Master Git and GitHub', 'description': 'Git is a crucial skill in the modern development environment, especially when working with version control systems like GitHub.'}]}
+2026-07-07 23:25:36,284 | INFO | upload_resume.py:31 | Resume upload request received.
+2026-07-07 23:25:36,286 | INFO | upload_resume.py:49 | Resume uploaded successfully: iamgauravaawankee1.2.pdf
+2026-07-07 23:25:36,470 | INFO | upload_resume.py:60 | Resume text extracted (3702 characters).
+2026-07-07 23:25:36,519 | INFO | upload_resume.py:77 | Resume stored in database. Resume ID: 62
+2026-07-07 23:25:36,519 | INFO | upload_resume.py:82 | Sending resume to Qwen for analysis.
+2026-07-07 23:26:21,528 | INFO | upload_resume.py:31 | Resume upload request received.
+2026-07-07 23:26:21,529 | INFO | upload_resume.py:49 | Resume uploaded successfully: iamgauravaawankee1.2.pdf
+2026-07-07 23:26:21,694 | INFO | upload_resume.py:60 | Resume text extracted (3702 characters).
+2026-07-07 23:26:21,716 | INFO | upload_resume.py:77 | Resume stored in database. Resume ID: 63
+2026-07-07 23:26:21,716 | INFO | upload_resume.py:82 | Sending resume to Qwen for analysis.
+2026-07-07 23:26:34,009 | INFO | upload_resume.py:88 | AI analysis completed.
+2026-07-07 23:26:34,009 | INFO | upload_resume.py:91 | Qwen Response:
+{'name': 'Gaurav Aawank', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': ''}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': 'Not applicable', 'position': 'Full Stack Developer', 'start_date': '', 'end_date': ''}, {'company': 'Airbnb Clone', 'position': 'Developer', 'start_date': 'January 2024', 'end_date': 'August 2024'}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.', 'technologies': ['Flutter', 'React.js', 'Electron.js']}, {'name': 'Airbnb Clone', 'description': 'Developed a dynamic property listing and booking platform using Node.js and Express.js.', 'technologies': ['Node.js', 'Express.js']}], 'technical_skills': ['Python', 'JavaScript', 'Django', 'Flask', 'Next.js', 'React.js'], 'soft_skills': ['Leadership', 'Communication', 'Problem Solving', 'Critical Thinking', 'Time Management', 'Teamwork', 'Adaptability'], 'certifications': [{'title': 'Dart & Flutter | The Complete Flutter Development Course', 'description': 'Learn Dart and Flutter for mobile app development.'}, {'title': 'Kotlin - Android App Development using Kotlin', 'description': 'Develop Android apps with Kotlin.'}, {'title': 'Figma for User Interface and User Experience UI UX Design', 'description': 'Master the design process in Figma.'}], 'ats_score': 95, 'summary': 'Enthusiastic Full Stack Developer with hands-on experience building full-stack web applications using MERN stack. Skilled in designing RESTful APIs, managing databases, and creating responsive front-end interfaces.', 'strengths': ['Strong problem-solving abilities', 'Excellent communication skills', 'Proven project management capabilities'], 'missing_skills': [], 'suggestions': []}
+2026-07-07 23:26:34,043 | INFO | upload_resume.py:125 | Analysis stored in database. Analysis ID: 31
+2026-07-07 23:51:17,093 | INFO | upload_resume.py:31 | Resume upload request received.
+2026-07-07 23:51:17,095 | INFO | upload_resume.py:49 | Resume uploaded successfully: iamgauravaawankee1.2.pdf
+2026-07-07 23:51:17,267 | INFO | upload_resume.py:60 | Resume text extracted (3702 characters).
+2026-07-07 23:51:17,324 | INFO | upload_resume.py:77 | Resume stored in database. Resume ID: 64
+2026-07-07 23:51:17,324 | INFO | upload_resume.py:82 | Sending resume to Qwen for analysis.
+2026-07-07 23:54:02,808 | INFO | upload_resume.py:31 | Resume upload request received.
+2026-07-07 23:54:02,810 | INFO | upload_resume.py:49 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-07 23:54:03,070 | INFO | upload_resume.py:60 | Resume text extracted (3932 characters).
+2026-07-07 23:54:03,092 | INFO | upload_resume.py:77 | Resume stored in database. Resume ID: 65
+2026-07-07 23:54:03,093 | INFO | upload_resume.py:82 | Sending resume to Qwen for analysis.
+2026-07-07 23:54:20,491 | INFO | upload_resume.py:88 | AI analysis completed.
+2026-07-07 23:54:20,492 | INFO | upload_resume.py:91 | Qwen Response:
+{'name': 'Gaurav Aawank', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': 'May 2025'}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI', 'start_date': 'July 2019 - November 2020'}], 'experience': [{'company': 'AI Resume Analyzer', 'position': 'Developer', 'start_date': 'June 2026', 'end_date': '', 'description': 'Developed an AI-powered Resume Analyzer using React.js, FastAPI, PostgreSQL, and Qwen LLM to automate resume parsing and generate structured candidate insights. Built an end-to-end resume processing pipeline including PDF upload, text extraction, AI analysis, and JSON generation for efficient resume evaluation.'}, {'company': 'Smart AI Assistant', 'position': 'Developer', 'start_date': 'January 2026 - June 2026', 'end_date': '', 'description': 'Developed a full-stack AI Assistant using React.js, FastAPI, and PostgreSQL. Implemented Retrieval-Augmented Generation (RAG) using ChromaDB for PDF-based question answering, allowing users to upload documents and receive context-aware responses.'}, {'company': 'IMRABO', 'position': 'Designer', 'start_date': 'June 2024 - March 2025', 'end_date': '', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%. Implemented multi-session chat history with PostgreSQL for persistent AI conversations.'}], 'projects': [{'name': 'AI Resume Analyzer', 'description': 'Automated resume parsing and generated structured candidate insights.', 'technologies': ['React.js', 'FastAPI', 'PostgreSQL', 'Qwen LLM']}, {'name': 'Smart AI Assistant', 'description': 'Full-stack AI Assistant with multi-session conversations, persistent chat history, and real-time AI interactions using React.js, FastAPI, and PostgreSQL.', 'technologies': ['React.js', 'FastAPI', 'PostgreSQL', 'Qwen LLM']}, {'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed an AI assistant inspired by BB-8, optimizing task management efficiency by 40%. Implemented multi-session chat history with PostgreSQL.', 'technologies': ['React.js', 'FastAPI', 'PostgreSQL']}], 'technical_skills': ['Python', 'JavaScript', 'FastAPI', 'React.js', 'Docker'], 'soft_skills': ['Leadership', 'Communication', 'Problem Solving', 'Critical Thinking', 'Time Management', 'Teamwork', 'Adaptability', 'Project Ownership'], 'certifications': [{'title': 'Dart & Flutter | The Complete Flutter Development Course', 'description': ''}, {'title': 'Kotlin - Android App Development using Kotlin', 'description': ''}, {'title': 'Figma for User Interface and User Experience (UI/UX) Design', 'description': ''}], 'ats_score': 85, 'summary': 'Gaurav Aawank is an AI Engineer and Python Backend Developer with hands-on experience in building end-to-end AI applications using FastAPI, React.js, PostgreSQL, ChromaDB, and Large Language Models (LLMs). With expertise in developing Retrieval-Augmented Generation systems, AI agents, PDF processing pipelines, tool integration, and scalable backend APIs, Gaurav is passionate about designing real-world AI products and continuously learning modern AI technologies.', 'strengths': ['AI Application Expertise', 'Problem-Solving Skills', 'Project Management'], 'missing_skills': [], 'suggestions': [{'title': 'Master Python Frameworks', 'description': 'Django and FastAPI are important frameworks in the field. Mastering them will enhance development capabilities.'}]}
+2026-07-07 23:54:20,516 | INFO | upload_resume.py:125 | Analysis stored in database. Analysis ID: 32
+2026-07-08 00:03:54,997 | INFO | upload_resume.py:31 | Resume upload request received.
+2026-07-08 00:03:55,000 | INFO | upload_resume.py:49 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-08 00:03:55,175 | INFO | upload_resume.py:60 | Resume text extracted (3932 characters).
+2026-07-08 00:03:55,192 | INFO | upload_resume.py:77 | Resume stored in database. Resume ID: 66
+2026-07-08 00:03:55,193 | INFO | upload_resume.py:82 | Sending resume to Qwen for analysis.
+2026-07-08 00:04:15,549 | INFO | upload_resume.py:88 | AI analysis completed.
+2026-07-08 00:04:15,550 | INFO | upload_resume.py:91 | Qwen Response:
+{'name': 'Gaurav Aawanke', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': 'May 2025'}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': 'AI Resume Analyzer', 'position': 'AI Engineer and Python Backend Developer', 'start_date': 'June 2026 - Current', 'description': 'Developed an AI-powered Resume Analyzer using React.js, FastAPI, PostgreSQL, and Qwen LLM to automate resume parsing and generate structured candidate insights. Built an end-to-end resume processing pipeline including PDF upload, text extraction, AI analysis, and JSON generation for efficient resume evaluation.'}, {'company': 'Smart AI Assistant', 'position': 'AI Assistant Developer', 'start_date': 'January 2026 - June 2026', 'description': 'Developed a full-stack AI Assistant using React.js, FastAPI, and PostgreSQL. Implemented Retrieval-Augmented Generation (RAG) with ChromaDB for PDF-based question answering, enabling users to upload documents and receive context-aware responses.'}, {'company': 'IMRABO', 'position': 'AI-Based Personal Companion Developer', 'start_date': 'June 2024 - March 2025', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%. Implemented multi-session chat history with PostgreSQL for persistent AI conversations. Built scalable backend services using Django, FastAPI, WebSockets, WebRTC, and MQTT.'}], 'projects': [{'name': 'AI Resume Analyzer', 'description': 'Automated resume parsing and generated structured candidate insights using React.js, FastAPI, PostgreSQL, and Qwen LLM. Integrated PDF upload, text extraction, AI analysis, and JSON generation for efficient resume evaluation.', 'technologies': ['React', 'FastAPI', 'PostgreSQL']}, {'name': 'Smart AI Assistant', 'description': 'Full-stack AI Assistant developed using React.js, FastAPI, and PostgreSQL. Implemented Retrieval-Augmented Generation (RAG) with ChromaDB for PDF-based question answering.', 'technologies': ['React', 'FastAPI', 'ChromaDB']}, {'name': 'IMRABO - AI-Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%. Implemented multi-session chat history with PostgreSQL for persistent AI conversations. Built scalable backend services using Django, FastAPI, WebSockets, WebRTC, and MQTT.', 'technologies': ['Django', 'FastAPI', 'WebSockets', 'WebRTC', 'MQTT']}], 'technical_skills': ['Python', 'JavaScript', 'FastAPI', 'React.js', 'PostgreSQL', 'ChromaDB', 'Large Language Models (LLMs)', 'Retrieval-Augmented Generation', 'Docker'], 'soft_skills': ['Project Ownership'], 'certifications': [{'title': 'Dart & Flutter | The Complete Flutter Development Course', 'description': 'Certification in Dart and Flutter from Udemy.'}, {'title': 'Kotlin - Android App Development using Kotlin', 'description': 'Certification in Kotlin for Android app development from Udacity.'}], 'ats_score': 85, 'summary': 'Gaurav Aawanke is an AI Engineer and Python Backend Developer with experience building end-to-end AI applications, including Resume Analyzer, Smart AI Assistant, and IMRABO. Skilled in languages & frameworks like Python, JavaScript, FastAPI, React.js, PostgreSQL, ChromaDB, Large Language Models (LLMs), Retrieval-Augmented Generation, Docker.', 'strengths': ['Python Backend Development', 'FastAPI Integration', 'React.js UI Design', 'PostgreSQL Database Management', 'ChromaDB Knowledge'], 'missing_skills': ['Git Version Control', 'GitHub Collaboration', 'Visual Studio Code IDE'], 'suggestions': [{'title': 'Learn Git Version Control', 'description': 'Gaurav should learn Git version control to improve collaboration and project management.'}, {'title': 'Enhance Python Skills', 'description': 'To further enhance his skills, Gaurav should consider taking courses or projects focused on advanced Python programming.'}]}
+2026-07-08 00:04:15,555 | INFO | upload_resume.py:125 | Analysis stored in database. Analysis ID: 33
+2026-07-08 00:27:26,887 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 00:27:26,900 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 00:27:26,903 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 00:27:26,905 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 00:27:29,205 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 00:27:29,206 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 00:27:29,209 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 00:27:29,210 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 00:30:21,871 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 00:30:21,874 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 00:30:21,879 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 00:30:21,881 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 00:31:13,865 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 00:31:13,867 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 00:31:13,873 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 00:31:13,876 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 00:42:43,922 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 00:42:44,017 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 00:42:50,867 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 00:42:50,870 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 00:43:09,882 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 00:43:09,889 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 00:43:09,896 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 00:43:09,901 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 00:43:27,876 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 00:43:27,879 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 00:43:37,811 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 00:43:37,815 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 00:43:37,823 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 00:43:37,827 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 00:44:05,924 | INFO | upload_resume.py:31 | Resume upload request received.
+2026-07-08 00:44:05,929 | INFO | upload_resume.py:49 | Resume uploaded successfully: iamgauravaawankepy1.2.pdf
+2026-07-08 00:44:06,718 | INFO | upload_resume.py:60 | Resume text extracted (2887 characters).
+2026-07-08 00:44:06,812 | INFO | upload_resume.py:77 | Resume stored in database. Resume ID: 67
+2026-07-08 00:44:06,813 | INFO | upload_resume.py:82 | Sending resume to Qwen for analysis.
+2026-07-08 00:45:18,931 | INFO | upload_resume.py:88 | AI analysis completed.
+2026-07-08 00:46:26,370 | INFO | upload_resume.py:31 | Resume upload request received.
+2026-07-08 00:46:26,373 | INFO | upload_resume.py:49 | Resume uploaded successfully: iamgauravaawankee1.4.pdf
+2026-07-08 00:46:27,133 | INFO | upload_resume.py:60 | Resume text extracted (4120 characters).
+2026-07-08 00:46:27,229 | INFO | upload_resume.py:77 | Resume stored in database. Resume ID: 68
+2026-07-08 00:46:27,229 | INFO | upload_resume.py:82 | Sending resume to Qwen for analysis.
+2026-07-08 00:48:33,334 | INFO | upload_resume.py:88 | AI analysis completed.
+2026-07-08 00:48:33,334 | INFO | upload_resume.py:91 | Qwen Response:
+{'name': 'Gaurav Aawanke', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': ''}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': 'Imrabo', 'position': 'AI Based Personal Companion Developer', 'start_date': 'June 2024', 'end_date': 'Present', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%. Developed a cross-platform interface using Flutter, React.js, and Electron.js for mobile, web, and desktop, increasing user engagement by 30%. Built a backend with Django and Fast API, leveraging WebSocket, WebRTC, and MQTT to reduce server response time by 20%, integrated IoT capabilities for smart home device control, expanding functionality and user control options by 50%.'}, {'company': 'Airbnb Clone - Full-Stack Web Application', 'position': 'Full Stack Developer', 'start_date': 'January 2024', 'end_date': 'August 2024', 'description': 'Implemented the MVC (Model-View-Controller) architecture to enhance code maintainability, reducing complexity by 40%. Built a secure authentication system using cookies and tokens, achieving 95% session stability. Designed and integrated custom error-handling middleware, reducing uncaught errors and server crashes by 90%. Added client-side form validation, blocking 85% of invalid requests before reaching the backend, reducing server load.'}, {'company': 'Zerodha Trading Platform Clone MERN Stack', 'position': 'Full Stack Developer', 'start_date': 'January 2025', 'end_date': 'March 2025', 'description': 'Developed a full-stack Zerodha trading platform clone using the MERN stack (MongoDB, Express.js, React.js, Node.js). Designed RESTful APIs for user authentication and transaction management. Used MongoDB for managing user data, stock holdings, transaction history, and market data. Built real-time stock price updates using WebSocket for live trading simulation.'}], 'projects': [{'name': 'Imrabo AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%. Developed a cross-platform interface using Flutter, React.js, and Electron.js for mobile, web, and desktop, increasing user engagement by 30%.', 'technologies': ['Python', 'JavaScript', 'Django', 'Flask', 'Next.js', 'React.js']}, {'name': 'Airbnb Clone - Full-Stack Web Application', 'description': 'Implemented the MVC (Model-View-Controller) architecture to enhance code maintainability, reducing complexity by 40%. Built a secure authentication system using cookies and tokens, achieving 95% session stability. Designed and integrated custom error-handling middleware, reducing uncaught errors and server crashes by 90%. Added client-side form validation, blocking 85% of invalid requests before reaching the backend, reducing server load.', 'technologies': ['Python', 'JavaScript', 'Django', 'Flask', 'Next.js', 'React.js']}, {'name': 'Zerodha Trading Platform Clone MERN Stack', 'description': 'Developed a full-stack Zerodha trading platform clone using the MERN stack (MongoDB, Express.js, React.js, Node.js). Designed RESTful APIs for user authentication and transaction management. Used MongoDB for managing user data, stock holdings, transaction history, and market data. Built real-time stock price updates using WebSocket for live trading simulation.', 'technologies': ['Python', 'JavaScript', 'Django', 'Flask', 'Next.js', 'React.js']}], 'technical_skills': ['Python', 'JavaScript', 'Django', 'Flask', 'Next.js', 'React.js', 'Node.js', 'MongoDB', 'MySQL', 'SQLite', 'Git', 'GitHub', 'Docker', 'Linux', 'Postman'], 'soft_skills': ['Leadership', 'Problem Solving', 'Critical Thinking', 'Time Management', 'Teamwork', 'Adaptability', 'Project Ownership'], 'certifications': [{'title': 'Dart & Flutter | The Complete Dart and Flutter Development Course', 'description': 'Learn how to create mobile apps with Dart, Flutter, and the Google Play Store. Learn the core concepts of Android app development using Kotlin.'}, {'title': 'Kotlin - Android App Development Using Kotlin', 'description': 'Learn Android app development using Kotlin through a practical course.'}, {'title': 'Figma for User Interface and User Experience UI UX Design', 'description': 'Master Figma to create high-quality user interfaces, designs, and experiences. Learn how to build successful apps with the latest design tools.'}], 'ats_score': 85, 'summary': 'Enthusiastic and self-driven Full Stack Developer with hands-on experience building full-stack web applications using Python and JavaScript.', 'strengths': ['Problem Solving', 'Adaptability', 'Project Ownership'], 'missing_skills': [], 'suggestions': []}
+2026-07-08 00:48:33,375 | INFO | upload_resume.py:125 | Analysis stored in database. Analysis ID: 34
+2026-07-08 00:48:33,478 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 34
+2026-07-08 00:48:33,484 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 34
+2026-07-08 00:48:33,495 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 34
+2026-07-08 00:48:33,499 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 34
+2026-07-08 23:00:10,456 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 30
+2026-07-08 23:00:10,465 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 30
+2026-07-08 23:00:10,473 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 30
+2026-07-08 23:00:10,474 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 30
+2026-07-08 23:00:34,446 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:00:34,449 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:00:34,454 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:00:34,456 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:16:18,187 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:16:18,201 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:16:18,210 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:16:18,211 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:17:36,635 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:17:36,637 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:17:36,678 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:17:36,684 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:25:31,088 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:25:31,109 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:25:31,118 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:25:31,122 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:28:23,312 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:28:23,316 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:28:23,323 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:28:23,327 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:43:36,041 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:43:36,049 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:43:36,053 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:43:36,055 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:44:02,289 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:44:02,291 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:44:02,293 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:44:02,295 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:44:05,805 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:44:05,808 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:44:05,812 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:44:05,813 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:44:50,300 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:44:50,301 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:44:50,304 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:44:50,306 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:44:51,291 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:44:51,293 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:44:51,295 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:44:51,296 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:44:56,136 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:44:56,138 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:44:56,143 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:44:56,145 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:45:09,293 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:45:09,295 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:45:09,298 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:45:09,299 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:45:29,297 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:45:29,299 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:45:29,301 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:45:29,306 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:45:32,651 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:45:32,652 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:45:32,654 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:45:32,656 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:46:47,287 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:46:47,290 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:46:47,293 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:46:47,294 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:56:37,560 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:56:37,562 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:56:37,565 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:56:37,566 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:58:28,153 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:58:28,156 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-08 23:58:28,160 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-08 23:58:28,162 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:01:20,280 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:01:20,282 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:01:20,285 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:01:20,287 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:06:10,168 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:06:10,171 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:06:10,174 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:06:10,176 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:09:29,584 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:09:29,586 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:09:29,589 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:09:29,591 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:15:22,588 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:15:22,590 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:15:22,593 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:15:22,594 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:16:19,053 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:16:19,055 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:16:19,059 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:16:19,061 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:17:16,024 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:17:16,026 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:17:16,029 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:17:16,032 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:18:46,288 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:18:46,290 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:18:46,293 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:18:46,295 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:19:15,326 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:19:15,328 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:19:15,332 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:19:15,335 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:20:15,775 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:20:15,778 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:20:15,782 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:20:15,785 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:20:47,314 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:20:47,316 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:20:47,319 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:20:47,321 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:21:00,935 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:21:00,937 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:21:00,940 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:21:00,942 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:21:11,242 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:21:11,244 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:21:11,248 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:21:11,250 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:21:19,540 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:21:19,542 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:21:19,546 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:21:19,551 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:21:58,715 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:21:58,716 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:21:58,720 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:21:58,722 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:23:42,062 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:23:42,064 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:23:42,068 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:23:42,070 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:45:27,309 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:45:27,314 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 00:45:27,320 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 00:45:27,323 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33

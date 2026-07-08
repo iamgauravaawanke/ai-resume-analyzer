@@ -104,10 +104,9 @@ async def upload_resume(file: UploadFile = File(...)):
             missing_skills=", ".join(analysis["missing_skills"]),
             # suggestions=", ".join(analysis["suggestions"]),
             suggestions="\n".join(
-    f"{item['skill']} - {item['reasoning']}"
+    f"{item['title']} - {item['description']}"
     for item in analysis["suggestions"]
 )
-            
             
             ## gamma 
             
