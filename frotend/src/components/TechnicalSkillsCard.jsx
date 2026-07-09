@@ -3,7 +3,7 @@ import { Code2 } from "lucide-react";
 
 function TechnicalSkillsCard({ technicalSkills }) {
   return (
-    <Card className="rounded-3xl shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+    <Card className="rounded-3xl shadow-lg transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] hover:shadow-2xl">
 
       <CardContent className="p-8">
 
@@ -27,8 +27,7 @@ function TechnicalSkillsCard({ technicalSkills }) {
           {technicalSkills.map((skill, index) => (
             <span
               key={index}
-              className="rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700 transition hover:bg-blue-600 hover:text-white"
-            >
+className="rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700 transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-blue-600 hover:text-white"            >
               {skill}
             </span>
           ))}

@@ -244,7 +244,7 @@
     {
       "company": "IMRABO - AI Based Personal Companion",
       "position": "",
-      "start_date": "June 2024 – March 2025",
+      "start_date": "June 2024 ï¿½ March 2025",
       "end_date": "Present"
     }
   ],
@@ -355,7 +355,7 @@
 2026-07-02 22:33:40,270 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
 2026-07-02 22:33:51,489 | INFO | upload_resume.py:82 | AI analysis completed.
 2026-07-02 22:33:51,489 | INFO | upload_resume.py:85 | Qwen Response:
-{'name': 'GAURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': ''}], 'experience': [{'company': 'Google', 'position': 'Full Stack Developer', 'start_date': '', 'end_date': '', 'description': ''}, {'company': 'Amazon', 'position': 'Full Stack Developer', 'start_date': '', 'end_date': '', 'description': ''}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.', 'technologies': ['Flutter', 'React.js', 'Electron.js']}, {'name': 'Airbnb Clone – Full-Stack Web Application', 'description': 'Developed a dynamic property listing and booking platform using Node.js and Express.js, enabling users to browse, book, and manage stays.', 'technologies': ['Node.js', 'Express.js']}], 'technical_skills': [], 'soft_skills': [], 'certifications': [{'title': 'Dart & Flutter | The Complete Flutter Development Course', 'provider': ''}, {'title': 'Kotlin - Android App Development using Kotlin', 'provider': ''}], 'ats_score': 0, 'summary': '', 'strengths': [], 'missing_skills': ['Database Management', 'Version Control & IDEs'], 'suggestions': [{'skill': 'Learn Database Management (SQL, MongoDB)', 'reasoning': 'Missing skills in database management can hinder the ability to work on projects that require managing databases.'}, {'skill': 'Improve Version Control & IDEs', 'reasoning': 'Learning more about version control systems and integrated development environments will enhance collaboration and efficiency.'}]}
+{'name': 'GAURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': ''}], 'experience': [{'company': 'Google', 'position': 'Full Stack Developer', 'start_date': '', 'end_date': '', 'description': ''}, {'company': 'Amazon', 'position': 'Full Stack Developer', 'start_date': '', 'end_date': '', 'description': ''}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.', 'technologies': ['Flutter', 'React.js', 'Electron.js']}, {'name': 'Airbnb Clone ï¿½ Full-Stack Web Application', 'description': 'Developed a dynamic property listing and booking platform using Node.js and Express.js, enabling users to browse, book, and manage stays.', 'technologies': ['Node.js', 'Express.js']}], 'technical_skills': [], 'soft_skills': [], 'certifications': [{'title': 'Dart & Flutter | The Complete Flutter Development Course', 'provider': ''}, {'title': 'Kotlin - Android App Development using Kotlin', 'provider': ''}], 'ats_score': 0, 'summary': '', 'strengths': [], 'missing_skills': ['Database Management', 'Version Control & IDEs'], 'suggestions': [{'skill': 'Learn Database Management (SQL, MongoDB)', 'reasoning': 'Missing skills in database management can hinder the ability to work on projects that require managing databases.'}, {'skill': 'Improve Version Control & IDEs', 'reasoning': 'Learning more about version control systems and integrated development environments will enhance collaboration and efficiency.'}]}
 2026-07-02 22:37:50,106 | INFO | upload_resume.py:25 | Resume upload request received.
 2026-07-02 22:37:50,107 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankepy1.2.pdf
 2026-07-02 22:37:50,350 | INFO | upload_resume.py:54 | Resume text extracted (2887 characters).
@@ -372,7 +372,7 @@
 2026-07-02 22:38:28,022 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
 2026-07-02 22:38:36,485 | INFO | upload_resume.py:82 | AI analysis completed.
 2026-07-02 22:38:36,486 | INFO | upload_resume.py:85 | Qwen Response:
-{'name': 'GOURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY, Amravati, IN', 'start_date': 'January 2021', 'end_date': ''}], 'experience': [{'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}, {'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.', 'technologies': ['Flutter', 'React.js', 'Electron.js']}, {'name': 'Airbnb Clone – Full-Stack Web Application', 'description': 'Implemented the MVC architecture to enhance code maintainability and reduced code complexity by 40%', 'technologies': ['Django', 'Fast API']}], 'technical_skills': [], 'soft_skills': [], 'certifications': [{'title': 'Dart & Flutter | The Complete Flutter Development Course', 'issuer': ''}, {'title': 'KOTLIN - Android App Development using Kotlin'}, {'title': 'Figma for User Interface and User Experience UI UX Design'}], 'ats_score': 0, 'summary': '', 'strengths': [], 'missing_skills': [], 'suggestions': []}
+{'name': 'GOURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY, Amravati, IN', 'start_date': 'January 2021', 'end_date': ''}], 'experience': [{'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}, {'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.', 'technologies': ['Flutter', 'React.js', 'Electron.js']}, {'name': 'Airbnb Clone ï¿½ Full-Stack Web Application', 'description': 'Implemented the MVC architecture to enhance code maintainability and reduced code complexity by 40%', 'technologies': ['Django', 'Fast API']}], 'technical_skills': [], 'soft_skills': [], 'certifications': [{'title': 'Dart & Flutter | The Complete Flutter Development Course', 'issuer': ''}, {'title': 'KOTLIN - Android App Development using Kotlin'}, {'title': 'Figma for User Interface and User Experience UI UX Design'}], 'ats_score': 0, 'summary': '', 'strengths': [], 'missing_skills': [], 'suggestions': []}
 2026-07-02 22:38:36,491 | INFO | upload_resume.py:112 | Analysis stored in database. Analysis ID: 7
 2026-07-02 22:43:13,321 | INFO | upload_resume.py:25 | Resume upload request received.
 2026-07-02 22:43:13,323 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankee1.2.pdf
@@ -381,7 +381,7 @@
 2026-07-02 22:43:13,599 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
 2026-07-02 22:43:23,981 | INFO | upload_resume.py:82 | AI analysis completed.
 2026-07-02 22:43:23,982 | INFO | upload_resume.py:85 | Qwen Response:
-{'name': 'GAURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': ''}], 'experience': [{'company': 'Not mentioned', 'position': 'Full Stack Developer', 'start_date': '', 'end_date': '', 'description': 'Enthusiastic and self-driven MERN Stack Developer with hands-on experience building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. Skilled in developing RESTful APIs, managing databases, and creating responsive frontend interfaces.'}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%. Developed cross-platform interface using Flutter, React.js, and Electron.js for mobile, web, and desktop. Built backend with Django and Fast API.', 'technologies': ['Flutter', 'React.js', 'Electron.js']}, {'name': 'Airbnb Clone – Full-Stack Web Application', 'description': 'Designed dynamic property listing and booking platform using Node.js and Express.js. Developed RESTful APIs for user registration, property listings, and bookings with secure CRUD operations.', 'technologies': ['Node.js', 'Express.js', 'MongoDB']}, {'name': 'AI-Powered NLP Chatbot', 'description': 'Developed AI chatbot using NLP and machine learning algorithms for accurate user query responses. Implemented sentiment analysis to enhance conversational relevance.', 'technologies': ['NLP', 'Machine Learning', 'Figma']}], 'technical_skills': [], 'soft_skills': [], 'certifications': [], 'ats_score': 0, 'summary': '', 'strengths': [], 'missing_skills': [], 'suggestions': []}
+{'name': 'GAURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': ''}], 'experience': [{'company': 'Not mentioned', 'position': 'Full Stack Developer', 'start_date': '', 'end_date': '', 'description': 'Enthusiastic and self-driven MERN Stack Developer with hands-on experience building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. Skilled in developing RESTful APIs, managing databases, and creating responsive frontend interfaces.'}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%. Developed cross-platform interface using Flutter, React.js, and Electron.js for mobile, web, and desktop. Built backend with Django and Fast API.', 'technologies': ['Flutter', 'React.js', 'Electron.js']}, {'name': 'Airbnb Clone ï¿½ Full-Stack Web Application', 'description': 'Designed dynamic property listing and booking platform using Node.js and Express.js. Developed RESTful APIs for user registration, property listings, and bookings with secure CRUD operations.', 'technologies': ['Node.js', 'Express.js', 'MongoDB']}, {'name': 'AI-Powered NLP Chatbot', 'description': 'Developed AI chatbot using NLP and machine learning algorithms for accurate user query responses. Implemented sentiment analysis to enhance conversational relevance.', 'technologies': ['NLP', 'Machine Learning', 'Figma']}], 'technical_skills': [], 'soft_skills': [], 'certifications': [], 'ats_score': 0, 'summary': '', 'strengths': [], 'missing_skills': [], 'suggestions': []}
 2026-07-02 22:43:23,999 | INFO | upload_resume.py:112 | Analysis stored in database. Analysis ID: 8
 2026-07-03 22:03:12,403 | INFO | upload_resume.py:25 | Resume upload request received.
 2026-07-03 22:03:12,409 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
@@ -406,7 +406,7 @@
 2026-07-03 22:07:21,790 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
 2026-07-03 22:08:15,713 | INFO | upload_resume.py:82 | AI analysis completed.
 2026-07-03 22:08:15,716 | INFO | upload_resume.py:85 | Qwen Response:
-{'name': 'GAURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': ''}], 'experience': [{'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}, {'company': 'Airbnb Clone - Full-Stack Web Application', 'position': '', 'start_date': 'January 2024', 'end_date': 'August 2024', 'description': 'Developed a dynamic property listing and booking platform using Node.js and Express.js.'}, {'company': 'IMRABO - AI Based Personal Companion', 'position': '', 'start_date': '', 'end_date': 'Present', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.'}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'June 2024 – Present. Designed a physical AI assistant inspired by BB-8, enhancing task management efficiency by 40%. Developed Flutter, React.js, and Electron.js interfaces for mobile, web, and desktop.', 'technologies': ['Flutter', 'React.js', 'Electron.js']}, {'name': 'Airbnb Clone - Full-Stack Web Application', 'description': 'January 2024 – August 2024. Developed a property listing and booking platform using Node.js and Express.js, handling over 1,000 mock bookings.', 'technologies': ['Node.js', 'Express.js']}, {'name': 'AI-Powered NLP Chatbot', 'description': 'July 2023 – December 2023. Developed an AI chatbot with sentiment analysis, enhanced user interaction and context accuracy.', 'technologies': ['NLP', 'Machine Learning']}], 'technical_skills': [], 'soft_skills': [], 'certifications': [{'name': 'Dart & Flutter | The Complete Flutter Development Course', 'url': ''}, {'name': 'KOTLIN - Android App Development using Kotlin', 'url': ''}], 'ats_score': 0, 'summary': '', 'strengths': [], 'missing_skills': [], 'suggestions': []}
+{'name': 'GAURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': ''}], 'experience': [{'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}, {'company': 'Airbnb Clone - Full-Stack Web Application', 'position': '', 'start_date': 'January 2024', 'end_date': 'August 2024', 'description': 'Developed a dynamic property listing and booking platform using Node.js and Express.js.'}, {'company': 'IMRABO - AI Based Personal Companion', 'position': '', 'start_date': '', 'end_date': 'Present', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.'}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'June 2024 ï¿½ Present. Designed a physical AI assistant inspired by BB-8, enhancing task management efficiency by 40%. Developed Flutter, React.js, and Electron.js interfaces for mobile, web, and desktop.', 'technologies': ['Flutter', 'React.js', 'Electron.js']}, {'name': 'Airbnb Clone - Full-Stack Web Application', 'description': 'January 2024 ï¿½ August 2024. Developed a property listing and booking platform using Node.js and Express.js, handling over 1,000 mock bookings.', 'technologies': ['Node.js', 'Express.js']}, {'name': 'AI-Powered NLP Chatbot', 'description': 'July 2023 ï¿½ December 2023. Developed an AI chatbot with sentiment analysis, enhanced user interaction and context accuracy.', 'technologies': ['NLP', 'Machine Learning']}], 'technical_skills': [], 'soft_skills': [], 'certifications': [{'name': 'Dart & Flutter | The Complete Flutter Development Course', 'url': ''}, {'name': 'KOTLIN - Android App Development using Kotlin', 'url': ''}], 'ats_score': 0, 'summary': '', 'strengths': [], 'missing_skills': [], 'suggestions': []}
 2026-07-03 22:08:15,728 | INFO | upload_resume.py:112 | Analysis stored in database. Analysis ID: 11
 2026-07-03 22:15:59,608 | INFO | upload_resume.py:25 | Resume upload request received.
 2026-07-03 22:15:59,610 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankepy1.2.pdf
@@ -424,7 +424,7 @@
 2026-07-03 22:20:21,424 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
 2026-07-03 22:20:28,874 | INFO | upload_resume.py:82 | AI analysis completed.
 2026-07-03 22:20:28,883 | INFO | upload_resume.py:85 | Qwen Response:
-{'name': 'GAURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': ''}], 'experience': [{'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.', 'technologies': []}, {'name': 'Airbnb Clone – Full-Stack Web Application', 'description': 'Developed a dynamic property listing and booking platform using Node.js and Express.js.', 'technologies': []}], 'technical_skills': [], 'soft_skills': [], 'certifications': [{'course_name': 'Dart & Flutter | The Complete Flutter Development Course', 'institution': '', 'date_acquired': ''}, {'course_name': 'Kotlin - Android App Development using Kotlin', 'institution': '', 'date_acquired': ''}], 'ats_score': 0, 'summary': '', 'strengths': [], 'missing_skills': [], 'suggestions': []}
+{'name': 'GAURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': ''}], 'experience': [{'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.', 'technologies': []}, {'name': 'Airbnb Clone ï¿½ Full-Stack Web Application', 'description': 'Developed a dynamic property listing and booking platform using Node.js and Express.js.', 'technologies': []}], 'technical_skills': [], 'soft_skills': [], 'certifications': [{'course_name': 'Dart & Flutter | The Complete Flutter Development Course', 'institution': '', 'date_acquired': ''}, {'course_name': 'Kotlin - Android App Development using Kotlin', 'institution': '', 'date_acquired': ''}], 'ats_score': 0, 'summary': '', 'strengths': [], 'missing_skills': [], 'suggestions': []}
 2026-07-03 22:20:28,890 | INFO | upload_resume.py:112 | Analysis stored in database. Analysis ID: 13
 2026-07-03 22:23:39,499 | INFO | upload_resume.py:25 | Resume upload request received.
 2026-07-03 22:23:39,500 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
@@ -485,7 +485,7 @@
 2026-07-03 22:41:06,389 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
 2026-07-03 22:41:20,139 | INFO | upload_resume.py:82 | AI analysis completed.
 2026-07-03 22:41:20,140 | INFO | upload_resume.py:85 | Qwen Response:
-{'name': 'GOURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': 'Current'}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': '', 'position': '', 'start_date': 'June 2024', 'end_date': 'March 2025', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%'}, {'company': 'Airbnb Clone – Full-Stack Web Application', 'position': '', 'start_date': 'January 2024', 'end_date': 'August 2024', 'description': 'Developed a dynamic property listing and booking platform using Node.js and Express.js'}, {'company': 'AI-Powered NLP Chatbot', 'position': '', 'start_date': 'July 2023', 'end_date': 'December 2023', 'description': 'Developed a chatbot using NLP and machine learning algorithms for accurate user query responses'}], 'technical_skills': [], 'soft_skills': [], 'certifications': [{'name': 'Dart & Flutter | The Complete Flutter Development Course', 'institution': '', 'start_date': '', 'end_date': ''}, {'name': 'KOTLIN - Android App Development using Kotlin', 'institution': '', 'start_date': '', 'end_date': ''}, {'name': 'Figma for User Interface and User Experience UI UX Design', 'institution': '', 'start_date': '', 'end_date': ''}], 'ats_score': 0, 'summary': 'Enthusiastic and self-driven MERN Stack Developer with hands-on experience building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. Skilled in developing RESTful APIs, managing databases, and creating responsive frontend interfaces.', 'strengths': [], 'missing_skills': [], 'suggestions': []}
+{'name': 'GOURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': 'Current'}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': '', 'position': '', 'start_date': 'June 2024', 'end_date': 'March 2025', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%'}, {'company': 'Airbnb Clone ï¿½ Full-Stack Web Application', 'position': '', 'start_date': 'January 2024', 'end_date': 'August 2024', 'description': 'Developed a dynamic property listing and booking platform using Node.js and Express.js'}, {'company': 'AI-Powered NLP Chatbot', 'position': '', 'start_date': 'July 2023', 'end_date': 'December 2023', 'description': 'Developed a chatbot using NLP and machine learning algorithms for accurate user query responses'}], 'technical_skills': [], 'soft_skills': [], 'certifications': [{'name': 'Dart & Flutter | The Complete Flutter Development Course', 'institution': '', 'start_date': '', 'end_date': ''}, {'name': 'KOTLIN - Android App Development using Kotlin', 'institution': '', 'start_date': '', 'end_date': ''}, {'name': 'Figma for User Interface and User Experience UI UX Design', 'institution': '', 'start_date': '', 'end_date': ''}], 'ats_score': 0, 'summary': 'Enthusiastic and self-driven MERN Stack Developer with hands-on experience building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. Skilled in developing RESTful APIs, managing databases, and creating responsive frontend interfaces.', 'strengths': [], 'missing_skills': [], 'suggestions': []}
 2026-07-03 22:41:20,148 | INFO | upload_resume.py:112 | Analysis stored in database. Analysis ID: 20
 2026-07-03 23:21:17,931 | INFO | upload_resume.py:25 | Resume upload request received.
 2026-07-03 23:21:17,933 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankee1.2.pdf
@@ -503,7 +503,7 @@
 2026-07-03 23:24:34,363 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
 2026-07-03 23:24:48,865 | INFO | upload_resume.py:82 | AI analysis completed.
 2026-07-03 23:24:48,866 | INFO | upload_resume.py:85 | Qwen Response:
-{'name': 'Gaurav AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': ''}], 'experience': [{'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}, {'company': 'Airbnb Clone – Full-Stack Web Application', 'position': 'Developer', 'start_date': 'January 2024 - August 2024', 'end_date': '', 'description': 'Developed a dynamic property listing and booking platform using Node.js and Express.js, enabling users to browse, book, and manage stays — handled 1,000+ mock bookings during testing.'}, {'company': 'IMRABO - AI Based Personal Companion', 'position': 'Developer', 'start_date': 'June 2024 – Present', 'end_date': '', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40% and developed a cross-platform interface using Flutter, React.js, and Electron.js for mobile, web, and desktop, increasing user engagement by 30%'}, {'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40% and developed a cross-platform interface using Flutter, React.js, and Electron.js for mobile, web, and desktop, increasing user engagement by 30%', 'technologies': []}, {'name': 'Airbnb Clone – Full-Stack Web Application', 'description': 'Developed a dynamic property listing and booking platform using Node.js and Express.js, enabling users to browse, book, and manage stays — handled 1,000+ mock bookings during testing.', 'technologies': []}, {'name': 'AI-Powered NLP Chatbot', 'description': 'Developed a chatbot using NLP and machine learning algorithms for accurate user query responses. Implemented sentiment analysis to enhance conversational relevance and understand user emotions, integrated the chatbot with web and mobile platforms for seamless, multi-channel user experiences.', 'technologies': []}], 'technical_skills': [], 'soft_skills': [], 'certifications': [{'title': 'Dart & Flutter | The Complete Flutter Development Course', 'issuer': '', 'issued_date': ''}, {'title': 'KOTLIN - Android App Development using Kotlin', 'issuer': '', 'issued_date': ''}, {'title': 'Figma for User Interface and User Experience UI UX Design', 'issuer': '', 'issued_date': ''}], 'ats_score': 0, 'summary': '', 'strengths': [], 'missing_skills': [], 'suggestions': []}
+{'name': 'Gaurav AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': ''}], 'experience': [{'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}, {'company': 'Airbnb Clone ï¿½ Full-Stack Web Application', 'position': 'Developer', 'start_date': 'January 2024 - August 2024', 'end_date': '', 'description': 'Developed a dynamic property listing and booking platform using Node.js and Express.js, enabling users to browse, book, and manage stays ï¿½ handled 1,000+ mock bookings during testing.'}, {'company': 'IMRABO - AI Based Personal Companion', 'position': 'Developer', 'start_date': 'June 2024 ï¿½ Present', 'end_date': '', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40% and developed a cross-platform interface using Flutter, React.js, and Electron.js for mobile, web, and desktop, increasing user engagement by 30%'}, {'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40% and developed a cross-platform interface using Flutter, React.js, and Electron.js for mobile, web, and desktop, increasing user engagement by 30%', 'technologies': []}, {'name': 'Airbnb Clone ï¿½ Full-Stack Web Application', 'description': 'Developed a dynamic property listing and booking platform using Node.js and Express.js, enabling users to browse, book, and manage stays ï¿½ handled 1,000+ mock bookings during testing.', 'technologies': []}, {'name': 'AI-Powered NLP Chatbot', 'description': 'Developed a chatbot using NLP and machine learning algorithms for accurate user query responses. Implemented sentiment analysis to enhance conversational relevance and understand user emotions, integrated the chatbot with web and mobile platforms for seamless, multi-channel user experiences.', 'technologies': []}], 'technical_skills': [], 'soft_skills': [], 'certifications': [{'title': 'Dart & Flutter | The Complete Flutter Development Course', 'issuer': '', 'issued_date': ''}, {'title': 'KOTLIN - Android App Development using Kotlin', 'issuer': '', 'issued_date': ''}, {'title': 'Figma for User Interface and User Experience UI UX Design', 'issuer': '', 'issued_date': ''}], 'ats_score': 0, 'summary': '', 'strengths': [], 'missing_skills': [], 'suggestions': []}
 2026-07-03 23:24:48,871 | INFO | upload_resume.py:112 | Analysis stored in database. Analysis ID: 22
 2026-07-03 23:27:27,676 | INFO | upload_resume.py:25 | Resume upload request received.
 2026-07-03 23:27:27,677 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankee1.2.pdf
@@ -521,7 +521,7 @@
 2026-07-03 23:40:10,983 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
 2026-07-03 23:40:20,523 | INFO | upload_resume.py:82 | AI analysis completed.
 2026-07-03 23:40:20,524 | INFO | upload_resume.py:85 | Qwen Response:
-{'name': 'GAURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY, Amravati, IN', 'start_date': 'January 2021', 'end_date': ''}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI, Amravati, IN', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.', 'technologies': []}, {'name': 'Airbnb Clone – Full-Stack Web Application', 'description': 'Implemented the MVC (Model-View-Controller) architecture to enhance code maintainability, reducing code complexity by 40%.', 'technologies': ['Django', 'Fast API']}], 'technical_skills': [], 'soft_skills': [], 'certifications': ['Dart & Flutter | The Complete Flutter Development Course', 'KOTLIN - Android App Development using Kotlin'], 'ats_score': 0, 'summary': '', 'strengths': [], 'missing_skills': [], 'suggestions': []}
+{'name': 'GAURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY, Amravati, IN', 'start_date': 'January 2021', 'end_date': ''}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI, Amravati, IN', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.', 'technologies': []}, {'name': 'Airbnb Clone ï¿½ Full-Stack Web Application', 'description': 'Implemented the MVC (Model-View-Controller) architecture to enhance code maintainability, reducing code complexity by 40%.', 'technologies': ['Django', 'Fast API']}], 'technical_skills': [], 'soft_skills': [], 'certifications': ['Dart & Flutter | The Complete Flutter Development Course', 'KOTLIN - Android App Development using Kotlin'], 'ats_score': 0, 'summary': '', 'strengths': [], 'missing_skills': [], 'suggestions': []}
 2026-07-03 23:40:20,537 | INFO | upload_resume.py:112 | Analysis stored in database. Analysis ID: 24
 2026-07-03 23:41:30,801 | INFO | upload_resume.py:25 | Resume upload request received.
 2026-07-03 23:41:30,803 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
@@ -607,7 +607,7 @@
 2026-07-04 22:25:50,787 | INFO | upload_resume.py:76 | Sending resume to Qwen for analysis.
 2026-07-04 22:27:16,287 | INFO | upload_resume.py:82 | AI analysis completed.
 2026-07-04 22:27:16,288 | INFO | upload_resume.py:85 | Qwen Response:
-{'name': 'Gaurav Aawank', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY, Amravati, IN', 'start_date': 'January 2021', 'end_date': 'May 2025'}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI, Amravati, IN', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': 'Imrabo', 'position': 'AI Based Personal Companion Developer', 'start_date': 'June 2024 - March 2025', 'end_date': '', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%. Developed cross-platform interfaces using Flutter, React.js, and Electron.js for mobile, web, and desktop, increasing user engagement by 30%.\nBuilt a backend with Django and FastAPI, leveraging WebSockets, WebRTC, and MQTT to reduce server response time by 20%. Integrated IoT capabilities for smart home device control, expanding functionality and user control options by 50%.'}], 'projects': [{'name': 'IMRABO', 'description': 'AI Based Personal Companion. Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%. Developed cross-platform interfaces using Flutter, React.js, and Electron.js for mobile, web, and desktop, increasing user engagement by 30%.\nBuilt a backend with Django and FastAPI, leveraging WebSockets, WebRTC, and MQTT to reduce server response time by 20%. Integrated IoT capabilities for smart home device control, expanding functionality and user control options by 50%.', 'technologies': ['Python', 'Django', 'FastAPI', 'WebSockets', 'WebRTC', 'MQTT', 'Flask', 'Flutter', 'React.js', 'Electron.js']}, {'name': 'IMRABO', 'description': 'AI Based Personal Companion. Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%. Developed cross-platform interfaces using Flutter, React.js, and Electron.js for mobile, web, and desktop, increasing user engagement by 30%.\nBuilt a backend with Django and FastAPI, leveraging WebSockets, WebRTC, and MQTT to reduce server response time by 20%. Integrated IoT capabilities for smart home device control, expanding functionality and user control options by 50%.', 'technologies': ['Python', 'Django', 'FastAPI', 'WebSockets', 'WebRTC', 'MQTT', 'Flask', 'Flutter', 'React.js', 'Electron.js']}], 'technical_skills': ['Python', 'Django', 'FastAPI', 'Flask', 'React.js', 'Next.js', 'PostgreSQL', 'MySQL', 'MongoDB', 'SQLite', 'Git', 'GitHub', 'Docker', 'Linux', 'Postman', 'VS Code', 'OpenAI', 'LangChain', 'LangGraph', 'TensorFlow', 'PyTorch', 'Scikit-learn'], 'soft_skills': [], 'certifications': [], 'ats_score': 90, 'summary': 'A skilled Full Stack Developer with a strong background in Python, Django and FastAPI. Experienced in building complex AI assistants, web applications using Flutter and React.js for mobile/desktop integration.\n\nI am looking to apply my skills to create innovative solutions that make the world more connected.', 'strengths': ['Problem-solving', 'Adaptability', 'Analytical Skills', 'Time Management'], 'missing_skills': [], 'suggestions': [{'title': 'Improve Soft Skill Proficiency', 'description': "Gaining better communication and collaboration skills will enhance the candidate's ability to work effectively in a team."}, {'title': 'Expand Technical Skills Portfolio', 'description': 'Pursuing additional certifications or acquiring advanced technical knowledge in areas like AI, Natural Language Processing (NLP), and Data Science can further solidify the candidate’s capabilities.'}]}
+{'name': 'Gaurav Aawank', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY, Amravati, IN', 'start_date': 'January 2021', 'end_date': 'May 2025'}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI, Amravati, IN', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': 'Imrabo', 'position': 'AI Based Personal Companion Developer', 'start_date': 'June 2024 - March 2025', 'end_date': '', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%. Developed cross-platform interfaces using Flutter, React.js, and Electron.js for mobile, web, and desktop, increasing user engagement by 30%.\nBuilt a backend with Django and FastAPI, leveraging WebSockets, WebRTC, and MQTT to reduce server response time by 20%. Integrated IoT capabilities for smart home device control, expanding functionality and user control options by 50%.'}], 'projects': [{'name': 'IMRABO', 'description': 'AI Based Personal Companion. Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%. Developed cross-platform interfaces using Flutter, React.js, and Electron.js for mobile, web, and desktop, increasing user engagement by 30%.\nBuilt a backend with Django and FastAPI, leveraging WebSockets, WebRTC, and MQTT to reduce server response time by 20%. Integrated IoT capabilities for smart home device control, expanding functionality and user control options by 50%.', 'technologies': ['Python', 'Django', 'FastAPI', 'WebSockets', 'WebRTC', 'MQTT', 'Flask', 'Flutter', 'React.js', 'Electron.js']}, {'name': 'IMRABO', 'description': 'AI Based Personal Companion. Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%. Developed cross-platform interfaces using Flutter, React.js, and Electron.js for mobile, web, and desktop, increasing user engagement by 30%.\nBuilt a backend with Django and FastAPI, leveraging WebSockets, WebRTC, and MQTT to reduce server response time by 20%. Integrated IoT capabilities for smart home device control, expanding functionality and user control options by 50%.', 'technologies': ['Python', 'Django', 'FastAPI', 'WebSockets', 'WebRTC', 'MQTT', 'Flask', 'Flutter', 'React.js', 'Electron.js']}], 'technical_skills': ['Python', 'Django', 'FastAPI', 'Flask', 'React.js', 'Next.js', 'PostgreSQL', 'MySQL', 'MongoDB', 'SQLite', 'Git', 'GitHub', 'Docker', 'Linux', 'Postman', 'VS Code', 'OpenAI', 'LangChain', 'LangGraph', 'TensorFlow', 'PyTorch', 'Scikit-learn'], 'soft_skills': [], 'certifications': [], 'ats_score': 90, 'summary': 'A skilled Full Stack Developer with a strong background in Python, Django and FastAPI. Experienced in building complex AI assistants, web applications using Flutter and React.js for mobile/desktop integration.\n\nI am looking to apply my skills to create innovative solutions that make the world more connected.', 'strengths': ['Problem-solving', 'Adaptability', 'Analytical Skills', 'Time Management'], 'missing_skills': [], 'suggestions': [{'title': 'Improve Soft Skill Proficiency', 'description': "Gaining better communication and collaboration skills will enhance the candidate's ability to work effectively in a team."}, {'title': 'Expand Technical Skills Portfolio', 'description': 'Pursuing additional certifications or acquiring advanced technical knowledge in areas like AI, Natural Language Processing (NLP), and Data Science can further solidify the candidateï¿½s capabilities.'}]}
 2026-07-04 22:27:55,024 | INFO | upload_resume.py:25 | Resume upload request received.
 2026-07-04 22:27:55,028 | INFO | upload_resume.py:43 | Resume uploaded successfully: iamgauravaawankepy1.2.pdf
 2026-07-04 22:27:55,633 | INFO | upload_resume.py:54 | Resume text extracted (2887 characters).
@@ -643,7 +643,7 @@
 2026-07-07 23:06:28,930 | INFO | upload_resume.py:82 | Sending resume to Qwen for analysis.
 2026-07-07 23:07:14,766 | INFO | upload_resume.py:88 | AI analysis completed.
 2026-07-07 23:07:14,782 | INFO | upload_resume.py:91 | Qwen Response:
-{'name': 'GAURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': ''}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.', 'technologies': []}, {'name': 'Airbnb Clone – Full-Stack Web Application', 'description': '', 'technologies': ['Node.js', 'Express.js', 'MongoDB']}, {'name': 'AI-Powered NLP Chatbot', 'description': 'Developed a chatbot using NLP and machine learning algorithms for accurate user query responses.', 'technologies': []}], 'technical_skills': ['Python', 'JavaScript', 'Django', 'Flask', 'Next.js', 'React.js', 'MongoDB'], 'soft_skills': ['Leadership', 'Communication', 'Problem Solving'], 'certifications': [], 'ats_score': 80, 'summary': 'Enthusiastic and self-driven MERN Stack Developer with hands-on experience building full-stack web applications using MongoDB, Express.js, React.js, and Node.js.', 'strengths': ['Analytical', 'Adaptable'], 'missing_skills': ['AWS', 'Azure'], 'suggestions': [{'title': 'Learn AWS', 'description': 'AWS knowledge is commonly expected for backend deployment.'}, {'title': 'Work on Node.js projects in a real-world scenario to enhance skills.', 'description': 'Projects that showcase advanced concepts of node.js and its ecosystem will be beneficial.'}]}
+{'name': 'GAURAV AAWANKE', 'email': 'gauravawanke@gmail.com', 'phone': '+91 75586 87453', 'linkedin_url': '', 'github_url': '', 'education': [{'degree': 'Bachelor of Engineering in Electronics and Telecommunication', 'institution': 'SANT GADGE BABA AMRAVATI UNIVERSITY', 'start_date': 'January 2021', 'end_date': ''}, {'degree': 'Higher Secondary Board in Electronic Science', 'institution': 'SHRI. RAMKRISHAN KRIDA VIDYALAYA AMRAVATI', 'start_date': 'July 2019', 'end_date': 'November 2020'}], 'experience': [{'company': '', 'position': '', 'start_date': '', 'end_date': '', 'description': ''}], 'projects': [{'name': 'IMRABO - AI Based Personal Companion', 'description': 'Designed a physical AI assistant inspired by BB-8, boosting task management efficiency by 40%.', 'technologies': []}, {'name': 'Airbnb Clone ï¿½ Full-Stack Web Application', 'description': '', 'technologies': ['Node.js', 'Express.js', 'MongoDB']}, {'name': 'AI-Powered NLP Chatbot', 'description': 'Developed a chatbot using NLP and machine learning algorithms for accurate user query responses.', 'technologies': []}], 'technical_skills': ['Python', 'JavaScript', 'Django', 'Flask', 'Next.js', 'React.js', 'MongoDB'], 'soft_skills': ['Leadership', 'Communication', 'Problem Solving'], 'certifications': [], 'ats_score': 80, 'summary': 'Enthusiastic and self-driven MERN Stack Developer with hands-on experience building full-stack web applications using MongoDB, Express.js, React.js, and Node.js.', 'strengths': ['Analytical', 'Adaptable'], 'missing_skills': ['AWS', 'Azure'], 'suggestions': [{'title': 'Learn AWS', 'description': 'AWS knowledge is commonly expected for backend deployment.'}, {'title': 'Work on Node.js projects in a real-world scenario to enhance skills.', 'description': 'Projects that showcase advanced concepts of node.js and its ecosystem will be beneficial.'}]}
 2026-07-07 23:08:30,434 | INFO | upload_resume.py:31 | Resume upload request received.
 2026-07-07 23:08:30,437 | INFO | upload_resume.py:49 | Resume uploaded successfully: iamgauravaawankee1.2.pdf
 2026-07-07 23:08:30,763 | INFO | upload_resume.py:60 | Resume text extracted (3702 characters).
@@ -895,3 +895,287 @@
 2026-07-09 00:45:27,314 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
 2026-07-09 00:45:27,320 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
 2026-07-09 00:45:27,323 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:00:16,507 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:00:16,523 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:00:16,532 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:00:16,537 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:07:25,697 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:07:25,702 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:07:25,709 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:07:25,712 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:07:58,524 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:07:58,528 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:07:58,534 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:07:58,539 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:08:04,845 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:08:04,848 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:08:04,853 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:08:04,857 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:08:07,303 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:08:07,306 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:08:07,311 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:08:07,314 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:08:19,612 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:08:19,615 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:08:19,622 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:08:19,625 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:08:36,796 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:08:36,799 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:08:36,805 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:08:36,808 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:08:51,288 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:08:51,293 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:08:51,299 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:08:51,302 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:14:19,102 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:14:19,107 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:14:19,117 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:14:19,121 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:14:51,205 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:14:51,208 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:14:51,215 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:14:51,218 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:15:11,497 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:15:11,501 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 22:15:11,507 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 22:15:11,511 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:07:34,954 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:07:34,962 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:07:34,971 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:07:34,979 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:07:42,082 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:07:42,086 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:07:42,092 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:07:42,096 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:08:05,119 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:08:05,124 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:08:05,130 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:08:05,133 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:08:21,224 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:08:21,227 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:08:21,235 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:08:21,238 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:10:26,681 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:10:26,685 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:10:26,689 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:10:26,692 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:20:30,961 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:20:30,965 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:20:30,971 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:20:30,977 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:21:20,095 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:21:20,099 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:21:20,107 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:21:20,112 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:21:26,481 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:21:26,487 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:21:26,494 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:21:26,498 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:27:42,430 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:27:42,433 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:27:42,439 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:27:42,443 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:28:54,644 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:28:54,649 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:28:54,656 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:28:54,661 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:31:07,141 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:31:07,143 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:31:07,146 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:31:07,148 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:33:43,913 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:33:43,916 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:33:43,919 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:33:43,922 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:34:24,178 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:34:24,181 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:34:24,184 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:34:24,185 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:34:37,538 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:34:37,540 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:34:37,542 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:34:37,544 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:35:04,727 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:35:04,729 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:35:04,732 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:35:04,734 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:36:42,926 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:36:42,928 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:36:42,933 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:36:42,935 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:37:00,178 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:37:00,180 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:37:00,183 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:37:00,185 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:41:18,524 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:41:18,527 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:41:18,530 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:41:18,532 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:41:58,024 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:41:58,027 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:41:58,031 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:41:58,033 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:42:58,698 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:42:58,700 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:42:58,702 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:42:58,704 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:43:24,905 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:43:24,907 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:43:24,910 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:43:24,912 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:44:04,089 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 25
+2026-07-09 23:44:04,091 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 25
+2026-07-09 23:44:04,096 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 25
+2026-07-09 23:44:04,099 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 25
+2026-07-09 23:44:40,602 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 25
+2026-07-09 23:44:40,604 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 25
+2026-07-09 23:44:40,606 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 25
+2026-07-09 23:44:40,608 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 25
+2026-07-09 23:44:42,813 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 25
+2026-07-09 23:44:42,816 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 25
+2026-07-09 23:44:42,818 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 25
+2026-07-09 23:44:42,819 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 25
+2026-07-09 23:44:44,147 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 25
+2026-07-09 23:44:44,148 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 25
+2026-07-09 23:44:44,150 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 25
+2026-07-09 23:44:44,151 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 25
+2026-07-09 23:44:52,018 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:44:52,020 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:44:52,023 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:44:52,024 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:45:10,354 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:45:10,355 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:45:10,358 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:45:10,361 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:47:11,909 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:47:11,910 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:47:11,913 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:47:11,916 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:47:11,926 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:47:11,928 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:47:11,930 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:47:11,933 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:47:14,897 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:47:14,900 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:47:14,904 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:47:14,906 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:47:21,900 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:47:21,900 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:47:21,923 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:47:21,926 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:47:21,927 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:47:21,980 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:47:21,983 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:47:21,984 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:48:19,902 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:48:19,904 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:48:19,904 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:48:19,907 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:48:19,910 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:48:19,910 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:48:19,912 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:48:19,912 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:49:02,407 | INFO | analysis.py:15 | Fetching analysis. Ana                                                                  lysis ID: 33
+2026-07-09 23:49:02,409 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:49:02,411 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:49:02,412 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:52:37,262 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:52:37,265 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:52:37,268 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:52:37,270 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:53:16,130 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:53:16,132 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:53:16,135 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-09 23:53:16,137 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-09 23:56:54,359 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 34
+2026-07-09 23:56:54,361 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 34
+2026-07-09 23:56:54,364 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 34
+2026-07-09 23:56:54,366 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 34
+2026-07-10 00:26:37,438 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:26:37,454 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:26:37,461 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:26:37,464 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:26:46,324 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:26:46,328 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:26:46,334 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:26:46,337 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:27:23,930 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:27:23,933 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:27:23,938 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:27:23,940 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:27:26,365 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:27:26,368 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:27:26,374 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:27:26,376 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:27:41,927 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:27:41,930 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:27:41,935 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:27:41,938 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:27:51,158 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:27:51,161 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:27:51,168 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:27:51,171 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:28:19,930 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:28:19,933 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:28:19,938 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:28:19,940 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:28:32,837 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:28:32,841 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:28:32,850 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:28:32,853 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:29:25,934 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:29:25,937 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:29:25,943 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:29:25,945 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:29:35,922 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:29:35,924 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:29:35,929 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:29:35,931 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:29:40,923 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:29:40,926 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:29:40,931 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:29:40,934 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:29:46,444 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:29:46,447 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:29:46,453 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:29:46,490 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:30:45,537 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:30:45,540 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:30:45,545 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:30:45,547 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:31:40,953 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:31:40,956 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:31:40,962 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:31:40,964 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:31:45,002 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:31:45,006 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:31:45,012 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:31:45,015 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:32:22,902 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:32:22,905 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:32:22,911 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:32:22,913 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:33:54,437 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:33:54,444 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:33:54,450 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:33:54,453 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:36:48,937 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:36:48,940 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:36:48,945 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:36:48,948 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:39:36,968 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:39:36,979 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:39:36,985 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:39:36,988 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:39:40,081 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:39:40,084 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:39:40,089 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:39:40,092 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:41:51,992 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 34
+2026-07-10 00:41:51,994 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 34
+2026-07-10 00:41:52,001 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 34
+2026-07-10 00:41:52,004 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 34
+2026-07-10 00:45:35,483 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:45:35,486 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-10 00:45:35,491 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-10 00:45:35,494 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33

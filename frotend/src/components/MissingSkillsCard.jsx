@@ -1,10 +1,9 @@
 import { Card, CardContent } from "../components/ui/card";
 import { AlertTriangle } from "lucide-react";
 
-function MissingSkillsCard({ missingSkills }) {
+function MissingSkillsCard({ missingSkills = [] }) {
   return (
     <Card className="rounded-3xl shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
-
       <CardContent className="p-8">
 
         <div className="flex items-center gap-3">
@@ -27,7 +26,7 @@ function MissingSkillsCard({ missingSkills }) {
 
         <div className="mt-6 flex flex-wrap gap-3">
 
-          {missingSkills.length > 0 ? (
+          {missingSkills?.length > 0 ? (
             missingSkills.map((skill, index) => (
               <span
                 key={index}
@@ -37,15 +36,16 @@ function MissingSkillsCard({ missingSkills }) {
               </span>
             ))
           ) : (
-            <p className="text-green-600 font-medium">
-              🎉 No missing skills detected.
-            </p>
+            <div className="w-full rounded-xl bg-green-50 p-6 text-center">
+              <p className="font-medium text-green-600">
+                🎉 No missing skills detected.
+              </p>
+            </div>
           )}
 
         </div>
 
       </CardContent>
-
     </Card>
   );
 }

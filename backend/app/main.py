@@ -10,6 +10,7 @@ from routers.upload_resume import router as upload_router
 from fastapi.middleware.cors import CORSMiddleware
 from routers.analysis import router as analysis_router
 
+
 app = FastAPI()
 
 
