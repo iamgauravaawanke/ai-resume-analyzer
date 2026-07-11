@@ -11,7 +11,7 @@ import SuggestionsCard from "../components/SuggestionsCard";
 import DashboardNavbar from "../components/DashboardNavbar";
 import DashboardHeader from "../components/DashboardHeader";
 import LoadingSkeleton from "../components/LoadingSkeleton";
-
+import { motion } from "framer-motion";
 
 function Results() {
 
@@ -45,37 +45,32 @@ function Results() {
 }, [analysis_id]);
 
 
+const fadeUp = {
+  hidden: {
+    opacity: 0,
+    y: 25,
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+  },
+};
 
-useEffect(() => {
-  const handleResult = async () => {
-    setLoading(true);
-    setError(null);
-
-    try {
-      const response = await fetchAnalyzeiedData(analysis_id);
-
-      setAnalysisData(response);
-    } catch (err) {
-      console.error("Not fetched data:", err);
-
-      setError("Failed to load resume analysis.");
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  if (analysis_id) {
-    handleResult();
-  }
-}, [analysis_id]);
-
+const container = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.15,
+    },
+  },
+};
 
 if (loading) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
       <DashboardNavbar />
 
-      <div className="mx-auto max-w-7xl animate-in fade-in duration-500 px-4 py-8 sm:px-6 lg:px-8">
+<div className="mx-auto max-w-7xl animate-in fade-in duration-500 px-4 py-8 sm:px-6 lg:px-8">
         <LoadingSkeleton />
       </div>
     </div>
@@ -105,75 +100,79 @@ if (error) {
     </div>
   );
 }
-console.log("analysisData =", analysisData);
-console.log("analysisData.suggestions =", analysisData?.suggestions);
-console.log("Is Array =", Array.isArray(analysisData?.suggestions));
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
       <DashboardNavbar />
 
-      
-      
-    <div className="mx-auto max-w-7xl animate-in fade-in duration-500 px-4 py-8 sm:px-6 lg:px-8">
+  <motion.div
+  variants={container}
+  initial="hidden"
+  animate="visible"
+  className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8"
+>
+  {analysisData && (
+    <>
+      {/* Dashboard Header */}
+      <motion.div variants={fadeUp}>
+        <DashboardHeader
+          analysisId={analysis_id}
+          atsScore={analysisData.ats_score}
+        />
+      </motion.div>
 
-        {analysisData && (
-          <>
-            {/* Dashboard Header */}
-            <DashboardHeader
-              analysisId={analysis_id}
+      <div className="space-y-8">
+
+        {/* Row 1 */}
+        <motion.div
+          variants={fadeUp}
+          className="grid grid-cols-1 gap-6 lg:grid-cols-4"
+        >
+          <div className="lg:col-span-1">
+            <ATSScoreCard
               atsScore={analysisData.ats_score}
             />
+          </div>
 
-            <div className="space-y-8">
+          <div className="lg:col-span-3">
+            <SummaryCard
+              summary={analysisData.summary}
+            />
+          </div>
+        </motion.div>
 
-              {/* Row 1 */}
-              <div className="grid grid-cols-1 gap-6 lg:grid-cols-4">
+        {/* Row 2 */}
+        <motion.div variants={fadeUp}>
+          <TechnicalSkillsCard
+            technicalSkills={analysisData.technical_skills}
+          />
+        </motion.div>
 
-                <div className="lg:col-span-1">
-                  <ATSScoreCard
-                    atsScore={analysisData.ats_score}
-                  />
-                </div>
+        {/* Row 3 */}
+        <motion.div
+          variants={fadeUp}
+          className="grid grid-cols-1 gap-6 md:grid-cols-2"
+        >
+          <SoftSkillsCard
+            softSkills={analysisData.soft_skills}
+          />
 
-                <div className="lg:col-span-3">
-                  <SummaryCard
-                    summary={analysisData.summary}
-                  />
-                </div>
+          <MissingSkillsCard
+            missingSkills={analysisData.missing_skills}
+          />
+        </motion.div>
 
-              </div>
-
-              {/* Row 2 */}
-              <TechnicalSkillsCard
-                technicalSkills={analysisData.technical_skills}
-              />
-
-              {/* Row 3 */}
-              <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-
-                <SoftSkillsCard
-                  softSkills={analysisData.soft_skills}
-                />
-                
-
-                <MissingSkillsCard
-                  missingSkills={analysisData.missing_skills}
-                />
-                
-
-              </div>
-
-              {/* Row 4 */}
-              <SuggestionsCard
-              suggestions={analysisData.suggestions}
-            
-              />
-
-            </div>
-          </>
-        )}
+        {/* Row 4 */}
+        <motion.div variants={fadeUp}>
+          <SuggestionsCard
+            suggestions={analysisData.suggestions}
+          />
+        </motion.div>
 
       </div>
+    </>
+  )}
+</motion.div>
     </div>
   );
 }

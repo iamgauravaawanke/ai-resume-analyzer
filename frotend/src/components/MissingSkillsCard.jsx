@@ -9,7 +9,7 @@ function MissingSkillsCard({ missingSkills = [] }) {
   );
 
   return (
-    <Card className="rounded-3xl shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+  <Card className="rounded-3xl border border-slate-200 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-blue-300">
 
       <CardContent className="p-8">
 

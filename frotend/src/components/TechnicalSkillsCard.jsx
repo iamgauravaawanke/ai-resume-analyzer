@@ -4,7 +4,7 @@ import { Code2 } from "lucide-react";
 function TechnicalSkillsCard({ technicalSkills }) {
   
   return (
-    <Card className="rounded-3xl shadow-lg transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] hover:shadow-2xl">
+    <Card className="rounded-3xl border border-slate-200 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-blue-300">
       <CardContent className="p-8">
         {/* Header */}
         <div className="flex items-center gap-3">

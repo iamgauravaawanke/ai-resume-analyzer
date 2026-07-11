@@ -16,15 +16,12 @@ function ATSScoreCard({ atsScore }) {
   };
 
   return (
-    <Card className="rounded-3xl shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
-
+<Card className="rounded-3xl border border-slate-200 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-blue-300">
       <CardContent className="flex flex-col items-center p-8">
 
         <BarChart3 className="h-10 w-10 text-blue-600" />
 
-        <h2 className="mt-3 text-lg font-semibold text-gray-600">
-          ATS Score
-        </h2>
+      
 
         <h1 className="mt-4 text-7xl font-extrabold text-blue-600">
           {atsScore}
