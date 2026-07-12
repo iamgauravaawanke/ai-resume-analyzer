@@ -1,9 +1,7 @@
 from fastapi import APIRouter, UploadFile, File, HTTPException
 import os
 import json
-
 from pypdf import PdfReader
-
 from core.logger import logger
 from database.database import SessionLocal
 from models.resume import Resume
@@ -103,17 +101,17 @@ async def upload_resume(file: UploadFile = File(...)):
             soft_skills=", ".join(analysis["soft_skills"]),
             missing_skills=", ".join(analysis["missing_skills"]),
             # suggestions=", ".join(analysis["suggestions"]),
-            suggestions="\n".join(
-    f"{item['title']} - {item['description']}"
-    for item in analysis["suggestions"]
-)
+#             suggestions="\n".join(
+#     f"{item['title']} - {item['description']}"
+#     for item in analysis["suggestions"]
+# )
             
             ## gamma 
             
-#         suggestions="\n".join(
-#     f"{item['title']} - {item['description']}"
-#     for item in analysis["suggestions"]
-# )    
+        suggestions="\n".join(
+    f"{item['title']} - {item['description']}"
+    for item in analysis["suggestions"]
+)    
         )
 
         db.add(analysis_db)
