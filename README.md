@@ -23,17 +23,6 @@
 - 🎨 Modern UI built with React, Tailwind CSS, and shadcn/ui
 
 ---
-
-## 🖼 Preview
-
-> Screenshots will be added after deployment.
-
-- 🏠 Landing Page
-- 📤 Resume Upload
-- 📊 Results Dashboard
-- 📱 Mobile Responsive View
-
----
 # 📖 Project Overview
 
 AI Resume Analyzer is a full-stack AI-powered web application that helps job seekers evaluate and improve their resumes using Large Language Models (LLMs).
@@ -60,42 +49,6 @@ Common challenges include:
 AI Resume Analyzer addresses these challenges by automatically analyzing resumes with Large Language Models (LLMs) and generating actionable insights, including ATS scores, skills assessment, missing skills, and AI-powered recommendations.
 
 ---
-
-
-## 🤖 AI Resume Analysis
-
-- ATS Score Calculation
-- Professional Summary Generation
-- Technical Skills Extraction
-- Soft Skills Identification
-- Missing Skills Detection
-- AI-Powered Improvement Suggestions
-
----
-
-## 📊 Interactive Dashboard
-
-- Clean and modern UI
-- Responsive design for desktop and mobile
-- Professional dashboard layout
-- Loading state
-- Error handling
-- Empty state handling
-- Smooth animations
-- Interactive hover effects
-
----
-
-## ⚙ Backend Features
-
-- FastAPI REST APIs
-- PDF Text Extraction
-- LLM Integration (Gemma & Qwen)
-- Structured JSON Generation
-- PostgreSQL Database Storage
-- Resume & Analysis Management
-
----
 # 💡 Solution
 
 AI Resume Analyzer provides an intelligent and automated solution for resume evaluation by leveraging Large Language Models (LLMs) and modern web technologies.
@@ -113,9 +66,7 @@ The platform helps job seekers by providing:
 
 This automated workflow allows users to quickly understand the strengths and weaknesses of their resumes and improve them before applying for jobs.
 
----
 # ✨ Features
-
 AI Resume Analyzer offers an end-to-end resume analysis experience by combining AI-powered insights with a modern and responsive user interface.
 
 ## 📄 Resume Upload
@@ -124,55 +75,6 @@ AI Resume Analyzer offers an end-to-end resume analysis experience by combining 
 - Drag & Drop file upload support
 - File validation before processing
 - Secure resume upload
-
----
-
-## 🤖 AI Resume Analysis
-
-The application analyzes uploaded resumes using Large Language Models (Gemma & Qwen) and generates:
-
-- 📊 ATS Score
-- 📝 Professional Summary
-- 💻 Technical Skills
-- 🤝 Soft Skills
-- ⚠ Missing Skills
-- 💡 Personalized Suggestions
-
----
-
-## 📊 Interactive Dashboard
-
-- Professional Dashboard UI
-- ATS Score Card
-- Resume Summary Card
-- Technical Skills Card
-- Soft Skills Card
-- Missing Skills Card
-- AI Suggestions Card
-
----
-
-## 🎨 User Experience
-
-- Responsive Design
-- Modern SaaS UI
-- Loading Skeleton
-- Error Handling
-- Empty State Handling
-- Smooth Animations
-- Interactive Hover Effects
-
----
-
-## ⚙ Backend Features
-
-- FastAPI REST APIs
-- PostgreSQL Database
-- SQLAlchemy ORM
-- PDF Text Extraction
-- Structured JSON Response
-- AI Model Integration
-- Resume & Analysis Storage
 
 ---
 # 📸 Screenshots
@@ -186,12 +88,12 @@ The application analyzes uploaded resumes using Large Language Models (Gemma & Q
 
 > Upload your resume in PDF format and start AI analysis.
 
-![Resume Upload](\screenshot\Upload_Resume.png.png)
+![Resume Upload](screenshot\Upload_Resume.png.png)
 ## 📊 Resume Analysis Dashboard
 
 > AI-generated ATS score, professional summary, skills analysis, and personalized recommendations.
 
-![Dashboard](\screenshot\resul_ats_score.png.png)
+![Dashboard](screenshot\resul_ats_score.png.png)
 ## 📊 Resume Analysis Dashboard
 
 > AI-generated ATS score, professional summary, skills analysis, and personalized recommendations.
@@ -207,6 +109,7 @@ The application analyzes uploaded resumes using Large Language Models (Gemma & Q
 | Database | PostgreSQL |
 | AI / LLM | Google Gemma, Qwen 2.5, LM Studio |
 | Tools | Git, GitHub, VS Code, Postman |
+
 # 🏗 System Architecture
 
 User
@@ -228,6 +131,18 @@ PostgreSQL
    │
 Results Dashboard
 # 🚀 Installation
+
+## 🤖 AI Resume Analysis
+
+- ATS Score Calculation
+- Professional Summary Generation
+- Technical Skills Extraction
+- Soft Skills Identification
+- Missing Skills Detection
+- AI-Powered Improvement Suggestions
+
+---
+
 # 🔄 Application Workflow
 
 The following workflow illustrates how the AI Resume Analyzer processes a resume from upload to AI-generated insights.
@@ -281,9 +196,15 @@ The following workflow illustrates how the AI Resume Analyzer processes a resume
 9. The frontend fetches the analysis using the `analysis_id`.
 10. The AI-generated dashboard is displayed to the user.
 
----
-## Clone Repository
+# 📂 Folder Structure
+resume-analyzer/
+│
+├── frontend/
+├── backend/
+├── screenshots/
+└── README.md
 
+🚀 Installation
 ```bash
 git clone https://github.com/your-username/ai-resume-analyzer.git
 cd ai-resume-analyzer
@@ -314,5 +235,30 @@ LM_STUDIO_BASE_URL=http://localhost:1234/v1
 MODEL_NAME=gemma-or-qwen
 UPLOAD_FOLDER=upload/
 ```
+# 📡 API Endpoints
+
+### Upload Resume
+
+POST /upload
+
+### Get Analysis
+
+GET /analysis/{analysis_id}
 
 
+# 🗄 Database Schema
+
+## Resume
+
+- id
+- file_name
+- file_data
+
+## Analysis
+
+- ats_score
+- summary
+- technical_skills
+- soft_skills
+- missing_skills
+- suggestions
