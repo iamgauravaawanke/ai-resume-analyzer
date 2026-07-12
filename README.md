@@ -83,22 +83,22 @@ AI Resume Analyzer offers an end-to-end resume analysis experience by combining 
 
 > Modern landing page with project introduction and resume upload section.
 
-![Landing Page](screenshot\Complete_Dashboard.png.png)
+![Landing Page](screenshot/Complete_Dashboard.png.png)
 ## 📄 Resume Upload
 
 > Upload your resume in PDF format and start AI analysis.
 
-![Resume Upload](screenshot\Upload_Resume.png.png)
+![Resume Upload](screenshot/Upload_Resume.png.png)
 ## 📊 Resume Analysis Dashboard
 
 > AI-generated ATS score, professional summary, skills analysis, and personalized recommendations.
 
-![Dashboard](screenshot\resul_ats_score.png.png)
+![Dashboard](screenshot/resul_ats_score.png.png)
 ## 📊 Resume Analysis Dashboard
 
 > AI-generated ATS score, professional summary, skills analysis, and personalized recommendations.
 
-![Dashboard](\screenshot\all_skill .png.png)
+![Dashboard](screenshot/all_skill .png.png)
 
 # 🛠 Tech Stack
 
@@ -262,3 +262,14 @@ GET /analysis/{analysis_id}
 - soft_skills
 - missing_skills
 - suggestions
+- 
+# 👨‍💻 Author
+
+**Gaurav Aawanke**
+
+AI Backend & GenAI Engineer
+
+- GitHub: https://github.com/iamgauravaawanke
+- LinkedIn: https://www.linkedin.com/in/iamgauravaawanke/
+
+
