@@ -17,5 +17,5 @@ SessionLocal = sessionmaker(
 
 
 
-# conn = get_db_connection()
+
 # print("database connected suesfully")
