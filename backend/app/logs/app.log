@@ -113,3 +113,22 @@ FROM roles]
 (Background on this error at: https://sqlalche.me/e/20/f405)
 2026-07-18 22:47:47,396 | INFO | roles.py:15 | Fetching all Roles 
 2026-07-18 22:47:53,993 | INFO | roles.py:15 | Fetching all Roles 
+2026-07-19 00:15:38,008 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-19 00:15:38,021 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-19 00:15:38,026 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-19 00:15:38,028 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-19 00:15:41,145 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 30
+2026-07-19 00:15:41,147 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 30
+2026-07-19 00:15:41,152 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 30
+2026-07-19 00:15:41,154 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 30
+2026-07-19 00:22:03,850 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 30
+2026-07-19 00:22:03,859 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 30
+2026-07-19 00:22:03,863 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 30
+2026-07-19 00:22:03,864 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 30
+2026-07-19 00:23:16,738 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-19 00:23:16,740 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-19 00:23:16,743 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-07-19 00:23:16,745 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-07-19 01:00:00,148 | INFO | roles.py:15 | Fetching all Roles 
+2026-07-19 01:02:39,336 | INFO | roles_id.py:13 | Fetching Role. Role ID: 1
+2026-07-19 01:02:39,344 | INFO | roles_id.py:30 | Roles fetched successfully. Roles ID: 1
