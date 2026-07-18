@@ -68,3 +68,48 @@
 2026-07-12 15:30:02,698 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 37
 2026-07-12 15:30:02,706 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 37
 2026-07-12 15:30:02,709 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 37
+2026-07-18 22:37:27,333 | INFO | roles.py:15 | Fetching all Roles 
+2026-07-18 22:37:27,338 | ERROR | roles.py:37 | Error fetching roles: cannot access local variable 'roles' where it is not associated with a value
+2026-07-18 22:38:21,300 | INFO | roles.py:15 | Fetching all Roles 
+2026-07-18 22:38:21,301 | ERROR | roles.py:37 | Error fetching roles: cannot access local variable 'roles' where it is not associated with a value
+2026-07-18 22:38:23,616 | INFO | roles.py:15 | Fetching all Roles 
+2026-07-18 22:38:23,617 | ERROR | roles.py:37 | Error fetching roles: cannot access local variable 'roles' where it is not associated with a value
+2026-07-18 22:39:57,015 | INFO | roles.py:15 | Fetching all Roles 
+2026-07-18 22:39:57,030 | ERROR | roles.py:37 | Error fetching roles: (psycopg2.errors.UndefinedColumn) column roles.updated_at does not exist
+LINE 1: ...dge_source, roles.created_at AS roles_created_at, roles.upda...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "roles.created_at".
+
+[SQL: SELECT roles.role_id AS roles_role_id, roles.role_name AS roles_role_name, roles.description AS roles_description, roles.knowledge_source AS roles_knowledge_source, roles.created_at AS roles_created_at, roles.updated_at AS roles_updated_at 
+FROM roles]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-07-18 22:40:00,069 | INFO | roles.py:15 | Fetching all Roles 
+2026-07-18 22:40:00,071 | ERROR | roles.py:37 | Error fetching roles: (psycopg2.errors.UndefinedColumn) column roles.updated_at does not exist
+LINE 1: ...dge_source, roles.created_at AS roles_created_at, roles.upda...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "roles.created_at".
+
+[SQL: SELECT roles.role_id AS roles_role_id, roles.role_name AS roles_role_name, roles.description AS roles_description, roles.knowledge_source AS roles_knowledge_source, roles.created_at AS roles_created_at, roles.updated_at AS roles_updated_at 
+FROM roles]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-07-18 22:42:36,746 | INFO | roles.py:15 | Fetching all Roles 
+2026-07-18 22:46:33,146 | INFO | roles.py:15 | Fetching all Roles 
+2026-07-18 22:46:33,160 | ERROR | roles.py:37 | Error fetching roles: (psycopg2.errors.UndefinedColumn) column roles.created_at does not exist
+LINE 1: ...roles.knowledge_source AS roles_knowledge_source, roles.crea...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "roles.updated_at".
+
+[SQL: SELECT roles.role_id AS roles_role_id, roles.role_name AS roles_role_name, roles.description AS roles_description, roles.knowledge_source AS roles_knowledge_source, roles.created_at AS roles_created_at, roles.updated_at AS roles_updated_at 
+FROM roles]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-07-18 22:46:57,873 | INFO | roles.py:15 | Fetching all Roles 
+2026-07-18 22:46:57,883 | ERROR | roles.py:37 | Error fetching roles: (psycopg2.errors.UndefinedColumn) column roles.created_at does not exist
+LINE 1: ...roles.knowledge_source AS roles_knowledge_source, roles.crea...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "roles.updated_at".
+
+[SQL: SELECT roles.role_id AS roles_role_id, roles.role_name AS roles_role_name, roles.description AS roles_description, roles.knowledge_source AS roles_knowledge_source, roles.created_at AS roles_created_at, roles.updated_at AS roles_updated_at 
+FROM roles]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-07-18 22:47:47,396 | INFO | roles.py:15 | Fetching all Roles 
+2026-07-18 22:47:53,993 | INFO | roles.py:15 | Fetching all Roles 

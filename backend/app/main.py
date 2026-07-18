@@ -9,7 +9,7 @@ from routers.upload_resume import router as upload_router
 
 from fastapi.middleware.cors import CORSMiddleware
 from routers.analysis import router as analysis_router
-
+from routers.roles import router as roles_router
 
 app = FastAPI()
 
@@ -31,6 +31,7 @@ app.add_middleware(
 
 app.include_router(analysis_router)
 app.include_router(upload_router)
+app.include_router(roles_router)
 
 
 if __name__=="__main__":
