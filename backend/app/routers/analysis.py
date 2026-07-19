@@ -9,7 +9,7 @@ router = APIRouter(
 
     
 # 5. API Endpoint: Fetch One User by ID
-@router.get("/analysis/{analysis_id}")
+@router.post("/analysis/{analysis_id}")
 def get_analysis(analysis_id: int):
 
     logger.info(f"Fetching analysis. Analysis ID: {analysis_id}")
@@ -41,7 +41,11 @@ def get_analysis(analysis_id: int):
             "technical_skills": analysis.technical_skills.split(", "),
             "soft_skills": analysis.soft_skills.split(", "),
             "missing_skills": analysis.missing_skills.split(", "),
-            "suggestions": analysis.suggestions.split("\n")
+            "suggestions": analysis.suggestions.split("\n"),
+            "learning_roadmap":analysis.learning_roadmap,
+            "suggested_projects":analysis.suggested_projects,
+            "estimated_timeline":analysis.estimated_timeline.split(", "),
+            "action_plan":analysis.action_plan.split(", ")
         }
 
     finally:

@@ -78,16 +78,27 @@ async def upload_resume(file: UploadFile = File(...)):
         # AI Analysis
         # ---------------------------
         logger.info("Sending resume to Qwen for analysis.")
+        
+        selected_role = "AI Engineer"   # Temporary
+        role_knowledge = ""
 
-        analysis = ask_llm(text)
+        analysis = ask_llm(
+            resume_text=text,
+            selected_role=selected_role,
+            role_knowledge=role_knowledge)
+        
         analysis = clean_json_response(analysis)
         
 
         logger.info("AI analysis completed.")
         # print(repr(analysis))
         
-        logger.info(f"Qwen Response:\n{analysis}")
+        # logger.info(f"Qwen Response:\n{analysis}")
+        import json
 
+        # print("=" * 100)
+        # print(json.dumps(analysis, indent=2))
+        # print("=" * 100)
         # analysis = json.loads(analysis)
 
         # ---------------------------
@@ -99,19 +110,40 @@ async def upload_resume(file: UploadFile = File(...)):
             summary=analysis["summary"],
             technical_skills=", ".join(analysis["technical_skills"]),
             soft_skills=", ".join(analysis["soft_skills"]),
-            missing_skills=", ".join(analysis["missing_skills"]),
+            # missing_skills=", ".join(analysis["missing_skills"]),
+            missing_skills="\n".join(
+    f"{item['skill']} ({item['priority']}) - {item['reason']}"
+    for item in analysis["missing_skills"]
+),
             # suggestions=", ".join(analysis["suggestions"]),
-#             suggestions="\n".join(
+    #         suggestions="\n".join(
+    # f"{item['title']} - {item['description']}"
+    # for item in analysis["suggestions"]),         
+            # learning_roadmap=analysis["learning_roadmap"],
+            
+            learning_roadmap="\n".join(
+    f"Step {item['step']}: {item['title']} - {item['description']}"
+    for item in analysis["learning_roadmap"]
+),
+            # suggested_projects=", ".join(analysis["suggested_projects"]),
+            suggested_projects="\n".join(
+    f"{item['title']} - {item['description']}"
+    for item in analysis["suggested_projects"]
+),
+            # estimated_timeline=", ".join(analysis["estimated_timeline"]),
+            estimated_timeline=analysis["estimated_timeline"],
+            action_plan=", ".join(analysis["action_plan"]),
+#             action_plan="\n".join(
 #     f"{item['title']} - {item['description']}"
-#     for item in analysis["suggestions"]
-# )
+#     for item in analysis["action_plan"]
+# ),
             
             ## gamma 
             
         suggestions="\n".join(
     f"{item['title']} - {item['description']}"
     for item in analysis["suggestions"]
-)    
+),    
         )
 
         db.add(analysis_db)
@@ -136,7 +168,13 @@ async def upload_resume(file: UploadFile = File(...)):
     "missing_skills":analysis["missing_skills"],
     "suggestions":analysis["suggestions"],
     "ats_score":analysis["ats_score"],
-    "soft_skills":analysis["soft_skills"]
+    "soft_skills":analysis["soft_skills"],
+    "learning_roadmap":analysis["learning_roadmap"],
+    "suggested_projects":analysis["suggested_projects"],
+    "estimated_timeline":analysis["estimated_timeline"],
+    "action_plan":analysis["action_plan"],
+    
+    
     
     
     
