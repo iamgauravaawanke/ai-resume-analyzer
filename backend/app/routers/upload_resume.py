@@ -79,7 +79,7 @@ async def upload_resume(file: UploadFile = File(...)):
         # ---------------------------
         logger.info("Sending resume to Qwen for analysis.")
         
-        selected_role = "AI Engineer"   # Temporary
+        selected_role = "Backend Developer"   # Temporary
         role_knowledge = ""
 
         analysis = ask_llm(

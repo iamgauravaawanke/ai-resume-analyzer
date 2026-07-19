@@ -269,3 +269,24 @@ FROM roles]
 2026-07-19 15:44:55,764 | INFO | upload_resume.py:80 | Sending resume to Qwen for analysis.
 2026-07-19 15:52:11,550 | INFO | upload_resume.py:93 | AI analysis completed.
 2026-07-19 15:52:11,603 | INFO | upload_resume.py:155 | Analysis stored in database. Analysis ID: 45
+2026-07-19 18:37:42,752 | INFO | upload_resume.py:29 | Resume upload request received.
+2026-07-19 18:37:42,756 | INFO | upload_resume.py:47 | Resume uploaded successfully: iamgauravaawankepy1.2.pdf
+2026-07-19 18:37:43,053 | INFO | upload_resume.py:58 | Resume text extracted (2887 characters).
+2026-07-19 18:37:43,157 | INFO | upload_resume.py:75 | Resume stored in database. Resume ID: 89
+2026-07-19 18:37:43,158 | INFO | upload_resume.py:80 | Sending resume to Qwen for analysis.
+2026-07-19 18:38:49,982 | INFO | upload_resume.py:93 | AI analysis completed.
+2026-07-19 18:38:50,035 | INFO | upload_resume.py:155 | Analysis stored in database. Analysis ID: 46
+2026-07-19 18:44:49,618 | INFO | upload_resume.py:29 | Resume upload request received.
+2026-07-19 18:44:49,621 | INFO | upload_resume.py:47 | Resume uploaded successfully: iamgauravaawankepy1.2.pdf
+2026-07-19 18:44:49,892 | INFO | upload_resume.py:58 | Resume text extracted (2887 characters).
+2026-07-19 18:44:49,937 | INFO | upload_resume.py:75 | Resume stored in database. Resume ID: 90
+2026-07-19 18:44:49,937 | INFO | upload_resume.py:80 | Sending resume to Qwen for analysis.
+2026-07-19 18:46:02,326 | INFO | upload_resume.py:93 | AI analysis completed.
+2026-07-19 18:46:02,347 | INFO | upload_resume.py:155 | Analysis stored in database. Analysis ID: 47
+2026-07-19 18:50:34,336 | INFO | upload_resume.py:29 | Resume upload request received.
+2026-07-19 18:50:34,338 | INFO | upload_resume.py:47 | Resume uploaded successfully: iamgauravaawankepy1.2.pdf
+2026-07-19 18:50:34,596 | INFO | upload_resume.py:58 | Resume text extracted (2887 characters).
+2026-07-19 18:50:34,629 | INFO | upload_resume.py:75 | Resume stored in database. Resume ID: 91
+2026-07-19 18:50:34,630 | INFO | upload_resume.py:80 | Sending resume to Qwen for analysis.
+2026-07-19 18:51:42,948 | INFO | upload_resume.py:93 | AI analysis completed.
+2026-07-19 18:51:42,985 | INFO | upload_resume.py:155 | Analysis stored in database. Analysis ID: 48
