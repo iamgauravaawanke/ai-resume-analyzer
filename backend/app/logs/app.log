@@ -290,3 +290,38 @@ FROM roles]
 2026-07-19 18:50:34,630 | INFO | upload_resume.py:80 | Sending resume to Qwen for analysis.
 2026-07-19 18:51:42,948 | INFO | upload_resume.py:93 | AI analysis completed.
 2026-07-19 18:51:42,985 | INFO | upload_resume.py:155 | Analysis stored in database. Analysis ID: 48
+2026-07-21 23:24:19,499 | INFO | upload_resume.py:29 | Resume upload request received.
+2026-07-21 23:24:19,505 | INFO | upload_resume.py:47 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-21 23:24:20,189 | INFO | upload_resume.py:58 | Resume text extracted (3980 characters).
+2026-07-21 23:24:20,275 | INFO | upload_resume.py:75 | Resume stored in database. Resume ID: 92
+2026-07-21 23:24:20,276 | INFO | upload_resume.py:80 | Sending resume to Qwen for analysis.
+2026-07-21 23:28:42,564 | INFO | upload_resume.py:29 | Resume upload request received.
+2026-07-21 23:28:42,568 | INFO | upload_resume.py:47 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-21 23:28:43,267 | INFO | upload_resume.py:58 | Resume text extracted (3980 characters).
+2026-07-21 23:28:43,323 | INFO | upload_resume.py:75 | Resume stored in database. Resume ID: 93
+2026-07-21 23:28:43,324 | INFO | upload_resume.py:80 | Sending resume to Qwen for analysis.
+2026-07-21 23:32:48,011 | INFO | upload_resume.py:29 | Resume upload request received.
+2026-07-21 23:32:48,014 | INFO | upload_resume.py:47 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-21 23:32:48,640 | INFO | upload_resume.py:58 | Resume text extracted (3980 characters).
+2026-07-21 23:32:48,669 | INFO | upload_resume.py:75 | Resume stored in database. Resume ID: 94
+2026-07-21 23:32:48,670 | INFO | upload_resume.py:80 | Sending resume to Qwen for analysis.
+2026-07-21 23:54:56,158 | INFO | upload_resume.py:30 | Resume upload request received.
+2026-07-21 23:54:56,162 | INFO | upload_resume.py:48 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-21 23:54:56,704 | INFO | upload_resume.py:59 | Resume text extracted (3980 characters).
+2026-07-21 23:54:56,782 | INFO | upload_resume.py:76 | Resume stored in database. Resume ID: 95
+2026-07-21 23:54:56,783 | INFO | upload_resume.py:81 | Sending resume to Qwen for analysis.
+2026-07-21 23:56:58,977 | INFO | upload_resume.py:30 | Resume upload request received.
+2026-07-21 23:56:58,979 | INFO | upload_resume.py:48 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-21 23:56:59,526 | INFO | upload_resume.py:59 | Resume text extracted (3980 characters).
+2026-07-21 23:56:59,562 | INFO | upload_resume.py:76 | Resume stored in database. Resume ID: 96
+2026-07-21 23:56:59,562 | INFO | upload_resume.py:81 | Sending resume to Qwen for analysis.
+2026-07-22 00:21:48,207 | INFO | upload_resume.py:31 | Resume upload request received.
+2026-07-22 00:21:48,209 | INFO | upload_resume.py:49 | Resume uploaded successfully: iamgauravaawankee1.4.pdf
+2026-07-22 00:21:48,730 | INFO | upload_resume.py:60 | Resume text extracted (4120 characters).
+2026-07-22 00:21:48,788 | INFO | upload_resume.py:77 | Resume stored in database. Resume ID: 97
+2026-07-22 00:21:48,789 | INFO | upload_resume.py:82 | Sending resume to Qwen for analysis.
+2026-07-22 00:39:44,975 | INFO | upload_resume.py:32 | Resume upload request received.
+2026-07-22 00:39:44,978 | INFO | upload_resume.py:50 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-22 00:39:45,470 | INFO | upload_resume.py:61 | Resume text extracted (3980 characters).
+2026-07-22 00:39:45,501 | INFO | upload_resume.py:78 | Resume stored in database. Resume ID: 98
+2026-07-22 00:39:45,502 | INFO | upload_resume.py:83 | Sending resume to Qwen for analysis.

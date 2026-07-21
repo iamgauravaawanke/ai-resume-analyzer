@@ -1,6 +1,7 @@
 from fastapi import APIRouter, UploadFile, File, HTTPException
 import os
 import json
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from pypdf import PdfReader
 from core.logger import logger
 from database.database import SessionLocal
@@ -9,7 +10,9 @@ from models.analysis import Analysis
 from services.ai_service import ask_llm
 from utils.json_utils import clean_json_response
 from sqlalchemy.orm import declarative_base, sessionmaker, Session
-
+from models.roles import Role
+#  PASTE THIS LINE INSTEAD
+from langchain_community.document_loaders import PyPDFLoader
 
 
 
@@ -81,7 +84,32 @@ async def upload_resume(file: UploadFile = File(...)):
         
         selected_role = "Backend Developer"   # Temporary
         role_knowledge = ""
-
+        role_id = 1
+        
+        role = db.query(Role).filter(Role.role_id == role_id).first()
+        
+        if not role:
+            raise HTTPException(status_code=404 , detail="Not Found Role")
+        
+        print("===================role===================" ,role.role_id)
+        
+        knowledge_source = role.knowledge_source
+        
+        print("=================knowledge_source==================" , role.knowledge_source)
+        
+        loader =  PyPDFLoader(r"C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\knowledge\AI_Engineer.pdf")
+        
+        print("loader===============" , loader)
+        
+        pages = loader.load()
+        
+        print(pages)
+        
+        
+        
+        
+        
+        
         analysis = ask_llm(
             resume_text=text,
             selected_role=selected_role,
