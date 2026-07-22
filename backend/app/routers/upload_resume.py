@@ -13,6 +13,8 @@ from sqlalchemy.orm import declarative_base, sessionmaker, Session
 from models.roles import Role
 #  PASTE THIS LINE INSTEAD
 from langchain_community.document_loaders import PyPDFLoader
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+
 from pathlib import Path
 
 
@@ -84,7 +86,7 @@ async def upload_resume(file: UploadFile = File(...)):
         logger.info("Sending resume to Qwen for analysis.")
         
         selected_role = "Backend Developer"   # Temporary
-        role_knowledge = r"C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\knowledge\Backend_Developer.pdf"
+    
         role_id = 1
         
  
@@ -101,25 +103,47 @@ async def upload_resume(file: UploadFile = File(...)):
         print("selected role==== ", selected_role)
         
         BASE_DIR = Path(__file__).resolve().parent.parent
-        print(BASE_DIR)
+        # print(BASE_DIR)
         KNOWLEDGE_DIR = BASE_DIR / "knowledge"
-        print(KNOWLEDGE_DIR)
+        # print(KNOWLEDGE_DIR)
         
         knoweldge_file_path = KNOWLEDGE_DIR / role.knowledge_file
         
-        print(knoweldge_file_path)
+        print("knoweldge_file_path====================", knoweldge_file_path)
         
         if not knoweldge_file_path.exists():
             raise HTTPException(
                 status_code=404, 
                 detail=f"Knowledge file '{role.knowledge_file}' not found."
             )
+            
+        reader1 = PdfReader(knoweldge_file_path)
+        
+        text1 = ""
         
         
+        for i, page in enumerate(reader1.pages):
+            print("Reading page", i + 1)
+
+        page_text = page.extract_text()
+
+        print("Extracted:", page_text is not None)
+
+        if page_text:
+            text1 += page_text
+
+        print("Final Length:", len(text1))
+
+        text_splitter  = RecursiveCharacterTextSplitter(
+            chunk_size = 100,
+            chunk_overlap = 0
+        )
         
-    
+        split_texts = text_splitter .split_text(text1)
+        print("split_text=================" , split_texts)
         
-        
+            
+        role_knowledge=""
         analysis = ask_llm(
             resume_text=text,
             selected_role=selected_role,
