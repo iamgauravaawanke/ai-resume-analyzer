@@ -13,6 +13,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker, Session
 from models.roles import Role
 #  PASTE THIS LINE INSTEAD
 from langchain_community.document_loaders import PyPDFLoader
+from pathlib import Path
 
 
 
@@ -83,31 +84,40 @@ async def upload_resume(file: UploadFile = File(...)):
         logger.info("Sending resume to Qwen for analysis.")
         
         selected_role = "Backend Developer"   # Temporary
-        role_knowledge = ""
+        role_knowledge = r"C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\knowledge\Backend_Developer.pdf"
         role_id = 1
         
+ 
         role = db.query(Role).filter(Role.role_id == role_id).first()
         
+        
+        print("role==================" , role)
         if not role:
-            raise HTTPException(status_code=404 , detail="Not Found Role")
+            raise HTTPException(status_code=404 , detail="Role Not Found")
         
-        print("===================role===================" ,role.role_id)
-        
-        knowledge_source = role.knowledge_source
-        
-        print("=================knowledge_source==================" , role.knowledge_source)
-        
-        loader =  PyPDFLoader(r"C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\knowledge\AI_Engineer.pdf")
-        
-        print("loader===============" , loader)
-        
-        pages = loader.load()
-        
-        print(pages)
+        selected_role = role.role_name
         
         
+        print("selected role==== ", selected_role)
+        
+        BASE_DIR = Path(__file__).resolve().parent.parent
+        print(BASE_DIR)
+        KNOWLEDGE_DIR = BASE_DIR / "knowledge"
+        print(KNOWLEDGE_DIR)
+        
+        knoweldge_file_path = KNOWLEDGE_DIR / role.knowledge_file
+        
+        print(knoweldge_file_path)
+        
+        if not knoweldge_file_path.exists():
+            raise HTTPException(
+                status_code=404, 
+                detail=f"Knowledge file '{role.knowledge_file}' not found."
+            )
         
         
+        
+    
         
         
         analysis = ask_llm(

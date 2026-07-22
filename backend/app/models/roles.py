@@ -11,6 +11,7 @@ class Role(Base):
     role_name = Column(String(100), nullable=False, unique=True)
     description = Column(Text, nullable=False)
     knowledge_source = Column(String(255), nullable=False)
+    knowledge_file = Column(String(255), nullable=False)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
     
     
