@@ -500,3 +500,113 @@ FROM roles]
 2026-07-23 01:37:17,992 | INFO | upload_resume.py:64 | Resume text extracted (4120 characters).
 2026-07-23 01:37:18,055 | INFO | upload_resume.py:81 | Resume stored in database. Resume ID: 133
 2026-07-23 01:37:18,056 | INFO | upload_resume.py:86 | Sending resume to Qwen for analysis.
+2026-07-23 22:06:03,909 | INFO | upload_resume.py:37 | Resume upload request received.
+2026-07-23 22:06:03,912 | INFO | upload_resume.py:55 | Resume uploaded successfully: iamgauravaawankee1.4.pdf
+2026-07-23 22:06:04,169 | INFO | upload_resume.py:66 | Resume text extracted (4120 characters).
+2026-07-23 22:06:04,253 | INFO | upload_resume.py:83 | Resume stored in database. Resume ID: 134
+2026-07-23 22:06:04,254 | INFO | upload_resume.py:88 | Sending resume to Qwen for analysis.
+2026-07-23 22:08:03,858 | INFO | upload_resume.py:37 | Resume upload request received.
+2026-07-23 22:08:03,864 | INFO | upload_resume.py:55 | Resume uploaded successfully: iamgauravaawankee1.4.pdf
+2026-07-23 22:08:04,087 | INFO | upload_resume.py:66 | Resume text extracted (4120 characters).
+2026-07-23 22:08:04,138 | INFO | upload_resume.py:83 | Resume stored in database. Resume ID: 135
+2026-07-23 22:08:04,138 | INFO | upload_resume.py:88 | Sending resume to Qwen for analysis.
+2026-07-23 22:09:27,739 | INFO | upload_resume.py:163 | AI analysis completed.
+2026-07-23 22:09:27,789 | INFO | upload_resume.py:225 | Analysis stored in database. Analysis ID: 49
+2026-07-23 22:28:56,924 | INFO | upload_resume.py:45 | Resume upload request received.
+2026-07-23 22:28:56,925 | INFO | upload_resume.py:63 | Resume uploaded successfully: iamgauravaawankee1.4.pdf
+2026-07-23 22:28:57,113 | INFO | upload_resume.py:74 | Resume text extracted (4120 characters).
+2026-07-23 22:28:57,163 | INFO | upload_resume.py:91 | Resume stored in database. Resume ID: 136
+2026-07-23 22:28:57,164 | INFO | upload_resume.py:96 | Sending resume to Qwen for analysis.
+2026-07-23 22:29:02,212 | INFO | upload_resume.py:160 | Question Embedding Generated Successfully
+2026-07-23 22:29:02,212 | INFO | upload_resume.py:161 | Searching ChromaDB
+2026-07-23 22:29:02,235 | INFO | upload_resume.py:170 | Distances: []
+2026-07-23 22:29:02,236 | INFO | upload_resume.py:175 | ChromaDB Search Completed
+2026-07-23 22:30:14,342 | INFO | upload_resume.py:188 | AI analysis completed.
+2026-07-23 22:30:14,363 | INFO | upload_resume.py:250 | Analysis stored in database. Analysis ID: 50
+2026-07-23 22:33:58,899 | INFO | upload_resume.py:45 | Resume upload request received.
+2026-07-23 22:33:58,900 | INFO | upload_resume.py:63 | Resume uploaded successfully: iamgauravaawankee1.4.pdf
+2026-07-23 22:33:59,141 | INFO | upload_resume.py:74 | Resume text extracted (4120 characters).
+2026-07-23 22:33:59,169 | INFO | upload_resume.py:91 | Resume stored in database. Resume ID: 137
+2026-07-23 22:33:59,169 | INFO | upload_resume.py:96 | Sending resume to Qwen for analysis.
+2026-07-23 22:34:02,872 | INFO | upload_resume.py:160 | Question Embedding Generated Successfully
+2026-07-23 22:34:02,872 | INFO | upload_resume.py:161 | Searching ChromaDB
+2026-07-23 22:35:19,417 | INFO | upload_resume.py:175 | AI analysis completed.
+2026-07-23 22:35:19,458 | INFO | upload_resume.py:237 | Analysis stored in database. Analysis ID: 51
+2026-07-23 23:16:49,662 | INFO | upload_resume.py:45 | Resume upload request received.
+2026-07-23 23:16:49,663 | INFO | upload_resume.py:63 | Resume uploaded successfully: iamgauravaawankee1.4.pdf
+2026-07-23 23:16:49,877 | INFO | upload_resume.py:74 | Resume text extracted (4120 characters).
+2026-07-23 23:16:49,928 | INFO | upload_resume.py:91 | Resume stored in database. Resume ID: 138
+2026-07-23 23:16:49,928 | INFO | upload_resume.py:96 | Sending resume to Qwen for analysis.
+2026-07-23 23:16:54,372 | INFO | upload_resume.py:160 | generating embeddings for knowledge chunks,
+2026-07-23 23:16:54,372 | INFO | upload_resume.py:161 | Searching ChromaDB
+2026-07-23 23:19:01,683 | INFO | upload_resume.py:45 | Resume upload request received.
+2026-07-23 23:19:01,684 | INFO | upload_resume.py:63 | Resume uploaded successfully: iamgauravaawankee1.4.pdf
+2026-07-23 23:19:01,887 | INFO | upload_resume.py:74 | Resume text extracted (4120 characters).
+2026-07-23 23:19:01,924 | INFO | upload_resume.py:91 | Resume stored in database. Resume ID: 139
+2026-07-23 23:19:01,925 | INFO | upload_resume.py:96 | Sending resume to Qwen for analysis.
+2026-07-23 23:19:02,292 | INFO | upload_resume.py:160 | generating embeddings for knowledge chunks,
+2026-07-23 23:19:02,293 | INFO | upload_resume.py:161 | Searching ChromaDB
+2026-07-24 00:43:13,680 | INFO | upload_resume.py:45 | Resume upload request received.
+2026-07-24 00:43:13,684 | INFO | upload_resume.py:63 | Resume uploaded successfully: iamgauravaawankee1.4.pdf
+2026-07-24 00:43:14,249 | INFO | upload_resume.py:74 | Resume text extracted (4120 characters).
+2026-07-24 00:43:14,363 | INFO | upload_resume.py:91 | Resume stored in database. Resume ID: 140
+2026-07-24 00:43:14,364 | INFO | upload_resume.py:96 | Sending resume to Qwen for analysis.
+2026-07-24 00:44:36,818 | INFO | upload_resume.py:45 | Resume upload request received.
+2026-07-24 00:44:36,826 | INFO | upload_resume.py:63 | Resume uploaded successfully: iamgauravaawankee1.4.pdf
+2026-07-24 00:44:37,405 | INFO | upload_resume.py:74 | Resume text extracted (4120 characters).
+2026-07-24 00:44:37,438 | INFO | upload_resume.py:91 | Resume stored in database. Resume ID: 141
+2026-07-24 00:44:37,439 | INFO | upload_resume.py:96 | Sending resume to Qwen for analysis.
+2026-07-24 00:44:45,604 | INFO | upload_resume.py:160 | generating embeddings for knowledge chunks,
+2026-07-24 00:44:45,605 | INFO | upload_resume.py:161 | Searching ChromaDB
+2026-07-24 00:48:22,520 | INFO | upload_resume.py:45 | Resume upload request received.
+2026-07-24 00:48:22,524 | INFO | upload_resume.py:63 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-24 00:48:23,070 | INFO | upload_resume.py:74 | Resume text extracted (3980 characters).
+2026-07-24 00:48:23,129 | INFO | upload_resume.py:91 | Resume stored in database. Resume ID: 142
+2026-07-24 00:48:23,130 | INFO | upload_resume.py:96 | Sending resume to Qwen for analysis.
+2026-07-24 00:48:24,465 | INFO | upload_resume.py:160 | generating embeddings for knowledge chunks,
+2026-07-24 00:48:24,466 | INFO | upload_resume.py:161 | Searching ChromaDB
+2026-07-24 00:50:49,615 | INFO | upload_resume.py:45 | Resume upload request received.
+2026-07-24 00:50:49,621 | INFO | upload_resume.py:63 | Resume uploaded successfully: iamgauravaawankee1.4.pdf
+2026-07-24 00:50:50,205 | INFO | upload_resume.py:74 | Resume text extracted (4120 characters).
+2026-07-24 00:50:50,236 | INFO | upload_resume.py:91 | Resume stored in database. Resume ID: 143
+2026-07-24 00:50:50,236 | INFO | upload_resume.py:96 | Sending resume to Qwen for analysis.
+2026-07-24 00:50:51,474 | INFO | upload_resume.py:160 | generating embeddings for knowledge chunks,
+2026-07-24 00:50:51,475 | INFO | upload_resume.py:161 | Searching ChromaDB
+2026-07-24 01:10:37,868 | INFO | upload_resume.py:46 | Resume upload request received.
+2026-07-24 01:10:37,872 | INFO | upload_resume.py:64 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-24 01:10:38,611 | INFO | upload_resume.py:75 | Resume text extracted (3980 characters).
+2026-07-24 01:10:38,745 | INFO | upload_resume.py:92 | Resume stored in database. Resume ID: 144
+2026-07-24 01:10:38,746 | INFO | upload_resume.py:97 | Sending resume to Qwen for analysis.
+2026-07-24 01:10:41,403 | INFO | upload_resume.py:161 | generating embeddings for knowledge chunks,
+2026-07-24 01:10:41,404 | INFO | upload_resume.py:162 | Searching ChromaDB
+2026-07-24 01:21:31,865 | INFO | upload_resume.py:46 | Resume upload request received.
+2026-07-24 01:21:31,874 | INFO | upload_resume.py:64 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-24 01:21:32,311 | INFO | upload_resume.py:75 | Resume text extracted (3980 characters).
+2026-07-24 01:21:32,427 | INFO | upload_resume.py:92 | Resume stored in database. Resume ID: 145
+2026-07-24 01:21:32,428 | INFO | upload_resume.py:97 | Sending resume to Qwen for analysis.
+2026-07-24 01:21:32,463 | INFO | upload_resume.py:153 | Splitting text
+2026-07-24 01:21:32,466 | INFO | upload_resume.py:158 | Total chunks: 36
+2026-07-24 01:21:34,090 | INFO | upload_resume.py:167 | generating embeddings for knowledge chunks,
+2026-07-24 01:21:34,414 | INFO | upload_resume.py:182 | Knowledge stored in ChromaDB.
+2026-07-24 01:21:34,415 | INFO | upload_resume.py:184 | store in vector database
+2026-07-24 01:28:01,591 | INFO | upload_resume.py:220 | AI analysis completed.
+2026-07-24 01:28:01,824 | INFO | upload_resume.py:282 | Analysis stored in database. Analysis ID: 52
+2026-07-24 01:39:03,091 | INFO | upload_resume.py:46 | Resume upload request received.
+2026-07-24 01:39:03,094 | INFO | upload_resume.py:64 | Resume uploaded successfully: iamgauravaawankee1.4.pdf
+2026-07-24 01:39:03,360 | INFO | upload_resume.py:75 | Resume text extracted (4120 characters).
+2026-07-24 01:39:03,407 | INFO | upload_resume.py:92 | Resume stored in database. Resume ID: 146
+2026-07-24 01:39:03,407 | INFO | upload_resume.py:97 | Sending resume to Qwen for analysis.
+2026-07-24 01:39:03,424 | INFO | upload_resume.py:140 | Splitting text
+2026-07-24 01:39:03,426 | INFO | upload_resume.py:144 | Total chunks: 36
+2026-07-24 01:40:09,030 | INFO | upload_resume.py:46 | Resume upload request received.
+2026-07-24 01:40:09,031 | INFO | upload_resume.py:64 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-24 01:40:09,216 | INFO | upload_resume.py:75 | Resume text extracted (3980 characters).
+2026-07-24 01:40:09,224 | INFO | upload_resume.py:92 | Resume stored in database. Resume ID: 147
+2026-07-24 01:40:09,224 | INFO | upload_resume.py:97 | Sending resume to Qwen for analysis.
+2026-07-24 01:40:09,237 | INFO | upload_resume.py:140 | Splitting text
+2026-07-24 01:40:09,238 | INFO | upload_resume.py:144 | Total chunks: 36
+2026-07-24 01:40:11,216 | INFO | upload_resume.py:148 | generating embeddings for knowledge chunks,
+2026-07-24 01:40:11,380 | INFO | upload_resume.py:163 | Knowledge stored in ChromaDB.
+2026-07-24 01:40:11,380 | INFO | upload_resume.py:165 | store in vector database
+2026-07-24 01:41:29,627 | INFO | upload_resume.py:201 | AI analysis completed.
+2026-07-24 01:41:29,651 | INFO | upload_resume.py:263 | Analysis stored in database. Analysis ID: 53

@@ -4,6 +4,7 @@ import json
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from pypdf import PdfReader
 from core.logger import logger
+from core.embedding import embedding
 from database.database import SessionLocal
 from models.resume import Resume
 from models.analysis import Analysis
@@ -11,12 +12,14 @@ from services.ai_service import ask_llm
 from utils.json_utils import clean_json_response
 from sqlalchemy.orm import declarative_base, sessionmaker, Session
 from models.roles import Role
+from uuid import uuid4
+
 #  PASTE THIS LINE INSTEAD
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from pathlib import Path
-
+import chromadb
 
 
 router = APIRouter(
@@ -28,6 +31,14 @@ ALLOWED_EXTENSIONS = {".pdf"}
 
 FILE_SAVE_PATH = r"C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\upload"
 
+
+client = chromadb.PersistentClient(
+    path="./chroma_db"
+)
+
+collection = client.get_or_create_collection(
+    name="chat_collection"
+)
 
 @router.post("/upload")
 async def upload_resume(file: UploadFile = File(...)):
@@ -85,32 +96,19 @@ async def upload_resume(file: UploadFile = File(...)):
         # ---------------------------
         logger.info("Sending resume to Qwen for analysis.")
         
-        selected_role = "Backend Developer"   # Temporary
+        selected_role = "Backend Developer"   # Temporar
     
         role_id = 1
-        
- 
         role = db.query(Role).filter(Role.role_id == role_id).first()
-        
-        
-        print("role==================" , role)
         if not role:
             raise HTTPException(status_code=404 , detail="Role Not Found")
         
-        selected_role = role.role_name
-        
-        
-        print("selected role==== ", selected_role)
-        
+        selected_role = role.role_name                    
         BASE_DIR = Path(__file__).resolve().parent.parent
-        # print(BASE_DIR)
         KNOWLEDGE_DIR = BASE_DIR / "knowledge"
-        # print(KNOWLEDGE_DIR)
         
         knoweldge_file_path = KNOWLEDGE_DIR / role.knowledge_file
-        
-        print("knoweldge_file_path====================", knoweldge_file_path)
-        
+                
         if not knoweldge_file_path.exists():
             raise HTTPException(
                 status_code=404, 
@@ -125,12 +123,12 @@ async def upload_resume(file: UploadFile = File(...)):
         for i, page in enumerate(reader1.pages):
             print("Reading page", i + 1)
 
-        page_text = page.extract_text()
+            page_text = page.extract_text()
 
-        print("Extracted:", page_text is not None)
+            print("Extracted:", page_text is not None)
 
-        if page_text:
-            text1 += page_text
+            if page_text:
+                text1 += page_text
 
         print("Final Length:", len(text1))
 
@@ -139,9 +137,57 @@ async def upload_resume(file: UploadFile = File(...)):
             chunk_overlap = 0
         )
         
-        split_texts = text_splitter .split_text(text1)
-        print("split_text=================" , split_texts)
+        logger.info("Splitting text")
         
+        split_texts = text_splitter .split_text(text1)
+        
+        logger.info(f"Total chunks: {len(split_texts)}")
+
+        genrate_embedding = embedding(split_texts)
+        
+        logger.info(f"generating embeddings for knowledge chunks,")
+        
+        question_searching = collection.add(
+                ids=[str(uuid4()) for _ in split_texts],
+                documents=split_texts,
+                embeddings=genrate_embedding,
+                metadatas=[
+                    {
+                        "source": str(knoweldge_file_path),
+                        "chunk": i
+                    }
+                    for i in range(len(split_texts))
+                ]
+            )
+
+        logger.info("Knowledge stored in ChromaDB.")
+
+        logger.info(f"store in vector database")
+        
+        print("Collection Count:", collection.count())
+        
+        resume_embedding = embedding([text])[0]
+        print("reume building-======================" , resume_embedding)
+        results = collection.query(
+            query_embeddings= [resume_embedding],
+            n_results=5
+        )
+        
+        retrieved_docs = results["documents"][0]
+
+        role_knowledgesss = "\n\n".join(retrieved_docs)
+
+        print("\nRetrieved Knowledge\n")
+        print(role_knowledgesss)
+
+       
+        
+        
+        
+       
+
+        print("===============reterival===============", results)
+                
             
         role_knowledge=""
         analysis = ask_llm(
