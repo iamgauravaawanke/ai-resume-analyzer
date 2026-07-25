@@ -9,6 +9,8 @@ from database.database import SessionLocal
 from models.resume import Resume
 from models.analysis import Analysis
 from services.ai_service import ask_llm
+from services.ai_validation import validate_ai_response
+
 from utils.json_utils import clean_json_response
 from sqlalchemy.orm import declarative_base, sessionmaker, Session
 from models.roles import Role
@@ -224,6 +226,11 @@ async def upload_resume(file: UploadFile = File(...)):
         
         
         analysis = clean_json_response(analysis)
+        
+        analysis = validate_ai_response(analysis)
+        
+        logger.info("AI response validated successfully.")
+        
         logger.info("LLM response cleaned successfully.")
         
 
