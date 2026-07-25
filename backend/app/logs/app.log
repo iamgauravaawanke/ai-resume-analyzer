@@ -758,3 +758,66 @@ fastapi.exceptions.HTTPException: 404: Knowledge file 'Python_Developer.pdf' not
 2026-07-25 02:00:36,700 | INFO | upload_resume.py:279 | Saving analysis to database.
 2026-07-25 02:00:39,944 | INFO | upload_resume.py:289 | Analysis stored in database. Analysis ID: 56
 2026-07-25 02:00:39,944 | INFO | upload_resume.py:301 | Closing database session.
+2026-07-25 23:24:49,056 | INFO | upload_resume.py:55 | Resume upload request received.
+2026-07-25 23:24:49,058 | INFO | upload_resume.py:72 | Resume saved at: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\upload\iamgauravaawankee_ai_engineer.pdf
+2026-07-25 23:24:49,059 | INFO | upload_resume.py:74 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-25 23:24:49,131 | INFO | upload_resume.py:77 | Reading uploaded PDF.
+2026-07-25 23:24:49,349 | INFO | upload_resume.py:87 | Resume text extracted (3980 characters).
+2026-07-25 23:24:49,350 | INFO | upload_resume.py:90 | Opening database session.
+2026-07-25 23:24:49,353 | INFO | upload_resume.py:101 | Saving resume to database.
+2026-07-25 23:24:49,429 | INFO | upload_resume.py:106 | Resume stored in database. Resume ID: 154
+2026-07-25 23:24:49,429 | INFO | upload_resume.py:111 | Sending resume to Qwen for analysis.
+2026-07-25 23:24:49,430 | INFO | upload_resume.py:117 | Fetching role with ID: 5
+2026-07-25 23:24:49,434 | INFO | upload_resume.py:124 | Role selected: AI Engineer
+2026-07-25 23:24:49,436 | INFO | upload_resume.py:139 | Loading knowledge file: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\knowledge\AI_Engineer.pdf
+2026-07-25 23:24:49,528 | INFO | upload_resume.py:147 | Knowledge not indexed. Creating embeddings for AI_Engineer.pdf
+2026-07-25 23:24:49,554 | INFO | upload_resume.py:151 | Reading knowledge PDF.
+2026-07-25 23:24:49,555 | INFO | upload_resume.py:156 | Reading knowledge PDF page 1
+2026-07-25 23:24:49,562 | INFO | upload_resume.py:159 | Resume contains 2 pages.
+2026-07-25 23:24:49,562 | INFO | upload_resume.py:162 | Text extracted from page 1: True
+2026-07-25 23:24:49,562 | INFO | upload_resume.py:156 | Reading knowledge PDF page 2
+2026-07-25 23:24:49,570 | INFO | upload_resume.py:159 | Resume contains 2 pages.
+2026-07-25 23:24:49,570 | INFO | upload_resume.py:162 | Text extracted from page 2: True
+2026-07-25 23:24:49,571 | INFO | upload_resume.py:169 | Knowledge text extracted successfully. Total characters: 2731
+2026-07-25 23:24:49,571 | INFO | upload_resume.py:176 | Splitting knowledge into chunks.
+2026-07-25 23:24:49,572 | INFO | upload_resume.py:180 | Total chunks created: 35
+2026-07-25 23:24:49,573 | INFO | upload_resume.py:182 | Generating embeddings for knowledge chunks.
+2026-07-25 23:24:53,580 | INFO | upload_resume.py:185 | Knowledge embeddings generated successfully.
+2026-07-25 23:24:53,580 | INFO | upload_resume.py:187 | Storing embeddings in ChromaDB.
+2026-07-25 23:24:53,644 | INFO | upload_resume.py:201 | Knowledge stored in ChromaDB.
+2026-07-25 23:24:53,644 | INFO | upload_resume.py:203 | Knowledge embeddings stored successfully in vector database.
+2026-07-25 23:24:53,644 | INFO | upload_resume.py:205 | Generating resume embedding.
+2026-07-25 23:24:53,735 | INFO | upload_resume.py:207 | Resume embedding generated successfully.
+2026-07-25 23:24:53,735 | INFO | upload_resume.py:208 | Searching relevant knowledge from ChromaDB.
+2026-07-25 23:24:53,744 | INFO | upload_resume.py:218 | Retrieved 5 relevant knowledge chunks.
+2026-07-25 23:24:53,744 | INFO | upload_resume.py:220 | Knowledge retrieval completed successfully.
+2026-07-25 23:24:53,744 | INFO | upload_resume.py:222 | Sending prompt to Qwen LLM.
+2026-07-25 23:26:03,815 | INFO | upload_resume.py:231 | LLM response cleaned successfully.
+2026-07-25 23:26:03,816 | INFO | upload_resume.py:234 | AI analysis completed.
+2026-07-25 23:26:03,816 | INFO | upload_resume.py:284 | Saving analysis to database.
+2026-07-25 23:26:03,859 | INFO | upload_resume.py:294 | Analysis stored in database. Analysis ID: 57
+2026-07-25 23:26:03,859 | INFO | upload_resume.py:306 | Closing database session.
+2026-07-25 23:30:07,688 | INFO | upload_resume.py:55 | Resume upload request received.
+2026-07-25 23:30:07,690 | INFO | upload_resume.py:72 | Resume saved at: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\upload\iamgauravaawankee1.4.pdf
+2026-07-25 23:30:07,691 | INFO | upload_resume.py:74 | Resume uploaded successfully: iamgauravaawankee1.4.pdf
+2026-07-25 23:30:07,755 | INFO | upload_resume.py:77 | Reading uploaded PDF.
+2026-07-25 23:30:07,912 | INFO | upload_resume.py:87 | Resume text extracted (4120 characters).
+2026-07-25 23:30:07,913 | INFO | upload_resume.py:90 | Opening database session.
+2026-07-25 23:30:07,915 | INFO | upload_resume.py:101 | Saving resume to database.
+2026-07-25 23:30:07,954 | INFO | upload_resume.py:106 | Resume stored in database. Resume ID: 155
+2026-07-25 23:30:07,954 | INFO | upload_resume.py:111 | Sending resume to Qwen for analysis.
+2026-07-25 23:30:07,955 | INFO | upload_resume.py:117 | Fetching role with ID: 5
+2026-07-25 23:30:07,960 | INFO | upload_resume.py:124 | Role selected: AI Engineer
+2026-07-25 23:30:07,961 | INFO | upload_resume.py:139 | Loading knowledge file: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\knowledge\AI_Engineer.pdf
+2026-07-25 23:30:08,043 | INFO | upload_resume.py:144 | Knowledge already indexed: AI_Engineer.pdf
+2026-07-25 23:30:08,044 | INFO | upload_resume.py:205 | Generating resume embedding.
+2026-07-25 23:30:11,613 | INFO | upload_resume.py:207 | Resume embedding generated successfully.
+2026-07-25 23:30:11,614 | INFO | upload_resume.py:208 | Searching relevant knowledge from ChromaDB.
+2026-07-25 23:30:11,637 | INFO | upload_resume.py:218 | Retrieved 5 relevant knowledge chunks.
+2026-07-25 23:30:11,637 | INFO | upload_resume.py:220 | Knowledge retrieval completed successfully.
+2026-07-25 23:30:11,637 | INFO | upload_resume.py:222 | Sending prompt to Qwen LLM.
+2026-07-25 23:31:16,281 | INFO | upload_resume.py:231 | LLM response cleaned successfully.
+2026-07-25 23:31:16,281 | INFO | upload_resume.py:234 | AI analysis completed.
+2026-07-25 23:31:16,282 | INFO | upload_resume.py:284 | Saving analysis to database.
+2026-07-25 23:31:16,299 | INFO | upload_resume.py:294 | Analysis stored in database. Analysis ID: 58
+2026-07-25 23:31:16,299 | INFO | upload_resume.py:306 | Closing database session.

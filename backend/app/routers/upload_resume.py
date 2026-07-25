@@ -23,14 +23,11 @@ import chromadb
 
 
 router = APIRouter(
-    tags=["Upload Resume"],
-    
+    tags=["Upload Resume"], 
 )
 
 ALLOWED_EXTENSIONS = {".pdf"}
-
 FILE_SAVE_PATH = r"C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\upload"
-
 
 client = chromadb.PersistentClient(
     path="./chroma_db"
@@ -39,6 +36,14 @@ client = chromadb.PersistentClient(
 collection = client.get_or_create_collection(
     name="chat_collection"
 )
+
+def is_knowledge_indexed(collection, source):
+    results = collection.get(
+        where={"source": source},
+        include=[]
+    )
+
+    return len(results["ids"]) > 0
 
 @router.post("/upload")
 async def upload_resume(file: UploadFile = File(...)):
@@ -114,90 +119,94 @@ async def upload_resume(file: UploadFile = File(...)):
         selected_role = role.role_name      
         logger.info(f"Role selected: {selected_role}")              
         BASE_DIR = Path(__file__).resolve().parent.parent
-        KNOWLEDGE_DIR = BASE_DIR / "knowledge"
         
+        KNOWLEDGE_DIR = BASE_DIR / "knowledge"
         
         knoweldge_file_path = KNOWLEDGE_DIR / role.knowledge_file
         
-        print(knoweldge_file_path)
-        print(knoweldge_file_path.exists())
-                
+                        
         if not knoweldge_file_path.exists():
             logger.warning(f"Knowledge file not found: {knoweldge_file_path}")
             raise HTTPException(
                 status_code=404, 
                 detail=f"Knowledge file '{role.knowledge_file}' not found."
             )
-            
-            
+             
         logger.info(f"Loading knowledge file: {knoweldge_file_path}")    
+        
+        knowledge_source  =  role.knowledge_file
+        
+        if is_knowledge_indexed(collection , knowledge_source):
+            logger.info(f"Knowledge already indexed: {knowledge_source}")
+        
+        else:    
+            logger.info(f"Knowledge not indexed. Creating embeddings for {knowledge_source}")
             
-        reader1 = PdfReader(knoweldge_file_path)
-        logger.info("Reading knowledge PDF.")        
-        
-        text1 = ""
-        
-        
-        for i, page in enumerate(reader1.pages):
-            logger.info(f"Reading knowledge PDF page {i + 1}")
-            page_text = page.extract_text()
+ 
+            reader1 = PdfReader(knoweldge_file_path)
+            logger.info("Reading knowledge PDF.")        
             
-            logger.info(f"Resume contains {len(reader1.pages)} pages.")
+            text1 = ""
+            
+            for i, page in enumerate(reader1.pages):
+                logger.info(f"Reading knowledge PDF page {i + 1}")
+                page_text = page.extract_text()
+                
+                logger.info(f"Resume contains {len(reader1.pages)} pages.")
 
-            # print("Extracted:", page_text is not None)
-            logger.info(f"Text extracted from page {i + 1}: {page_text is not None}")
+                # print("Extracted:", page_text is not None)
+                logger.info(f"Text extracted from page {i + 1}: {page_text is not None}")
 
-            if page_text:
-                text1 += page_text
+                if page_text:
+                    text1 += page_text
 
-        # print("Final Length:", len(text1))
-        
-        logger.info(f"Knowledge text extracted successfully. Total characters: {len(text1)}")
-        
-        
-        text_splitter  = RecursiveCharacterTextSplitter(
-            chunk_size = 100,
-            chunk_overlap = 0
-        )
-        
-        logger.info("Splitting knowledge into chunks.") 
-        
-               
-        
-        split_texts = text_splitter .split_text(text1)
-        
-        logger.info(f"Total chunks created: {len(split_texts)}")
-        
-        logger.info("Generating embeddings for knowledge chunks.")
-        
-        genrate_embedding = embedding(split_texts)
-        logger.info("Knowledge embeddings generated successfully.")
-        
-        logger.info("Storing embeddings in ChromaDB.")        
-        question_searching = collection.add(
-                ids=[str(uuid4()) for _ in split_texts],
-                documents=split_texts,
-                embeddings=genrate_embedding,
-                metadatas=[
-                    {
-                        "source": str(knoweldge_file_path),
-                        "chunk": i
-                    }
-                    for i in range(len(split_texts))
-                ]
+            # print("Final Length:", len(text1))
+            
+            logger.info(f"Knowledge text extracted successfully. Total characters: {len(text1)}")
+            
+            text_splitter  = RecursiveCharacterTextSplitter(
+                chunk_size = 100,
+                chunk_overlap = 0
             )
+            
+            logger.info("Splitting knowledge into chunks.") 
+            
+            split_texts = text_splitter .split_text(text1)
+            
+            logger.info(f"Total chunks created: {len(split_texts)}")
+            
+            logger.info("Generating embeddings for knowledge chunks.")
+            
+            genrate_embedding = embedding(split_texts)
+            logger.info("Knowledge embeddings generated successfully.")
+            
+            logger.info("Storing embeddings in ChromaDB.")        
+            question_searching = collection.add(
+                    ids=[str(uuid4()) for _ in split_texts],
+                    documents=split_texts,
+                    embeddings=genrate_embedding,
+                    metadatas=[
+                        {
+                            "source":  knowledge_source,
+                            "chunk": i
+                        }
+                        for i in range(len(split_texts))
+                    ]
+                )
 
-        logger.info("Knowledge stored in ChromaDB.")
+            logger.info("Knowledge stored in ChromaDB.")
 
-        logger.info("Knowledge embeddings stored successfully in vector database.")
+            logger.info("Knowledge embeddings stored successfully in vector database.")
         
         logger.info("Generating resume embedding.")
         resume_embedding = embedding([text])[0]
         logger.info("Resume embedding generated successfully.")       
         logger.info("Searching relevant knowledge from ChromaDB.") 
+        
         results = collection.query(
             query_embeddings= [resume_embedding],
-            n_results=5
+            n_results=5,
+            where={"source": knowledge_source}
         )
         
         retrieved_docs = results["documents"][0]
@@ -224,14 +233,6 @@ async def upload_resume(file: UploadFile = File(...)):
         # logger.info(f"Qwen Response:\n{analysis}")
         import json
 
-        # print("=" * 100)
-        # print(json.dumps(analysis, indent=2))
-        # print("=" * 100)
-        # analysis = json.loads(analysis)
-
-        # ---------------------------
-        # Save Analysis
-        # ---------------------------
         
         
         analysis_db = Analysis(
@@ -245,17 +246,12 @@ async def upload_resume(file: UploadFile = File(...)):
     f"{item['skill']} ({item['priority']}) - {item['reason']}"
     for item in analysis["missing_skills"]
 ),
-            # suggestions=", ".join(analysis["suggestions"]),
-    #         suggestions="\n".join(
-    # f"{item['title']} - {item['description']}"
-    # for item in analysis["suggestions"]),         
-            # learning_roadmap=analysis["learning_roadmap"],
+
             
             learning_roadmap="\n".join(
     f"Step {item['step']}: {item['title']} - {item['description']}"
     for item in analysis["learning_roadmap"]
 ),
-            # suggested_projects=", ".join(analysis["suggested_projects"]),
             suggested_projects="\n".join(
     f"{item['title']} - {item['description']}"
     for item in analysis["suggested_projects"]
@@ -263,12 +259,7 @@ async def upload_resume(file: UploadFile = File(...)):
             # estimated_timeline=", ".join(analysis["estimated_timeline"]),
             estimated_timeline=analysis["estimated_timeline"],
             action_plan=", ".join(analysis["action_plan"]),
-#             action_plan="\n".join(
-#     f"{item['title']} - {item['description']}"
-#     for item in analysis["action_plan"]
-# ),
-            
-            ## gamma 
+
             
         suggestions="\n".join(
     f"{item['title']} - {item['description']}"
