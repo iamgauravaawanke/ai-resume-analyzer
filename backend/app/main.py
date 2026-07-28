@@ -11,6 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from routers.analysis import router as analysis_router
 from routers.roles import router as roles_router
 from routers.roles_id import router as role_id_router
+from routers.learning_roadmap import router as learning_roadmap_router
 
 app = FastAPI()
 
@@ -34,6 +35,7 @@ app.include_router(analysis_router)
 app.include_router(upload_router)
 app.include_router(roles_router)
 app.include_router(role_id_router)
+app.include_router(learning_roadmap_router)
 
 
 if __name__=="__main__":

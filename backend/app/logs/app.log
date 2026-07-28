@@ -871,3 +871,193 @@ fastapi.exceptions.HTTPException: 404: Knowledge file 'Python_Developer.pdf' not
 2026-07-26 00:33:05,440 | INFO | upload_resume.py:277 | Saving analysis to database.
 2026-07-26 00:33:05,482 | INFO | upload_resume.py:287 | Analysis stored in database. Analysis ID: 60
 2026-07-26 00:33:05,482 | INFO | upload_resume.py:299 | Closing database session.
+2026-07-29 00:54:34,463 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 156
+2026-07-29 00:54:34,491 | WARNING | analysis.py:27 | Analysis not found. Analysis ID: 156
+2026-07-29 00:54:51,435 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-07-29 00:54:51,441 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-07-29 01:24:40,315 | INFO | upload_resume.py:54 | Resume upload request received.
+2026-07-29 01:24:40,320 | INFO | upload_resume.py:71 | Resume saved at: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\upload\iamgauravaawankee_ai_engineer.pdf
+2026-07-29 01:24:40,322 | INFO | upload_resume.py:73 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-29 01:24:40,505 | INFO | upload_resume.py:76 | Reading uploaded PDF.
+2026-07-29 01:24:41,044 | INFO | upload_resume.py:86 | Resume text extracted (3980 characters).
+2026-07-29 01:24:41,046 | INFO | upload_resume.py:89 | Opening database session.
+2026-07-29 01:24:41,051 | INFO | upload_resume.py:100 | Saving resume to database.
+2026-07-29 01:24:41,200 | INFO | upload_resume.py:105 | Resume stored in database. Resume ID: 158
+2026-07-29 01:24:41,202 | INFO | upload_resume.py:110 | Sending resume to Qwen for analysis.
+2026-07-29 01:24:41,203 | INFO | upload_resume.py:116 | Fetching role with ID: 5
+2026-07-29 01:24:41,215 | INFO | upload_resume.py:125 | Role selected: AI Engineer
+2026-07-29 01:24:41,219 | INFO | upload_resume.py:140 | Loading knowledge file: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\knowledge\AI_Engineer.pdf
+2026-07-29 01:24:41,516 | INFO | upload_resume.py:145 | Knowledge already indexed: AI_Engineer.pdf
+2026-07-29 01:24:41,517 | INFO | upload_resume.py:206 | Generating resume embedding.
+2026-07-29 01:24:41,783 | ERROR | upload_resume.py:297 | Error while processing resume: 401 Client Error: Unauthorized for url: http://127.0.0.1:1234/v1/embeddings
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\routers\upload_resume.py", line 207, in upload_resume
+    resume_embedding = embedding([text])[0]
+                       ~~~~~~~~~^^^^^^^^
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\core\embedding.py", line 12, in embedding
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\myenv\Lib\site-packages\requests\models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://127.0.0.1:1234/v1/embeddings
+2026-07-29 01:24:41,792 | INFO | upload_resume.py:304 | Closing database session.
+2026-07-29 01:26:04,813 | INFO | upload_resume.py:54 | Resume upload request received.
+2026-07-29 01:26:04,817 | INFO | upload_resume.py:71 | Resume saved at: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\upload\iamgauravaawankee_ai_engineer.pdf
+2026-07-29 01:26:04,819 | INFO | upload_resume.py:73 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-29 01:26:04,909 | INFO | upload_resume.py:76 | Reading uploaded PDF.
+2026-07-29 01:26:05,433 | INFO | upload_resume.py:86 | Resume text extracted (3980 characters).
+2026-07-29 01:26:05,434 | INFO | upload_resume.py:89 | Opening database session.
+2026-07-29 01:26:05,440 | INFO | upload_resume.py:100 | Saving resume to database.
+2026-07-29 01:26:05,507 | INFO | upload_resume.py:105 | Resume stored in database. Resume ID: 159
+2026-07-29 01:26:05,507 | INFO | upload_resume.py:110 | Sending resume to Qwen for analysis.
+2026-07-29 01:26:05,508 | INFO | upload_resume.py:116 | Fetching role with ID: 5
+2026-07-29 01:26:05,517 | INFO | upload_resume.py:125 | Role selected: AI Engineer
+2026-07-29 01:26:05,518 | INFO | upload_resume.py:140 | Loading knowledge file: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\knowledge\AI_Engineer.pdf
+2026-07-29 01:26:05,698 | INFO | upload_resume.py:145 | Knowledge already indexed: AI_Engineer.pdf
+2026-07-29 01:26:05,699 | INFO | upload_resume.py:206 | Generating resume embedding.
+2026-07-29 01:26:05,722 | ERROR | upload_resume.py:297 | Error while processing resume: 401 Client Error: Unauthorized for url: http://127.0.0.1:1234/v1/embeddings
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\routers\upload_resume.py", line 207, in upload_resume
+    resume_embedding = embedding([text])[0]
+                       ~~~~~~~~~^^^^^^^^
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\core\embedding.py", line 12, in embedding
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\myenv\Lib\site-packages\requests\models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://127.0.0.1:1234/v1/embeddings
+2026-07-29 01:26:05,730 | INFO | upload_resume.py:304 | Closing database session.
+2026-07-29 01:27:23,869 | INFO | upload_resume.py:54 | Resume upload request received.
+2026-07-29 01:27:23,872 | INFO | upload_resume.py:71 | Resume saved at: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\upload\iamgauravaawankee_ai_engineer.pdf
+2026-07-29 01:27:23,873 | INFO | upload_resume.py:73 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-29 01:27:23,999 | INFO | upload_resume.py:76 | Reading uploaded PDF.
+2026-07-29 01:27:24,436 | INFO | upload_resume.py:86 | Resume text extracted (3980 characters).
+2026-07-29 01:27:24,436 | INFO | upload_resume.py:89 | Opening database session.
+2026-07-29 01:27:24,437 | INFO | upload_resume.py:100 | Saving resume to database.
+2026-07-29 01:27:24,450 | INFO | upload_resume.py:105 | Resume stored in database. Resume ID: 160
+2026-07-29 01:27:24,450 | INFO | upload_resume.py:110 | Sending resume to Qwen for analysis.
+2026-07-29 01:27:24,450 | INFO | upload_resume.py:116 | Fetching role with ID: 5
+2026-07-29 01:27:24,452 | INFO | upload_resume.py:125 | Role selected: AI Engineer
+2026-07-29 01:27:24,454 | INFO | upload_resume.py:140 | Loading knowledge file: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\knowledge\AI_Engineer.pdf
+2026-07-29 01:27:24,458 | INFO | upload_resume.py:145 | Knowledge already indexed: AI_Engineer.pdf
+2026-07-29 01:27:24,459 | INFO | upload_resume.py:206 | Generating resume embedding.
+2026-07-29 01:27:24,466 | ERROR | upload_resume.py:297 | Error while processing resume: 401 Client Error: Unauthorized for url: http://127.0.0.1:1234/v1/embeddings
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\routers\upload_resume.py", line 207, in upload_resume
+    resume_embedding = embedding([text])[0]
+                       ~~~~~~~~~^^^^^^^^
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\core\embedding.py", line 12, in embedding
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\myenv\Lib\site-packages\requests\models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://127.0.0.1:1234/v1/embeddings
+2026-07-29 01:27:24,473 | INFO | upload_resume.py:304 | Closing database session.
+2026-07-29 01:29:37,800 | INFO | upload_resume.py:54 | Resume upload request received.
+2026-07-29 01:29:37,801 | INFO | upload_resume.py:71 | Resume saved at: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\upload\iamgauravaawankee_ai_engineer.pdf
+2026-07-29 01:29:37,802 | INFO | upload_resume.py:73 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-29 01:29:37,853 | INFO | upload_resume.py:76 | Reading uploaded PDF.
+2026-07-29 01:29:38,021 | INFO | upload_resume.py:86 | Resume text extracted (3980 characters).
+2026-07-29 01:29:38,022 | INFO | upload_resume.py:89 | Opening database session.
+2026-07-29 01:29:38,024 | INFO | upload_resume.py:100 | Saving resume to database.
+2026-07-29 01:29:38,070 | INFO | upload_resume.py:105 | Resume stored in database. Resume ID: 161
+2026-07-29 01:29:38,070 | INFO | upload_resume.py:110 | Sending resume to Qwen for analysis.
+2026-07-29 01:29:38,071 | INFO | upload_resume.py:116 | Fetching role with ID: 5
+2026-07-29 01:29:38,075 | INFO | upload_resume.py:125 | Role selected: AI Engineer
+2026-07-29 01:29:38,075 | INFO | upload_resume.py:140 | Loading knowledge file: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\knowledge\AI_Engineer.pdf
+2026-07-29 01:29:38,165 | INFO | upload_resume.py:145 | Knowledge already indexed: AI_Engineer.pdf
+2026-07-29 01:29:38,165 | INFO | upload_resume.py:206 | Generating resume embedding.
+2026-07-29 01:29:38,174 | ERROR | upload_resume.py:297 | Error while processing resume: 401 Client Error: Unauthorized for url: http://127.0.0.1:1234/v1/embeddings
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\routers\upload_resume.py", line 207, in upload_resume
+    resume_embedding = embedding([text])[0]
+                       ~~~~~~~~~^^^^^^^^
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\core\embedding.py", line 12, in embedding
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\myenv\Lib\site-packages\requests\models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://127.0.0.1:1234/v1/embeddings
+2026-07-29 01:29:38,179 | INFO | upload_resume.py:304 | Closing database session.
+2026-07-29 01:30:11,567 | INFO | upload_resume.py:54 | Resume upload request received.
+2026-07-29 01:30:11,698 | INFO | upload_resume.py:71 | Resume saved at: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\upload\iamgauravaawankee1.4.pdf
+2026-07-29 01:30:11,699 | INFO | upload_resume.py:73 | Resume uploaded successfully: iamgauravaawankee1.4.pdf
+2026-07-29 01:30:14,946 | INFO | upload_resume.py:76 | Reading uploaded PDF.
+2026-07-29 01:30:15,086 | INFO | upload_resume.py:86 | Resume text extracted (4120 characters).
+2026-07-29 01:30:15,087 | INFO | upload_resume.py:89 | Opening database session.
+2026-07-29 01:30:15,088 | INFO | upload_resume.py:100 | Saving resume to database.
+2026-07-29 01:30:15,125 | INFO | upload_resume.py:105 | Resume stored in database. Resume ID: 162
+2026-07-29 01:30:15,126 | INFO | upload_resume.py:110 | Sending resume to Qwen for analysis.
+2026-07-29 01:30:15,126 | INFO | upload_resume.py:116 | Fetching role with ID: 5
+2026-07-29 01:30:15,129 | INFO | upload_resume.py:125 | Role selected: AI Engineer
+2026-07-29 01:30:15,130 | INFO | upload_resume.py:140 | Loading knowledge file: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\knowledge\AI_Engineer.pdf
+2026-07-29 01:30:15,200 | INFO | upload_resume.py:145 | Knowledge already indexed: AI_Engineer.pdf
+2026-07-29 01:30:15,201 | INFO | upload_resume.py:206 | Generating resume embedding.
+2026-07-29 01:30:15,212 | ERROR | upload_resume.py:297 | Error while processing resume: 401 Client Error: Unauthorized for url: http://127.0.0.1:1234/v1/embeddings
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\routers\upload_resume.py", line 207, in upload_resume
+    resume_embedding = embedding([text])[0]
+                       ~~~~~~~~~^^^^^^^^
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\core\embedding.py", line 20, in embedding
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\myenv\Lib\site-packages\requests\models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://127.0.0.1:1234/v1/embeddings
+2026-07-29 01:30:15,216 | INFO | upload_resume.py:304 | Closing database session.
+2026-07-29 01:32:08,217 | INFO | upload_resume.py:54 | Resume upload request received.
+2026-07-29 01:32:08,219 | INFO | upload_resume.py:71 | Resume saved at: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\upload\iamgauravaawankee_ai_engineer.pdf
+2026-07-29 01:32:08,219 | INFO | upload_resume.py:73 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-29 01:32:08,256 | INFO | upload_resume.py:76 | Reading uploaded PDF.
+2026-07-29 01:32:08,462 | INFO | upload_resume.py:86 | Resume text extracted (3980 characters).
+2026-07-29 01:32:08,462 | INFO | upload_resume.py:89 | Opening database session.
+2026-07-29 01:32:08,464 | INFO | upload_resume.py:100 | Saving resume to database.
+2026-07-29 01:32:08,489 | INFO | upload_resume.py:105 | Resume stored in database. Resume ID: 163
+2026-07-29 01:32:08,489 | INFO | upload_resume.py:110 | Sending resume to Qwen for analysis.
+2026-07-29 01:32:08,489 | INFO | upload_resume.py:116 | Fetching role with ID: 5
+2026-07-29 01:32:08,492 | INFO | upload_resume.py:125 | Role selected: AI Engineer
+2026-07-29 01:32:08,493 | INFO | upload_resume.py:140 | Loading knowledge file: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\knowledge\AI_Engineer.pdf
+2026-07-29 01:32:08,541 | INFO | upload_resume.py:145 | Knowledge already indexed: AI_Engineer.pdf
+2026-07-29 01:32:08,541 | INFO | upload_resume.py:206 | Generating resume embedding.
+2026-07-29 01:32:08,552 | ERROR | upload_resume.py:297 | Error while processing resume: 401 Client Error: Unauthorized for url: http://127.0.0.1:1234/v1/embeddings
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\routers\upload_resume.py", line 207, in upload_resume
+    resume_embedding = embedding([text])[0]
+                       ~~~~~~~~~^^^^^^^^
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\core\embedding.py", line 20, in embedding
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\myenv\Lib\site-packages\requests\models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://127.0.0.1:1234/v1/embeddings
+2026-07-29 01:32:08,555 | INFO | upload_resume.py:304 | Closing database session.
+2026-07-29 01:36:02,410 | INFO | upload_resume.py:54 | Resume upload request received.
+2026-07-29 01:36:02,412 | INFO | upload_resume.py:71 | Resume saved at: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\upload\iamgauravaawankee_ai_engineer.pdf
+2026-07-29 01:36:02,413 | INFO | upload_resume.py:73 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-07-29 01:36:02,452 | INFO | upload_resume.py:76 | Reading uploaded PDF.
+2026-07-29 01:36:02,665 | INFO | upload_resume.py:86 | Resume text extracted (3980 characters).
+2026-07-29 01:36:02,665 | INFO | upload_resume.py:89 | Opening database session.
+2026-07-29 01:36:02,668 | INFO | upload_resume.py:100 | Saving resume to database.
+2026-07-29 01:36:02,704 | INFO | upload_resume.py:105 | Resume stored in database. Resume ID: 164
+2026-07-29 01:36:02,704 | INFO | upload_resume.py:110 | Sending resume to Qwen for analysis.
+2026-07-29 01:36:02,704 | INFO | upload_resume.py:116 | Fetching role with ID: 5
+2026-07-29 01:36:02,709 | INFO | upload_resume.py:125 | Role selected: AI Engineer
+2026-07-29 01:36:02,710 | INFO | upload_resume.py:140 | Loading knowledge file: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\knowledge\AI_Engineer.pdf
+2026-07-29 01:36:02,812 | INFO | upload_resume.py:145 | Knowledge already indexed: AI_Engineer.pdf
+2026-07-29 01:36:02,812 | INFO | upload_resume.py:206 | Generating resume embedding.
+2026-07-29 01:36:05,855 | INFO | upload_resume.py:208 | Resume embedding generated successfully.
+2026-07-29 01:36:05,855 | INFO | upload_resume.py:209 | Searching relevant knowledge from ChromaDB.
+2026-07-29 01:36:05,874 | INFO | upload_resume.py:219 | Retrieved 5 relevant knowledge chunks.
+2026-07-29 01:36:05,874 | INFO | upload_resume.py:221 | Knowledge retrieval completed successfully.
+2026-07-29 01:36:05,874 | INFO | upload_resume.py:223 | Sending prompt to Qwen LLM.
+2026-07-29 01:37:24,530 | INFO | upload_resume.py:235 | AI response validated successfully.
+2026-07-29 01:37:24,530 | INFO | upload_resume.py:237 | LLM response cleaned successfully.
+2026-07-29 01:37:24,530 | INFO | upload_resume.py:240 | AI analysis completed.
+2026-07-29 01:37:24,531 | INFO | upload_resume.py:282 | Saving analysis to database.
+2026-07-29 01:37:24,575 | INFO | upload_resume.py:292 | Analysis stored in database. Analysis ID: 61
+2026-07-29 01:37:24,576 | INFO | upload_resume.py:304 | Closing database session.
+2026-07-29 01:40:11,007 | INFO | learning_roadmap.py:12 | Learning roadmap request received. Analysis ID: 61, Role ID: 5
+2026-07-29 01:40:11,009 | INFO | learning_roadmap_service.py:9 | Fetching analysis. Analysis ID: 61
+2026-07-29 01:40:11,009 | INFO | learning_roadmap_service.py:10 | Fetching Role. Role ID: 5
+2026-07-29 01:40:11,025 | INFO | learning_roadmap_service.py:42 | Analysis fetched successfully. Analysis ID: 61
+2026-07-29 01:40:11,025 | INFO | learning_roadmap_service.py:44 | Roles fetched successfully. Roles ID: 5

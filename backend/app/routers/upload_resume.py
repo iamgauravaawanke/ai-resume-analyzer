@@ -7,6 +7,7 @@ from core.logger import logger
 from core.embedding import embedding
 from database.database import SessionLocal
 from models.resume import Resume
+from models.roles import Role 
 from models.analysis import Analysis
 from services.ai_service import ask_llm
 from services.ai_validation import validate_ai_response
@@ -113,7 +114,9 @@ async def upload_resume(file: UploadFile = File(...)):
         role_id = 5
         
         logger.info(f"Fetching role with ID: {role_id}")
+        
         role = db.query(Role).filter(Role.role_id == role_id).first()
+        
         if not role:
             logger.warning(f"Role not found for role_id={role_id}")
             raise HTTPException(status_code=404 , detail="Role Not Found")
@@ -244,6 +247,8 @@ async def upload_resume(file: UploadFile = File(...)):
         
         analysis_db = Analysis(
             resume_id=resume.id,
+            role_id=role_id,   # Add this
+
             ats_score=analysis["ats_score"],
             summary=analysis["summary"],
             technical_skills=", ".join(analysis["technical_skills"]),
@@ -302,6 +307,8 @@ async def upload_resume(file: UploadFile = File(...)):
     return {
     "message": "Resume uploaded and analyzed successfully.",
     "resume_id": resume_id,
+    "role_id":role_id,   # Add this
+
     "analysis_id": analysis_id,
     "technical_skills":analysis["technical_skills"],
     "summary":analysis["summary"],
