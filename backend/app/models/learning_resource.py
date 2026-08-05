@@ -19,15 +19,10 @@ class Learning_Resource(Base):
     
     
     id = Column(Integer, primary_key=True, autoincrement=True, index=True)
-
-    skill = Column(String(255), nullable=False)
-
+    skill = Column(String(255) , nullable=False)
     resource_type = Column(Enum(ResourceType), nullable=False)
-
     title = Column(String(255), nullable=False)
-
     url = Column(String(500), nullable=False)
-
     created_at = Column(
         DateTime(timezone=True),
         server_default=func.now(),

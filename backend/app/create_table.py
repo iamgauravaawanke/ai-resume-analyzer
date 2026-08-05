@@ -1,5 +1,5 @@
 from database.database import Base , engine
-from models.Interview_Preparation import Interview_Preparation
+from models.learning_resource import Learning_Resource
 from models.roles import Role
 
 
