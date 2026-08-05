@@ -25,11 +25,7 @@ def learning_roadmap_service(analysis_id:int , roles_id:int):
           
           
           
-        roles = (
-                            db.query(Role)
-                            .filter(Role.role_id== roles_id)
-                            .first()
-                        )    
+        roles = ( db.query(Role).filter(Role.role_id== roles_id) .first() )    
                 
         if roles is None:
                     logger.warning(f"Roles not found. Analysis ID: {roles_id}")
