@@ -1,6 +1,7 @@
 from database.database import Base , engine
-from models.learning_resource import Learning_Resource
-from models.roles import Role
+from models.Learning_Progress import LearningProgress
+from models.analysis import Analysis
+from models.resume import Resume
 
 
 Base.metadata.create_all(bind=engine)
