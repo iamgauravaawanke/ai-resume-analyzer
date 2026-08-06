@@ -1,17 +1,16 @@
-from fastapi import FastAPI
-from database.database import Base, engine
 import uvicorn
-from models.resume import Resume
-from models.analysis import Analysis
-# from routers.upload_resume import resume_router
-
-from routers.upload_resume import router as upload_router
-
+from database.database import Base, engine
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from models.analysis import Analysis
+from models.resume import Resume
 from routers.analysis import router as analysis_router
+from routers.learning_roadmap import router as learning_roadmap_router
 from routers.roles import router as roles_router
 from routers.roles_id import router as role_id_router
-from routers.learning_roadmap import router as learning_roadmap_router
+
+# from routers.upload_resume import resume_router
+from routers.upload_resume import router as upload_router
 
 app = FastAPI()
 
