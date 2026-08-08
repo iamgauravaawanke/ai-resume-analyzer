@@ -1,0 +1,15 @@
+2026-08-07 00:25:15,838 | INFO | learning_roadmap.py:12 | Learning roadmap request received. Analysis ID: 27, Role ID: 5
+2026-08-07 00:25:15,839 | INFO | learning_roadmap_service.py:9 | Fetching analysis. Analysis ID: 27
+2026-08-07 00:25:15,839 | INFO | learning_roadmap_service.py:10 | Fetching Role. Role ID: 5
+2026-08-07 00:25:16,018 | INFO | learning_roadmap_service.py:38 | Analysis fetched successfully. Analysis ID: 27
+2026-08-07 00:25:16,018 | INFO | learning_roadmap_service.py:40 | Roles fetched successfully. Roles ID: 5
+2026-08-07 00:26:05,954 | INFO | learning_roadmap.py:12 | Learning roadmap request received. Analysis ID: 48, Role ID: 5
+2026-08-07 00:26:05,954 | INFO | learning_roadmap_service.py:9 | Fetching analysis. Analysis ID: 48
+2026-08-07 00:26:05,954 | INFO | learning_roadmap_service.py:10 | Fetching Role. Role ID: 5
+2026-08-07 00:26:05,958 | INFO | learning_roadmap_service.py:38 | Analysis fetched successfully. Analysis ID: 48
+2026-08-07 00:26:05,958 | INFO | learning_roadmap_service.py:40 | Roles fetched successfully. Roles ID: 5
+2026-08-07 00:29:17,455 | INFO | roles.py:15 | Fetching all Roles 
+2026-08-07 00:29:47,946 | INFO | roles_id.py:13 | Fetching Role. Role ID: 5
+2026-08-07 00:29:47,951 | INFO | roles_id.py:30 | Roles fetched successfully. Roles ID: 5
+2026-08-07 00:30:01,820 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 48
+2026-08-07 00:30:01,822 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 48

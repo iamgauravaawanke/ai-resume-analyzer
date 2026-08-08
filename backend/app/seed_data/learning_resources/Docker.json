@@ -1,0 +1,98 @@
+[
+  {
+    "skill": "Docker",
+    "resource_type": "DOCUMENTATION",
+    "title": "Docker Official Documentation",
+    "url": "https://docs.docker.com/"
+  },
+  {
+    "skill": "Docker",
+    "resource_type": "DOCUMENTATION",
+    "title": "Docker Get Started Guide",
+    "url": "https://docs.docker.com/get-started/"
+  },
+  {
+    "skill": "Docker",
+    "resource_type": "DOCUMENTATION",
+    "title": "Docker Guides",
+    "url": "https://docs.docker.com/guides/"
+  },
+  {
+    "skill": "Docker",
+    "resource_type": "VIDEO",
+    "title": "Docker Official YouTube Channel",
+    "url": "https://www.youtube.com/@Docker"
+  },
+  {
+    "skill": "Docker",
+    "resource_type": "VIDEO",
+    "title": "TechWorld with Nana - Docker Tutorial for Beginners",
+    "url": "https://www.youtube.com/@TechWorldwithNana"
+  },
+  {
+    "skill": "Docker",
+    "resource_type": "VIDEO",
+    "title": "freeCodeCamp.org - Docker Full Course",
+    "url": "https://www.youtube.com/@freecodecamp"
+  },
+  {
+    "skill": "Docker",
+    "resource_type": "GITHUB",
+    "title": "Docker Documentation Repository",
+    "url": "https://github.com/docker/docs"
+  },
+  {
+    "skill": "Docker",
+    "resource_type": "GITHUB",
+    "title": "Awesome Docker",
+    "url": "https://github.com/veggiemonk/awesome-docker"
+  },
+  {
+    "skill": "Docker",
+    "resource_type": "GITHUB",
+    "title": "Play with Docker Classroom",
+    "url": "https://github.com/play-with-docker/play-with-docker"
+  },
+  {
+    "skill": "Docker",
+    "resource_type": "OTHER",
+    "title": "Play with Docker",
+    "url": "https://labs.play-with-docker.com/"
+  },
+  {
+    "skill": "Docker",
+    "resource_type": "OTHER",
+    "title": "Docker Course Labs",
+    "url": "https://docker.courselabs.co/"
+  },
+  {
+    "skill": "Docker",
+    "resource_type": "OTHER",
+    "title": "Katacoda Docker Scenarios (O'Reilly)",
+    "url": "https://killercoda.com/"
+  },
+  {
+    "skill": "Docker",
+    "resource_type": "COURSE",
+    "title": "Docker Learning Paths",
+    "url": "https://www.docker.com/learning-paths/"
+  },
+  {
+    "skill": "Docker",
+    "resource_type": "COURSE",
+    "title": "Docker Curriculum",
+    "url": "https://docker-curriculum.com/"
+  },
+  {
+    "skill": "Docker",
+    "resource_type": "ARTICLE",
+    "title": "Docker Deep Dive",
+    "url": "https://www.amazon.com/Docker-Deep-Dive-Nigel-Poulton/dp/1837636058"
+  },
+  {
+    "skill": "Docker",
+    "resource_type": "ARTICLE",
+    "title": "Learn Docker in a Month of Lunches",
+    "url": "https://www.manning.com/books/learn-docker-in-a-month-of-lunches"
+  }
+]
