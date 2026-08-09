@@ -13,3 +13,19 @@
 2026-08-07 00:29:47,951 | INFO | roles_id.py:30 | Roles fetched successfully. Roles ID: 5
 2026-08-07 00:30:01,820 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 48
 2026-08-07 00:30:01,822 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 48
+2026-08-08 23:52:10,551 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 48
+2026-08-08 23:52:10,569 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 48
+2026-08-09 15:12:52,930 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 48
+2026-08-09 15:12:52,949 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 48
+2026-08-09 15:13:13,924 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 48
+2026-08-09 15:13:13,924 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 48
+2026-08-09 15:18:23,177 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 48
+2026-08-09 15:18:23,177 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 48
+2026-08-09 15:22:47,464 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 48
+2026-08-09 15:22:47,465 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 48
+2026-08-09 15:28:01,628 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 33
+2026-08-09 15:28:01,638 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 33
+2026-08-09 15:30:19,397 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 61
+2026-08-09 15:30:19,397 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 61
+2026-08-09 15:30:54,597 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 49
+2026-08-09 15:30:54,597 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 49

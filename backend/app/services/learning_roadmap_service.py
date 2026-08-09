@@ -1,7 +1,7 @@
-from models.analysis import Analysis
-from database.database import SessionLocal
 from core.logger import logger
-from fastapi import APIRouter,  HTTPException
+from database.database import SessionLocal
+from fastapi import APIRouter, HTTPException
+from models.analysis import Analysis
 from models.roles import Role
 
 
