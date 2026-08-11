@@ -45,11 +45,11 @@ def get_interview_preparation_service(role_id:int , skill:str ,  difficulty:str 
         
         for question in questions:
             response["questions"].append({
-                "id":question["id"],
-                "skill":question["skill"],
-                "question":question["question"],
-                "question_type":question["question_type"],
-                "difficulty":question["difficulty"]
+                 "id": question.id,
+        "skill": question.skill,
+        "question": question.question,
+        "question_type": question.question_type,
+        "difficulty": question.difficulty
                 
             })
         return response

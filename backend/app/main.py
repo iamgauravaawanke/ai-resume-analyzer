@@ -7,6 +7,7 @@ from models.resume import Resume
 from routers.analysis import router as analysis_router
 from routers.learning_resource import router as learning_Resources_router
 from routers.learning_roadmap import router as learning_roadmap_router
+from routers.interview_preparation import router as interview_preparation
 from routers.roles import router as roles_router
 from routers.roles_id import router as role_id_router
 
@@ -37,6 +38,7 @@ app.include_router(roles_router)
 app.include_router(role_id_router)
 app.include_router(learning_roadmap_router)
 app.include_router(learning_Resources_router)
+app.include_router(interview_preparation)
 
 if __name__=="__main__":
     uvicorn.run(app , port=8000)
