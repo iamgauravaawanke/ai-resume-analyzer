@@ -1,0 +1,212 @@
+[
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "What is FastAPI, and what are its main advantages over traditional Python web frameworks?",
+"question_type": "Theory",
+"difficulty": "Beginner"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "How do you create a basic GET endpoint in FastAPI?",
+"question_type": "Coding",
+"difficulty": "Beginner"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "Which HTTP methods are commonly used with FastAPI, and what is the purpose of each?",
+"question_type": "Theory",
+"difficulty": "Beginner"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "Which Pydantic model definition correctly validates a request body containing a required string field named 'username' and an optional integer field named 'age'?",
+"question_type": "MCQ",
+"difficulty": "Beginner"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "Write a FastAPI endpoint that accepts a path parameter named 'user_id' and returns it in a JSON response.",
+"question_type": "Coding",
+"difficulty": "Beginner"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "What is the difference between path parameters, query parameters, and request body parameters in FastAPI?",
+"question_type": "Theory",
+"difficulty": "Beginner"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "A client sends invalid data to an endpoint whose request body is defined with a Pydantic model. What does FastAPI normally return, and why?",
+"question_type": "Scenario",
+"difficulty": "Beginner"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "What is dependency injection in FastAPI, and why is Depends commonly used?",
+"question_type": "Theory",
+"difficulty": "Beginner"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "Which decorator is typically used to define a POST endpoint in FastAPI?",
+"question_type": "MCQ",
+"difficulty": "Beginner"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "How can you return a custom HTTP status code from a FastAPI endpoint?",
+"question_type": "Coding",
+"difficulty": "Beginner"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "How does FastAPI use Python type hints to validate and document API parameters?",
+"question_type": "Theory",
+"difficulty": "Intermediate"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "Write a Pydantic request model for creating a user with a required email address, password, and optional age, including basic validation constraints.",
+"question_type": "Coding",
+"difficulty": "Intermediate"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "Explain how response_model works in FastAPI and why it is useful for API design.",
+"question_type": "Theory",
+"difficulty": "Intermediate"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "You need to reuse the same database session dependency across multiple endpoints. How would you design this using FastAPI dependency injection?",
+"question_type": "Scenario",
+"difficulty": "Intermediate"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "What is the difference between def and async def endpoint functions in FastAPI, and when should each be used?",
+"question_type": "Theory",
+"difficulty": "Intermediate"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "Write an async FastAPI endpoint that waits for an asynchronous operation and returns the resulting data.",
+"question_type": "Coding",
+"difficulty": "Intermediate"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "Which statement about FastAPI's Depends mechanism is correct?",
+"question_type": "MCQ",
+"difficulty": "Intermediate"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "How would you implement centralized error handling for a specific exception type in FastAPI?",
+"question_type": "Coding",
+"difficulty": "Intermediate"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "How would you structure a FastAPI application into routers, services, models, schemas, and database modules as the project grows?",
+"question_type": "Scenario",
+"difficulty": "Intermediate"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "How can authentication and authorization be implemented in FastAPI using OAuth2 and JWT tokens?",
+"question_type": "Theory",
+"difficulty": "Intermediate"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "Design a FastAPI endpoint that authenticates a user with a JWT token and allows access only when the token is valid.",
+"question_type": "Coding",
+"difficulty": "Advanced"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "A FastAPI application uses async endpoints but performs slow blocking database and file operations inside them. Explain the performance problem and how you would address it.",
+"question_type": "Scenario",
+"difficulty": "Advanced"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "Explain how FastAPI middleware works and describe a practical use case such as request logging, timing, or adding security headers.",
+"question_type": "Theory",
+"difficulty": "Advanced"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "Write FastAPI middleware that measures the processing time of each request and adds the duration to a response header.",
+"question_type": "Coding",
+"difficulty": "Advanced"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "Which approach is most appropriate for testing a FastAPI endpoint that depends on an external service which should not be called during unit tests?",
+"question_type": "MCQ",
+"difficulty": "Advanced"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "How would you override a FastAPI dependency during testing, and why is dependency overriding useful?",
+"question_type": "Theory",
+"difficulty": "Advanced"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "You are building a production FastAPI API backed by PostgreSQL. The application receives hundreds of concurrent requests and some requests perform long-running operations. Design an approach for database connection management, asynchronous work, timeouts, and background processing.",
+"question_type": "Scenario",
+"difficulty": "Advanced"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "Design a versioned FastAPI REST API for managing orders, including resource naming, status codes, pagination, validation, and consistent error responses.",
+"question_type": "Scenario",
+"difficulty": "Advanced"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "How would you prepare a FastAPI application for production deployment, including process management, configuration, logging, security, health checks, and observability?",
+"question_type": "Theory",
+"difficulty": "Advanced"
+},
+{
+"role": "Backend Developer",
+"skill": "FastAPI",
+"question": "Write a FastAPI test that verifies a protected endpoint returns HTTP 401 when a valid authentication credential is not provided.",
+"question_type": "Coding",
+"difficulty": "Advanced"
+}
+]

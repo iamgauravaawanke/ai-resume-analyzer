@@ -1,59 +1,88 @@
+from database.database import SessionLocal
+from models.Interview_Preparation import Interview_Preparation
+from models.roles import Role
 import json
 
-from database.database import SessionLocal
-from models.learning_resource import Learning_Resource, ResourceType
 
-JSON_FILE = "seed_data/learning_resources/Docker.json"
+JSON_FILE = "seed_data/interview_preparation/FastApi.json"
 
 
 def seed_database():
+
     db = SessionLocal()
 
     try:
+
         with open(JSON_FILE, "r") as file:
             data = json.load(file)
 
         print(data, "data")
 
         for resource in data:
-            print("Seeding resource:", resource)
 
-            # Check for duplicate resource
-            existing_resource = (
-                db.query(Learning_Resource)
+            print("seeding resource:", resource)
+
+            # Find role
+            role = (
+                db.query(Role)
                 .filter(
-                    Learning_Resource.skill == resource["skill"],
-                    Learning_Resource.resource_type
-                    == ResourceType(resource["resource_type"]),
-                    Learning_Resource.url == resource["url"],
+                    Role.role_name == resource["role"]
+                )
+                .first()
+            )
+
+            if role is None:
+                print(
+                    f"Role not found: {resource['role']}. "
+                    f"Skipping question."
+                )
+                continue
+
+            # Check duplicate
+            existing_resource = (
+                db.query(Interview_Preparation)
+                .filter(
+                    Interview_Preparation.role_id == role.role_id,
+                    Interview_Preparation.skill == resource["skill"],
+                    Interview_Preparation.question == resource["question"]
                 )
                 .first()
             )
 
             if existing_resource:
-                # Resource already exists, so skip it
+                print(
+                    "Question already exists, skipping:",
+                    resource["question"]
+                )
                 continue
 
-            # Create new resource
-            new_resource = Learning_Resource(
+            # Create new interview question
+            new_resource = Interview_Preparation(
+                role_id=role.role_id,
                 skill=resource["skill"],
-                resource_type=ResourceType(resource["resource_type"]),
-                title=resource["title"],
-                url=resource["url"],
+                question=resource["question"],
+                question_type=resource["question_type"],
+                difficulty=resource["difficulty"]
             )
 
             db.add(new_resource)
 
-        # Commit all resources at once
         db.commit()
 
         print("Database seeding completed successfully.")
 
+
     except Exception as e:
+
         db.rollback()
-        print("Error while seeding database:", e)
+
+        print(
+            "Error while seeding database:",
+            e
+        )
 
     finally:
+
         db.close()
 
 
