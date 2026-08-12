@@ -69,3 +69,27 @@ TypeError: 'Interview_Preparation' object is not subscriptable
 2026-08-12 01:22:08,097 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
 2026-08-12 01:22:08,099 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
 2026-08-12 01:22:08,109 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-12 22:21:40,175 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-12 22:21:40,181 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-12 22:21:40,190 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-12 22:22:13,684 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: FastAPI, Difficulty: None, Question Type: None
+2026-08-12 22:22:13,685 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:FastAPI , difficulty:None , question_type:None
+2026-08-12 22:22:13,687 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-12 22:22:48,496 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: FastAPI, Difficulty: Beginner, Question Type: None
+2026-08-12 22:22:48,497 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:FastAPI , difficulty:Beginner , question_type:None
+2026-08-12 22:22:48,498 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-12 22:23:18,451 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: Beginner, Question Type: None
+2026-08-12 22:23:18,451 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:Beginner , question_type:None
+2026-08-12 22:23:18,453 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-12 22:23:41,468 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: Beginner, Question Type: Coding
+2026-08-12 22:23:41,468 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:Beginner , question_type:Coding
+2026-08-12 22:23:41,468 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-12 22:24:14,481 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: Coding
+2026-08-12 22:24:14,481 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:Coding
+2026-08-12 22:24:14,483 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-12 22:24:25,947 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: Advanced, Question Type: Coding
+2026-08-12 22:24:25,947 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:Advanced , question_type:Coding
+2026-08-12 22:24:25,947 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-12 22:24:41,543 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: FastAPI, Difficulty: Advanced, Question Type: Coding
+2026-08-12 22:24:41,544 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:FastAPI , difficulty:Advanced , question_type:Coding
+2026-08-12 22:24:41,544 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
