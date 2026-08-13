@@ -12,11 +12,11 @@ class LearningProgress(Base):
     resume_id = Column(
     Integer,
     ForeignKey("resume.id"),
-    nullable=False
+    nullable=True
 )
     progress = Column(
         Integer,
-        nullable=False,
+        nullable=True,
         default=0
     )  # Percentage (0-100)
     
@@ -27,19 +27,19 @@ class LearningProgress(Base):
 
     current_learning_stage = Column(
         String(100),
-        nullable=False
+        nullable=True
     )  # Beginner, Intermediate, Advanced
 
     created_at = Column(
         DateTime(timezone=True),
         server_default=func.now(),
-        nullable=False
+        nullable=True
     )
 
     updated_at = Column(
         DateTime(timezone=True),
         server_default=func.now(),
         onupdate=func.now(),
-        nullable=False
+        nullable=True
     )
     

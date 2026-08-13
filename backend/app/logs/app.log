@@ -93,3 +93,116 @@ TypeError: 'Interview_Preparation' object is not subscriptable
 2026-08-12 22:24:41,543 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: FastAPI, Difficulty: Advanced, Question Type: Coding
 2026-08-12 22:24:41,544 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:FastAPI , difficulty:Advanced , question_type:Coding
 2026-08-12 22:24:41,544 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-13 23:43:28,244 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 164
+2026-08-13 23:43:28,246 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 164
+2026-08-13 23:43:28,283 | ERROR | progress_tracking_service.py:58 | Error fetching progress for Resume ID 164: (psycopg2.errors.NotNullViolation) null value in column "current_learning_stage" of relation "learning_progress" violates not-null constraint
+DETAIL:  Failing row contains (1, 164, 0, null, null, 2026-08-13 23:43:28.264632+05:30, 2026-08-13 23:43:28.264632+05:30).
+
+[SQL: INSERT INTO learning_progress (resume_id, progress, completed_skill, current_learning_stage) VALUES (%(resume_id)s, %(progress)s, %(completed_skill)s, %(current_learning_stage)s) RETURNING learning_progress.id, learning_progress.created_at, learning_progress.updated_at]
+[parameters: {'resume_id': 164, 'progress': 0, 'completed_skill': None, 'current_learning_stage': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.NotNullViolation: null value in column "current_learning_stage" of relation "learning_progress" violates not-null constraint
+DETAIL:  Failing row contains (1, 164, 0, null, null, 2026-08-13 23:43:28.264632+05:30, 2026-08-13 23:43:28.264632+05:30).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\services\progress_tracking_service.py", line 42, in get_progress
+    db.commit()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 2035, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 1316, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 1290, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4353, in flush
+    self._flush(objects)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4488, in _flush
+    with util.safe_reraise():
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4449, in _flush
+    flush_context.execute()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 465, in execute
+    rec.execute(self)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1234, in _emit_insert_statements
+    result = connection.execute(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.NotNullViolation) null value in column "current_learning_stage" of relation "learning_progress" violates not-null constraint
+DETAIL:  Failing row contains (1, 164, 0, null, null, 2026-08-13 23:43:28.264632+05:30, 2026-08-13 23:43:28.264632+05:30).
+
+[SQL: INSERT INTO learning_progress (resume_id, progress, completed_skill, current_learning_stage) VALUES (%(resume_id)s, %(progress)s, %(completed_skill)s, %(current_learning_stage)s) RETURNING learning_progress.id, learning_progress.created_at, learning_progress.updated_at]
+[parameters: {'resume_id': 164, 'progress': 0, 'completed_skill': None, 'current_learning_stage': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-08-13 23:49:45,455 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 164
+2026-08-13 23:49:45,456 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 164
+2026-08-13 23:54:06,713 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 164
+2026-08-13 23:54:06,714 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 164
+2026-08-13 23:59:57,907 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: FastApi, Difficulty: Advanced, Question Type: Coding
+2026-08-13 23:59:57,907 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:FastApi , difficulty:Advanced , question_type:Coding
+2026-08-13 23:59:57,920 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-14 00:00:09,304 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 4, Skill: FastApi, Difficulty: Advanced, Question Type: Coding
+2026-08-14 00:00:09,305 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:4 , skill:FastApi , difficulty:Advanced , question_type:Coding
+2026-08-14 00:00:09,308 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 4
+2026-08-14 00:01:15,604 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 4, Skill: FastApi, Difficulty: Intermediate, Question Type: Coding
+2026-08-14 00:01:15,604 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:4 , skill:FastApi , difficulty:Intermediate , question_type:Coding
+2026-08-14 00:01:15,606 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 4
+2026-08-14 00:01:21,791 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: FastApi, Difficulty: Intermediate, Question Type: Coding
+2026-08-14 00:01:21,792 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:FastApi , difficulty:Intermediate , question_type:Coding
+2026-08-14 00:01:21,793 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-14 00:01:28,626 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: FastApi, Difficulty: None, Question Type: None
+2026-08-14 00:01:28,626 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:FastApi , difficulty:None , question_type:None
+2026-08-14 00:01:28,628 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-14 00:01:42,342 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 4, Skill: FastApi, Difficulty: None, Question Type: None
+2026-08-14 00:01:42,342 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:4 , skill:FastApi , difficulty:None , question_type:None
+2026-08-14 00:01:42,344 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 4
+2026-08-14 00:01:48,637 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: FastApi, Difficulty: None, Question Type: None
+2026-08-14 00:01:48,637 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:FastApi , difficulty:None , question_type:None
+2026-08-14 00:01:48,639 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-14 00:03:03,225 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: FastAPI, Difficulty: None, Question Type: None
+2026-08-14 00:03:03,227 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:FastAPI , difficulty:None , question_type:None
+2026-08-14 00:03:03,228 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-14 00:03:37,611 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 164
+2026-08-14 00:03:37,612 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 164
+2026-08-14 00:04:12,525 | INFO | progress_tracking.py:48 | Progress reset request received. Resume ID: 1694
+2026-08-14 00:04:12,526 | INFO | progress_tracking_service.py:74 | Resetting progress for Resume ID: 1694
+2026-08-14 00:04:19,013 | INFO | progress_tracking.py:48 | Progress reset request received. Resume ID: 164
+2026-08-14 00:04:19,013 | INFO | progress_tracking_service.py:74 | Resetting progress for Resume ID: 164
