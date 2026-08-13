@@ -1,6 +1,6 @@
 from database.database import Base
-from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, Enum, Text,func
 from models.analysis import Analysis
+from sqlalchemy import Column, DateTime, Enum, ForeignKey, Integer, String, Text, func
 
 
 class LearningProgress(Base):
