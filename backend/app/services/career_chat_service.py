@@ -1,36 +1,77 @@
+from core.llm import ask_qwen
 from core.logger import logger
 from database.database import SessionLocal
 from fastapi import APIRouter, HTTPException
 from models.analysis import Analysis
+from models.CareerChat import CareerChat
+from models.roles import Role
 
 
-def get_analysis(resume_id:int):
-    logger.info(f"Fetching  analysis i=using this resume_id {resume_id}")
-    
+def get_analysis(resume_id: int):
+
+    logger.info(
+        f"Fetching analysis using Resume ID: {resume_id}"
+    )
+
     db = SessionLocal()
+
     try:
+
         analysis = (
-            db.query(Analysis).filter(Analysis.resume_id==resume_id).first()
+            db.query(Analysis)
+            .filter(Analysis.resume_id == resume_id)
+            .first()
         )
+
         if analysis is None:
+
             logger.warning(
-                f"Analysis not found for Resume ID: {resume_id}")
-            
-            raise HTTPException (
-                status_code=404,
-                detail="Analysis Not Found"
+                f"Analysis not found for Resume ID: {resume_id}"
             )
-        
-        logger.info(f"analaysis  found for this resume_id and resume{resume_id}") 
-        
-        return analysis
+
+            raise HTTPException(
+                status_code=404,
+                detail="Analysis not found"
+            )
+
+        # Get role_id from the Analysis record
+        role_id = analysis.role_id
+
+        role = (
+            db.query(Role)
+            .filter(Role.role_id == role_id)
+            .first()
+        )
+
+        if role is None:
+
+            logger.warning(
+                f"Role not found for Role ID: {role_id}"
+            )
+
+            raise HTTPException(
+                status_code=404,
+                detail="Role not found"
+            )
+
+        logger.info(
+            f"Analysis and Role found successfully. "
+            f"Resume ID: {resume_id}, "
+            f"Role: {role.role_name}"
+        )
+
+        return analysis, role
+
     except HTTPException:
         raise
+
     except Exception as e:
-        
+
+        db.rollback()
+
         logger.exception(
             f"Error fetching analysis for "
-            f"resume_id {resume_id}: {e}"
+            f"Resume ID {resume_id}: {e}"
         )
 
         raise HTTPException(
@@ -38,11 +79,10 @@ def get_analysis(resume_id:int):
             detail="Failed to fetch analysis"
         )
 
-        
     finally:
-        db.close()    
+        db.close()   
         
-def build_career_context(analysis):
+def build_career_context(analysis ,role):
     
     logger.info(
         f"Building career context for analysis ID: {analysis.id}"
@@ -50,6 +90,7 @@ def build_career_context(analysis):
 
     career_context = {
         "role_id": analysis.role_id,
+        "role": role.role_name,
         "summary": analysis.summary,
         "technical_skills": analysis.technical_skills,
         "soft_skills": analysis.soft_skills,
@@ -67,3 +108,107 @@ def build_career_context(analysis):
     )
 
     return career_context  
+
+def call_ai(career_context, user_message):
+
+    logger.info("AI career chat request started.")
+
+    role = career_context["role"]
+
+    prompt = f"""
+You are an AI Career Coach for a {role}.
+
+Use the following career context to answer the user's question.
+
+Career Context:
+{career_context}
+
+User Message:
+{user_message}
+
+Give a clear, practical, and personalized answer based on the career context.
+"""
+
+    logger.info(
+        f"Sending career context to AI for role: {role}"
+    )
+
+    try:
+
+        ai_response = ask_qwen(prompt)
+
+        logger.info(
+            "AI career chat response received successfully."
+        )
+
+        return ai_response
+
+    except Exception as e:
+
+        logger.exception(
+            f"Error while calling AI service: {e}"
+        )
+
+        raise
+def save_chat_history(resume_id:int , user_message:str , ai_response:str):
+    logger.info(f"save chat history function started ")
+    
+    db = SessionLocal()
+    try:
+        chat = CareerChat(
+            resume_id = resume_id,
+            user_message = user_message,
+            ai_response = ai_response
+        )
+        db.add(chat)
+        db.commit()
+        db.refresh(chat)
+        
+        logger.info("Carrer Chat saved sussfully"
+                    f" for this resume_id : {resume_id}")
+        
+        return chat
+    
+    except Exception as e:
+        db.rollback()
+        logger.exception(f"Error occur during saving carrer chat in db "
+                         f"for Resume_id : {resume_id}: {e}" 
+                         )
+        
+        raise HTTPException(
+            status_code = 500, 
+            detail = "Failed to saved carrer chat"
+        )
+    finally:
+        db.close()
+            
+def send_message(resume_id, user_message):
+    
+    logger.info(
+        f"Send message started for Resume ID: {resume_id}"
+    )
+
+    analysis, role = get_analysis(resume_id)
+
+    career_context = build_career_context(
+        analysis,
+        role
+    )
+
+    ai_response = call_ai(
+        career_context,
+        user_message
+    )
+
+    saved_chat = save_chat_history(
+        resume_id,
+        user_message,
+        ai_response
+    )
+
+    logger.info(
+        f"Career chat completed for Resume ID: {resume_id}"
+    )
+
+    return saved_chat
+                     
