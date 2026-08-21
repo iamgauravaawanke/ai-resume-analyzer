@@ -212,3 +212,46 @@ def send_message(resume_id, user_message):
 
     return saved_chat
                      
+
+def  get_chat_history(resume_id):
+    logger.info("Inside Get Chat History Function")
+    
+    db = SessionLocal()
+    try:
+        chats = db.query(CareerChat).filter(CareerChat.resume_id==resume_id).order_by(CareerChat.created_at.asc()).all() 
+        
+        logger.info(
+            f"Found {len(chats)} chat records "
+            f"for Resume ID: {resume_id}")
+        
+        history = []
+        
+        for chat in chats:
+
+            history.append({
+                "user_message": chat.user_message,
+                "ai_response": chat.ai_response
+            })
+
+        return {
+            "resume_id": resume_id,
+            "history": history
+        }
+
+    except Exception as e:
+
+        db.rollback()
+
+        logger.exception(
+            f"Error fetching career chat history "
+            f"for Resume ID {resume_id}: {e}"
+        )
+
+        raise HTTPException(
+            status_code=500,
+            detail="Failed to fetch career chat history"
+        )
+
+    finally:
+
+        db.close()

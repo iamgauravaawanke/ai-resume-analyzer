@@ -206,3 +206,39 @@ DETAIL:  Failing row contains (1, 164, 0, null, null, 2026-08-13 23:43:28.264632
 2026-08-14 00:04:12,526 | INFO | progress_tracking_service.py:74 | Resetting progress for Resume ID: 1694
 2026-08-14 00:04:19,013 | INFO | progress_tracking.py:48 | Progress reset request received. Resume ID: 164
 2026-08-14 00:04:19,013 | INFO | progress_tracking_service.py:74 | Resetting progress for Resume ID: 164
+2026-08-21 23:22:07,374 | INFO | roles_id.py:13 | Fetching Role. Role ID: 4
+2026-08-21 23:22:07,376 | INFO | roles_id.py:30 | Roles fetched successfully. Roles ID: 4
+2026-08-21 23:25:09,921 | INFO | career_chat.py:19 | Career Chat Request Received. Resume ID: 169
+2026-08-21 23:25:09,921 | INFO | career_chat_service.py:187 | Send message started for Resume ID: 169
+2026-08-21 23:25:09,921 | INFO | career_chat_service.py:12 | Fetching analysis using Resume ID: 169
+2026-08-21 23:25:09,936 | WARNING | career_chat_service.py:28 | Analysis not found for Resume ID: 169
+2026-08-21 23:25:40,989 | INFO | career_chat.py:19 | Career Chat Request Received. Resume ID: 164
+2026-08-21 23:25:40,989 | INFO | career_chat_service.py:187 | Send message started for Resume ID: 164
+2026-08-21 23:25:40,989 | INFO | career_chat_service.py:12 | Fetching analysis using Resume ID: 164
+2026-08-21 23:25:40,997 | INFO | career_chat_service.py:57 | Analysis and Role found successfully. Resume ID: 164, Role: AI Engineer
+2026-08-21 23:25:40,997 | INFO | career_chat_service.py:87 | Building career context for analysis ID: 61
+2026-08-21 23:25:40,998 | INFO | career_chat_service.py:105 | Career context built successfully for analysis ID: 61
+2026-08-21 23:25:40,998 | INFO | career_chat_service.py:114 | AI career chat request started.
+2026-08-21 23:25:40,998 | INFO | career_chat_service.py:132 | Sending career context to AI for role: AI Engineer
+2026-08-21 23:26:18,014 | INFO | career_chat_service.py:140 | AI career chat response received successfully.
+2026-08-21 23:26:18,014 | INFO | career_chat_service.py:154 | save chat history function started 
+2026-08-21 23:26:18,038 | INFO | career_chat_service.py:167 | Carrer Chat saved sussfully for this resume_id : 164
+2026-08-21 23:26:18,038 | INFO | career_chat_service.py:209 | Career chat completed for Resume ID: 164
+2026-08-21 23:29:20,180 | INFO | career_chat.py:19 | Career Chat Request Received. Resume ID: 164
+2026-08-21 23:29:20,181 | INFO | career_chat_service.py:187 | Send message started for Resume ID: 164
+2026-08-21 23:29:20,181 | INFO | career_chat_service.py:12 | Fetching analysis using Resume ID: 164
+2026-08-21 23:29:20,186 | INFO | career_chat_service.py:57 | Analysis and Role found successfully. Resume ID: 164, Role: AI Engineer
+2026-08-21 23:29:20,187 | INFO | career_chat_service.py:87 | Building career context for analysis ID: 61
+2026-08-21 23:29:20,187 | INFO | career_chat_service.py:105 | Career context built successfully for analysis ID: 61
+2026-08-21 23:29:20,192 | INFO | career_chat_service.py:114 | AI career chat request started.
+2026-08-21 23:29:20,192 | INFO | career_chat_service.py:132 | Sending career context to AI for role: AI Engineer
+2026-08-21 23:29:49,387 | INFO | career_chat_service.py:140 | AI career chat response received successfully.
+2026-08-21 23:29:49,387 | INFO | career_chat_service.py:154 | save chat history function started 
+2026-08-21 23:29:49,391 | INFO | career_chat_service.py:167 | Carrer Chat saved sussfully for this resume_id : 164
+2026-08-21 23:29:49,391 | INFO | career_chat_service.py:209 | Career chat completed for Resume ID: 164
+2026-08-21 23:50:17,468 | INFO | career_chat.py:32 | Career Chat History Request Received. Resume ID: 164
+2026-08-21 23:50:17,469 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-08-21 23:50:17,483 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 164
+2026-08-21 23:50:25,640 | INFO | career_chat.py:32 | Career Chat History Request Received. Resume ID: 165
+2026-08-21 23:50:25,641 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-08-21 23:50:25,643 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 165
