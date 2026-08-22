@@ -1,10 +1,10 @@
+import json
+
 from database.database import SessionLocal
 from models.Interview_Preparation import Interview_Preparation
 from models.roles import Role
-import json
 
-
-JSON_FILE = "seed_data/interview_preparation/FastApi.json"
+JSON_FILE = "seed_data/interview_preparation/SQL.json"
 
 
 def seed_database():

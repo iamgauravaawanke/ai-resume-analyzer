@@ -1,0 +1,98 @@
+[
+  {
+    "skill": "RAG",
+    "resource_type": "DOCUMENTATION",
+    "title": "LlamaIndex RAG Documentation",
+    "url": "https://developers.llamaindex.ai/python/framework/understanding/rag/"
+  },
+  {
+    "skill": "RAG",
+    "resource_type": "DOCUMENTATION",
+    "title": "LlamaIndex RAG Guide",
+    "url": "https://developers.llamaindex.ai/python/framework/use_cases/q_and_a/"
+  },
+  {
+    "skill": "RAG",
+    "resource_type": "DOCUMENTATION",
+    "title": "LangChain Retrieval Documentation",
+    "url": "https://python.langchain.com/docs/concepts/retrieval/"
+  },
+  {
+    "skill": "RAG",
+    "resource_type": "VIDEO",
+    "title": "freeCodeCamp.org - RAG Full Course",
+    "url": "https://www.youtube.com/@freecodecamp"
+  },
+  {
+    "skill": "RAG",
+    "resource_type": "VIDEO",
+    "title": "LangChain - RAG Tutorials",
+    "url": "https://www.youtube.com/@LangChain"
+  },
+  {
+    "skill": "RAG",
+    "resource_type": "VIDEO",
+    "title": "LlamaIndex - RAG Tutorials",
+    "url": "https://www.youtube.com/@LlamaIndex"
+  },
+  {
+    "skill": "RAG",
+    "resource_type": "GITHUB",
+    "title": "LlamaIndex GitHub Repository",
+    "url": "https://github.com/run-llama/llama_index"
+  },
+  {
+    "skill": "RAG",
+    "resource_type": "GITHUB",
+    "title": "LangChain GitHub Repository",
+    "url": "https://github.com/langchain-ai/langchain"
+  },
+  {
+    "skill": "RAG",
+    "resource_type": "GITHUB",
+    "title": "RAG Techniques",
+    "url": "https://github.com/NirDiamant/RAG_Techniques"
+  },
+  {
+    "skill": "RAG",
+    "resource_type": "OTHER",
+    "title": "LlamaIndex RAG CLI",
+    "url": "https://developers.llamaindex.ai/python/framework/getting_started/starter_tools/rag_cli/"
+  },
+  {
+    "skill": "RAG",
+    "resource_type": "OTHER",
+    "title": "Hugging Face RAG Paper",
+    "url": "https://huggingface.co/papers/2005.11401"
+  },
+  {
+    "skill": "RAG",
+    "resource_type": "OTHER",
+    "title": "Pinecone Learn - Retrieval Augmented Generation",
+    "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/"
+  },
+  {
+    "skill": "RAG",
+    "resource_type": "COURSE",
+    "title": "DeepLearning.AI - Retrieval Augmented Generation",
+    "url": "https://www.deeplearning.ai/short-courses/retrieval-augmented-generation/"
+  },
+  {
+    "skill": "RAG",
+    "resource_type": "COURSE",
+    "title": "LlamaIndex Learn",
+    "url": "https://developers.llamaindex.ai/python/framework/understanding/rag/"
+  },
+  {
+    "skill": "RAG",
+    "resource_type": "ARTICLE",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "url": "https://arxiv.org/abs/2005.11401"
+  },
+  {
+    "skill": "RAG",
+    "resource_type": "ARTICLE",
+    "title": "Introduction to RAG",
+    "url": "https://developers.llamaindex.ai/python/framework/understanding/rag/"
+  }
+]

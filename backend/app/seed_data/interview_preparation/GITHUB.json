@@ -1,0 +1,214 @@
+
+[
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "What is GitHub, and how is it different from Git?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "What is a GitHub repository, and what information does it typically contain?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "Which Git command is commonly used to copy an existing GitHub repository to your local machine?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "Describe the steps required to create a new GitHub repository and push an existing local project to it.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "What is a commit in Git, and why is it important when working with GitHub?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "What is a branch in GitHub, and why would a developer create one?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "Write the Git commands needed to create a new branch, switch to it, and push it to GitHub.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "Which GitHub feature is commonly used to propose changes from one branch before merging them into another?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "What is a pull request, and what problem does it solve in a collaborative development workflow?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "You are working on a feature and want to keep your changes isolated from the main branch. How would you use GitHub branches to accomplish this?",
+    "question_type": "Scenario",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "What is a GitHub merge conflict, and why can it occur when merging branches?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "Describe how you would resolve a merge conflict locally and push the resolved changes back to GitHub.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "What is the difference between git merge and git rebase when working with GitHub branches?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "Which GitHub feature can automatically run tests and checks whenever code is pushed or a pull request is created?",
+    "question_type": "MCQ",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "What are GitHub Issues, and how can they be used for project management?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "Create a basic GitHub Actions workflow that runs Python tests whenever code is pushed to the repository.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "What is a .gitignore file, and why should backend projects commonly use one?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "A developer accidentally committed a .env file containing database credentials to a GitHub repository. What should they do immediately and what longer-term steps should they take?",
+    "question_type": "Scenario",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "Explain the difference between GitHub repository permissions such as read, triage, write, maintain, and admin.",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "How would you protect the main branch of a GitHub repository so that changes require pull requests and automated checks before merging?",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "What are GitHub Actions runners, workflows, jobs, and steps, and how are they related?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "Design a GitHub Actions workflow for a FastAPI backend that installs dependencies, runs linting, executes tests, and builds a Docker image.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "What is the difference between GitHub Secrets, repository variables, and environment variables in GitHub Actions?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "Which GitHub mechanism is most appropriate for securely storing sensitive values such as API keys used by GitHub Actions?",
+    "question_type": "MCQ",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "How would you design a GitHub branching and pull-request strategy for a backend team working on multiple features simultaneously?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "Explain GitHub Actions environments and how environment protection rules can be used when deploying an application to production.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "Design a CI/CD pipeline using GitHub Actions that tests a backend application, builds its Docker image, and deploys it after successful validation.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "A team frequently merges pull requests that pass local tests but break the production application. How would you improve the GitHub workflow to reduce this risk?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "How would you secure a production GitHub repository against accidental credential exposure, unauthorized changes, and unreviewed deployments?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "GitHub",
+    "question": "Explain how GitHub code review, branch protection, required status checks, CODEOWNERS, and repository permissions can work together to enforce engineering standards.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  }
+]
+

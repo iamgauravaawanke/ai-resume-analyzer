@@ -1,0 +1,213 @@
+
+[
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "What is Python, and what are its main features?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "What is the difference between a list, tuple, set, and dictionary in Python?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "Which of the following statements correctly creates a dictionary containing a key named 'name' with the value 'Gaurav'?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "Write a Python program that takes a list of numbers and returns the largest number.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "What is the difference between == and is in Python?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "How do if, elif, and else statements work in Python?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "Write a Python function that accepts a string and returns the number of vowels in the string.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "Which keyword is used to define a function in Python?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "What are mutable and immutable objects in Python? Give examples of each.",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "A Python program receives user input as a string but needs to perform arithmetic with it. How would you safely convert the input into an integer?",
+    "question_type": "Scenario",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "What is a list comprehension in Python, and when would you use one?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "Write a list comprehension that creates a list containing the squares of all even numbers from 1 to 20.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "What are *args and **kwargs, and when are they useful?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "Which statement about Python dictionaries is correct?",
+    "question_type": "MCQ",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "Explain how exception handling works using try, except, else, and finally.",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "Write a Python function that safely divides two numbers and handles division by zero.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "What is object-oriented programming in Python, and how do classes and objects work?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "You are creating a Python application where multiple classes need to share common behavior. How would inheritance help you design the application?",
+    "question_type": "Scenario",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "Write a Python class named BankAccount with methods for depositing and withdrawing money while preventing withdrawals greater than the available balance.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "What is the difference between shallow copy and deep copy in Python?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "Explain how Python generators work and how yield differs from return.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "Write a Python generator that produces Fibonacci numbers indefinitely.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "What are decorators in Python, and how do they work?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "Which statement correctly describes Python's Global Interpreter Lock (GIL)?",
+    "question_type": "MCQ",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "Explain the difference between multiprocessing, multithreading, and asyncio in Python and when each approach is appropriate.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "Write an asynchronous Python function that runs multiple independent asynchronous operations concurrently using asyncio.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "A Python backend application becomes slow when processing thousands of records. How would you investigate the performance problem and optimize the application?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "Explain Python context managers and how the with statement works.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "Design a Python application structure for a production backend that separates configuration, business logic, database access, API handlers, models, schemas, logging, and tests.",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Python",
+    "question": "How would you diagnose and prevent memory leaks or excessive memory usage in a long-running Python backend service?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  }
+]

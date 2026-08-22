@@ -1,0 +1,100 @@
+
+
+[
+  {
+    "skill": "SQL",
+    "resource_type": "DOCUMENTATION",
+    "title": "SQL Language Reference - PostgreSQL",
+    "url": "https://www.postgresql.org/docs/current/sql.html"
+  },
+  {
+    "skill": "SQL",
+    "resource_type": "DOCUMENTATION",
+    "title": "MySQL Reference Manual",
+    "url": "https://dev.mysql.com/doc/refman/8.4/en/"
+  },
+  {
+    "skill": "SQL",
+    "resource_type": "DOCUMENTATION",
+    "title": "SQLite Documentation",
+    "url": "https://www.sqlite.org/docs.html"
+  },
+  {
+    "skill": "SQL",
+    "resource_type": "VIDEO",
+    "title": "freeCodeCamp.org - SQL Full Course",
+    "url": "https://www.youtube.com/@freecodecamp"
+  },
+  {
+    "skill": "SQL",
+    "resource_type": "VIDEO",
+    "title": "Programming with Mosh - SQL Tutorial",
+    "url": "https://www.youtube.com/@programmingwithmosh"
+  },
+  {
+    "skill": "SQL",
+    "resource_type": "VIDEO",
+    "title": "Alex The Analyst - SQL Tutorials",
+    "url": "https://www.youtube.com/@AlexTheAnalyst"
+  },
+  {
+    "skill": "SQL",
+    "resource_type": "GITHUB",
+    "title": "SQL Style Guide",
+    "url": "https://github.com/mattm/sql-style-guide"
+  },
+  {
+    "skill": "SQL",
+    "resource_type": "GITHUB",
+    "title": "SQLPad",
+    "url": "https://github.com/sqlpad/sqlpad"
+  },
+  {
+    "skill": "SQL",
+    "resource_type": "GITHUB",
+    "title": "SQL Practice",
+    "url": "https://github.com/olcaytaner/SQL"
+  },
+  {
+    "skill": "SQL",
+    "resource_type": "OTHER",
+    "title": "SQLBolt",
+    "url": "https://sqlbolt.com/"
+  },
+  {
+    "skill": "SQL",
+    "resource_type": "OTHER",
+    "title": "SQLZoo",
+    "url": "https://sqlzoo.net/"
+  },
+  {
+    "skill": "SQL",
+    "resource_type": "OTHER",
+    "title": "W3Schools SQL Tutorial",
+    "url": "https://www.w3schools.com/sql/"
+  },
+  {
+    "skill": "SQL",
+    "resource_type": "COURSE",
+    "title": "SQL for Data Science - Coursera",
+    "url": "https://www.coursera.org/learn/sql-for-data-science"
+  },
+  {
+    "skill": "SQL",
+    "resource_type": "COURSE",
+    "title": "SQL Tutorial - Mode",
+    "url": "https://mode.com/sql-tutorial/"
+  },
+  {
+    "skill": "SQL",
+    "resource_type": "ARTICLE",
+    "title": "SQL Tutorial - W3Schools",
+    "url": "https://www.w3schools.com/sql/"
+  },
+  {
+    "skill": "SQL",
+    "resource_type": "ARTICLE",
+    "title": "SQL Tutorial - GeeksforGeeks",
+    "url": "https://www.geeksforgeeks.org/sql/sql-tutorial/"
+  }
+]

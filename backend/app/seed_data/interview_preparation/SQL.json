@@ -1,0 +1,212 @@
+[
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "What is SQL, and what is it used for?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "What is the difference between a database, table, row, and column?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "Which SQL statement is used to retrieve data from a table?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "Write an SQL query to retrieve all columns from a table named employees.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "What is the difference between WHERE and HAVING clauses in SQL?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "What are primary keys and foreign keys, and why are they important in relational databases?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "Write an SQL query to find all employees whose salary is greater than 50000.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "Which SQL command is used to add a new row to a table?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "Explain the purpose of INSERT, UPDATE, DELETE, and SELECT statements.",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "A query should return only employees from the IT department. Which SQL clause would you use to filter the rows?",
+    "question_type": "Scenario",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "What is a JOIN in SQL, and why is it used?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "Write an SQL query that joins customers and orders and returns each customer's name and order ID.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "What is the difference between INNER JOIN and LEFT JOIN?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "Which SQL function is commonly used to count the number of rows in a result set?",
+    "question_type": "MCQ",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "What is GROUP BY, and when would you use it?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "Write an SQL query to calculate the total number of orders for each customer.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "What is normalization, and what problem does it solve in relational database design?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "A query joining several large tables has become slow. What steps would you take to investigate and improve its performance?",
+    "question_type": "Scenario",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "Write an SQL query that returns the second-highest salary from an employees table.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "What are database indexes, and how can they improve query performance?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "What are SQL window functions, and how are they different from aggregate functions?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "Write an SQL query using ROW_NUMBER() to rank employees by salary within each department.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "Explain database transactions and the ACID properties.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "Which SQL feature is primarily used to prevent duplicate values in a column?",
+    "question_type": "MCQ",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "Explain the difference between a subquery, a common table expression (CTE), and a derived table.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "Write an SQL query using a CTE to calculate the average salary by department and return departments whose average salary is above 70000.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "A production application has a query that takes several seconds even though an index exists. How would you diagnose the problem?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "What is query execution planning, and how can EXPLAIN or EXPLAIN ANALYZE help optimize SQL queries?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "Design SQL tables for users, products, orders, and order_items while maintaining appropriate primary keys, foreign keys, constraints, and relationships.",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "question": "How would you safely handle concurrent transactions that update the same database records without causing data inconsistencies?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  }
+]

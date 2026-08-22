@@ -1,0 +1,98 @@
+[
+  {
+    "skill": "GitHub",
+    "resource_type": "DOCUMENTATION",
+    "title": "GitHub Docs",
+    "url": "https://docs.github.com/"
+  },
+  {
+    "skill": "GitHub",
+    "resource_type": "DOCUMENTATION",
+    "title": "GitHub Getting Started",
+    "url": "https://docs.github.com/en/get-started"
+  },
+  {
+    "skill": "GitHub",
+    "resource_type": "DOCUMENTATION",
+    "title": "GitHub Skills",
+    "url": "https://skills.github.com/"
+  },
+  {
+    "skill": "GitHub",
+    "resource_type": "VIDEO",
+    "title": "GitHub Official YouTube Channel",
+    "url": "https://www.youtube.com/@GitHub"
+  },
+  {
+    "skill": "GitHub",
+    "resource_type": "VIDEO",
+    "title": "freeCodeCamp.org - GitHub Course",
+    "url": "https://www.youtube.com/@freecodecamp"
+  },
+  {
+    "skill": "GitHub",
+    "resource_type": "VIDEO",
+    "title": "Traversy Media - GitHub Tutorials",
+    "url": "https://www.youtube.com/@TraversyMedia"
+  },
+  {
+    "skill": "GitHub",
+    "resource_type": "GITHUB",
+    "title": "GitHub CLI",
+    "url": "https://github.com/cli/cli"
+  },
+  {
+    "skill": "GitHub",
+    "resource_type": "GITHUB",
+    "title": "GitHub Docs Repository",
+    "url": "https://github.com/github/docs"
+  },
+  {
+    "skill": "GitHub",
+    "resource_type": "GITHUB",
+    "title": "GitHub Skills",
+    "url": "https://github.com/skills"
+  },
+  {
+    "skill": "GitHub",
+    "resource_type": "OTHER",
+    "title": "GitHub Learning Lab",
+    "url": "https://skills.github.com/"
+  },
+  {
+    "skill": "GitHub",
+    "resource_type": "OTHER",
+    "title": "GitHub Marketplace",
+    "url": "https://github.com/marketplace"
+  },
+  {
+    "skill": "GitHub",
+    "resource_type": "OTHER",
+    "title": "GitHub Changelog",
+    "url": "https://github.blog/changelog/"
+  },
+  {
+    "skill": "GitHub",
+    "resource_type": "COURSE",
+    "title": "GitHub Skills Courses",
+    "url": "https://skills.github.com/"
+  },
+  {
+    "skill": "GitHub",
+    "resource_type": "COURSE",
+    "title": "Introduction to GitHub - Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/modules/introduction-to-github/"
+  },
+  {
+    "skill": "GitHub",
+    "resource_type": "ARTICLE",
+    "title": "GitHub Flow",
+    "url": "https://docs.github.com/en/get-started/using-github/github-flow"
+  },
+  {
+    "skill": "GitHub",
+    "resource_type": "ARTICLE",
+    "title": "Understanding GitHub Actions",
+    "url": "https://docs.github.com/en/actions/about-github-actions/understanding-github-actions"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "skill": "Python",
+    "resource_type": "DOCUMENTATION",
+    "title": "Python Official Documentation",
+    "url": "https://docs.python.org/3/"
+  },
+  {
+    "skill": "Python",
+    "resource_type": "DOCUMENTATION",
+    "title": "Python Tutorial",
+    "url": "https://docs.python.org/3/tutorial/"
+  },
+  {
+    "skill": "Python",
+    "resource_type": "DOCUMENTATION",
+    "title": "Python Standard Library",
+    "url": "https://docs.python.org/3/library/"
+  },
+  {
+    "skill": "Python",
+    "resource_type": "VIDEO",
+    "title": "Python Official YouTube Channel",
+    "url": "https://www.youtube.com/@pythonlanguage"
+  },
+  {
+    "skill": "Python",
+    "resource_type": "VIDEO",
+    "title": "freeCodeCamp.org - Python Full Course",
+    "url": "https://www.youtube.com/@freecodecamp"
+  },
+  {
+    "skill": "Python",
+    "resource_type": "VIDEO",
+    "title": "Corey Schafer - Python Tutorials",
+    "url": "https://www.youtube.com/@Coreyms"
+  },
+  {
+    "skill": "Python",
+    "resource_type": "GITHUB",
+    "title": "Python Official GitHub Repository",
+    "url": "https://github.com/python/cpython"
+  },
+  {
+    "skill": "Python",
+    "resource_type": "GITHUB",
+    "title": "Awesome Python",
+    "url": "https://github.com/vinta/awesome-python"
+  },
+  {
+    "skill": "Python",
+    "resource_type": "GITHUB",
+    "title": "Python Developer Roadmap",
+    "url": "https://github.com/krishnakumarsekar/awesome-python"
+  },
+  {
+    "skill": "Python",
+    "resource_type": "OTHER",
+    "title": "Python Package Index",
+    "url": "https://pypi.org/"
+  },
+  {
+    "skill": "Python",
+    "resource_type": "OTHER",
+    "title": "Real Python",
+    "url": "https://realpython.com/"
+  },
+  {
+    "skill": "Python",
+    "resource_type": "OTHER",
+    "title": "Python Tutor",
+    "url": "https://pythontutor.com/"
+  },
+  {
+    "skill": "Python",
+    "resource_type": "COURSE",
+    "title": "Python for Everybody",
+    "url": "https://www.py4e.com/"
+  },
+  {
+    "skill": "Python",
+    "resource_type": "COURSE",
+    "title": "CS50's Introduction to Programming with Python",
+    "url": "https://cs50.harvard.edu/python/"
+  },
+  {
+    "skill": "Python",
+    "resource_type": "ARTICLE",
+    "title": "Python Programming: An Introduction to Computer Science",
+    "url": "https://runestone.academy/ns/books/published/thinkcspy/index.html"
+  },
+  {
+    "skill": "Python",
+    "resource_type": "ARTICLE",
+    "title": "Automate the Boring Stuff with Python",
+    "url": "https://automatetheboringstuff.com/"
+  }
+]

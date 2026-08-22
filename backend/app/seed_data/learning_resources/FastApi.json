@@ -1,0 +1,98 @@
+[
+  {
+    "skill": "FastAPI",
+    "resource_type": "DOCUMENTATION",
+    "title": "FastAPI Official Documentation",
+    "url": "https://fastapi.tiangolo.com/"
+  },
+  {
+    "skill": "FastAPI",
+    "resource_type": "DOCUMENTATION",
+    "title": "FastAPI Tutorial - User Guide",
+    "url": "https://fastapi.tiangolo.com/tutorial/"
+  },
+  {
+    "skill": "FastAPI",
+    "resource_type": "DOCUMENTATION",
+    "title": "FastAPI Advanced User Guide",
+    "url": "https://fastapi.tiangolo.com/advanced/"
+  },
+  {
+    "skill": "FastAPI",
+    "resource_type": "VIDEO",
+    "title": "FastAPI Official YouTube Channel",
+    "url": "https://www.youtube.com/@fastapi"
+  },
+  {
+    "skill": "FastAPI",
+    "resource_type": "VIDEO",
+    "title": "freeCodeCamp.org - FastAPI Course for Beginners",
+    "url": "https://www.youtube.com/watch?v=tLKKmouUams"
+  },
+  {
+    "skill": "FastAPI",
+    "resource_type": "VIDEO",
+    "title": "freeCodeCamp.org - Python API Development with FastAPI",
+    "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA"
+  },
+  {
+    "skill": "FastAPI",
+    "resource_type": "GITHUB",
+    "title": "FastAPI Official GitHub Repository",
+    "url": "https://github.com/fastapi/fastapi"
+  },
+  {
+    "skill": "FastAPI",
+    "resource_type": "GITHUB",
+    "title": "Full Stack FastAPI Template",
+    "url": "https://github.com/fastapi/full-stack-fastapi-template"
+  },
+  {
+    "skill": "FastAPI",
+    "resource_type": "GITHUB",
+    "title": "FastAPI People",
+    "url": "https://github.com/fastapi/fastapi-people"
+  },
+  {
+    "skill": "FastAPI",
+    "resource_type": "OTHER",
+    "title": "FastAPI Learn",
+    "url": "https://fastapi.tiangolo.com/learn/"
+  },
+  {
+    "skill": "FastAPI",
+    "resource_type": "OTHER",
+    "title": "FastAPI Release Notes",
+    "url": "https://fastapi.tiangolo.com/release-notes/"
+  },
+  {
+    "skill": "FastAPI",
+    "resource_type": "OTHER",
+    "title": "FastAPI Discussions",
+    "url": "https://github.com/fastapi/fastapi/discussions"
+  },
+  {
+    "skill": "FastAPI",
+    "resource_type": "COURSE",
+    "title": "FastAPI Official Tutorial",
+    "url": "https://fastapi.tiangolo.com/tutorial/"
+  },
+  {
+    "skill": "FastAPI",
+    "resource_type": "COURSE",
+    "title": "FastAPI Course for Beginners - freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=tLKKmouUams"
+  },
+  {
+    "skill": "FastAPI",
+    "resource_type": "ARTICLE",
+    "title": "FastAPI First Steps",
+    "url": "https://fastapi.tiangolo.com/tutorial/first-steps/"
+  },
+  {
+    "skill": "FastAPI",
+    "resource_type": "ARTICLE",
+    "title": "FastAPI Dependencies",
+    "url": "https://fastapi.tiangolo.com/tutorial/dependencies/"
+  }
+]

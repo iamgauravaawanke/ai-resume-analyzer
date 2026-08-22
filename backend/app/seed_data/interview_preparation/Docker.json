@@ -1,0 +1,213 @@
+
+[
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "What is Docker, and why is it commonly used in backend application development?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "What is a Docker image, and how is it different from a Docker container?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "Which command is commonly used to list running Docker containers?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "Write a basic Dockerfile for a Python application that installs dependencies and starts the application.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "What is a Dockerfile, and what is its purpose?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "What is the difference between docker build, docker run, and docker exec?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "Write Docker commands to build an image from a Dockerfile and run a container from that image.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "Which Dockerfile instruction is commonly used to specify the command that should run when a container starts?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "What is a Docker registry, and why is Docker Hub commonly used?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "Your Python application works locally but fails inside its Docker container. What basic things would you check first?",
+    "question_type": "Scenario",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "What is Docker Compose, and when would you use it?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "Write a Docker Compose configuration for a FastAPI application and PostgreSQL database.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "What is the difference between a Docker volume and a bind mount?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "Which Docker command is commonly used to view logs produced by a running container?",
+    "question_type": "MCQ",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "What is port mapping in Docker, and why is it required when exposing a containerized web application?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "Create a Dockerfile for a FastAPI application and configure it to expose the application's port.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "What are Docker networks, and how can containers communicate with each other?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "A FastAPI container cannot connect to a PostgreSQL container even though both containers are running. How would you diagnose and fix the networking problem?",
+    "question_type": "Scenario",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "How would you pass environment variables such as database credentials and API keys to a Dockerized application without hardcoding them into the image?",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "What is the purpose of a .dockerignore file, and how can it improve Docker image builds?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "What is a multi-stage Docker build, and why is it useful for production images?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "Design a production Dockerfile for a Python FastAPI application using a multi-stage build and a non-root user.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "Which Docker feature can be used to reduce the final image size by separating build dependencies from runtime dependencies?",
+    "question_type": "MCQ",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "Explain Docker image layers and how Docker's build cache can improve build performance.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "A production Docker container is consuming excessive CPU and memory. How would you investigate the issue and apply resource limits?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "Design a Docker Compose setup for a production-like backend containing FastAPI, PostgreSQL, Redis, and a background worker.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "How would you secure Docker containers in production, including image security, secrets, user permissions, networking, and resource limits?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "A Docker image works correctly in development but contains unnecessary packages, cached files, and sensitive configuration. How would you redesign the image-building process?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "How would you design a CI/CD pipeline that builds, scans, tags, stores, and deploys Docker images for a backend application?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Docker",
+    "question": "How would you troubleshoot a production container that repeatedly crashes after deployment, including checking logs, health checks, resource usage, configuration, and dependencies?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  }
+]

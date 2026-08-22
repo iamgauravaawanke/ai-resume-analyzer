@@ -1,0 +1,98 @@
+[
+  {
+    "skill": "React",
+    "resource_type": "DOCUMENTATION",
+    "title": "React Official Documentation",
+    "url": "https://react.dev/"
+  },
+  {
+    "skill": "React",
+    "resource_type": "DOCUMENTATION",
+    "title": "React Learn",
+    "url": "https://react.dev/learn"
+  },
+  {
+    "skill": "React",
+    "resource_type": "DOCUMENTATION",
+    "title": "React Reference",
+    "url": "https://react.dev/reference/react"
+  },
+  {
+    "skill": "React",
+    "resource_type": "VIDEO",
+    "title": "React Official YouTube Channel",
+    "url": "https://www.youtube.com/@reactjs"
+  },
+  {
+    "skill": "React",
+    "resource_type": "VIDEO",
+    "title": "freeCodeCamp.org - React Course",
+    "url": "https://www.youtube.com/@freecodecamp"
+  },
+  {
+    "skill": "React",
+    "resource_type": "VIDEO",
+    "title": "Traversy Media - React Tutorials",
+    "url": "https://www.youtube.com/@TraversyMedia"
+  },
+  {
+    "skill": "React",
+    "resource_type": "GITHUB",
+    "title": "React Official GitHub Repository",
+    "url": "https://github.com/facebook/react"
+  },
+  {
+    "skill": "React",
+    "resource_type": "GITHUB",
+    "title": "React Examples",
+    "url": "https://github.com/reactjs/react.dev"
+  },
+  {
+    "skill": "React",
+    "resource_type": "GITHUB",
+    "title": "Awesome React",
+    "url": "https://github.com/enaqx/awesome-react"
+  },
+  {
+    "skill": "React",
+    "resource_type": "OTHER",
+    "title": "React Blog",
+    "url": "https://react.dev/blog"
+  },
+  {
+    "skill": "React",
+    "resource_type": "OTHER",
+    "title": "React Community",
+    "url": "https://react.dev/community"
+  },
+  {
+    "skill": "React",
+    "resource_type": "OTHER",
+    "title": "React Developer Tools",
+    "url": "https://react.dev/learn/react-developer-tools"
+  },
+  {
+    "skill": "React",
+    "resource_type": "COURSE",
+    "title": "React Course - Scrimba",
+    "url": "https://scrimba.com/learn-react-c0e"
+  },
+  {
+    "skill": "React",
+    "resource_type": "COURSE",
+    "title": "React Tutorial - W3Schools",
+    "url": "https://www.w3schools.com/react/"
+  },
+  {
+    "skill": "React",
+    "resource_type": "ARTICLE",
+    "title": "Thinking in React",
+    "url": "https://react.dev/learn/thinking-in-react"
+  },
+  {
+    "skill": "React",
+    "resource_type": "ARTICLE",
+    "title": "React TypeScript Cheatsheet",
+    "url": "https://react-typescript-cheatsheet.netlify.app/"
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "What is PostgreSQL, and what are its main advantages over other relational databases?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "What is a database table, row, and column in PostgreSQL?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "Which SQL statement is used to create a new table in PostgreSQL?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "Write a PostgreSQL query to create a users table containing an integer primary key, username, email, and created_at columns.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "What is a primary key, and why is it important in PostgreSQL?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "What is the difference between VARCHAR, TEXT, INTEGER, BOOLEAN, and TIMESTAMP data types in PostgreSQL?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "Write a PostgreSQL query to insert a new user into a users table.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "Which command is used to retrieve data from a PostgreSQL table?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "What is the difference between DELETE, TRUNCATE, and DROP in PostgreSQL?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "A table contains thousands of users and you need to find users by email address. What PostgreSQL feature would you use to improve lookup performance?",
+    "question_type": "Scenario",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "What is a foreign key, and how does it establish a relationship between PostgreSQL tables?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "Write a PostgreSQL query that joins users and orders tables and returns each user's name along with their order IDs.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "What is the difference between INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "Which PostgreSQL feature is primarily used to automatically generate sequential numeric values for a column?",
+    "question_type": "MCQ",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "Explain database transactions and the purpose of COMMIT and ROLLBACK.",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "Write a PostgreSQL transaction that transfers money from one account to another and rolls back if an operation fails.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "What is normalization, and why is it useful when designing relational database schemas?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "A backend application frequently queries users by email and the query becomes slow as the table grows. How would you investigate and solve the problem?",
+    "question_type": "Scenario",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "Write a PostgreSQL query using GROUP BY and COUNT to find the number of orders placed by each user.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "What are database indexes, and what are the advantages and disadvantages of using them?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "Explain PostgreSQL's MVCC model and how it allows multiple transactions to work concurrently.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "Write a PostgreSQL query using a window function to rank employees by salary within each department.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "What is the difference between EXPLAIN and EXPLAIN ANALYZE in PostgreSQL?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "Which PostgreSQL index type is generally appropriate for equality and range queries on many standard data types?",
+    "question_type": "MCQ",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "Explain isolation levels in PostgreSQL and the types of concurrency problems they are designed to control.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "Design a PostgreSQL schema for an e-commerce system containing users, products, orders, and order items while maintaining appropriate relationships and constraints.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "A production PostgreSQL database has become slow after the application grew significantly. Explain how you would investigate query performance, indexes, locks, connections, and database statistics.",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "What is connection pooling, and why is it important for a high-concurrency backend application using PostgreSQL?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "Design an approach for safely handling concurrent updates to the same database record without accidentally overwriting another transaction's changes.",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "PostgreSQL",
+    "question": "How would you design PostgreSQL backup, restore, migration, monitoring, and disaster-recovery practices for a production backend system?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  }
+]

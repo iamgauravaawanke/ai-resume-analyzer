@@ -1,0 +1,212 @@
+[
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "What is React, and what are its main advantages for building web applications?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "What is a React component, and why are components important?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "Which syntax is commonly used in React to describe UI elements inside JavaScript?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "Write a simple React functional component that displays a heading saying 'Hello World'.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "What are props in React, and how are they used to pass data between components?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "What is state in React, and how is it different from props?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "Write a React component using useState that displays a counter and increments it when a button is clicked.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "Which React Hook is commonly used to manage local component state?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "Why does React require a key prop when rendering a list of elements?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "You need to display a list of users received from an API. How would you render the users dynamically in a React component?",
+    "question_type": "Scenario",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "What is the useEffect Hook, and when would you use it?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "Write a React component that fetches user data from an API when the component loads and displays the result.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "What is conditional rendering in React, and what are common ways to implement it?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "Which Hook is commonly used to perform side effects such as fetching data after rendering?",
+    "question_type": "MCQ",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "What is lifting state up in React, and why is it useful?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "Create a React component that receives a list of products as props and allows the user to filter products by name.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "What is React Context, and when would you use it instead of passing props through multiple component levels?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "A React application makes an API request every time a component re-renders, causing unnecessary network requests. How would you investigate and fix the problem?",
+    "question_type": "Scenario",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "Write a React form using controlled components that captures a user's name and email.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "What is the difference between controlled and uncontrolled components in React?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "What is React reconciliation, and how does React use the virtual DOM to update the UI efficiently?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "Design a React component that efficiently renders and filters thousands of records without causing unnecessary re-renders.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "Explain the difference between useMemo, useCallback, and React.memo and when each optimization can be useful.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "Which React optimization technique is primarily used to memoize the result of an expensive calculation?",
+    "question_type": "MCQ",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "A production React application has become slow because many components re-render whenever a user types into a form. How would you identify and reduce unnecessary renders?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "Explain how error boundaries work in React and when they should be used.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "Design a React application structure for a production project containing reusable components, pages, routing, API services, authentication, state management, and error handling.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "How would you securely handle authentication tokens and protected routes in a React frontend communicating with a backend API?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "Explain code splitting and lazy loading in React and how they can improve initial application load performance.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "React",
+    "question": "A React frontend communicates with a FastAPI backend and users report inconsistent loading, error, and authentication states. Design an approach for API state management, loading states, error handling, retries, and authentication.",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  }
+]

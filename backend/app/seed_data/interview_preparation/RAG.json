@@ -1,0 +1,213 @@
+
+[
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "What is Retrieval-Augmented Generation (RAG), and why is it useful for AI applications?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "What are the main components of a basic RAG pipeline?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "Which component of a RAG system is primarily responsible for finding relevant documents for a user query?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "Describe the basic steps required to build a RAG system from a collection of PDF documents.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "What are embeddings, and why are they used in RAG systems?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "What is a vector database, and what role does it play in a RAG pipeline?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "Write pseudocode or Python code showing the basic flow of splitting documents into chunks, creating embeddings, and storing them in a vector database.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "Which technique is commonly used to compare the semantic similarity between a query embedding and document embeddings?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "What is document chunking, and why is it usually necessary before storing documents in a vector database?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "A RAG application frequently returns irrelevant document passages even though the correct information exists in the knowledge base. What part of the pipeline would you investigate first?",
+    "question_type": "Scenario",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "What is the difference between document ingestion, retrieval, and generation in a RAG pipeline?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "Design a Python function that takes a user query, retrieves the top-k relevant chunks from a vector database, and sends them as context to an LLM.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "What factors should be considered when choosing a chunk size and chunk overlap for a RAG application?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "Which approach can improve retrieval when exact keyword matches are important as well as semantic similarity?",
+    "question_type": "MCQ",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "What is metadata filtering in a vector database, and why can it improve RAG retrieval?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "Implement a simple RAG retrieval function that filters documents by metadata such as source, category, or document type before performing semantic retrieval.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "What is the difference between similarity search and maximum marginal relevance (MMR) retrieval?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "Your RAG system retrieves three chunks containing almost identical information and misses another relevant chunk. How would you improve the retrieval strategy?",
+    "question_type": "Scenario",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "Write a prompt template that instructs an LLM to answer a question only using the retrieved context and to clearly indicate when the context does not contain the answer.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "What is the difference between a RAG system and fine-tuning an LLM?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "What are hybrid search and reranking, and how can they improve the quality of retrieved context?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "Design a production RAG pipeline that supports document ingestion, chunking, embeddings, vector storage, retrieval, reranking, LLM generation, and citations.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "Which metric is commonly used to evaluate whether relevant documents are being retrieved by a retrieval system?",
+    "question_type": "MCQ",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "Explain retrieval precision, recall, and relevance in the context of evaluating a RAG system.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "A production RAG application retrieves correct information but the LLM still generates unsupported claims. How would you diagnose and reduce hallucinations?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "How would you design a RAG system that handles different document formats such as PDFs, DOCX files, web pages, and structured data?",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "Explain how you would evaluate a complete RAG pipeline, including retrieval quality, answer correctness, faithfulness, latency, and cost.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "A RAG system works well with short documents but performs poorly on long technical PDFs containing tables, headings, and multiple sections. Design an improved ingestion and retrieval strategy.",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "How would you implement document versioning and re-indexing when source documents are updated or deleted?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "RAG",
+    "question": "Design a scalable RAG architecture for a multi-user application where each user's documents must remain isolated while supporting concurrent ingestion and querying.",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  }
+]

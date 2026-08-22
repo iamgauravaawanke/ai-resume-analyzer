@@ -1,0 +1,212 @@
+[
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "What is Django, and what are its main advantages for backend web development?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "What is the difference between a Django project and a Django application?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "Which command is commonly used to create a new Django project?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "Write the basic Django code required to create a view that returns a simple HTTP response saying 'Hello World'.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "What is the purpose of urls.py in a Django application?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "What is a Django model, and how does it represent database data?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "Write a Django model named UserProfile containing a name field and an email field.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "Which Django command is used to create migration files based on changes to models?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "What is Django's MVT architecture, and what are the responsibilities of the Model, View, and Template?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "You need to add a new database table to a Django application. Describe the basic steps you would follow from creating the model to applying the database changes.",
+    "question_type": "Scenario",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "What are Django migrations, and why are they important when developing database-backed applications?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "Write a Django ORM query to retrieve all users whose email ends with '@example.com'.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "What is Django ORM, and what advantages does it provide over writing raw SQL for every database operation?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "Which Django ORM method is commonly used to retrieve a single object and raises an exception when the object does not exist?",
+    "question_type": "MCQ",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "Explain the difference between ForeignKey, OneToOneField, and ManyToManyField in Django models.",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "Write Django models representing a Department that has many Employees, where each employee belongs to one department.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "What is middleware in Django, and what are some common use cases for it?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "A Django page is making many database queries while displaying related objects. How would you investigate and reduce unnecessary database queries?",
+    "question_type": "Scenario",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "Write a Django ORM query using select_related or prefetch_related to efficiently retrieve related objects.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "What is Django's built-in authentication system, and how can it be used to manage users and permissions?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "Explain how Django REST Framework extends Django for building REST APIs.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "Design a Django REST Framework serializer and API endpoint for creating and retrieving user records.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "What is the difference between select_related and prefetch_related in Django ORM?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "Which Django feature is commonly used to protect POST requests against Cross-Site Request Forgery attacks?",
+    "question_type": "MCQ",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "A production Django application has become slow as the number of users and database records grows. Explain how you would investigate and optimize application performance.",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "How would you implement authentication using JWT tokens in a Django REST Framework API?",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "Explain Django caching and describe situations where application-level or database-level caching would be useful.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "Design a production Django backend architecture with separate applications, REST APIs, database access, authentication, configuration, background tasks, logging, and testing.",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "How would you handle long-running tasks such as report generation or sending large numbers of emails without blocking a Django web request?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Django",
+    "question": "How would you prepare a Django application for production deployment, including security settings, static files, database configuration, logging, monitoring, and process management?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  }
+]

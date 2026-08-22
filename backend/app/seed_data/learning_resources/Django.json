@@ -1,0 +1,98 @@
+[
+  {
+    "skill": "Django",
+    "resource_type": "DOCUMENTATION",
+    "title": "Django Official Documentation",
+    "url": "https://docs.djangoproject.com/"
+  },
+  {
+    "skill": "Django",
+    "resource_type": "DOCUMENTATION",
+    "title": "Django Getting Started",
+    "url": "https://docs.djangoproject.com/en/stable/intro/"
+  },
+  {
+    "skill": "Django",
+    "resource_type": "DOCUMENTATION",
+    "title": "Django API Reference",
+    "url": "https://docs.djangoproject.com/en/stable/ref/"
+  },
+  {
+    "skill": "Django",
+    "resource_type": "VIDEO",
+    "title": "Django Official YouTube Channel",
+    "url": "https://www.youtube.com/@djangoproject"
+  },
+  {
+    "skill": "Django",
+    "resource_type": "VIDEO",
+    "title": "freeCodeCamp.org - Django Course",
+    "url": "https://www.youtube.com/@freecodecamp"
+  },
+  {
+    "skill": "Django",
+    "resource_type": "VIDEO",
+    "title": "Corey Schafer - Django Tutorials",
+    "url": "https://www.youtube.com/@Coreyms"
+  },
+  {
+    "skill": "Django",
+    "resource_type": "GITHUB",
+    "title": "Django Official GitHub Repository",
+    "url": "https://github.com/django/django"
+  },
+  {
+    "skill": "Django",
+    "resource_type": "GITHUB",
+    "title": "Django Cookiecutter",
+    "url": "https://github.com/cookiecutter/cookiecutter-django"
+  },
+  {
+    "skill": "Django",
+    "resource_type": "GITHUB",
+    "title": "Awesome Django",
+    "url": "https://github.com/shahraizali/awesome-django"
+  },
+  {
+    "skill": "Django",
+    "resource_type": "OTHER",
+    "title": "Django Packages",
+    "url": "https://djangopackages.org/"
+  },
+  {
+    "skill": "Django",
+    "resource_type": "OTHER",
+    "title": "Django Girls Tutorial",
+    "url": "https://tutorial.djangogirls.org/"
+  },
+  {
+    "skill": "Django",
+    "resource_type": "OTHER",
+    "title": "Django REST Framework",
+    "url": "https://www.django-rest-framework.org/"
+  },
+  {
+    "skill": "Django",
+    "resource_type": "COURSE",
+    "title": "Django for Everybody",
+    "url": "https://www.dj4e.com/"
+  },
+  {
+    "skill": "Django",
+    "resource_type": "COURSE",
+    "title": "Django Web Framework - MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django"
+  },
+  {
+    "skill": "Django",
+    "resource_type": "ARTICLE",
+    "title": "Django for Beginners",
+    "url": "https://djangoforbeginners.com/"
+  },
+  {
+    "skill": "Django",
+    "resource_type": "ARTICLE",
+    "title": "Two Scoops of Django",
+    "url": "https://www.feldroy.com/books/two-scoops-of-django-3-x"
+  }
+]
