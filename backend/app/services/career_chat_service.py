@@ -255,3 +255,49 @@ def  get_chat_history(resume_id):
     finally:
 
         db.close()
+
+def clear_conversation(resume_id):
+    logger.info(
+        f"Clear career chat request received. "
+        f"Resume ID: {resume_id}"
+    )
+
+    db = SessionLocal()
+
+    try:
+
+        deleted_count = (
+            db.query(CareerChat)
+            .filter(CareerChat.resume_id == resume_id)
+            .delete(synchronize_session=False)
+        )
+
+        db.commit()
+
+        logger.info(
+            f"Deleted {deleted_count} chat records "
+            f"for Resume ID: {resume_id}"
+        )
+
+        return {
+            "resume_id": resume_id,
+            "message": "Career chat history cleared successfully."
+        }
+
+    except Exception as e:
+
+        db.rollback()
+
+        logger.exception(
+            f"Error clearing career chat history "
+            f"for Resume ID {resume_id}: {e}"
+        )
+
+        raise HTTPException(
+            status_code=500,
+            detail="Failed to clear career chat history"
+        )
+
+    finally:
+        db.close()
+                 

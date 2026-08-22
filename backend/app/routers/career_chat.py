@@ -1,9 +1,11 @@
-from fastapi import APIRouter
-
 from core.logger import logger
+from fastapi import APIRouter
 from schemas.career_chat import CareerChatRequest
-from services.career_chat_service import (send_message, get_chat_history)
-
+from services.career_chat_service import (
+    clear_conversation,
+    get_chat_history,
+    send_message,
+)
 
 router = APIRouter(
     tags=["career_chat"]
@@ -36,4 +38,15 @@ def get_all_chats(resume_id):
     
     return get_chat_history(
         resume_id=resume_id
-    )    
+    )   
+    
+@router.delete("/career_chat/{resume_id}")
+def delete_conversation(resume_id):
+    logger.info(
+            f"Career Delete History Request Received. "
+            f"Resume ID: {resume_id}"
+        )
+    return clear_conversation(
+        resume_id=resume_id
+    )
+         
