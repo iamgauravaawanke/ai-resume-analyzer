@@ -1,0 +1,110 @@
+.learning-resources-page {
+  min-height: 100vh;
+  background: #f8fafc;
+  padding: 40px 60px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: #1e293b;
+}
+
+.learning-resources-header {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e2e8f0;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-icon {
+  font-size: 36px;
+}
+
+.learning-resources-header h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.learning-resources-header p {
+  margin: 8px 0 0;
+  color: #64748b;
+  font-size: 15px;
+}
+
+.recommended-skills {
+  max-width: 1100px;
+  margin: 35px auto;
+}
+
+.recommended-skills h2,
+.resources-section h2 {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+.skill-chips {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.skill-chip {
+  padding: 10px 20px;
+  background: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  color: #334155;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.resources-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 30px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.resource-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.resource-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 24px;
+
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
+}
+
+.resource-info h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.resource-type {
+  font-size: 12px;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.resource-action {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 7px;
+
+  background: #2563eb;
+  color: white;
+
+  font-size: 13px;
+  cursor: pointer;
+}

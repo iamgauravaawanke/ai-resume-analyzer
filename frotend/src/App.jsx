@@ -2,10 +2,13 @@
 import Home from "./pages/Home";
 import Results from "./pages/Result";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import  LearningResources from "./pages/LearningResources"
 
 function App() {
   return (
 <BrowserRouter>
+
+
 
 <Routes>
 
@@ -26,6 +29,14 @@ element={<Results/>} />
     path="/result/:analysis_id"
     element={<Results />}
 />
+
+<Route
+path="/learning-resources"
+  element={<LearningResources />}
+  >
+
+  </Route>
+
 </Routes>
 
 

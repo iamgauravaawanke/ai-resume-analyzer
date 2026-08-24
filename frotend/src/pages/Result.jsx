@@ -12,8 +12,22 @@ import DashboardNavbar from "../components/DashboardNavbar";
 import DashboardHeader from "../components/DashboardHeader";
 import LoadingSkeleton from "../components/LoadingSkeleton";
 import { motion } from "framer-motion";
+import Sidebar from "../components/navigation/Sidebar";
 
 function Results() {
+  <div className="dashboard-layout">
+
+    <Sidebar/>
+
+    <main className="dashboard-content">
+
+
+
+    </main>
+  </div>
+
+
+  
 
 
   const { analysis_id } = useParams()

@@ -64,7 +64,8 @@ def learning_resources_service(analysis_id: int):
             }
 
         response = []
-        missing_skills = missing_skills.splitlines()
+        # missing_skills = missing_skills.splitlines()
+        missing_skills = missing_skills.split(", ")
 
         # Process every missing skill
         for missing_skill in missing_skills:

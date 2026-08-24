@@ -1256,3 +1256,244 @@ sqlalchemy.orm.exc.UnmappedInstanceError: Class 'sqlalchemy.orm.query.Query' is 
 2026-08-22 08:55:54,742 | INFO | career_chat.py:45 | Career Delete History Request Received. Resume ID: 164
 2026-08-22 08:55:54,742 | INFO | career_chat_service.py:260 | Clear career chat request received. Resume ID: 164
 2026-08-22 08:55:54,816 | INFO | career_chat_service.py:277 | Deleted 2 chat records for Resume ID: 164
+2026-08-22 23:45:35,969 | INFO | learning_roadmap.py:12 | Learning roadmap request received. Analysis ID: 164, Role ID: 61
+2026-08-22 23:45:35,972 | INFO | learning_roadmap_service.py:9 | Fetching analysis. Analysis ID: 164
+2026-08-22 23:45:35,973 | INFO | learning_roadmap_service.py:10 | Fetching Role. Role ID: 61
+2026-08-22 23:45:35,990 | WARNING | learning_roadmap_service.py:19 | Analysis not found. Analysis ID: 164
+2026-08-22 23:46:19,072 | INFO | learning_roadmap.py:12 | Learning roadmap request received. Analysis ID: 164, Role ID: 1
+2026-08-22 23:46:19,074 | INFO | learning_roadmap_service.py:9 | Fetching analysis. Analysis ID: 164
+2026-08-22 23:46:19,099 | INFO | learning_roadmap_service.py:10 | Fetching Role. Role ID: 1
+2026-08-22 23:46:19,104 | WARNING | learning_roadmap_service.py:19 | Analysis not found. Analysis ID: 164
+2026-08-22 23:46:23,200 | INFO | learning_roadmap.py:12 | Learning roadmap request received. Analysis ID: 164, Role ID: 5
+2026-08-22 23:46:23,202 | INFO | learning_roadmap_service.py:9 | Fetching analysis. Analysis ID: 164
+2026-08-22 23:46:23,202 | INFO | learning_roadmap_service.py:10 | Fetching Role. Role ID: 5
+2026-08-22 23:46:23,206 | WARNING | learning_roadmap_service.py:19 | Analysis not found. Analysis ID: 164
+2026-08-22 23:47:08,097 | INFO | learning_roadmap.py:12 | Learning roadmap request received. Analysis ID: 157, Role ID: 5
+2026-08-22 23:47:08,098 | INFO | learning_roadmap_service.py:9 | Fetching analysis. Analysis ID: 157
+2026-08-22 23:47:08,099 | INFO | learning_roadmap_service.py:10 | Fetching Role. Role ID: 5
+2026-08-22 23:47:08,102 | WARNING | learning_roadmap_service.py:19 | Analysis not found. Analysis ID: 157
+2026-08-22 23:47:29,212 | INFO | learning_roadmap.py:12 | Learning roadmap request received. Analysis ID: 157, Role ID: 1
+2026-08-22 23:47:29,215 | INFO | learning_roadmap_service.py:9 | Fetching analysis. Analysis ID: 157
+2026-08-22 23:47:29,215 | INFO | learning_roadmap_service.py:10 | Fetching Role. Role ID: 1
+2026-08-22 23:47:29,218 | WARNING | learning_roadmap_service.py:19 | Analysis not found. Analysis ID: 157
+2026-08-22 23:48:04,126 | INFO | learning_roadmap.py:12 | Learning roadmap request received. Analysis ID: 60, Role ID: 1
+2026-08-22 23:48:04,128 | INFO | learning_roadmap_service.py:9 | Fetching analysis. Analysis ID: 60
+2026-08-22 23:48:04,128 | INFO | learning_roadmap_service.py:10 | Fetching Role. Role ID: 1
+2026-08-22 23:48:04,139 | INFO | learning_roadmap_service.py:38 | Analysis fetched successfully. Analysis ID: 60
+2026-08-22 23:48:04,142 | INFO | learning_roadmap_service.py:40 | Roles fetched successfully. Roles ID: 1
+2026-08-22 23:48:23,227 | INFO | learning_roadmap.py:12 | Learning roadmap request received. Analysis ID: 60, Role ID: 5
+2026-08-22 23:48:23,228 | INFO | learning_roadmap_service.py:9 | Fetching analysis. Analysis ID: 60
+2026-08-22 23:48:23,228 | INFO | learning_roadmap_service.py:10 | Fetching Role. Role ID: 5
+2026-08-22 23:48:23,232 | INFO | learning_roadmap_service.py:38 | Analysis fetched successfully. Analysis ID: 60
+2026-08-22 23:48:23,233 | INFO | learning_roadmap_service.py:40 | Roles fetched successfully. Roles ID: 5
+2026-08-22 23:49:01,915 | INFO | learning_roadmap.py:12 | Learning roadmap request received. Analysis ID: 60, Role ID: 3
+2026-08-22 23:49:01,915 | INFO | learning_roadmap_service.py:9 | Fetching analysis. Analysis ID: 60
+2026-08-22 23:49:01,915 | INFO | learning_roadmap_service.py:10 | Fetching Role. Role ID: 3
+2026-08-22 23:49:01,948 | INFO | learning_roadmap_service.py:38 | Analysis fetched successfully. Analysis ID: 60
+2026-08-22 23:49:01,948 | INFO | learning_roadmap_service.py:40 | Roles fetched successfully. Roles ID: 3
+2026-08-22 23:49:13,011 | INFO | learning_roadmap.py:12 | Learning roadmap request received. Analysis ID: 60, Role ID: 3
+2026-08-22 23:49:13,011 | INFO | learning_roadmap_service.py:9 | Fetching analysis. Analysis ID: 60
+2026-08-22 23:49:13,011 | INFO | learning_roadmap_service.py:10 | Fetching Role. Role ID: 3
+2026-08-22 23:49:13,016 | INFO | learning_roadmap_service.py:38 | Analysis fetched successfully. Analysis ID: 60
+2026-08-22 23:49:13,018 | INFO | learning_roadmap_service.py:40 | Roles fetched successfully. Roles ID: 3
+2026-08-22 23:51:55,524 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 36
+2026-08-22 23:51:55,524 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 36
+2026-08-22 23:52:44,530 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 33
+2026-08-22 23:52:44,531 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 33
+2026-08-22 23:55:09,301 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-22 23:55:09,302 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-23 00:06:17,006 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-23 00:06:17,010 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-23 00:09:16,428 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 61
+2026-08-23 00:09:16,429 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 61
+2026-08-23 00:09:54,230 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 60
+2026-08-23 00:09:54,231 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 60
+2026-08-23 00:12:20,315 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 46
+2026-08-23 00:12:20,317 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 46
+2026-08-23 00:13:55,577 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-23 00:13:55,577 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-23 00:23:12,536 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 3, Skill: None, Difficulty: None, Question Type: None
+2026-08-23 00:23:12,536 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:3 , skill:None , difficulty:None , question_type:None
+2026-08-23 00:23:12,546 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 3
+2026-08-23 00:24:04,979 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-23 00:24:04,979 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-23 00:24:04,981 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-23 00:29:37,058 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: PostgreSQL, Difficulty: None, Question Type: None
+2026-08-23 00:29:37,059 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:PostgreSQL , difficulty:None , question_type:None
+2026-08-23 00:29:37,064 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-23 00:30:08,787 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: RAG, Difficulty: None, Question Type: None
+2026-08-23 00:30:08,787 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:RAG , difficulty:None , question_type:None
+2026-08-23 00:30:08,787 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-23 00:30:16,730 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: rag, Difficulty: None, Question Type: None
+2026-08-23 00:30:16,730 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:rag , difficulty:None , question_type:None
+2026-08-23 00:30:16,734 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-23 00:30:44,324 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: Django, Difficulty: None, Question Type: None
+2026-08-23 00:30:44,324 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:Django , difficulty:None , question_type:None
+2026-08-23 00:30:44,326 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-23 00:30:52,995 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: GITHUB, Difficulty: None, Question Type: None
+2026-08-23 00:30:52,996 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:GITHUB , difficulty:None , question_type:None
+2026-08-23 00:30:52,998 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-23 00:31:16,278 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: Github, Difficulty: None, Question Type: None
+2026-08-23 00:31:16,279 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:Github , difficulty:None , question_type:None
+2026-08-23 00:31:16,281 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-23 00:31:34,649 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: GitHub, Difficulty: None, Question Type: None
+2026-08-23 00:31:34,649 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:GitHub , difficulty:None , question_type:None
+2026-08-23 00:31:34,654 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-23 00:32:05,603 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: GitHub, Difficulty: Beginner, Question Type: None
+2026-08-23 00:32:05,605 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:GitHub , difficulty:Beginner , question_type:None
+2026-08-23 00:32:05,607 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-23 00:32:20,007 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: GitHub, Difficulty: None, Question Type: None
+2026-08-23 00:32:20,007 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:GitHub , difficulty:None , question_type:None
+2026-08-23 00:32:20,009 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-23 00:32:37,252 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: GitHub, Difficulty: Advanced, Question Type: None
+2026-08-23 00:32:37,252 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:GitHub , difficulty:Advanced , question_type:None
+2026-08-23 00:32:37,255 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-23 00:32:46,577 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: GitHub, Difficulty: None, Question Type: None
+2026-08-23 00:32:46,578 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:GitHub , difficulty:None , question_type:None
+2026-08-23 00:32:46,580 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-23 00:32:55,002 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: GitHub, Difficulty: Intermediate, Question Type: None
+2026-08-23 00:32:55,002 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:GitHub , difficulty:Intermediate , question_type:None
+2026-08-23 00:32:55,006 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-23 00:33:09,278 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: GitHub, Difficulty: None, Question Type: Coding
+2026-08-23 00:33:09,278 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:GitHub , difficulty:None , question_type:Coding
+2026-08-23 00:33:09,281 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-23 00:33:42,231 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: GitHub, Difficulty: Beginner, Question Type: Coding
+2026-08-23 00:33:42,233 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:GitHub , difficulty:Beginner , question_type:Coding
+2026-08-23 00:33:42,235 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-23 00:37:21,967 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-23 00:37:21,967 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-23 00:39:10,739 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 65
+2026-08-23 00:39:10,739 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 65
+2026-08-23 00:39:32,930 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-23 00:39:32,930 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-23 00:40:40,150 | INFO | progress_tracking.py:48 | Progress reset request received. Resume ID: 164
+2026-08-23 00:40:40,151 | INFO | progress_tracking_service.py:74 | Resetting progress for Resume ID: 164
+2026-08-23 00:45:23,821 | INFO | career_chat.py:21 | Career Chat Request Received. Resume ID: 65
+2026-08-23 00:45:23,822 | INFO | career_chat_service.py:187 | Send message started for Resume ID: 65
+2026-08-23 00:45:23,822 | INFO | career_chat_service.py:12 | Fetching analysis using Resume ID: 65
+2026-08-23 00:45:23,827 | WARNING | career_chat_service.py:48 | Role not found for Role ID: None
+2026-08-23 00:46:03,560 | INFO | career_chat.py:21 | Career Chat Request Received. Resume ID: 65
+2026-08-23 00:46:03,560 | INFO | career_chat_service.py:187 | Send message started for Resume ID: 65
+2026-08-23 00:46:03,561 | INFO | career_chat_service.py:12 | Fetching analysis using Resume ID: 65
+2026-08-23 00:46:03,572 | WARNING | career_chat_service.py:48 | Role not found for Role ID: None
+2026-08-23 00:47:23,819 | INFO | career_chat.py:21 | Career Chat Request Received. Resume ID: 65
+2026-08-23 00:47:23,820 | INFO | career_chat_service.py:187 | Send message started for Resume ID: 65
+2026-08-23 00:47:23,820 | INFO | career_chat_service.py:12 | Fetching analysis using Resume ID: 65
+2026-08-23 00:47:23,828 | WARNING | career_chat_service.py:48 | Role not found for Role ID: None
+2026-08-23 00:50:44,572 | INFO | career_chat.py:21 | Career Chat Request Received. Resume ID: 1
+2026-08-23 00:50:44,572 | INFO | career_chat_service.py:187 | Send message started for Resume ID: 1
+2026-08-23 00:50:44,572 | INFO | career_chat_service.py:12 | Fetching analysis using Resume ID: 1
+2026-08-23 00:50:44,576 | INFO | career_chat_service.py:57 | Analysis and Role found successfully. Resume ID: 1, Role: Backend Developer
+2026-08-23 00:50:44,586 | INFO | career_chat_service.py:87 | Building career context for analysis ID: 38
+2026-08-23 00:50:44,586 | INFO | career_chat_service.py:105 | Career context built successfully for analysis ID: 38
+2026-08-23 00:50:44,586 | INFO | career_chat_service.py:114 | AI career chat request started.
+2026-08-23 00:50:44,586 | INFO | career_chat_service.py:132 | Sending career context to AI for role: Backend Developer
+2026-08-23 00:51:04,440 | INFO | career_chat_service.py:140 | AI career chat response received successfully.
+2026-08-23 00:51:04,440 | INFO | career_chat_service.py:154 | save chat history function started 
+2026-08-23 00:51:04,471 | INFO | career_chat_service.py:167 | Carrer Chat saved sussfully for this resume_id : 1
+2026-08-23 00:51:04,472 | INFO | career_chat_service.py:209 | Career chat completed for Resume ID: 1
+2026-08-23 00:52:07,987 | INFO | career_chat.py:45 | Career Delete History Request Received. Resume ID: 1
+2026-08-23 00:52:07,987 | INFO | career_chat_service.py:260 | Clear career chat request received. Resume ID: 1
+2026-08-23 00:52:07,991 | INFO | career_chat_service.py:277 | Deleted 1 chat records for Resume ID: 1
+2026-08-23 00:52:20,749 | INFO | career_chat.py:21 | Career Chat Request Received. Resume ID: 1
+2026-08-23 00:52:20,750 | INFO | career_chat_service.py:187 | Send message started for Resume ID: 1
+2026-08-23 00:52:20,750 | INFO | career_chat_service.py:12 | Fetching analysis using Resume ID: 1
+2026-08-23 00:52:20,751 | INFO | career_chat_service.py:57 | Analysis and Role found successfully. Resume ID: 1, Role: Backend Developer
+2026-08-23 00:52:20,751 | INFO | career_chat_service.py:87 | Building career context for analysis ID: 38
+2026-08-23 00:52:20,751 | INFO | career_chat_service.py:105 | Career context built successfully for analysis ID: 38
+2026-08-23 00:52:20,751 | INFO | career_chat_service.py:114 | AI career chat request started.
+2026-08-23 00:52:20,751 | INFO | career_chat_service.py:132 | Sending career context to AI for role: Backend Developer
+2026-08-23 00:52:39,605 | INFO | career_chat_service.py:140 | AI career chat response received successfully.
+2026-08-23 00:52:39,605 | INFO | career_chat_service.py:154 | save chat history function started 
+2026-08-23 00:52:39,619 | INFO | career_chat_service.py:167 | Carrer Chat saved sussfully for this resume_id : 1
+2026-08-23 00:52:39,621 | INFO | career_chat_service.py:209 | Career chat completed for Resume ID: 1
+2026-08-23 00:52:51,249 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-08-23 00:52:51,249 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-08-23 00:52:51,259 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-08-24 23:20:04,155 | INFO | upload_resume.py:54 | Resume upload request received.
+2026-08-24 23:20:04,159 | INFO | upload_resume.py:71 | Resume saved at: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\upload\iamgauravaawankee_ai_engineer.pdf
+2026-08-24 23:20:04,160 | INFO | upload_resume.py:73 | Resume uploaded successfully: iamgauravaawankee_ai_engineer.pdf
+2026-08-24 23:20:04,248 | INFO | upload_resume.py:76 | Reading uploaded PDF.
+2026-08-24 23:20:04,903 | INFO | upload_resume.py:86 | Resume text extracted (3980 characters).
+2026-08-24 23:20:04,904 | INFO | upload_resume.py:89 | Opening database session.
+2026-08-24 23:20:04,914 | INFO | upload_resume.py:100 | Saving resume to database.
+2026-08-24 23:20:05,028 | INFO | upload_resume.py:105 | Resume stored in database. Resume ID: 165
+2026-08-24 23:20:05,029 | INFO | upload_resume.py:110 | Sending resume to Qwen for analysis.
+2026-08-24 23:20:05,031 | INFO | upload_resume.py:116 | Fetching role with ID: 5
+2026-08-24 23:20:05,041 | INFO | upload_resume.py:125 | Role selected: AI Engineer
+2026-08-24 23:20:05,044 | INFO | upload_resume.py:140 | Loading knowledge file: C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\knowledge\AI_Engineer.pdf
+2026-08-24 23:20:05,363 | INFO | upload_resume.py:145 | Knowledge already indexed: AI_Engineer.pdf
+2026-08-24 23:20:05,363 | INFO | upload_resume.py:206 | Generating resume embedding.
+2026-08-24 23:20:07,383 | ERROR | upload_resume.py:297 | Error while processing resume: HTTPConnectionPool(host='127.0.0.1', port=1234): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=1234): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+Traceback (most recent call last):
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\urllib3\connection.py", line 500, in request
+    self.endheaders()
+  File "C:\Users\gaura\AppData\Roaming\uv\python\cpython-3.11.15-windows-x86_64-none\Lib\http\client.py", line 1318, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gaura\AppData\Roaming\uv\python\cpython-3.11.15-windows-x86_64-none\Lib\http\client.py", line 1078, in _send_output
+    self.send(msg)
+  File "C:\Users\gaura\AppData\Roaming\uv\python\cpython-3.11.15-windows-x86_64-none\Lib\http\client.py", line 1016, in send
+    self.connect()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\urllib3\connection.py", line 331, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\urllib3\connection.py", line 219, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: HTTPConnection(host='127.0.0.1', port=1234): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=1234): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=1234): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\routers\upload_resume.py", line 207, in upload_resume
+    resume_embedding = embedding([text])[0]
+                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\core\embedding.py", line 11, in embedding
+    response = requests.post(url, json=payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\requests\api.py", line 134, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\requests\api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\requests\adapters.py", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=1234): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=1234): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-08-24 23:20:07,776 | INFO | upload_resume.py:304 | Closing database session.

@@ -1,7 +1,7 @@
-from database.database import SessionLocal
-from fastapi import APIRouter, UploadFile, File, HTTPException
-from models.analysis import Analysis
 from core.logger import logger
+from database.database import SessionLocal
+from fastapi import APIRouter, File, HTTPException, UploadFile
+from models.analysis import Analysis
 
 router = APIRouter(
     tags= ["Analysis"]
