@@ -9,7 +9,7 @@ router = APIRouter(
 
     
 # 5. API Endpoint: Fetch One User by ID
-@router.post("/analysis/{analysis_id}")
+@router.get("/analysis/{analysis_id}")
 def get_analysis(analysis_id: int):
 
     logger.info(f"Fetching analysis. Analysis ID: {analysis_id}")

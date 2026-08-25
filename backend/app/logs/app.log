@@ -1497,3 +1497,100 @@ Traceback (most recent call last):
     raise ConnectionError(e, request=request)
 requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=1234): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=1234): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
 2026-08-24 23:20:07,776 | INFO | upload_resume.py:304 | Closing database session.
+2026-08-25 21:53:46,102 | INFO | roles.py:15 | Fetching all Roles 
+2026-08-25 21:54:40,593 | INFO | roles_id.py:13 | Fetching Role. Role ID: 2
+2026-08-25 21:54:40,596 | INFO | roles_id.py:30 | Roles fetched successfully. Roles ID: 2
+2026-08-25 21:55:35,804 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 61
+2026-08-25 21:55:35,809 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 61
+2026-08-25 21:56:46,910 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 61
+2026-08-25 21:56:46,912 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 61
+2026-08-25 22:05:16,752 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 61
+2026-08-25 22:05:16,763 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 61
+2026-08-25 22:05:26,253 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-25 22:05:26,255 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-25 22:05:26,505 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-25 22:05:26,507 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-25 22:05:26,513 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-25 22:05:26,516 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-25 22:05:33,959 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 61
+2026-08-25 22:05:33,964 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 61
+2026-08-25 22:05:33,969 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 61
+2026-08-25 22:05:33,971 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 61
+2026-08-25 22:07:45,866 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 61
+2026-08-25 22:07:45,866 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 61
+2026-08-25 22:07:45,866 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 61
+2026-08-25 22:07:45,873 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 61
+2026-08-25 22:07:54,136 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:07:54,138 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:07:54,142 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:07:54,144 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:12:29,882 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:12:29,998 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:12:30,002 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:12:30,003 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:14:46,046 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:14:46,048 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:14:46,053 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:14:46,056 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:24:23,075 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:24:23,075 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:24:23,075 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:24:23,075 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:24:26,073 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:24:26,076 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:24:26,077 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:24:26,079 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:24:27,533 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:24:27,535 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:24:27,537 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:24:27,538 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:26:29,769 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:26:29,771 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:26:29,775 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:26:29,777 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:26:38,973 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-25 22:26:38,975 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-25 22:26:39,196 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-25 22:26:39,196 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-25 22:26:39,209 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-25 22:26:39,215 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-25 22:26:44,519 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 61
+2026-08-25 22:26:44,521 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 61
+2026-08-25 22:26:44,521 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 61
+2026-08-25 22:26:44,525 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 61
+2026-08-25 22:28:00,390 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 61
+2026-08-25 22:28:00,392 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 61
+2026-08-25 22:28:00,396 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 61
+2026-08-25 22:28:00,397 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 61
+2026-08-25 22:28:02,388 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 61
+2026-08-25 22:28:02,391 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 61
+2026-08-25 22:28:02,391 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 61
+2026-08-25 22:28:02,396 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 61
+2026-08-25 22:31:17,610 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 61
+2026-08-25 22:31:17,612 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 61
+2026-08-25 22:31:17,616 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 61
+2026-08-25 22:31:17,617 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 61
+2026-08-25 22:31:23,273 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-25 22:31:23,274 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-25 22:31:23,278 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-25 22:31:23,280 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-25 22:31:23,285 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-25 22:31:23,285 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-25 22:31:28,810 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-25 22:31:28,812 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-25 22:31:28,816 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-25 22:31:28,817 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-25 22:31:28,823 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-25 22:31:28,824 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-25 22:31:31,721 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:31:31,723 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:31:31,727 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:31:31,731 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:34:24,662 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:34:24,664 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:34:24,669 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:34:24,671 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:34:35,358 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:34:35,358 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:34:35,363 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:34:35,365 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
