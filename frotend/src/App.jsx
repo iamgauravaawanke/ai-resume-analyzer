@@ -31,7 +31,7 @@ element={<Results/>} />
 />
 
 <Route
-path="/learning-resources"
+path="/learning-resources/:analysis_id"
   element={<LearningResources />}
   >
 

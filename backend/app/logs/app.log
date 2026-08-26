@@ -1594,3 +1594,17 @@ requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=1
 2026-08-25 22:34:35,358 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
 2026-08-25 22:34:35,363 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
 2026-08-25 22:34:35,365 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:38:10,433 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:38:10,436 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-25 22:38:10,440 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 60
+2026-08-25 22:38:10,442 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 60
+2026-08-26 21:44:24,297 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 61
+2026-08-26 21:44:24,320 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 61
+2026-08-26 22:35:58,112 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 61
+2026-08-26 22:35:58,113 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 61
+2026-08-26 22:37:41,588 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-26 22:37:41,589 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-26 22:40:07,660 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-26 22:40:07,661 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-26 22:40:07,681 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-26 22:40:07,682 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
