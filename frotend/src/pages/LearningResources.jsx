@@ -1,5 +1,4 @@
-import React from "react";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 import "./LearningResources.css";
@@ -11,129 +10,437 @@ function LearningResources() {
 
   const [resources, setResources] = useState(null);
   const [selectedSkill, setSelectedSkill] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-  useEffect(() => {
+  const loadResources = async () => {
 
-    const loadResources = async () => {
+    setLoading(true);
+    setError(null);
+
+    try {
 
       const data = await fetchLearningResources(analysis_id);
 
       console.log(
-        "Learning Resources API Response:-",
+        "Learning Resources API Response:",
         data
       );
 
       setResources(data);
-    };
 
+    } catch (err) {
+
+      console.error(
+        "Learning Resources API Error:",
+        err
+      );
+
+      setError(
+        "Something went wrong while loading your learning resources."
+      );
+
+    } finally {
+
+      setLoading(false);
+
+    }
+  };
+
+  useEffect(() => {
     loadResources();
-
   }, [analysis_id]);
 
 
-  // Find the resource group for the selected skill
-  const selectedResource = resources?.resources?.find(
-    (resource) => resource.skill === selectedSkill
-  );
+  // Automatically select first skill
+  useEffect(() => {
+
+    if (
+      resources?.resources?.length > 0 &&
+      !selectedSkill
+    ) {
+      setSelectedSkill(
+        resources.resources[0].skill
+      );
+    }
+
+  }, [resources, selectedSkill]);
 
 
-  return (
-    <div className="learning-resources-page">
+  // -------------------------
+  // Loading
+  // -------------------------
 
-      {/* Header */}
-      <header className="learning-resources-header">
+  if (loading) {
 
-        <div className="header-icon">
-          📚
+    return (
+      <div className="learning-resources-page">
+
+        <div className="learning-container">
+
+          <div className="skeleton-header">
+            <div className="skeleton-icon"></div>
+
+            <div>
+              <div className="skeleton-title"></div>
+              <div className="skeleton-subtitle"></div>
+            </div>
+          </div>
+
+
+          <div className="skeleton-section">
+
+            <div className="skeleton-heading"></div>
+
+            <div className="skeleton-skills">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+
+          </div>
+
+
+          <div className="skeleton-card"></div>
+          <div className="skeleton-card"></div>
+
         </div>
 
-        <div>
-          <h1>Learning Resources</h1>
-
-          <p>
-            Personalized resources based on your resume analysis.
-          </p>
-        </div>
-
-      </header>
+      </div>
+    );
+  }
 
 
-      {/* Recommended Skills */}
-      <section className="recommended-skills">
+  // -------------------------
+  // Error
+  // -------------------------
 
-        <h2>
-          Your Recommended Skills
-        </h2>
+  if (error) {
 
-        <div className="skill-chips">
+    return (
+      <div className="learning-resources-page">
 
-          {resources?.resources?.map((resource) => (
+        <div className="learning-container">
+
+          <div className="error-state">
+
+            <div className="error-icon">
+              ⚠️
+            </div>
+
+            <h2>
+              Failed to Load Resources
+            </h2>
+
+            <p>
+              {error}
+            </p>
 
             <button
-              key={resource.skill}
-              className={`skill-chip ${
-                selectedSkill === resource.skill
-                  ? "selected"
-                  : ""
-              }`}
-              onClick={() =>
-                setSelectedSkill(resource.skill)
-              }
+              className="retry-button"
+              onClick={loadResources}
             >
-              {resource.skill}
+              Try Again
             </button>
 
-          ))}
+          </div>
 
         </div>
 
-      </section>
+      </div>
+    );
+  }
 
 
-      {/* Resources */}
-      <section className="resources-section">
+  // -------------------------
+  // No recommended skills
+  // -------------------------
 
-        <h2>
-          Resources for {selectedSkill}
-        </h2>
+  if (!resources?.resources?.length) {
 
-        <div className="resource-list">
+    return (
+      <div className="learning-resources-page">
 
-          {selectedResource?.resources?.map((resource) => (
+        <div className="learning-container">
 
-            <div
-              className="resource-card"
-              key={resource.title}
-            >
+          <div className="empty-state">
 
-              <div className="resource-info">
+            <div className="empty-icon">
+              📚
+            </div>
 
-                <h3>
-                  {resource.resource_type === "VIDEO"
-                    ? "▶️"
-                    : "📘"
-                  }{" "}
-                  {resource.title}
-                </h3>
+            <h2>
+              No Learning Resources Yet
+            </h2>
 
-                <span className="resource-type">
-                  {resource.resource_type}
-                </span>
+            <p>
+              We couldn't find any recommended
+              learning resources for your analysis.
+            </p>
 
-              </div>
+          </div>
+
+        </div>
+
+      </div>
+    );
+  }
 
 
-              <button className="resource-action">
-                Open Resource →
+  // -------------------------
+  // Selected skill
+  // -------------------------
+
+  const selectedResource =
+    resources.resources.find(
+      (resource) =>
+        resource.skill === selectedSkill
+    );
+
+
+  const selectedResources =
+    selectedResource?.resources || [];
+
+
+  // -------------------------
+  // Main UI
+  // -------------------------
+
+  return (
+
+    <div className="learning-resources-page">
+
+      <div className="learning-container">
+
+
+        {/* HEADER */}
+
+        <header className="learning-header">
+
+          <div className="header-icon">
+            📚
+          </div>
+
+          <div>
+
+            <h1>
+              Learning Resources
+            </h1>
+
+            <p>
+              Personalized resources based on your
+              resume analysis.
+            </p>
+
+          </div>
+
+        </header>
+
+
+        {/* PERSONALIZED BANNER */}
+
+        <section className="learning-banner">
+
+          <div className="banner-icon">
+            🎯
+          </div>
+
+          <div>
+
+            <h3>
+              Personalized Learning
+            </h3>
+
+            <p>
+              Resources selected based on the skills
+              identified in your resume analysis.
+            </p>
+
+          </div>
+
+          <div className="skill-count">
+
+            <strong>
+              {resources.resources.length}
+            </strong>
+
+            <span>
+              Recommended Skills
+            </span>
+
+          </div>
+
+        </section>
+
+
+        {/* SKILLS */}
+
+        <section className="skills-section">
+
+          <div className="section-heading">
+
+            <div>
+              <h2>
+                Your Recommended Skills
+              </h2>
+
+              <p>
+                Select a skill to explore learning resources.
+              </p>
+            </div>
+
+          </div>
+
+
+          <div className="skill-chips">
+
+            {resources.resources.map((resource) => (
+
+              <button
+                key={resource.skill}
+                className={`skill-chip ${
+                  selectedSkill === resource.skill
+                    ? "selected"
+                    : ""
+                }`}
+                onClick={() =>
+                  setSelectedSkill(resource.skill)
+                }
+              >
+
+                <span className="skill-dot"></span>
+
+                {resource.skill}
+
               </button>
+
+            ))}
+
+          </div>
+
+        </section>
+
+
+        {/* RESOURCES */}
+
+        <section className="resources-section">
+
+          <div className="resources-heading">
+
+            <div>
+
+              <h2>
+                Resources for {selectedSkill}
+              </h2>
+
+              <p>
+                Explore curated resources to strengthen
+                this skill.
+              </p>
 
             </div>
 
-          ))}
+            <div className="resource-count">
 
-        </div>
+              {selectedResources.length} Resources
 
-      </section>
+            </div>
+
+          </div>
+
+
+          {/* No resources for selected skill */}
+
+          {selectedResources.length === 0 ? (
+
+            <div className="skill-empty-state">
+
+              <div className="skill-empty-icon">
+                📚
+              </div>
+
+              <h3>
+                Resources for {selectedSkill}
+              </h3>
+
+              <p>
+                {selectedResource?.message ||
+                  `Learning resources for ${selectedSkill} are not available yet.`}
+              </p>
+
+            </div>
+
+          ) : (
+
+            <div className="resource-list">
+
+              {selectedResources.map((resource) => (
+
+                <article
+                  className="resource-card"
+                  key={resource.url}
+                >
+
+                  <div className="resource-card-left">
+
+                    <div className="resource-icon">
+
+                      {resource.resource_type === "VIDEO"
+                        ? "▶️"
+                        : resource.resource_type === "GITHUB"
+                        ? "💻"
+                        : resource.resource_type === "COURSE"
+                        ? "🎓"
+                        : resource.resource_type === "ARTICLE"
+                        ? "📖"
+                        : "📘"}
+
+                    </div>
+
+
+                    <div className="resource-info">
+
+                      <h3>
+                        {resource.title}
+                      </h3>
+
+                      <span className="resource-type">
+                        {resource.resource_type}
+                      </span>
+
+                    </div>
+
+                  </div>
+
+
+                  <a
+                    className="resource-action"
+                    href={resource.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+
+                    {resource.resource_type === "VIDEO"
+                      ? "Watch Video"
+                      : "Open Resource"}
+
+                    <span>
+                      →
+                    </span>
+
+                  </a>
+
+                </article>
+
+              ))}
+
+            </div>
+
+          )}
+
+        </section>
+
+      </div>
 
     </div>
   );

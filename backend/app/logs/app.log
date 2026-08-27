@@ -1608,3 +1608,247 @@ requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=1
 2026-08-26 22:40:07,661 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
 2026-08-26 22:40:07,681 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
 2026-08-26 22:40:07,682 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:00:10,335 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 61
+2026-08-27 22:00:10,337 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 61
+2026-08-27 22:00:10,432 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 61
+2026-08-27 22:00:10,433 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 61
+2026-08-27 22:00:17,660 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 61
+2026-08-27 22:00:17,660 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 61
+2026-08-27 22:00:17,701 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 61
+2026-08-27 22:00:17,702 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 61
+2026-08-27 22:00:52,963 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:00:52,964 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:00:52,989 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:00:52,990 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:13:52,247 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:13:52,248 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:14:21,249 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:14:21,250 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:14:21,264 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:14:21,266 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:32:25,644 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:32:25,645 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:32:25,662 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:32:25,663 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:33:17,735 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:33:17,736 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:33:17,752 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:33:17,753 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:35:08,308 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:35:08,309 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:35:08,327 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:35:08,328 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:35:15,614 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:35:15,615 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:35:15,633 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:35:15,634 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:35:47,513 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 61
+2026-08-27 22:35:47,514 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 61
+2026-08-27 22:35:47,541 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 61
+2026-08-27 22:35:47,542 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 61
+2026-08-27 22:38:23,547 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:38:23,548 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:38:23,555 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:38:23,555 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:38:29,415 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:38:29,415 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:38:29,423 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:38:29,423 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:39:21,357 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:39:21,358 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:39:21,365 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:39:21,366 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:52:55,243 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:52:55,243 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:52:59,013 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:52:59,014 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:52:59,022 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:52:59,023 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:53:01,715 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:53:01,715 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:53:01,722 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:53:01,723 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:53:02,691 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:53:02,691 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:53:02,698 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:53:02,699 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:59:13,722 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:59:13,722 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 22:59:13,731 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 22:59:13,732 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:03:16,234 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:03:16,234 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:03:32,246 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:03:32,247 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:09:36,249 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:09:36,250 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:09:36,257 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:09:36,258 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:09:43,242 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:09:43,243 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:09:43,251 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:09:43,251 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:10:46,241 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 99999
+2026-08-27 23:10:46,241 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 99999
+2026-08-27 23:10:46,243 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 99999
+2026-08-27 23:10:46,251 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 99999
+2026-08-27 23:10:46,252 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 99999
+2026-08-27 23:10:46,254 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 99999
+2026-08-27 23:10:54,135 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 99999
+2026-08-27 23:10:54,136 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 99999
+2026-08-27 23:10:54,139 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 99999
+2026-08-27 23:10:54,144 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 99999
+2026-08-27 23:10:54,144 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 99999
+2026-08-27 23:10:54,147 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 99999
+2026-08-27 23:11:00,244 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 99999
+2026-08-27 23:11:00,244 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 99999
+2026-08-27 23:11:00,245 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 99999
+2026-08-27 23:11:00,248 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 99999
+2026-08-27 23:11:00,248 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 99999
+2026-08-27 23:11:00,250 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 99999
+2026-08-27 23:11:03,928 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 99999
+2026-08-27 23:11:03,928 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 99999
+2026-08-27 23:11:03,930 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 99999
+2026-08-27 23:11:03,933 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 99999
+2026-08-27 23:11:03,933 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 99999
+2026-08-27 23:11:03,934 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 99999
+2026-08-27 23:11:05,216 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 99999
+2026-08-27 23:11:05,216 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 99999
+2026-08-27 23:11:05,218 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 99999
+2026-08-27 23:11:05,220 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 99999
+2026-08-27 23:11:05,220 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 99999
+2026-08-27 23:11:05,223 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 99999
+2026-08-27 23:11:20,041 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 99999
+2026-08-27 23:11:20,042 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 99999
+2026-08-27 23:11:20,043 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 99999
+2026-08-27 23:11:20,046 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 99999
+2026-08-27 23:11:20,046 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 99999
+2026-08-27 23:11:20,048 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 99999
+2026-08-27 23:11:38,202 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 99999
+2026-08-27 23:11:38,202 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 99999
+2026-08-27 23:11:38,204 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 99999
+2026-08-27 23:11:38,208 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 99999
+2026-08-27 23:11:38,209 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 99999
+2026-08-27 23:11:38,211 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 99999
+2026-08-27 23:11:41,506 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 99999
+2026-08-27 23:11:41,506 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 99999
+2026-08-27 23:11:41,508 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 99999
+2026-08-27 23:11:41,508 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 99999
+2026-08-27 23:11:41,508 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 99999
+2026-08-27 23:11:41,508 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 99999
+2026-08-27 23:12:41,254 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:12:41,254 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:12:41,257 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:12:41,261 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:12:41,261 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:12:41,263 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:12:43,245 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:12:43,246 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:12:43,247 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:12:43,249 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:12:43,250 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:12:43,251 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:13:39,248 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:13:39,249 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:13:39,250 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:13:39,253 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:13:39,253 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:13:39,255 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:14:41,243 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:14:41,243 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:14:41,245 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:14:41,249 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:14:41,249 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:14:41,251 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:15:31,249 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:15:31,250 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:15:31,251 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:15:31,255 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:15:31,256 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:15:31,257 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:16:07,244 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:16:07,245 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:16:07,247 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:16:07,249 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:16:07,250 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:16:07,252 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:16:19,138 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:16:19,139 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:16:19,141 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:16:19,144 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:16:19,144 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:16:19,146 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:16:33,843 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:16:33,843 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:16:33,851 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:16:33,851 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:16:34,156 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:16:34,158 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:16:34,164 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:16:34,165 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:16:36,795 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:16:36,796 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:16:36,804 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:16:36,804 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:16:37,888 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:16:37,889 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:16:37,897 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:16:37,897 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:16:43,673 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:16:43,673 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:16:43,682 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:16:43,682 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:16:50,427 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:16:50,427 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:16:50,427 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:16:50,427 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:16:50,427 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:16:50,439 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:21:06,953 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:21:06,953 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:21:06,953 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:21:06,953 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:21:06,953 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:21:06,980 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:21:10,727 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:21:10,727 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:21:10,732 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:21:10,733 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:21:38,191 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:21:38,191 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:21:38,192 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:21:38,195 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 1
+2026-08-27 23:21:38,197 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 1
+2026-08-27 23:21:38,199 | WARNING | learning_resource_service.py:47 | Analysis not found. Analysis ID: 1
+2026-08-27 23:22:32,664 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:22:32,664 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:22:32,671 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:22:32,671 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:22:33,742 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:22:33,743 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:22:33,750 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:22:33,750 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:27:00,246 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:27:00,247 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:27:00,254 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:27:00,254 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:27:28,290 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:27:28,290 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:27:28,298 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:27:28,299 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:34:06,977 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:34:06,977 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:34:06,988 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:34:06,988 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:39:24,247 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:39:24,247 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:39:38,310 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:39:38,310 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:39:38,319 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:39:38,320 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:40:37,237 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:40:37,238 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:40:42,099 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:40:42,099 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-27 23:40:42,108 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-27 23:40:42,109 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
