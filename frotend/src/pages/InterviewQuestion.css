@@ -1,0 +1,1076 @@
+.interview-question-page {
+  min-height: 100vh;
+  padding: 50px 8%;
+  background: linear-gradient(
+    135deg,
+    #f8fbff 0%,
+    #eef5ff 50%,
+    #f8fafc 100%
+  );
+  color: #172033;
+}
+
+/* =========================
+   Back Button
+========================= */
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  border: none;
+  background: transparent;
+
+  color: #64748b;
+  font-size: 15px;
+  font-weight: 600;
+
+  padding: 8px 0;
+  margin-bottom: 35px;
+
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.back-button:hover {
+  color: #2563eb;
+  transform: translateX(-3px);
+}
+
+/* =========================
+   Header
+========================= */
+
+.interview-question-header {
+  margin-bottom: 32px;
+}
+
+.interview-question-header h1 {
+  margin: 0;
+
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+
+  color: #172033;
+}
+
+.interview-question-header p {
+  margin: 10px 0 0;
+
+  font-size: 16px;
+  color: #64748b;
+}
+
+/* =========================
+   Question Card
+========================= */
+
+.question-detail-card {
+  position: relative;
+
+  background: rgba(255, 255, 255, 0.95);
+
+  border: 1px solid #dbe5f1;
+  border-radius: 22px;
+
+  padding: 42px 46px;
+
+  box-shadow:
+    0 15px 40px rgba(30, 64, 175, 0.08),
+    0 3px 10px rgba(15, 23, 42, 0.04);
+
+  transition: 0.25s ease;
+}
+
+.question-detail-card:hover {
+  box-shadow:
+    0 20px 50px rgba(30, 64, 175, 0.12),
+    0 5px 15px rgba(15, 23, 42, 0.05);
+}
+
+/* =========================
+   Skill
+========================= */
+
+.question-detail-card h2 {
+  margin: 0 0 24px;
+
+  font-size: 26px;
+  font-weight: 700;
+
+  color: #2563eb;
+}
+
+/* =========================
+   Metadata
+========================= */
+
+.question-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 30px;
+}
+
+.question-meta span {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 7px 14px;
+
+  border-radius: 999px;
+
+  background: #eff6ff;
+  border: 1px solid #dbeafe;
+
+  color: #2563eb;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Different color for second badge */
+
+.question-meta span:nth-child(2) {
+  background: #f5f3ff;
+  border-color: #e9d5ff;
+  color: #7c3aed;
+}
+
+/* =========================
+   Question Text
+========================= */
+
+.question-detail-text {
+  margin: 0;
+
+  max-width: 1000px;
+
+  font-size: 20px;
+  line-height: 1.8;
+
+  font-weight: 500;
+
+  color: #1e293b;
+}
+
+/* =========================
+   Question Number
+========================= */
+
+.question-number {
+  text-align: center;
+
+  margin: 35px 0 22px;
+
+  color: #64748b;
+
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* =========================
+   Navigation
+========================= */
+
+.question-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 18px;
+}
+
+.question-navigation button {
+  min-width: 130px;
+
+  padding: 12px 22px;
+
+  border-radius: 12px;
+
+  border: 1px solid #d5deeb;
+
+  background: white;
+
+  color: #334155;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.question-navigation button:hover:not(:disabled) {
+  background: #2563eb;
+  border-color: #2563eb;
+
+  color: white;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.2);
+}
+
+.question-navigation button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* =========================
+   Not Found
+========================= */
+
+.question-not-found {
+  max-width: 600px;
+
+  margin: 100px auto;
+
+  padding: 40px;
+
+  text-align: center;
+
+  background: white;
+
+  border-radius: 20px;
+
+  border: 1px solid #e2e8f0;
+
+  box-shadow: 0 15px 40px rgba(15, 23, 42, 0.08);
+}
+
+/* =========================
+   Responsive
+========================= */
+
+@media (max-width: 768px) {
+
+  .interview-question-page {
+    padding: 30px 20px;
+  }
+
+  .interview-question-header h1 {
+    font-size: 28px;
+  }
+
+  .question-detail-card {
+    padding: 28px 24px;
+    border-radius: 18px;
+  }
+
+  .question-detail-card h2 {
+    font-size: 22px;
+  }
+
+  .question-detail-text {
+    font-size: 17px;
+    line-height: 1.65;
+  }
+
+  .question-navigation {
+    flex-direction: column;
+  }
+
+  .question-navigation button {
+    width: 100%;
+  }
+}
+
+
+.empty-questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 30px;
+  margin-top: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+.empty-icon {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.empty-questions h3 {
+  margin: 0 0 10px;
+  font-size: 22px;
+}
+
+.empty-questions p {
+  margin: 0 0 25px;
+  color: #6b7280;
+}
+
+
+/* =========================================================
+   INTERVIEW PREPARATION - MODERN AI DASHBOARD
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+.interview-preparation-page {
+  min-height: 100vh;
+  padding: 40px;
+  background:
+    radial-gradient(circle at top left, rgba(99, 102, 241, 0.16), transparent 32%),
+    radial-gradient(circle at top right, rgba(59, 130, 246, 0.12), transparent 30%),
+    #f5f7fb;
+  color: #172033;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.interview-header {
+  max-width: 1200px;
+  margin: 0 auto 30px;
+
+  padding: 36px 40px;
+
+  border-radius: 24px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #1e1b4b 0%,
+      #312e81 50%,
+      #2563eb 100%
+    );
+
+  color: white;
+
+  box-shadow:
+    0 20px 45px rgba(37, 99, 235, 0.20);
+}
+
+.interview-header h1 {
+  margin: 0 0 10px;
+
+  font-size: 32px;
+  font-weight: 750;
+  letter-spacing: -0.8px;
+}
+
+.interview-header p {
+  margin: 0;
+
+  font-size: 16px;
+
+  color: rgba(255, 255, 255, 0.78);
+}
+
+
+/* =========================================================
+   OVERVIEW
+   ========================================================= */
+
+.preparation-overview,
+.your-skills,
+.interview-questions {
+  max-width: 1200px;
+  margin: 0 auto 28px;
+
+  background: rgba(255, 255, 255, 0.88);
+
+  border: 1px solid rgba(226, 232, 240, 0.9);
+
+  border-radius: 22px;
+
+  padding: 28px;
+
+  box-shadow:
+    0 10px 30px rgba(15, 23, 42, 0.06);
+
+  backdrop-filter: blur(10px);
+}
+
+.preparation-overview h2,
+.your-skills h2,
+.interview-questions h2 {
+  margin: 0 0 22px;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  color: #172033;
+}
+
+
+/* =========================================================
+   OVERVIEW STATS
+   ========================================================= */
+
+.overview-stats {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 18px;
+}
+
+.overview-item {
+  position: relative;
+
+  padding: 24px;
+
+  border-radius: 18px;
+
+  background: linear-gradient(
+    135deg,
+    #f8fafc,
+    #eef2ff
+  );
+
+  border: 1px solid #e2e8f0;
+
+  transition: all 0.25s ease;
+}
+
+.overview-item:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 12px 25px rgba(30, 64, 175, 0.10);
+}
+
+.overview-item strong {
+  display: block;
+
+  font-size: 32px;
+
+  color: #4f46e5;
+
+  margin-bottom: 6px;
+}
+
+.overview-item span {
+  color: #64748b;
+
+  font-size: 14px;
+
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   SKILLS
+   ========================================================= */
+
+.skill-chips {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 12px;
+}
+
+.skill-chip {
+  border: 1px solid #dbeafe;
+
+  background: #eff6ff;
+
+  color: #2563eb;
+
+  padding: 10px 17px;
+
+  border-radius: 999px;
+
+  font-size: 14px;
+
+  font-weight: 650;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.skill-chip:hover {
+  background: #dbeafe;
+
+  transform: translateY(-2px);
+}
+
+.skill-chip.selected {
+  background: linear-gradient(
+    135deg,
+    #4f46e5,
+    #2563eb
+  );
+
+  color: white;
+
+  border-color: transparent;
+
+  box-shadow:
+    0 7px 18px rgba(79, 70, 229, 0.25);
+}
+
+
+/* =========================================================
+   QUESTIONS HEADER
+   ========================================================= */
+
+.questions-header {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 20px;
+
+  margin-bottom: 24px;
+}
+
+.questions-header h2 {
+  margin: 0;
+}
+
+.questions-header span {
+  padding: 7px 13px;
+
+  border-radius: 999px;
+
+  background: #eef2ff;
+
+  color: #4f46e5;
+
+  font-size: 13px;
+
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   FILTERS
+   ========================================================= */
+
+.question-filters {
+  display: grid;
+
+  grid-template-columns:
+    1fr
+    1fr
+    1fr
+    auto;
+
+  gap: 16px;
+
+  align-items: end;
+
+  padding: 20px;
+
+  margin-bottom: 26px;
+
+  border-radius: 18px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e2e8f0;
+}
+
+.filter-group {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.filter-group label {
+  font-size: 13px;
+
+  font-weight: 700;
+
+  color: #475569;
+}
+
+.filter-group select {
+  width: 100%;
+
+  padding: 11px 13px;
+
+  border-radius: 10px;
+
+  border: 1px solid #cbd5e1;
+
+  background: white;
+
+  color: #1e293b;
+
+  font-size: 14px;
+
+  outline: none;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.filter-group select:focus {
+  border-color: #6366f1;
+
+  box-shadow:
+    0 0 0 3px rgba(99, 102, 241, 0.12);
+}
+
+.clear-filters {
+  border: none;
+
+  padding: 11px 17px;
+
+  border-radius: 10px;
+
+  background: #eef2ff;
+
+  color: #4f46e5;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.clear-filters:hover {
+  background: #e0e7ff;
+
+  transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   QUESTION LIST
+   ========================================================= */
+
+.question-list {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 16px;
+}
+
+
+/* =========================================================
+   QUESTION CARD
+   ========================================================= */
+
+.question-card {
+  padding: 24px;
+
+  border-radius: 18px;
+
+  border: 1px solid #e2e8f0;
+
+  background: white;
+
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    border-color 0.22s ease;
+}
+
+.question-card:hover {
+  transform: translateY(-3px);
+
+  border-color: #c7d2fe;
+
+  box-shadow:
+    0 15px 35px rgba(15, 23, 42, 0.08);
+}
+
+.question-card-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 15px;
+
+  margin-bottom: 15px;
+}
+
+.question-skill {
+  color: #4f46e5;
+
+  font-size: 15px;
+
+  font-weight: 750;
+}
+
+.question-difficulty {
+  padding: 6px 11px;
+
+  border-radius: 999px;
+
+  background: #ecfdf5;
+
+  color: #059669;
+
+  font-size: 12px;
+
+  font-weight: 750;
+}
+
+.question-text {
+  margin: 0 0 20px;
+
+  color: #334155;
+
+  font-size: 15px;
+
+  line-height: 1.7;
+}
+
+.question-card-footer {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 15px;
+}
+
+.question-type {
+  display: inline-flex;
+
+  padding: 6px 11px;
+
+  border-radius: 8px;
+
+  background: #f1f5f9;
+
+  color: #475569;
+
+  font-size: 12px;
+
+  font-weight: 750;
+
+  text-transform: uppercase;
+}
+
+.question-card-footer button {
+  border: none;
+
+  padding: 9px 15px;
+
+  border-radius: 9px;
+
+  background: linear-gradient(
+    135deg,
+    #4f46e5,
+    #2563eb
+  );
+
+  color: white;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.question-card-footer button:hover {
+  transform: translateX(2px);
+
+  box-shadow:
+    0 7px 18px rgba(79, 70, 229, 0.25);
+}
+
+
+/* =========================================================
+   EMPTY STATE
+   ========================================================= */
+
+.empty-questions {
+  min-height: 330px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #f8fafc,
+      #eef2ff
+    );
+
+  border: 1px dashed #c7d2fe;
+}
+
+.empty-icon {
+  width: 64px;
+
+  height: 64px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-bottom: 18px;
+
+  border-radius: 50%;
+
+  background: #e0e7ff;
+
+  font-size: 28px;
+}
+
+.empty-questions h3 {
+  margin: 0 0 10px;
+
+  font-size: 21px;
+
+  color: #1e293b;
+}
+
+.empty-questions p {
+  max-width: 450px;
+
+  margin: 0 0 22px;
+
+  color: #64748b;
+
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   ERROR STATE
+   ========================================================= */
+
+.error-state {
+  max-width: 700px;
+
+  min-height: 430px;
+
+  margin: 80px auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 50px;
+
+  background: white;
+
+  border: 1px solid #fee2e2;
+
+  border-radius: 24px;
+
+  box-shadow:
+    0 20px 45px rgba(15, 23, 42, 0.08);
+}
+
+.error-icon {
+  width: 72px;
+
+  height: 72px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-bottom: 20px;
+
+  border-radius: 50%;
+
+  background: #fef2f2;
+
+  font-size: 32px;
+}
+
+.error-state h2 {
+  margin: 0 0 12px;
+
+  color: #991b1b;
+
+  font-size: 24px;
+}
+
+.error-state p {
+  max-width: 500px;
+
+  margin: 0 0 25px;
+
+  color: #64748b;
+
+  line-height: 1.6;
+}
+
+.error-state button {
+  border: none;
+
+  padding: 11px 22px;
+
+  border-radius: 10px;
+
+  background: linear-gradient(
+    135deg,
+    #4f46e5,
+    #2563eb
+  );
+
+  color: white;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.error-state button:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 8px 20px rgba(79, 70, 229, 0.25);
+}
+
+
+/* =========================================================
+   LOADING STATE
+   ========================================================= */
+
+.interview-preparation-page > p {
+  text-align: center;
+
+  color: #64748b;
+
+  font-size: 15px;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .interview-preparation-page {
+    padding: 25px;
+  }
+
+  .question-filters {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .clear-filters {
+    width: 100%;
+  }
+
+  .overview-stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .interview-preparation-page {
+    padding: 15px;
+  }
+
+  .interview-header {
+    padding: 28px 22px;
+
+    border-radius: 18px;
+  }
+
+  .interview-header h1 {
+    font-size: 25px;
+  }
+
+  .preparation-overview,
+  .your-skills,
+  .interview-questions {
+    padding: 20px;
+
+    border-radius: 18px;
+  }
+
+  .question-filters {
+    grid-template-columns: 1fr;
+
+    padding: 16px;
+  }
+
+  .questions-header {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .question-card {
+    padding: 20px;
+  }
+
+  .question-card-header {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .question-card-footer {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .question-card-footer button {
+    width: 100%;
+  }
+
+  .error-state {
+    margin: 30px auto;
+
+    padding: 30px 20px;
+  }
+}

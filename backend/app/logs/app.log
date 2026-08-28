@@ -2446,3 +2446,730 @@ requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=1
 2026-08-28 19:19:16,468 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
 2026-08-28 19:19:16,468 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
 2026-08-28 19:19:16,471 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:18:26,253 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:18:26,254 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:18:26,265 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:18:26,282 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:18:26,284 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:18:26,285 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:26:17,950 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:26:17,950 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:26:17,953 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:26:17,963 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:26:17,964 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:26:17,965 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:26:20,636 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:26:20,636 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:26:20,638 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:26:20,649 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:26:20,650 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:26:20,651 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:26:30,536 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:26:30,536 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:26:30,539 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:26:30,552 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:26:30,552 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:26:30,553 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:33:13,791 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:33:13,791 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:33:13,793 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:33:13,807 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:33:13,807 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:33:13,808 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:33:44,036 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:33:44,036 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:33:44,037 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:33:44,048 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:33:44,049 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:33:44,050 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:35:46,793 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:35:46,793 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:35:46,793 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:35:46,807 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:35:46,807 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:35:46,809 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:35:49,217 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:35:49,218 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:35:49,219 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:35:49,229 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:35:49,229 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:35:49,231 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:40:35,675 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:40:35,675 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:40:35,677 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:40:35,686 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:40:35,687 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:40:35,689 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:41:04,273 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:41:04,273 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:41:04,276 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:41:04,288 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:41:04,288 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:41:04,290 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:41:37,034 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:41:37,034 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:41:37,036 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:41:37,049 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:41:37,049 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:41:37,051 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:41:38,119 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:41:38,120 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:41:38,121 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:41:38,132 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:41:38,132 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:41:38,134 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:41:38,600 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:41:38,600 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:41:38,603 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:41:38,612 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:41:38,613 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:41:38,614 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:45:32,024 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:45:32,025 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:45:32,026 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:45:32,039 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:45:32,039 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:45:32,041 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:46:47,723 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:46:47,724 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:46:47,725 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:46:47,737 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:46:47,737 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:46:47,739 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:46:52,420 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:46:52,420 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:46:52,422 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:46:52,434 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:46:52,435 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:46:52,437 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:47:04,206 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:47:04,207 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:47:04,208 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:47:04,220 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:47:04,222 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:47:04,222 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:47:28,668 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:47:28,668 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:47:28,670 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:47:28,684 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:47:28,684 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:47:28,686 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:49:03,554 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:49:03,555 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:49:03,558 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:49:03,570 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:49:03,571 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:49:03,572 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:49:05,007 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:49:05,009 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:49:05,011 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:49:05,022 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:49:05,022 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:49:05,025 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:49:06,674 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:49:06,674 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:49:06,677 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:49:06,688 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:49:06,689 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:49:06,691 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:49:39,840 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:49:39,841 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:49:39,842 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:49:39,856 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:49:39,857 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:49:39,858 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:51:31,783 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:51:31,783 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:51:31,786 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:51:31,803 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:51:31,803 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:51:31,805 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:59:40,931 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:59:40,931 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:59:40,935 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:59:40,949 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:59:40,951 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:59:40,952 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:59:46,776 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:59:46,776 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:59:46,778 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 21:59:46,792 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 21:59:46,792 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 21:59:46,795 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:02:58,574 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:02:58,576 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:02:58,578 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:02:58,592 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:02:58,592 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:02:58,593 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:06:51,879 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:06:51,879 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:06:51,881 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:06:51,896 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:06:51,896 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:06:51,897 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:09:06,756 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:09:06,758 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:09:06,761 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:09:06,772 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:09:06,772 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:09:06,776 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:10:45,688 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:10:45,689 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:10:45,693 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:10:49,217 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:10:49,218 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:10:49,221 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:10:49,235 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:10:49,236 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:10:49,237 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:11:16,131 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:11:16,132 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:11:16,134 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:11:16,146 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:11:16,147 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:11:16,148 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:13:28,672 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:13:28,673 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:13:28,675 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:13:28,683 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:13:28,683 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:13:28,684 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:13:42,396 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:13:42,396 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:13:42,396 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:13:42,412 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:13:42,412 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:13:42,413 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:13:44,170 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:13:44,170 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:13:44,172 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:13:44,185 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:13:44,185 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:13:44,188 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:13:46,297 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:13:46,297 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:13:46,299 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:13:46,312 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:13:46,313 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:13:46,314 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:13:50,826 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:13:50,826 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:13:50,827 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:13:50,838 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:13:50,840 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:13:50,841 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:14:32,632 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:14:32,632 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:14:32,633 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:14:32,646 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:14:32,646 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:14:32,647 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:22:43,529 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:22:43,530 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:22:43,533 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:22:43,555 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:22:43,557 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:22:43,560 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:22:47,004 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:22:47,006 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:22:47,010 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:22:47,040 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:22:47,041 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:22:47,045 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:23:27,297 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:23:27,299 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:23:27,303 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:23:27,327 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:23:27,328 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:23:27,332 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:23:32,262 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:23:32,264 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:23:32,269 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:23:32,293 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:23:32,294 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:23:32,297 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:29,599 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:29,601 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:29,606 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:29,634 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:29,634 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:29,638 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:30,846 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:30,847 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:30,849 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:30,873 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:30,873 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:30,877 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:33,175 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:33,176 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:33,178 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:33,215 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:33,216 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:33,218 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:35,277 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:35,277 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:35,280 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:35,309 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:35,310 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:35,315 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:36,809 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:36,810 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:36,812 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:36,835 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:36,835 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:36,847 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:38,692 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:38,692 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:38,698 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:38,730 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:38,732 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:38,735 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:40,079 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:40,079 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:40,082 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:40,107 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:40,108 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:40,108 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:42,021 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:42,022 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:42,025 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:42,048 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:42,048 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:42,052 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:43,949 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:43,950 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:43,962 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:43,985 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:43,985 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:43,988 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:47,475 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:47,475 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:47,478 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:47,499 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:47,499 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:47,503 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:50,106 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:50,107 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:50,111 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:50,135 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:50,135 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:50,137 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:52,070 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:52,072 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:52,077 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:52,100 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:52,101 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:52,104 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:56,728 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:56,728 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:56,743 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:24:56,765 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:24:56,766 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:24:56,768 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:25:03,302 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:25:03,303 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:25:03,315 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:25:03,343 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:25:03,343 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:25:03,346 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:25:11,215 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:25:11,215 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:25:11,218 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:25:11,243 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:25:11,243 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:25:11,246 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:25:13,658 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:25:13,659 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:25:13,662 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:25:13,689 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:25:13,689 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:25:13,692 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:25:18,648 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:25:18,649 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:25:18,652 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:25:18,681 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:25:18,681 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:25:18,683 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:25:21,134 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:25:21,134 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:25:21,137 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:25:21,160 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:25:21,160 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:25:21,162 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:17,394 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:17,395 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:17,421 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:17,455 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:17,457 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:17,460 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:17,883 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:17,883 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:17,890 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:17,921 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:17,922 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:17,925 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:19,921 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:19,925 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:19,929 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:19,954 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:19,954 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:19,959 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:20,587 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:20,587 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:20,590 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:20,613 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:20,613 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:20,616 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:22,004 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:22,004 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:22,013 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:22,041 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:22,041 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:22,044 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:23,181 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:23,181 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:23,185 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:23,214 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:23,214 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:23,217 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:25,164 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:25,166 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:25,171 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:25,196 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:25,196 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:25,204 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:27,601 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:27,601 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:27,605 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:27,633 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:27,633 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:27,633 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:31,669 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:31,669 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:31,673 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:31,699 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:31,699 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:31,702 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:33,985 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:33,985 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:33,988 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:34,012 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:34,013 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:34,016 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:36,419 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:36,419 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:36,422 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:36,449 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:36,450 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:36,452 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:38,909 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:38,911 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:38,913 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:38,938 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:38,938 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:38,941 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:41,164 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:41,165 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:41,167 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:41,197 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:41,198 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:41,201 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:46,072 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:46,073 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:46,075 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:46,099 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:46,100 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:46,103 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:49,795 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:49,795 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:49,797 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:49,820 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:49,820 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:49,823 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:52,067 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:52,068 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:52,070 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:52,096 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:52,097 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:52,099 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:55,729 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:55,730 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:55,732 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:55,758 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:55,760 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:55,761 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:57,844 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:57,844 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:57,847 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:28:57,876 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:28:57,876 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:28:57,880 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:29:00,245 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:29:00,246 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:29:00,249 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:29:00,276 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:29:00,276 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:29:00,279 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:29:02,485 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:29:02,486 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:29:02,489 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:29:02,519 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:29:02,519 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:29:02,521 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:30:03,025 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:30:03,026 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:30:03,029 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:30:03,058 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:30:03,059 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:30:03,061 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:40:54,437 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:40:54,437 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:40:54,440 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:40:54,466 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:40:54,466 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:40:54,469 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:41:23,799 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:41:23,801 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:41:23,804 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:41:23,829 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:41:23,829 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:41:23,833 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:44:19,291 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:44:19,291 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:44:19,293 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:44:19,324 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:44:19,324 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:44:19,324 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:51:27,630 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:51:27,630 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:51:27,639 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:51:27,665 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:51:27,665 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:51:27,669 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:56:16,248 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:56:16,248 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:56:16,251 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:56:16,276 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:56:16,276 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:56:16,280 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:56:28,954 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:56:28,955 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:56:28,959 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:56:28,984 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:56:28,984 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:56:28,987 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:56:32,491 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:56:32,492 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:56:32,495 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:56:32,520 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:56:32,521 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:56:32,524 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:56:35,537 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:56:35,538 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:56:35,541 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 22:56:35,566 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 22:56:35,566 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 22:56:35,569 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:03:56,710 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:03:56,712 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:03:56,714 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:05:47,681 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:05:47,681 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:05:47,686 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:02,796 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:02,797 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:02,803 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:02,830 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:02,831 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:02,837 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:05,080 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:05,082 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:05,086 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:05,109 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:05,110 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:05,113 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:09,460 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:09,462 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:09,466 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:09,492 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:09,494 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:09,497 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:19,893 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:19,895 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:19,897 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:19,924 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:19,926 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:19,931 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:24,659 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:24,660 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:24,664 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:24,692 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:24,693 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:24,695 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:26,357 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:26,358 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:26,361 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:26,384 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:26,384 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:26,388 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:32,686 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:32,686 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:32,690 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:32,717 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:32,718 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:32,722 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:34,678 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:34,678 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:34,681 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:34,709 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:34,710 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:34,712 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:38,037 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:38,041 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:38,044 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:11:38,065 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:11:38,066 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:11:38,069 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:13:47,800 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:13:47,802 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:13:47,827 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:13:47,872 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:13:47,874 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:13:47,878 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:23:45,855 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:23:45,856 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:23:45,877 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:23:45,910 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:23:45,912 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:23:45,915 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:24:32,085 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:24:32,086 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:24:32,089 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:24:32,117 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:24:32,118 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:24:32,122 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:27:02,581 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:27:02,586 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:27:02,590 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:27:02,640 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:27:02,642 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:27:02,652 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:27:09,270 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:27:09,270 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:27:09,274 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:27:09,296 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:27:09,300 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:27:09,304 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:27:10,822 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:27:10,825 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:27:10,829 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:27:10,853 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:27:10,853 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:27:10,856 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:27:13,643 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:27:13,646 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:27:13,649 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:27:13,677 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:27:13,677 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:27:13,680 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:27:16,452 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:27:16,454 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:27:16,458 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:27:16,484 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:27:16,485 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:27:16,487 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:27:37,045 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:27:37,057 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:27:37,060 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:27:37,087 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:27:37,088 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:27:37,090 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:27:40,110 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:27:40,110 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:27:40,114 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:27:40,143 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:27:40,143 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:27:40,147 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:27:47,197 | INFO | roles.py:15 | Fetching all Roles 
+2026-08-28 23:27:47,208 | INFO | roles.py:15 | Fetching all Roles 
+2026-08-28 23:27:51,480 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-28 23:27:51,488 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-28 23:27:51,871 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-28 23:27:51,873 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-28 23:27:51,885 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-28 23:27:51,888 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-28 23:28:01,012 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-28 23:28:01,015 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-28 23:28:01,024 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-28 23:28:01,028 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-28 23:28:04,419 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-28 23:28:04,419 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-28 23:28:04,445 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-28 23:28:04,447 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-28 23:28:08,127 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-28 23:28:08,130 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-28 23:28:08,138 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-28 23:28:08,141 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-28 23:28:09,992 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-28 23:28:09,992 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-28 23:28:10,008 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-28 23:28:10,008 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-28 23:28:45,628 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-28 23:28:45,632 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-28 23:28:45,640 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-28 23:28:45,642 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-28 23:29:08,080 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-28 23:29:08,083 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-28 23:29:08,090 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-28 23:29:08,093 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-28 23:29:10,491 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-28 23:29:10,492 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-28 23:29:10,509 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-28 23:29:10,509 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-28 23:29:40,433 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-28 23:29:40,438 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-28 23:29:40,451 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-28 23:29:40,458 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-28 23:29:56,440 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:29:56,443 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:29:56,445 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:29:56,473 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:29:56,473 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:29:56,477 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:30:04,953 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 5, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:30:04,955 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:5 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:30:04,957 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 5
+2026-08-28 23:30:04,965 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 5, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:30:04,965 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:5 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:30:04,967 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 5
+2026-08-28 23:31:18,508 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:31:18,509 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:31:18,514 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:31:18,543 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:31:18,544 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:31:18,546 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:31:24,747 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 3, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:31:24,748 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:3 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:31:24,751 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 3
+2026-08-28 23:31:24,759 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 3, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:31:24,760 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:3 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:31:24,764 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 3
+2026-08-28 23:31:29,670 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:31:29,671 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:31:29,675 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:31:29,697 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:31:29,698 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:31:29,701 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:31:35,252 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:31:35,252 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:31:35,255 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:31:35,275 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:31:35,276 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:31:35,278 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:31:37,399 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:31:37,400 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:31:37,403 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-28 23:31:37,434 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-28 23:31:37,435 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-28 23:31:37,438 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1

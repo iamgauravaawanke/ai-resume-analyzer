@@ -4,6 +4,7 @@ import Results from "./pages/Result";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import  LearningResources from "./pages/LearningResources"
 import  InterviewPreparation  from "./pages/InterviewPreparation"
+import InterviewQuestion from "./pages/InterviewQuestion"
 
 function App() {
   return (
@@ -46,6 +47,12 @@ path="/learning-resources/:analysis_id"
 
 </Route>
 
+
+<Route
+  path="/interview-preparation/:role_id/question/:question_id"
+  element={<InterviewQuestion />}
+/>
+  
 
 
 </Routes>
