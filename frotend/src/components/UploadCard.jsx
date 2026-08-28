@@ -1,12 +1,19 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Card, CardContent } from "../components/ui/card";
 import { Button } from "../components/ui/button";
 import { Upload, FileText } from "lucide-react";
-import { analyzedResume } from "../services/app";
+import { analyzedResume, fetchRoles } from "../services/app";
+
 import { useNavigate } from "react-router-dom";
+
 
 function UploadCard() {
   const [file, setFile] = useState(null);
+  const [selectedRoleId, setSelectedRoleId] = useState("");
+  const [roles, setRoles] = useState([])
+
+
+  
 
   const navigate = useNavigate()
 
@@ -17,9 +24,15 @@ function UploadCard() {
             return;
         }
 
+
+        if (!selectedRoleId) {
+        alert("Please select a role");
+        return;
+    }
+
     try{
-        const response = await analyzedResume(file)
-          console.log(response)
+        const response = await analyzedResume(file, selectedRoleId)          
+        console.log(response)
 
 
 
@@ -35,6 +48,23 @@ function UploadCard() {
       setFile(e.target.files[0]);
     }
   };
+
+
+useEffect(() => {
+  const loadRoles = async () => {
+    try {
+      const data = await fetchRoles();
+
+      console.log("Roles:", data);
+
+      setRoles(data.data);
+    } catch (error) {
+      console.error("Failed to load roles:", error);
+    }
+  };
+
+  loadRoles();
+}, []);
 
   return (
     <section className="pb-24">
@@ -117,7 +147,28 @@ function UploadCard() {
             >
               Analyze Resume
             </Button>
+        <div className="mt-8">
+          <label className="mb-2 block text-left font-semibold text-gray-900">
+            Select Target Role
+          </label>
 
+          <select
+            value={selectedRoleId}
+            onChange={(e) => setSelectedRoleId(e.target.value)}
+            className="w-full rounded-xl border border-gray-300 bg-white p-3"
+          >
+            <option value="">Select a role</option>
+
+            {roles.map((role) => (
+              <option
+                key={role.role_id}
+                value={role.role_id}
+              >
+                {role.role_name}
+              </option>
+            ))}
+          </select>
+        </div>
           </CardContent>
         </Card>
 

@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Results from "./pages/Result";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import  LearningResources from "./pages/LearningResources"
+import  InterviewPreparation  from "./pages/InterviewPreparation"
 
 function App() {
   return (
@@ -11,7 +12,6 @@ function App() {
 
 
 <Routes>
-
 
 
 <Route
@@ -36,6 +36,17 @@ path="/learning-resources/:analysis_id"
   >
 
   </Route>
+
+<Route
+ 
+ path="interview-preparation/:role_id"
+ element={<InterviewPreparation/>}
+>
+
+
+</Route>
+
+
 
 </Routes>
 

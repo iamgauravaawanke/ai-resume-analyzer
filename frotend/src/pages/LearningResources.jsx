@@ -6,6 +6,7 @@ import { fetchLearningResources } from "../services/app";
 
 function LearningResources() {
 
+  
   const { analysis_id } = useParams();
 
   const [resources, setResources] = useState(null);
@@ -113,7 +114,7 @@ function LearningResources() {
 
   // -------------------------
   // Error
-  // -------------------------
+  // -------------------------resources
 
   if (error) {
 

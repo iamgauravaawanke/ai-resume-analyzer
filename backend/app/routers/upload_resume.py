@@ -1,4 +1,4 @@
-from fastapi import APIRouter, UploadFile, File, HTTPException
+from fastapi import APIRouter, UploadFile, File, HTTPException,Form
 import os
 import json
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -49,7 +49,7 @@ def is_knowledge_indexed(collection, source):
     return len(results["ids"]) > 0
 
 @router.post("/upload")
-async def upload_resume(file: UploadFile = File(...)):
+async def upload_resume(file: UploadFile = File(...) ,  role_id: int = Form(...)   ):
 
     logger.info("Resume upload request received.")
 
@@ -111,7 +111,7 @@ async def upload_resume(file: UploadFile = File(...)):
         
         # selected_role = "Backend Developer"   # Temporar
     
-        role_id = 5
+        # role_id = 5
         
         logger.info(f"Fetching role with ID: {role_id}")
         

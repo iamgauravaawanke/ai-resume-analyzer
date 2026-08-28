@@ -74,7 +74,7 @@ if (loading) {
   return (
     <div className="dashboard-layout">
 
-      <Sidebar />
+    <Sidebar analysis_id={analysis_id} />  
 
       <main className="dashboard-content">
 
@@ -101,7 +101,7 @@ if (error) {
   return (
     <div className="dashboard-layout">
 
-      <Sidebar />
+      <Sidebar analysis_id={analysis_id} />
 
       <main className="dashboard-content">
 
@@ -136,7 +136,7 @@ if (error) {
 return (
   <div className="dashboard-layout">
 
-    <Sidebar />
+    <Sidebar analysis_id={analysis_id} />
 
     <main className="dashboard-content">
 
