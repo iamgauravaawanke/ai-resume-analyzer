@@ -101,7 +101,10 @@ if (error) {
   return (
     <div className="dashboard-layout">
 
-      <Sidebar analysis_id={analysis_id} />
+<Sidebar
+  analysis_id={analysis_id}
+  role_id={1}
+/>
 
       <main className="dashboard-content">
 
@@ -136,8 +139,10 @@ if (error) {
 return (
   <div className="dashboard-layout">
 
-    <Sidebar analysis_id={analysis_id} />
-
+<Sidebar
+  analysis_id={analysis_id}
+  role_id={analysisData?.role_id}
+/>
     <main className="dashboard-content">
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">

@@ -20,7 +20,7 @@ function InterviewPreparation() {
 
   const loadQuestions = async () => {
 
-    setLoading(false);
+    setLoading(true);
     setError(false);
 
     try {

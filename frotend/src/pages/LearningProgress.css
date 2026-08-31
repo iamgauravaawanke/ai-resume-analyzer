@@ -1,0 +1,204 @@
+.learning-progress-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.learning-progress-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.header-icon {
+  font-size: 40px;
+}
+
+.learning-progress-header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.learning-progress-header p {
+  margin-top: 8px;
+  color: #6b7280;
+}
+
+.overall-progress {
+  padding: 35px;
+  text-align: center;
+  border-radius: 18px;
+  background: #ffffff;
+  margin-bottom: 25px;
+}
+
+.overall-progress h2 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.progress-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.progress-circle strong {
+  font-size: 48px;
+}
+
+.progress-circle span {
+  color: #6b7280;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 14px;
+  background: #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 10px;
+  background: #4f46e5;
+}
+
+.progress-card {
+  padding: 28px;
+  border-radius: 16px;
+  background: #ffffff;
+  margin-bottom: 20px;
+}
+
+.progress-card h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.progress-value {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.reset-progress {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.reset-progress button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+
+.progress-message {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #4f46e5;
+}
+
+/* ================================
+   Update Progress Form
+================================ */
+
+.update-progress-form {
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.update-progress-form h2 {
+  margin: 0 0 15px;
+  font-size: 22px;
+}
+
+
+/* Labels */
+
+.update-progress-form label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+
+/* Inputs */
+
+.update-progress-form input {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 12px 14px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+
+  font-size: 15px;
+  outline: none;
+}
+
+
+/* Input focus */
+
+.update-progress-form input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+
+/* Buttons */
+
+.update-progress-form button {
+  margin-top: 12px;
+
+  padding: 12px 20px;
+
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+/* ================================
+   Bottom Buttons
+================================ */
+
+.reset-progress {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+
+  margin-top: 30px;
+}
+
+.reset-progress button {
+  padding: 12px 22px;
+
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-size: 14px;
+  font-weight: 600;
+}

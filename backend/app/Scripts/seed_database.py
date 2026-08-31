@@ -1,10 +1,10 @@
+
 import json
 
 from database.database import SessionLocal
-from models.Interview_Preparation import Interview_Preparation
-from models.roles import Role
+from models.learning_resource import Learning_Resource
 
-JSON_FILE = "seed_data/interview_preparation/SQL.json"
+JSON_FILE = "seed_data/learning_resources/Kubernetes.json"
 
 
 def seed_database():
@@ -22,47 +22,29 @@ def seed_database():
 
             print("seeding resource:", resource)
 
-            # Find role
-            role = (
-                db.query(Role)
-                .filter(
-                    Role.role_name == resource["role"]
-                )
-                .first()
-            )
-
-            if role is None:
-                print(
-                    f"Role not found: {resource['role']}. "
-                    f"Skipping question."
-                )
-                continue
-
             # Check duplicate
             existing_resource = (
-                db.query(Interview_Preparation)
+                db.query(Learning_Resource)
                 .filter(
-                    Interview_Preparation.role_id == role.role_id,
-                    Interview_Preparation.skill == resource["skill"],
-                    Interview_Preparation.question == resource["question"]
+                    Learning_Resource.skill == resource["skill"],
+                    Learning_Resource.title == resource["title"]
                 )
                 .first()
             )
 
             if existing_resource:
                 print(
-                    "Question already exists, skipping:",
-                    resource["question"]
+                    "Resource already exists, skipping:",
+                    resource["title"]
                 )
                 continue
 
-            # Create new interview question
-            new_resource = Interview_Preparation(
-                role_id=role.role_id,
+            # Create learning resource
+            new_resource = Learning_Resource(
                 skill=resource["skill"],
-                question=resource["question"],
-                question_type=resource["question_type"],
-                difficulty=resource["difficulty"]
+                resource_type=resource["resource_type"],
+                title=resource["title"],
+                url=resource["url"]
             )
 
             db.add(new_resource)
@@ -70,7 +52,6 @@ def seed_database():
         db.commit()
 
         print("Database seeding completed successfully.")
-
 
     except Exception as e:
 
@@ -82,7 +63,6 @@ def seed_database():
         )
 
     finally:
-
         db.close()
 
 

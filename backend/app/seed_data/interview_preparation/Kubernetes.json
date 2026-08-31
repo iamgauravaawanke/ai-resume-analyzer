@@ -1,0 +1,212 @@
+[
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "What is Kubernetes, and why is it used for deploying and managing containerized applications?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "What is a Kubernetes cluster, and what are its main components?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "Which Kubernetes object is commonly used to manage and run a set of identical application containers?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "Write a basic Kubernetes Deployment manifest for running two replicas of a Python application.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "What is a Pod in Kubernetes, and why is it the basic unit of deployment?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "What is the purpose of a Kubernetes Service?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "Write a Kubernetes Service manifest that exposes a backend application running on port 8000.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "Which Kubernetes command is commonly used to display all Pods in the current namespace?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "What is a Kubernetes Namespace, and why would you use one?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "A newly deployed Pod is stuck in Pending status. What basic Kubernetes commands would you use to investigate the problem?",
+    "question_type": "Scenario",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "What is the difference between a Deployment, ReplicaSet, and Pod in Kubernetes?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "Write a Kubernetes Deployment configuration that runs three replicas and exposes environment variables to the application.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "What are ConfigMaps and Secrets in Kubernetes, and when should each be used?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "Which Kubernetes object is designed to store non-sensitive configuration data separately from a container image?",
+    "question_type": "MCQ",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "Explain the difference between ClusterIP, NodePort, and LoadBalancer Services.",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "Write Kubernetes manifests for a FastAPI application and PostgreSQL database where the application connects to PostgreSQL using a Kubernetes Service.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "What are readiness and liveness probes, and why are they important for production workloads?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "A Kubernetes Deployment is running successfully, but users cannot access the application through its Service. How would you troubleshoot the networking and configuration problem?",
+    "question_type": "Scenario",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "How do Kubernetes resource requests and limits affect Pod scheduling and runtime resource usage?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "Write a Kubernetes Deployment configuration containing CPU and memory requests and limits for a backend application.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "Explain how Kubernetes performs rolling updates and rollbacks for Deployments.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "Design Kubernetes manifests for a production FastAPI application with multiple replicas, readiness and liveness probes, resource limits, configuration, and a Service.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "Which Kubernetes mechanism is commonly used to automatically increase or decrease the number of Pod replicas based on resource utilization?",
+    "question_type": "MCQ",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "Explain Horizontal Pod Autoscaling and the metrics it can use to determine when additional replicas are required.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "A production application experiences traffic spikes and Pods become overloaded. Design a Kubernetes strategy using autoscaling, resource requests, limits, and health probes.",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "Explain PersistentVolumes, PersistentVolumeClaims, and StorageClasses and how they provide persistent storage to Kubernetes workloads.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "Design a Kubernetes deployment strategy for a backend application that requires persistent storage while allowing Pods to be recreated without losing application data.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "A production Kubernetes application repeatedly enters CrashLoopBackOff after deployment. Explain how you would systematically diagnose logs, configuration, probes, resources, dependencies, and application errors.",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "How would you secure a production Kubernetes cluster using RBAC, Secrets, NetworkPolicies, least-privilege service accounts, and secure container configuration?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "Kubernetes",
+    "question": "Design a production Kubernetes architecture for a FastAPI backend with multiple replicas, PostgreSQL, ingress, autoscaling, persistent storage, secrets, monitoring, and rolling deployments.",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  }
+]

@@ -3173,3 +3173,706 @@ requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=1
 2026-08-28 23:31:37,434 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
 2026-08-28 23:31:37,435 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
 2026-08-28 23:31:37,438 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-29 22:52:34,803 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 16
+2026-08-29 22:52:34,805 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 16
+2026-08-29 22:52:34,827 | ERROR | progress_tracking_service.py:58 | Error fetching progress for Resume ID 16: (psycopg2.errors.ForeignKeyViolation) insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(16) is not present in table "resume".
+
+[SQL: INSERT INTO learning_progress (resume_id, progress, completed_skill, current_learning_stage) VALUES (%(resume_id)s, %(progress)s, %(completed_skill)s, %(current_learning_stage)s) RETURNING learning_progress.id, learning_progress.created_at, learning_progress.updated_at]
+[parameters: {'resume_id': 16, 'progress': 0, 'completed_skill': None, 'current_learning_stage': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(16) is not present in table "resume".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\services\progress_tracking_service.py", line 42, in get_progress
+    db.commit()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 2035, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 1316, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 1290, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4353, in flush
+    self._flush(objects)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4488, in _flush
+    with util.safe_reraise():
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4449, in _flush
+    flush_context.execute()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 465, in execute
+    rec.execute(self)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1234, in _emit_insert_statements
+    result = connection.execute(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(16) is not present in table "resume".
+
+[SQL: INSERT INTO learning_progress (resume_id, progress, completed_skill, current_learning_stage) VALUES (%(resume_id)s, %(progress)s, %(completed_skill)s, %(current_learning_stage)s) RETURNING learning_progress.id, learning_progress.created_at, learning_progress.updated_at]
+[parameters: {'resume_id': 16, 'progress': 0, 'completed_skill': None, 'current_learning_stage': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-08-29 22:52:47,900 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 164
+2026-08-29 22:52:47,900 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 164
+2026-08-29 22:53:05,279 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-29 22:53:05,279 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-29 22:55:02,736 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 78
+2026-08-29 22:55:02,736 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 78
+2026-08-29 22:56:12,341 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 166
+2026-08-29 22:56:12,342 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 166
+2026-08-29 22:56:16,119 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 166
+2026-08-29 22:56:16,119 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 166
+2026-08-29 22:58:21,419 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 157
+2026-08-29 22:58:21,420 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 157
+2026-08-29 22:58:24,338 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 157
+2026-08-29 22:58:24,339 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 157
+2026-08-29 22:59:35,868 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 157
+2026-08-29 22:59:35,871 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 157
+2026-08-29 23:01:58,055 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 169
+2026-08-29 23:01:58,056 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 169
+2026-08-29 23:02:00,828 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 169
+2026-08-29 23:02:00,829 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 169
+2026-08-29 23:04:37,058 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 167
+2026-08-29 23:04:37,058 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 167
+2026-08-29 23:05:50,339 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 167
+2026-08-29 23:05:50,339 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 167
+2026-08-29 23:05:51,313 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 167
+2026-08-29 23:05:51,313 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 167
+2026-08-29 23:07:24,004 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 164
+2026-08-29 23:07:24,005 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 164
+2026-08-29 23:10:03,060 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 166
+2026-08-29 23:10:03,061 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 166
+2026-08-29 23:17:08,233 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 166
+2026-08-29 23:17:08,234 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 166
+2026-08-29 23:17:08,244 | INFO | progress_tracking_service.py:153 | Progress record found: id=None, resume_id=None
+2026-08-29 23:22:48,649 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 166
+2026-08-29 23:22:48,649 | INFO | progress_tracking_service.py:139 | Updating progress for Resume ID: 166
+2026-08-29 23:22:48,652 | INFO | progress_tracking_service.py:147 | Database URL: postgresql+psycopg2://postgres:***@localhost:5432/financial_health
+2026-08-29 23:22:48,659 | INFO | progress_tracking_service.py:159 | RAW DB RESULT FOR resume_id=166: []
+2026-08-29 23:22:48,671 | INFO | progress_tracking_service.py:172 | Progress record found: id=None, resume_id=None
+2026-08-29 23:37:37,579 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 166
+2026-08-29 23:37:37,581 | INFO | progress_tracking_service.py:139 | Updating progress for Resume ID: 166
+2026-08-29 23:37:37,582 | INFO | progress_tracking_service.py:147 | Database URL: postgresql+psycopg2://postgres:***@localhost:5432/financial_health
+2026-08-29 23:37:37,585 | INFO | progress_tracking_service.py:159 | RAW DB RESULT FOR resume_id=166: []
+2026-08-29 23:37:37,590 | INFO | progress_tracking_service.py:172 | Progress record found: id=None, resume_id=None
+2026-08-29 23:45:26,103 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 164
+2026-08-29 23:45:26,103 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 164
+2026-08-29 23:45:37,217 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 166
+2026-08-29 23:45:37,217 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 166
+2026-08-29 23:46:51,617 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 166
+2026-08-29 23:46:51,618 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 166
+2026-08-29 23:48:12,820 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 9999
+2026-08-29 23:48:12,821 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 9999
+2026-08-29 23:49:38,257 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 167
+2026-08-29 23:49:38,258 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 167
+2026-08-29 23:49:44,094 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 167
+2026-08-29 23:49:44,094 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 167
+2026-08-29 23:49:49,512 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 167
+2026-08-29 23:49:49,512 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 167
+2026-08-29 23:50:02,169 | INFO | progress_tracking.py:48 | Progress reset request received. Resume ID: 167
+2026-08-29 23:50:02,170 | INFO | progress_tracking_service.py:74 | Resetting progress for Resume ID: 167
+2026-08-29 23:51:42,124 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 167
+2026-08-29 23:51:42,125 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 167
+2026-08-29 23:53:18,680 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 167
+2026-08-29 23:53:18,681 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 167
+2026-08-29 23:54:17,051 | INFO | progress_tracking.py:48 | Progress reset request received. Resume ID: 167
+2026-08-29 23:54:17,051 | INFO | progress_tracking_service.py:74 | Resetting progress for Resume ID: 167
+2026-08-30 11:17:25,306 | INFO | roles.py:15 | Fetching all Roles 
+2026-08-30 11:17:25,327 | INFO | roles.py:15 | Fetching all Roles 
+2026-08-30 11:17:36,734 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-30 11:17:36,745 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-30 11:17:37,035 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-30 11:17:37,038 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-30 11:17:42,123 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:17:42,124 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:17:42,128 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:17:42,130 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:17:46,316 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-30 11:17:46,316 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-30 11:17:46,344 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-30 11:17:46,345 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-30 11:17:50,003 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:17:50,006 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:17:50,009 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:17:50,010 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:17:56,146 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 11:17:56,146 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 11:17:56,149 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 11:17:56,164 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 11:17:56,165 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 11:17:56,167 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 11:19:06,065 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:19:06,068 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:19:06,072 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:19:06,073 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:20:16,642 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:20:16,646 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:20:16,647 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:20:16,647 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:20:17,337 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-30 11:20:17,340 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-30 11:20:19,164 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-30 11:20:19,166 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-30 11:20:19,172 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-30 11:20:19,174 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-30 11:20:19,183 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-08-30 11:20:19,185 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-08-30 11:20:28,048 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 11:20:28,049 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 11:20:28,050 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 11:20:28,066 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 11:20:28,066 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 11:20:28,069 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 11:24:25,538 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 11:24:25,539 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 11:24:25,539 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 11:24:25,555 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 11:24:25,556 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 11:24:25,557 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 11:24:27,860 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:24:27,862 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:24:27,865 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:24:27,867 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:24:41,409 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:24:41,412 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:24:41,416 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:24:41,420 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:28:30,917 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:28:30,919 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:28:30,922 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:28:30,924 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:28:32,887 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:28:32,891 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:28:32,893 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:28:32,895 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:30:01,492 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:30:01,494 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:30:01,498 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:30:01,499 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:32:18,411 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:32:18,414 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:32:18,419 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:32:18,420 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:32:57,999 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 11:32:58,000 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 11:32:58,002 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 11:32:58,013 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 11:32:58,015 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 11:32:58,016 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 11:34:08,475 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 11:34:08,477 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 11:34:08,478 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 11:34:08,490 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 11:34:08,490 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 11:34:08,492 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 11:34:15,182 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:34:15,182 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:34:15,182 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:34:15,191 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:34:16,698 | INFO | roles.py:15 | Fetching all Roles 
+2026-08-30 11:34:16,701 | INFO | roles.py:15 | Fetching all Roles 
+2026-08-30 11:34:18,054 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:34:18,054 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:34:18,059 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:34:18,061 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:34:19,038 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-30 11:34:19,038 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-30 11:34:19,043 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-30 11:34:19,043 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-30 11:34:21,230 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:34:21,231 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:34:21,234 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:34:21,236 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:34:55,904 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:34:55,906 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:34:55,909 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:34:55,912 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:36:43,106 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:36:43,106 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:36:43,111 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:36:43,111 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:36:45,131 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:36:45,133 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:36:45,135 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:36:45,137 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:38:02,551 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:38:02,553 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:38:02,557 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:38:02,559 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:38:04,376 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:38:04,378 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:38:04,381 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:38:04,383 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:42:34,795 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:42:34,797 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:42:34,801 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:42:34,803 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:42:36,193 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:42:36,195 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:42:36,199 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:42:36,200 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:42:39,715 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:42:39,717 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:42:39,719 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:42:39,720 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:46:06,048 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:46:06,050 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:46:06,054 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:46:06,056 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:47:47,592 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:47:47,595 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:47:47,597 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:47:47,597 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:50:07,990 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:50:07,990 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:50:08,107 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:50:08,147 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 11:50:08,149 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 11:50:08,152 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:00:05,734 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:00:05,853 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:00:05,858 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:00:05,859 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:00:15,329 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:00:15,333 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:00:15,337 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:00:15,339 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:01:38,082 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:01:38,205 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:01:38,208 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:01:38,210 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:01:50,403 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:01:50,404 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:01:50,408 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:01:50,411 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:04:42,501 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:04:42,501 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:04:42,501 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:04:42,501 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:07:06,052 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:07:06,178 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:07:06,182 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:07:06,185 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:07:47,588 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:07:47,590 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:07:47,592 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:07:47,594 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:07:48,956 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 12:07:48,956 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 12:07:48,964 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 12:07:48,982 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 12:07:48,982 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 12:07:48,984 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 12:07:58,257 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:07:58,259 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:07:58,263 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:07:58,266 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:08:01,687 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 12:08:01,688 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 12:08:01,690 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 12:08:01,701 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 12:08:01,701 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 12:08:01,701 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 12:08:44,776 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:08:44,776 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:08:44,776 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:08:44,783 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:09:13,457 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 12:09:13,457 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 12:09:13,457 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 12:09:13,473 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 12:09:13,473 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 12:09:13,474 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 12:11:57,249 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:11:57,252 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:11:57,256 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 12:11:57,257 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 12:12:30,976 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 63
+2026-08-30 12:12:30,978 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 63
+2026-08-30 12:12:30,982 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 63
+2026-08-30 12:12:30,984 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 63
+2026-08-30 12:13:31,569 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 62
+2026-08-30 12:13:31,571 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 62
+2026-08-30 12:13:31,574 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 62
+2026-08-30 12:13:31,575 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 62
+2026-08-30 12:14:13,430 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 35
+2026-08-30 12:14:13,431 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 35
+2026-08-30 12:14:13,620 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 35
+2026-08-30 12:14:13,625 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 35
+2026-08-30 12:14:13,632 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 35
+2026-08-30 12:14:13,634 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 35
+2026-08-30 12:15:04,839 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 39
+2026-08-30 12:15:04,841 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 39
+2026-08-30 12:15:04,845 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 39
+2026-08-30 12:15:04,847 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 39
+2026-08-30 12:20:36,499 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 39
+2026-08-30 12:20:36,502 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 39
+2026-08-30 12:20:36,515 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 39
+2026-08-30 12:20:36,515 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 39
+2026-08-30 14:25:16,794 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 39
+2026-08-30 14:25:16,795 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 39
+2026-08-30 14:25:16,848 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 39
+2026-08-30 14:25:16,850 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 39
+2026-08-30 14:25:36,336 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 39
+2026-08-30 14:25:36,336 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 39
+2026-08-30 14:25:36,349 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 39
+2026-08-30 14:25:36,353 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 39
+2026-08-30 14:25:39,221 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 90, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 14:25:39,221 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:90 , skill:None , difficulty:None , question_type:None
+2026-08-30 14:25:39,230 | WARNING | interview_prepration.py:18 | Roles not found. Analysis ID: 90
+2026-08-30 14:25:39,233 | ERROR | interview_prepration.py:58 | Error fetching Interview Preparation for Role ID: 90: 404: Roles not found
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\services\interview_prepration.py", line 19, in get_interview_preparation_service
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 404: Roles not found
+2026-08-30 14:25:39,237 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 90, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 14:25:39,237 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:90 , skill:None , difficulty:None , question_type:None
+2026-08-30 14:25:39,241 | WARNING | interview_prepration.py:18 | Roles not found. Analysis ID: 90
+2026-08-30 14:25:39,241 | ERROR | interview_prepration.py:58 | Error fetching Interview Preparation for Role ID: 90: 404: Roles not found
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\services\interview_prepration.py", line 19, in get_interview_preparation_service
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 404: Roles not found
+2026-08-30 14:25:46,389 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 39
+2026-08-30 14:25:46,393 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 39
+2026-08-30 14:25:46,402 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 39
+2026-08-30 14:25:46,407 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 39
+2026-08-30 14:25:51,942 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 90, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 14:25:51,942 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:90 , skill:None , difficulty:None , question_type:None
+2026-08-30 14:25:51,947 | WARNING | interview_prepration.py:18 | Roles not found. Analysis ID: 90
+2026-08-30 14:25:51,947 | ERROR | interview_prepration.py:58 | Error fetching Interview Preparation for Role ID: 90: 404: Roles not found
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\services\interview_prepration.py", line 19, in get_interview_preparation_service
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 404: Roles not found
+2026-08-30 14:25:51,954 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 90, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 14:25:51,954 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:90 , skill:None , difficulty:None , question_type:None
+2026-08-30 14:25:51,958 | WARNING | interview_prepration.py:18 | Roles not found. Analysis ID: 90
+2026-08-30 14:25:51,960 | ERROR | interview_prepration.py:58 | Error fetching Interview Preparation for Role ID: 90: 404: Roles not found
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\services\interview_prepration.py", line 19, in get_interview_preparation_service
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 404: Roles not found
+2026-08-30 14:25:59,437 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 14:25:59,438 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 14:25:59,441 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 14:25:59,491 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 14:25:59,491 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 14:25:59,496 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 14:29:41,799 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 14:29:41,800 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 14:29:41,804 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 14:29:41,836 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 14:29:41,840 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 14:29:41,844 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 14:29:53,021 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 14:29:53,023 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 14:29:53,027 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 14:29:53,062 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 14:29:53,063 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 14:29:53,069 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 14:30:01,130 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 14:30:01,130 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 14:30:01,135 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 14:30:01,164 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 14:30:01,164 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 14:30:01,164 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 14:51:13,033 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 35
+2026-08-30 14:51:13,048 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 35
+2026-08-30 14:51:20,111 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 14:51:20,116 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 14:51:20,125 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 14:51:20,131 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 14:51:25,148 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 14:51:25,149 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 14:51:25,153 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 14:51:25,183 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-08-30 14:51:25,183 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-08-30 14:51:25,187 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-08-30 14:51:27,681 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 14:51:27,684 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 14:51:27,688 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 14:51:27,692 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 14:51:30,893 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-30 14:51:30,894 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-30 14:51:30,919 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-08-30 14:51:30,920 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-08-30 14:51:32,479 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 14:51:32,485 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 14:51:32,495 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 14:51:32,502 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 14:51:33,606 | INFO | roles.py:15 | Fetching all Roles 
+2026-08-30 14:51:33,618 | INFO | roles.py:15 | Fetching all Roles 
+2026-08-30 14:51:42,930 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 14:51:42,935 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 14:51:42,945 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 14:51:42,949 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 14:59:58,728 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 14:59:58,731 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 14:59:58,737 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 14:59:58,740 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 15:00:06,816 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 15:00:06,820 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 15:00:06,831 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 15:00:06,834 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 15:04:59,971 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 15:04:59,973 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 15:04:59,978 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-08-30 15:04:59,981 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-08-30 15:35:09,122 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-30 15:35:09,131 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-30 15:35:09,206 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-30 15:35:09,208 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-30 15:38:37,331 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 167
+2026-08-30 15:38:37,335 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 167
+2026-08-30 15:44:06,172 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-30 15:44:06,173 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-30 15:44:06,182 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-30 15:44:06,183 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-30 15:44:29,222 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-30 15:44:29,222 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-30 15:44:29,231 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-30 15:44:29,231 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-30 15:45:30,836 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-30 15:45:30,836 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-30 15:45:30,845 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-30 15:45:30,845 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-30 15:45:33,477 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-30 15:45:33,477 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-30 15:45:33,485 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-30 15:45:33,485 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-30 15:45:36,584 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-30 15:45:36,584 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-30 15:45:36,591 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-30 15:45:36,592 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-30 15:45:43,804 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 166
+2026-08-30 15:45:43,804 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 166
+2026-08-30 15:45:43,813 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 166
+2026-08-30 15:45:43,814 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 166
+2026-08-30 15:46:09,639 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 167
+2026-08-30 15:46:09,639 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 167
+2026-08-30 15:46:09,648 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 167
+2026-08-30 15:46:09,648 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 167
+2026-08-30 15:48:14,581 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 167
+2026-08-30 15:48:14,582 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 167
+2026-08-30 15:48:14,591 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 167
+2026-08-30 15:48:14,592 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 167
+2026-08-30 15:49:02,200 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 169
+2026-08-30 15:49:02,201 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 169
+2026-08-30 15:49:02,281 | ERROR | progress_tracking_service.py:58 | Error fetching progress for Resume ID 169: (psycopg2.errors.ForeignKeyViolation) insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(169) is not present in table "resume".
+
+[SQL: INSERT INTO learning_progress (resume_id, progress, completed_skill, current_learning_stage) VALUES (%(resume_id)s, %(progress)s, %(completed_skill)s, %(current_learning_stage)s) RETURNING learning_progress.id, learning_progress.created_at, learning_progress.updated_at]
+[parameters: {'resume_id': 169, 'progress': 0, 'completed_skill': None, 'current_learning_stage': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(169) is not present in table "resume".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\services\progress_tracking_service.py", line 42, in get_progress
+    db.commit()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 2035, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 1316, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 1290, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4353, in flush
+    self._flush(objects)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4488, in _flush
+    with util.safe_reraise():
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4449, in _flush
+    flush_context.execute()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 465, in execute
+    rec.execute(self)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1234, in _emit_insert_statements
+    result = connection.execute(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(169) is not present in table "resume".
+
+[SQL: INSERT INTO learning_progress (resume_id, progress, completed_skill, current_learning_stage) VALUES (%(resume_id)s, %(progress)s, %(completed_skill)s, %(current_learning_stage)s) RETURNING learning_progress.id, learning_progress.created_at, learning_progress.updated_at]
+[parameters: {'resume_id': 169, 'progress': 0, 'completed_skill': None, 'current_learning_stage': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-08-30 15:49:30,716 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 165
+2026-08-30 15:49:30,717 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 165
+2026-08-30 15:49:45,100 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 165
+2026-08-30 15:49:45,101 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 165
+2026-08-30 15:49:45,112 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 165
+2026-08-30 15:49:45,112 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 165
+2026-08-31 21:53:28,713 | INFO | roles.py:15 | Fetching all Roles 
+2026-08-31 21:53:28,734 | INFO | roles.py:15 | Fetching all Roles 
+2026-08-31 21:53:47,396 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 166
+2026-08-31 21:53:47,396 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 166
+2026-08-31 21:53:47,410 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 166
+2026-08-31 21:53:47,411 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 166
+2026-08-31 21:54:38,213 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 21:54:38,214 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 21:54:38,221 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 21:54:38,222 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 22:18:49,147 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 22:18:49,148 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 22:18:49,154 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 22:18:49,154 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 22:21:19,139 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 22:21:19,139 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 22:30:14,148 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 22:30:14,150 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 22:30:14,157 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 22:30:14,158 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 22:32:38,628 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 22:32:38,629 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 22:32:38,633 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 22:32:38,634 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 22:35:38,457 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 22:35:38,458 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 22:35:38,462 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 22:35:38,462 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 22:38:10,816 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 22:38:10,816 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 22:38:10,821 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 22:38:10,822 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 22:39:58,088 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 22:39:58,089 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 22:39:58,094 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 22:39:58,094 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 22:55:13,664 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 22:55:13,666 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 22:55:13,679 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 22:55:13,679 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:01:45,963 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:01:45,965 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:01:45,974 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:01:45,975 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:03:24,716 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:03:24,717 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:03:24,729 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:03:24,730 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:08:07,888 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 166
+2026-08-31 23:08:07,890 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 166
+2026-08-31 23:08:07,900 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 166
+2026-08-31 23:08:07,901 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 166
+2026-08-31 23:08:24,820 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 166
+2026-08-31 23:08:24,829 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 166
+2026-08-31 23:23:14,812 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 166
+2026-08-31 23:23:14,813 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 166
+2026-08-31 23:23:14,825 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 166
+2026-08-31 23:23:14,826 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 166
+2026-08-31 23:25:28,568 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:25:28,569 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:25:28,582 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:25:28,583 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:25:54,816 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 65
+2026-08-31 23:25:54,817 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 65
+2026-08-31 23:27:48,152 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:27:48,152 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:27:48,160 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:27:48,160 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:27:53,712 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:27:53,712 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:27:53,720 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:27:53,720 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:28:42,257 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:28:42,257 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:28:42,268 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:28:42,269 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:29:19,471 | INFO | progress_tracking.py:32 | Progress update request received. Resume ID: 65
+2026-08-31 23:29:19,471 | INFO | progress_tracking_service.py:138 | Updating progress for Resume ID: 65
+2026-08-31 23:30:27,290 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:30:27,290 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:30:27,300 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:30:27,301 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:30:33,715 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:30:33,716 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:30:33,726 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:30:33,727 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:30:54,770 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:30:54,771 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:30:54,779 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:30:54,780 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:33:45,551 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:33:45,551 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65
+2026-08-31 23:33:45,560 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 65
+2026-08-31 23:33:45,560 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 65

@@ -1,0 +1,212 @@
+[
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "What is AWS, and why is it commonly used for backend application development?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "What is an AWS Region, and what is an Availability Zone?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "Which AWS service is primarily used to run virtual servers in the cloud?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "Describe the basic steps required to launch an EC2 instance and connect to it.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "What is Amazon S3, and what types of data are commonly stored in it?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "What is IAM in AWS, and why is it important for security?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "Write an AWS CLI command to list the objects stored in an S3 bucket.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "Which AWS service provides managed relational databases such as PostgreSQL and MySQL?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "What is the difference between an IAM user, IAM group, and IAM role?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "You need to store uploaded user documents such as PDFs and images for a backend application. Which AWS service would you choose and why?",
+    "question_type": "Scenario",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "What is Amazon VPC, and why is it important when deploying backend applications?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "Explain the difference between public and private subnets in an AWS VPC.",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "Which AWS service can distribute incoming application traffic across multiple EC2 instances?",
+    "question_type": "MCQ",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "Describe how you would deploy a Dockerized FastAPI application on AWS using EC2.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "What is Amazon RDS, and what are the advantages of using RDS instead of managing PostgreSQL manually on an EC2 instance?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "What is AWS CloudWatch, and how can it be used to monitor a backend application?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "Write an AWS CLI command to upload a local file to an S3 bucket.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "Which AWS service is commonly used to execute code without managing servers?",
+    "question_type": "MCQ",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "A FastAPI application running on EC2 needs to access an S3 bucket without storing long-lived AWS access keys on the server. How would you solve this?",
+    "question_type": "Scenario",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "What is the difference between Security Groups and Network ACLs in AWS?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "How would you design a highly available backend application across multiple AWS Availability Zones?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "Design an AWS architecture for a production FastAPI application using an Application Load Balancer, multiple compute instances, RDS PostgreSQL, S3, IAM, and CloudWatch.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "Which AWS service is commonly used to automatically adjust the number of compute instances based on application demand?",
+    "question_type": "MCQ",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "Explain how Auto Scaling and Elastic Load Balancing can work together to handle changing application traffic.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "A production FastAPI application experiences traffic spikes and becomes slow during peak hours. How would you investigate the issue and design an AWS-based solution to handle the increased load?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "How would you securely manage application secrets such as database passwords, API keys, and tokens in AWS?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "Design a serverless backend using API Gateway, AWS Lambda, and a suitable database for a REST API.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "A production EC2 instance becomes unreachable after a security-group change. How would you troubleshoot the networking and access problem?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "How would you design backup, disaster recovery, monitoring, logging, and failure handling for a production AWS backend system?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "AWS",
+    "question": "Explain how you would optimize AWS costs for a production backend while maintaining required performance, availability, and reliability.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  }
+]

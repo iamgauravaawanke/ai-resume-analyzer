@@ -1,0 +1,98 @@
+[
+  {
+    "skill": "CI/CD",
+    "resource_type": "DOCUMENTATION",
+    "title": "GitHub Actions Documentation",
+    "url": "https://docs.github.com/en/actions"
+  },
+  {
+    "skill": "CI/CD",
+    "resource_type": "DOCUMENTATION",
+    "title": "GitHub Actions - Understanding GitHub Actions",
+    "url": "https://docs.github.com/en/actions/get-started/understand-github-actions"
+  },
+  {
+    "skill": "CI/CD",
+    "resource_type": "DOCUMENTATION",
+    "title": "GitLab CI/CD Documentation",
+    "url": "https://docs.gitlab.com/ci/"
+  },
+  {
+    "skill": "CI/CD",
+    "resource_type": "VIDEO",
+    "title": "GitHub - GitHub Actions",
+    "url": "https://www.youtube.com/@GitHub"
+  },
+  {
+    "skill": "CI/CD",
+    "resource_type": "VIDEO",
+    "title": "freeCodeCamp.org - CI/CD and DevOps",
+    "url": "https://www.youtube.com/@freecodecamp"
+  },
+  {
+    "skill": "CI/CD",
+    "resource_type": "VIDEO",
+    "title": "TechWorld with Nana - CI/CD and DevOps",
+    "url": "https://www.youtube.com/@TechWorldwithNana"
+  },
+  {
+    "skill": "CI/CD",
+    "resource_type": "GITHUB",
+    "title": "GitHub Actions Starter Workflows",
+    "url": "https://github.com/actions/starter-workflows"
+  },
+  {
+    "skill": "CI/CD",
+    "resource_type": "GITHUB",
+    "title": "GitLab CI/CD Templates",
+    "url": "https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/ci/templates"
+  },
+  {
+    "skill": "CI/CD",
+    "resource_type": "GITHUB",
+    "title": "Jenkins",
+    "url": "https://github.com/jenkinsci/jenkins"
+  },
+  {
+    "skill": "CI/CD",
+    "resource_type": "OTHER",
+    "title": "Jenkins Documentation",
+    "url": "https://www.jenkins.io/doc/"
+  },
+  {
+    "skill": "CI/CD",
+    "resource_type": "OTHER",
+    "title": "Jenkins Pipeline Documentation",
+    "url": "https://www.jenkins.io/doc/book/pipeline/"
+  },
+  {
+    "skill": "CI/CD",
+    "resource_type": "OTHER",
+    "title": "GitHub Actions Continuous Integration",
+    "url": "https://docs.github.com/en/actions/get-started/continuous-integration"
+  },
+  {
+    "skill": "CI/CD",
+    "resource_type": "COURSE",
+    "title": "GitLab CI/CD Tutorial",
+    "url": "https://docs.gitlab.com/ci/quick_start/"
+  },
+  {
+    "skill": "CI/CD",
+    "resource_type": "COURSE",
+    "title": "Jenkins Pipeline Tutorials",
+    "url": "https://www.jenkins.io/doc/tutorials/"
+  },
+  {
+    "skill": "CI/CD",
+    "resource_type": "ARTICLE",
+    "title": "GitLab CI/CD Pipelines",
+    "url": "https://docs.gitlab.com/ci/pipelines/"
+  },
+  {
+    "skill": "CI/CD",
+    "resource_type": "ARTICLE",
+    "title": "Jenkins Pipeline as Code",
+    "url": "https://www.jenkins.io/doc/book/pipeline/"
+  }
+]

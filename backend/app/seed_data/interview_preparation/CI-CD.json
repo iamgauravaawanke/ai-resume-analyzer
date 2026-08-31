@@ -1,0 +1,205 @@
+[
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "What is CI/CD, and why is it important in modern software development?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "What is the difference between Continuous Integration, Continuous Delivery, and Continuous Deployment?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "Which stage of a CI pipeline is typically responsible for running automated tests?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "Create a basic GitHub Actions workflow that runs Python tests whenever code is pushed to a repository.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "What is a CI/CD pipeline, and what are its typical stages?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "What is a build artifact in a CI/CD pipeline?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "Write a basic GitHub Actions workflow that installs Python dependencies and runs pytest.",
+    "question_type": "Coding",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "Which file is commonly used to define a GitHub Actions workflow?",
+    "question_type": "MCQ",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "What is the purpose of automated testing in a CI/CD pipeline?",
+    "question_type": "Theory",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "A developer pushes code that causes an existing test to fail. What should normally happen in a properly configured CI pipeline?",
+    "question_type": "Scenario",
+    "difficulty": "Beginner"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "What are jobs, steps, and runners in GitHub Actions?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "Create a GitHub Actions workflow that runs linting and automated tests for a Python backend before allowing a pull request to be merged.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "What is the difference between a self-hosted runner and a GitHub-hosted runner?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "Which GitHub Actions feature should be used to securely store sensitive values such as API keys and deployment credentials?",
+    "question_type": "MCQ",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "How would you use environment variables in a CI/CD pipeline without hardcoding configuration values into source code?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "Write a GitHub Actions workflow that builds a Docker image after successfully running the application's tests.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "What are pipeline stages, and how can dependencies between stages control the order of execution?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "A CI pipeline takes 30 minutes because every job installs the same dependencies from scratch. How would you reduce the pipeline execution time?",
+    "question_type": "Scenario",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "Design a CI pipeline for a FastAPI application that performs dependency installation, linting, unit testing, integration testing, and Docker image building.",
+    "question_type": "Coding",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "What is the purpose of caching in CI/CD pipelines, and what risks should be considered when using cached dependencies?",
+    "question_type": "Theory",
+    "difficulty": "Intermediate"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "How would you design a production CI/CD pipeline that automatically tests, builds, scans, and deploys a backend application?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "Design a GitHub Actions pipeline that tests a FastAPI application, builds a Docker image, pushes it to a container registry, and deploys it to a production environment.",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "Which deployment strategy gradually moves traffic from an old application version to a new version so that the new version can be validated before full rollout?",
+    "question_type": "MCQ",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "Explain blue-green deployment and canary deployment and compare when each strategy is useful.",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "A deployment succeeds according to the CI/CD pipeline, but the new application version immediately starts returning HTTP 500 errors in production. How would you design the pipeline and deployment process to detect and recover from this failure?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "How would you securely manage secrets, credentials, environment-specific configuration, and deployment permissions in a production CI/CD pipeline?",
+    "question_type": "Coding",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "What is infrastructure as code, and how can tools such as Terraform be integrated into a CI/CD pipeline?",
+    "question_type": "Theory",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "A team wants every pull request to run tests, security scans, code quality checks, and Docker image validation before merging. Design an appropriate CI/CD workflow and branch protection strategy.",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  },
+  {
+    "role": "Backend Developer",
+    "skill": "CI/CD",
+    "question": "How would you design CI/CD observability so that teams can monitor pipeline failures, deployment frequency, deployment duration, rollback rate, and application health after deployment?",
+    "question_type": "Scenario",
+    "difficulty": "Advanced"
+  }
+]

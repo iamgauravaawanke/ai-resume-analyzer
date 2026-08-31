@@ -34,19 +34,20 @@ def get_analysis(analysis_id: int):
         logger.info(f"Analysis fetched successfully. Analysis ID: {analysis_id}")
 
         return {
-            "analysis_id": analysis.id,
-            "resume_id": analysis.resume_id,
-            "ats_score": analysis.ats_score,
-            "summary": analysis.summary,
-            "technical_skills": analysis.technical_skills.split(", "),
-            "soft_skills": analysis.soft_skills.split(", "),
-            "missing_skills": analysis.missing_skills.split(", "),
-            "suggestions": analysis.suggestions.split("\n"),
-            "learning_roadmap":analysis.learning_roadmap,
-            "suggested_projects":analysis.suggested_projects,
-            "estimated_timeline":analysis.estimated_timeline.split(", "),
-            "action_plan":analysis.action_plan.split(", ")
-        }
+    "analysis_id": analysis.id,
+    "resume_id": analysis.resume_id,
+    "role_id": analysis.role_id,   # 👈 ADD THIS
+    "ats_score": analysis.ats_score,
+    "summary": analysis.summary,
+    "technical_skills": analysis.technical_skills.split(", "),
+    "soft_skills": analysis.soft_skills.split(", "),
+    "missing_skills": analysis.missing_skills.split(", "),
+    "suggestions": analysis.suggestions.split("\n"),
+    "learning_roadmap": analysis.learning_roadmap,
+    "suggested_projects": analysis.suggested_projects,
+    "estimated_timeline": analysis.estimated_timeline.split(", "),
+    "action_plan": analysis.action_plan.split(", ")
+}
 
     finally:
         db.close()

@@ -1,0 +1,98 @@
+[
+  {
+    "skill": "Kubernetes",
+    "resource_type": "DOCUMENTATION",
+    "title": "Kubernetes Official Documentation",
+    "url": "https://kubernetes.io/docs/"
+  },
+  {
+    "skill": "Kubernetes",
+    "resource_type": "DOCUMENTATION",
+    "title": "Kubernetes Concepts",
+    "url": "https://kubernetes.io/docs/concepts/"
+  },
+  {
+    "skill": "Kubernetes",
+    "resource_type": "DOCUMENTATION",
+    "title": "Kubernetes Tutorials",
+    "url": "https://kubernetes.io/docs/tutorials/"
+  },
+  {
+    "skill": "Kubernetes",
+    "resource_type": "VIDEO",
+    "title": "CNCF Official YouTube Channel",
+    "url": "https://www.youtube.com/@CloudNativeFdn"
+  },
+  {
+    "skill": "Kubernetes",
+    "resource_type": "VIDEO",
+    "title": "Kubernetes Official YouTube Channel",
+    "url": "https://www.youtube.com/@KubernetesCommunity"
+  },
+  {
+    "skill": "Kubernetes",
+    "resource_type": "VIDEO",
+    "title": "The Illustrated Children's Guide to Kubernetes - CNCF",
+    "url": "https://www.youtube.com/watch?v=3I9PkvZ80BQ"
+  },
+  {
+    "skill": "Kubernetes",
+    "resource_type": "GITHUB",
+    "title": "Kubernetes Official GitHub Repository",
+    "url": "https://github.com/kubernetes/kubernetes"
+  },
+  {
+    "skill": "Kubernetes",
+    "resource_type": "GITHUB",
+    "title": "Kubernetes Website and Documentation",
+    "url": "https://github.com/kubernetes/website"
+  },
+  {
+    "skill": "Kubernetes",
+    "resource_type": "GITHUB",
+    "title": "Kubernetes Examples",
+    "url": "https://github.com/kubernetes/examples"
+  },
+  {
+    "skill": "Kubernetes",
+    "resource_type": "OTHER",
+    "title": "Kubernetes Basics Interactive Tutorial",
+    "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/"
+  },
+  {
+    "skill": "Kubernetes",
+    "resource_type": "OTHER",
+    "title": "Killercoda Kubernetes Interactive Labs",
+    "url": "https://killercoda.com/learn"
+  },
+  {
+    "skill": "Kubernetes",
+    "resource_type": "OTHER",
+    "title": "Killercoda Kubernetes Playground",
+    "url": "https://killercoda.com/playgrounds/scenario/kubernetes"
+  },
+  {
+    "skill": "Kubernetes",
+    "resource_type": "COURSE",
+    "title": "Kubernetes Training - CNCF",
+    "url": "https://www.cncf.io/training/courses/"
+  },
+  {
+    "skill": "Kubernetes",
+    "resource_type": "COURSE",
+    "title": "Kubernetes Fundamentals - Linux Foundation",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-fundamentals/"
+  },
+  {
+    "skill": "Kubernetes",
+    "resource_type": "ARTICLE",
+    "title": "Top Kubernetes Resources for 2026 - CNCF",
+    "url": "https://www.cncf.io/blog/2026/01/19/top-28-kubernetes-resources-for-2026-learn-and-stay-up-to-date/"
+  },
+  {
+    "skill": "Kubernetes",
+    "resource_type": "ARTICLE",
+    "title": "Kubernetes Overview - CNCF",
+    "url": "https://www.cncf.io/projects/kubernetes/"
+  }
+]

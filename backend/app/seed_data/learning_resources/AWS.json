@@ -1,0 +1,98 @@
+[
+  {
+    "skill": "AWS",
+    "resource_type": "DOCUMENTATION",
+    "title": "AWS Official Documentation",
+    "url": "https://docs.aws.amazon.com/"
+  },
+  {
+    "skill": "AWS",
+    "resource_type": "DOCUMENTATION",
+    "title": "AWS Getting Started",
+    "url": "https://aws.amazon.com/getting-started/"
+  },
+  {
+    "skill": "AWS",
+    "resource_type": "DOCUMENTATION",
+    "title": "AWS Architecture Center",
+    "url": "https://aws.amazon.com/architecture/"
+  },
+  {
+    "skill": "AWS",
+    "resource_type": "VIDEO",
+    "title": "AWS Official YouTube Channel",
+    "url": "https://www.youtube.com/@amazonwebservices"
+  },
+  {
+    "skill": "AWS",
+    "resource_type": "VIDEO",
+    "title": "AWS Training and Certification",
+    "url": "https://www.youtube.com/@AWSTrainingandCertification"
+  },
+  {
+    "skill": "AWS",
+    "resource_type": "VIDEO",
+    "title": "AWS Developers",
+    "url": "https://www.youtube.com/@AWSDevelopers"
+  },
+  {
+    "skill": "AWS",
+    "resource_type": "GITHUB",
+    "title": "AWS Labs",
+    "url": "https://github.com/awslabs"
+  },
+  {
+    "skill": "AWS",
+    "resource_type": "GITHUB",
+    "title": "AWS Samples",
+    "url": "https://github.com/aws-samples"
+  },
+  {
+    "skill": "AWS",
+    "resource_type": "GITHUB",
+    "title": "AWS SDK for Python",
+    "url": "https://github.com/boto/boto3"
+  },
+  {
+    "skill": "AWS",
+    "resource_type": "OTHER",
+    "title": "AWS Builder Center",
+    "url": "https://builder.aws.com/learn"
+  },
+  {
+    "skill": "AWS",
+    "resource_type": "OTHER",
+    "title": "AWS Workshops",
+    "url": "https://workshops.aws/"
+  },
+  {
+    "skill": "AWS",
+    "resource_type": "OTHER",
+    "title": "AWS Well-Architected Labs",
+    "url": "https://www.wellarchitectedlabs.com/"
+  },
+  {
+    "skill": "AWS",
+    "resource_type": "COURSE",
+    "title": "AWS Training and Certification",
+    "url": "https://aws.amazon.com/training/"
+  },
+  {
+    "skill": "AWS",
+    "resource_type": "COURSE",
+    "title": "AWS Skill Builder",
+    "url": "https://skillbuilder.aws/"
+  },
+  {
+    "skill": "AWS",
+    "resource_type": "ARTICLE",
+    "title": "AWS Well-Architected Framework",
+    "url": "https://aws.amazon.com/architecture/well-architected/"
+  },
+  {
+    "skill": "AWS",
+    "resource_type": "ARTICLE",
+    "title": "AWS Ramp-Up Guides",
+    "url": "https://aws.amazon.com/training/ramp-up-guides/"
+  }
+]
