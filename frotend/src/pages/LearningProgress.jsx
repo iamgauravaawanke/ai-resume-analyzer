@@ -79,7 +79,7 @@ function LearningProgress() {
 
       console.error("Reset Learning Progress Error:", error);
 
-    }
+    }z
   };
 
   return (

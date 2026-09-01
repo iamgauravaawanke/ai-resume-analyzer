@@ -102,7 +102,7 @@ export const updateLearningProgress = async (
 export const resetLearningProgress = async (resume_id) => {
 
   const response = await fetch(
-    `http://127.0.0.1:8000/progress_tracking/${resume_id}/reset`,
+    `http://127.0.0.1:8000/progress-tracking/${resume_id}/reset`,
     {
       method: "POST",
     }

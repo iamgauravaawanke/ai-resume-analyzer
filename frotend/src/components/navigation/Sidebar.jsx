@@ -1,10 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import "./Sidebar.css";
 
-function Sidebar({ analysis_id, role_id , resume_id}) {
-  const navigate = useNavigate();
+function Sidebar({ analysis_id, role_id, resume_id }) {
 
- 
+  const navigate = useNavigate();
 
   return (
     <aside className="sidebar">
@@ -22,14 +21,16 @@ function Sidebar({ analysis_id, role_id , resume_id}) {
           📊 Dashboard
         </button>
 
+
         <button
           className="sidebar-item"
           onClick={() =>
             navigate(`/learning-resources/${analysis_id}`)
           }
-        >   width: `${progressData?.progress || 0}%`
+        >
           📚 Learning Resources
         </button>
+
 
         <button
           className="sidebar-item"
@@ -40,15 +41,14 @@ function Sidebar({ analysis_id, role_id , resume_id}) {
           🎯 Interview Preparation
         </button>
 
-        
+
         <button
           className="sidebar-item"
           onClick={() =>
             navigate(`/learning-progress/${resume_id}`)
           }
         >
-             📈  Learning Progress
-
+          📈 Learning Progress
         </button>
 
       </nav>
