@@ -18,23 +18,113 @@ function LearningProgress() {
   const [updateskill , setUpdateSkill] = useState("")
   const [updatestage , setUpdateStage ] = useState("") 
   const [showUpdateForm, setShowUpdateForm] = useState(false);
+  const [loading , setLoading] = useState(true)
+  const [error , setError] = useState(true)
 
   useEffect(() => {
 
     const loadProgress = async () => {
 
+      setLoading(true)
+      setError(false)
+    try {
       const data = await fetchLearningProgress(resume_id);
 
       console.log("Learning Progress API Response:", data);
 
       setProgressData(data);
+    }
+    catch(error){
+      console.error(
+          "Learning Progress API Error:",
+        err
+      )
 
+      setError(true)
+    }
+     finally {
+      setLoading(false)
+      
+    }
     };
 
     loadProgress();
 
   }, [resume_id]);
 
+
+if (loading) {
+  return (
+    <div className="learning-progress-page">
+
+      <header className="learning-progress-header">
+
+        <div className="header-icon">
+          📈
+        </div>
+
+        <div>
+          <h1>Learning Progress</h1>
+
+          <p>
+            Track your learning journey and skill completion.
+          </p>
+        </div>
+
+      </header>
+
+
+      <div className="progress-loading">
+
+        <div className="loading-spinner">
+          ⏳
+        </div>
+
+        <h2>
+          Loading your learning progress...
+        </h2>
+
+        <p>
+          Please wait while we fetch your latest progress.
+        </p>
+
+      </div>
+
+    </div>
+  );
+}
+
+if (error) {
+
+  return (
+    <div className="learning-progress-page">
+
+      <div className="progress-error">
+
+        <div className="error-icon">
+          ⚠️
+        </div>
+
+        <h2>
+          Unable to Load Learning Progress
+        </h2>
+
+        <p>
+          Something went wrong while loading your
+          learning progress. Please try again.
+        </p>
+
+        <button
+          onClick={() => window.location.reload()}
+        >
+          Try Again
+        </button>
+
+      </div>
+
+    </div>
+  );
+}
 
   const handleUpdateProgres = async () => {
 

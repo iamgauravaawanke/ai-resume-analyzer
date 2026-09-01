@@ -25,6 +25,7 @@ function Results() {
   const [analysisData, setAnalysisData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  
 
   useEffect(() => {
   const handleResult = async () => {
@@ -142,6 +143,7 @@ return (
 <Sidebar
   analysis_id={analysis_id}
   role_id={analysisData?.role_id}
+  resume_id={analysisData?.resume_id}
 />
     <main className="dashboard-content">
 
