@@ -51,6 +51,16 @@ function Sidebar({ analysis_id, role_id, resume_id }) {
           📈 Learning Progress
         </button>
 
+
+        <button
+    className="sidebar-item"
+    onClick={() =>
+      navigate(`/career-coach/${resume_id}`)
+    }
+  >
+    🤖 Career Coach
+  </button>
+
       </nav>
 
     </aside>

@@ -6,6 +6,7 @@ import  LearningResources from "./pages/LearningResources"
 import  InterviewPreparation  from "./pages/InterviewPreparation"
 import InterviewQuestion from "./pages/InterviewQuestion"
 import LearningProgress from "./pages/LearningProgress";
+import CareerCoach from "./pages/CareerCoach";
 
 function App() {
   return (
@@ -49,6 +50,12 @@ function App() {
     path="/interview-preparation/:role_id/question/:question_id"
     element={<InterviewQuestion />}
   />
+
+
+ <Route
+  path="/carrer-chat/:resume_id"
+  element= {<CareerCoach/>}
+ />
 
 </Routes>
 

@@ -1,3 +1,5 @@
+import { resume } from "react-dom/server";
+
 export const analyzedResume = async (file, role_id) => {
   const formData = new FormData();
 
@@ -112,3 +114,14 @@ export const resetLearningProgress = async (resume_id) => {
 
   return data;
 };
+
+
+export const fetchCareerChatHistory  = async(resume_id) =>{
+
+  const response = await fetch(
+    `http://127.0.0.1:8000/career_chat/${resume_id}`,
+ );
+
+ const data = await response.json()
+ return data
+}

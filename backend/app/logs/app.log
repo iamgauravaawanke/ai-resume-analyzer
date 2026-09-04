@@ -4146,3 +4146,94 @@ DETAIL:  Key (resume_id)=(169) is not present in table "resume".
 2026-09-01 23:10:15,708 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 167
 2026-09-01 23:10:15,713 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 167
 2026-09-01 23:10:15,714 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 167
+2026-09-03 22:35:25,685 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-03 22:35:25,687 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-03 22:35:25,698 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-03 22:43:22,212 | INFO | roles.py:15 | Fetching all Roles 
+2026-09-03 22:43:22,220 | INFO | roles.py:15 | Fetching all Roles 
+2026-09-03 22:43:33,140 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-09-03 22:43:33,145 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-09-03 22:43:33,316 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-09-03 22:43:33,317 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-09-03 22:43:44,368 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-09-03 22:43:44,370 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-09-03 22:43:44,373 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-09-03 22:43:44,377 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-09-03 22:44:00,063 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-09-03 22:44:00,064 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-09-03 22:44:00,070 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-09-03 22:44:00,072 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-09-03 22:44:09,536 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-09-03 22:44:09,536 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-09-03 22:44:09,555 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-09-03 22:44:09,555 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-09-03 22:44:11,138 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-09-03 22:44:11,140 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-09-03 22:44:11,143 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-09-03 22:44:11,146 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-09-03 22:44:12,574 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-09-03 22:44:12,575 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-09-03 22:44:12,577 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-09-03 22:44:12,598 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-09-03 22:44:12,598 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-09-03 22:44:12,600 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-09-03 22:44:15,540 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-09-03 22:44:15,542 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-09-03 22:44:15,542 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-09-03 22:44:15,545 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-09-03 22:44:16,670 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-09-03 22:44:16,670 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-09-03 22:44:16,672 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-09-03 22:44:16,688 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-09-03 22:44:16,689 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-09-03 22:44:16,690 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-09-03 22:44:18,946 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-09-03 22:44:18,946 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-09-03 22:44:18,947 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-09-03 22:44:18,958 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-09-03 22:44:18,958 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-09-03 22:44:18,959 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-09-03 22:44:20,608 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-09-03 22:44:20,608 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-09-03 22:44:20,610 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-09-03 22:44:20,624 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-09-03 22:44:20,624 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-09-03 22:44:20,625 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-09-03 22:44:30,446 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-09-03 22:44:30,447 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-09-03 22:44:30,452 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-09-03 22:44:30,455 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-09-03 22:44:31,664 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 1
+2026-09-03 22:44:31,664 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 1
+2026-09-03 22:44:31,703 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 1
+2026-09-03 22:44:31,704 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 1
+2026-09-03 22:44:46,563 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-09-03 22:44:46,572 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-09-03 22:44:46,575 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-09-03 22:44:46,575 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-09-03 22:44:48,509 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-09-03 22:44:48,509 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-09-03 22:44:48,519 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 38
+2026-09-03 22:44:48,519 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 38
+2026-09-03 22:44:50,308 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-09-03 22:44:50,309 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-09-03 22:44:50,312 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-09-03 22:44:50,314 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-09-04 23:53:17,417 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 5
+2026-09-04 23:53:17,418 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-04 23:53:17,429 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 5
+2026-09-04 23:53:17,432 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 5
+2026-09-04 23:53:17,433 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-04 23:53:17,434 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 5
+2026-09-04 23:53:53,686 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 166
+2026-09-04 23:53:53,686 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-04 23:53:53,688 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 166
+2026-09-04 23:53:53,691 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 166
+2026-09-04 23:53:53,692 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-04 23:53:53,693 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 166
+2026-09-04 23:54:12,239 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-04 23:54:12,239 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-04 23:54:12,241 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-04 23:54:12,244 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-04 23:54:12,245 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-04 23:54:12,246 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
