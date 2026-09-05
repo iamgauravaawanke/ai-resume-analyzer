@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { useState , useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 
-import {fetchCareerChatHistory , sendCareerChatMessage , clearCareerChat} from "../services/app"
+import {fetchCareerChatHistory , sendCareerChatMessage , clearCareerChat , fetchLearningProgress} from "../services/app"
 
 function CareerCoach() {
 
@@ -16,6 +16,7 @@ function CareerCoach() {
   const [ message , setMessage] = useState("")
   const[isloading, setIsLoading] = useState(false)
   const [chatError, setChatError] = useState("");
+  const [progressData, setProgressData] = useState(null);
 
 
   const handleClearChat = async () => {
@@ -100,7 +101,24 @@ function CareerCoach() {
   loadChatHistory();
 }, [resume_id]);
 
+useEffect(() => {
+  const loadProgress = async () => {
+    try {
+      const data = await fetchLearningProgress(resume_id);
 
+      console.log("Career Coach Learning Progress:", data);
+
+      setProgressData(data);
+    } catch (error) {
+      console.error(
+        "Career Coach Learning Progress API Error:",
+        error
+      );
+    }
+  };
+
+  loadProgress();
+}, [resume_id]);
 
 
 
@@ -141,6 +159,90 @@ function CareerCoach() {
 
       </header>
 
+
+{/* CC-12 Career Context */}
+
+<div className="career-context">
+
+  <div className="career-context-header">
+    <div>
+      <h2>Career Context</h2>
+      <p>Your current career profile and learning status</p>
+    </div>
+  </div>
+
+  <div className="career-context-grid">
+
+    <div className="context-card">
+      <div className="context-icon">
+        🎯
+      </div>
+
+      <div className="context-info">
+        <span className="context-label">
+          Target Role
+        </span>
+
+        <strong className="context-value">
+          Backend Developer
+        </strong>
+      </div>
+    </div>
+
+
+    <div className="context-card">
+      <div className="context-icon">
+        📈
+      </div>
+
+      <div className="context-info">
+        <span className="context-label">
+          Learning Progress
+        </span>
+
+        <strong className="context-value">
+          {progressData?.progress || 0}%
+        </strong>
+      </div>
+    </div>
+
+
+    <div className="context-card">
+      <div className="context-icon">
+        📚
+      </div>
+
+      <div className="context-info">
+        <span className="context-label">
+          Current Learning Stage
+        </span>
+
+        <strong className="context-value">
+          {progressData?.current_learning_stage || "Not started"}
+        </strong>
+      </div>
+    </div>
+
+
+    <div className="context-card">
+      <div className="context-icon">
+        ✅
+      </div>
+
+      <div className="context-info">
+        <span className="context-label">
+          Completed Skill
+        </span>
+
+        <strong className="context-value">
+          {progressData?.completed_skill || "None yet"}
+        </strong>
+      </div>
+    </div>
+
+  </div>
+
+</div>
 
       {/* Main */}
 

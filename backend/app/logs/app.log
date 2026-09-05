@@ -4603,3 +4603,352 @@ DETAIL:  Key (resume_id)=(169) is not present in table "resume".
 2026-09-06 02:14:24,445 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
 2026-09-06 02:14:24,445 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
 2026-09-06 02:14:24,447 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 1
+2026-09-06 02:25:45,034 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 02:25:45,037 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:25:45,042 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 1
+2026-09-06 02:25:45,051 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 02:25:45,051 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:25:45,052 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 1
+2026-09-06 02:26:34,913 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 1
+2026-09-06 02:26:34,913 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 02:26:34,913 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 1
+2026-09-06 02:26:34,914 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:26:34,978 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 1
+2026-09-06 02:26:46,156 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 02:26:46,161 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:26:46,163 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 1
+2026-09-06 02:26:46,163 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 1
+2026-09-06 02:26:46,163 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 1
+2026-09-06 02:26:46,170 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 02:26:46,171 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:26:46,173 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 1
+2026-09-06 02:26:46,173 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 1
+2026-09-06 02:26:46,174 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 1
+2026-09-06 02:26:59,192 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 38
+2026-09-06 02:26:59,196 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 38
+2026-09-06 02:26:59,196 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:26:59,196 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 38
+2026-09-06 02:26:59,197 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 38
+2026-09-06 02:26:59,204 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 38
+2026-09-06 02:26:59,204 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:26:59,206 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 38
+2026-09-06 02:26:59,219 | ERROR | progress_tracking_service.py:58 | Error fetching progress for Resume ID 38: (psycopg2.errors.ForeignKeyViolation) insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(38) is not present in table "resume".
+
+[SQL: INSERT INTO learning_progress (resume_id, progress, completed_skill, current_learning_stage) VALUES (%(resume_id)s, %(progress)s, %(completed_skill)s, %(current_learning_stage)s) RETURNING learning_progress.id, learning_progress.created_at, learning_progress.updated_at]
+[parameters: {'resume_id': 38, 'progress': 0, 'completed_skill': None, 'current_learning_stage': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(38) is not present in table "resume".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\services\progress_tracking_service.py", line 42, in get_progress
+    db.commit()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 2035, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 1316, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 1290, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4353, in flush
+    self._flush(objects)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4488, in _flush
+    with util.safe_reraise():
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4449, in _flush
+    flush_context.execute()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 465, in execute
+    rec.execute(self)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1234, in _emit_insert_statements
+    result = connection.execute(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(38) is not present in table "resume".
+
+[SQL: INSERT INTO learning_progress (resume_id, progress, completed_skill, current_learning_stage) VALUES (%(resume_id)s, %(progress)s, %(completed_skill)s, %(current_learning_stage)s) RETURNING learning_progress.id, learning_progress.created_at, learning_progress.updated_at]
+[parameters: {'resume_id': 38, 'progress': 0, 'completed_skill': None, 'current_learning_stage': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-09-06 02:26:59,371 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 38
+2026-09-06 02:26:59,372 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 38
+2026-09-06 02:26:59,377 | ERROR | progress_tracking_service.py:58 | Error fetching progress for Resume ID 38: (psycopg2.errors.ForeignKeyViolation) insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(38) is not present in table "resume".
+
+[SQL: INSERT INTO learning_progress (resume_id, progress, completed_skill, current_learning_stage) VALUES (%(resume_id)s, %(progress)s, %(completed_skill)s, %(current_learning_stage)s) RETURNING learning_progress.id, learning_progress.created_at, learning_progress.updated_at]
+[parameters: {'resume_id': 38, 'progress': 0, 'completed_skill': None, 'current_learning_stage': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(38) is not present in table "resume".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\services\progress_tracking_service.py", line 42, in get_progress
+    db.commit()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 2035, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 1316, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 1290, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4353, in flush
+    self._flush(objects)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4488, in _flush
+    with util.safe_reraise():
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4449, in _flush
+    flush_context.execute()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 465, in execute
+    rec.execute(self)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1234, in _emit_insert_statements
+    result = connection.execute(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(38) is not present in table "resume".
+
+[SQL: INSERT INTO learning_progress (resume_id, progress, completed_skill, current_learning_stage) VALUES (%(resume_id)s, %(progress)s, %(completed_skill)s, %(current_learning_stage)s) RETURNING learning_progress.id, learning_progress.created_at, learning_progress.updated_at]
+[parameters: {'resume_id': 38, 'progress': 0, 'completed_skill': None, 'current_learning_stage': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-09-06 02:27:05,429 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 36
+2026-09-06 02:27:05,429 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 36
+2026-09-06 02:27:05,430 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 36
+2026-09-06 02:27:05,430 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:27:05,433 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 36
+2026-09-06 02:27:05,434 | ERROR | progress_tracking_service.py:58 | Error fetching progress for Resume ID 36: (psycopg2.errors.ForeignKeyViolation) insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(36) is not present in table "resume".
+
+[SQL: INSERT INTO learning_progress (resume_id, progress, completed_skill, current_learning_stage) VALUES (%(resume_id)s, %(progress)s, %(completed_skill)s, %(current_learning_stage)s) RETURNING learning_progress.id, learning_progress.created_at, learning_progress.updated_at]
+[parameters: {'resume_id': 36, 'progress': 0, 'completed_skill': None, 'current_learning_stage': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(36) is not present in table "resume".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\services\progress_tracking_service.py", line 42, in get_progress
+    db.commit()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 2035, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 1316, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 1290, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4353, in flush
+    self._flush(objects)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4488, in _flush
+    with util.safe_reraise():
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4449, in _flush
+    flush_context.execute()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 465, in execute
+    rec.execute(self)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1234, in _emit_insert_statements
+    result = connection.execute(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(36) is not present in table "resume".
+
+[SQL: INSERT INTO learning_progress (resume_id, progress, completed_skill, current_learning_stage) VALUES (%(resume_id)s, %(progress)s, %(completed_skill)s, %(current_learning_stage)s) RETURNING learning_progress.id, learning_progress.created_at, learning_progress.updated_at]
+[parameters: {'resume_id': 36, 'progress': 0, 'completed_skill': None, 'current_learning_stage': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-09-06 02:27:05,439 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 36
+2026-09-06 02:27:05,439 | INFO | progress_tracking.py:16 | Progress request received. Resume ID: 36
+2026-09-06 02:27:05,439 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:27:05,441 | INFO | progress_tracking_service.py:9 | Fetching progress for Resume ID: 36
+2026-09-06 02:27:05,442 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 36
+2026-09-06 02:27:05,444 | ERROR | progress_tracking_service.py:58 | Error fetching progress for Resume ID 36: (psycopg2.errors.ForeignKeyViolation) insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(36) is not present in table "resume".
+
+[SQL: INSERT INTO learning_progress (resume_id, progress, completed_skill, current_learning_stage) VALUES (%(resume_id)s, %(progress)s, %(completed_skill)s, %(current_learning_stage)s) RETURNING learning_progress.id, learning_progress.created_at, learning_progress.updated_at]
+[parameters: {'resume_id': 36, 'progress': 0, 'completed_skill': None, 'current_learning_stage': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(36) is not present in table "resume".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gaura\OneDrive\Documents\ai-resume-analyzer\backend\app\services\progress_tracking_service.py", line 42, in get_progress
+    db.commit()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 2035, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 1316, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 1290, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4353, in flush
+    self._flush(objects)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4488, in _flush
+    with util.safe_reraise():
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\session.py", line 4449, in _flush
+    flush_context.execute()
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 465, in execute
+    rec.execute(self)
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1234, in _emit_insert_statements
+    result = connection.execute(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\gaura\AppData\Local\pypoetry\Cache\virtualenvs\backend-HYAxcBLp-py3.11\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) insert or update on table "learning_progress" violates foreign key constraint "learning_progress_resume_id_fkey"
+DETAIL:  Key (resume_id)=(36) is not present in table "resume".
+
+[SQL: INSERT INTO learning_progress (resume_id, progress, completed_skill, current_learning_stage) VALUES (%(resume_id)s, %(progress)s, %(completed_skill)s, %(current_learning_stage)s) RETURNING learning_progress.id, learning_progress.created_at, learning_progress.updated_at]
+[parameters: {'resume_id': 36, 'progress': 0, 'completed_skill': None, 'current_learning_stage': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
