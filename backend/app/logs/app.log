@@ -4237,3 +4237,369 @@ DETAIL:  Key (resume_id)=(169) is not present in table "resume".
 2026-09-04 23:54:12,244 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
 2026-09-04 23:54:12,245 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
 2026-09-04 23:54:12,246 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:05:03,025 | INFO | roles.py:15 | Fetching all Roles 
+2026-09-05 23:05:03,074 | INFO | roles.py:15 | Fetching all Roles 
+2026-09-05 23:05:14,702 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-09-05 23:05:14,727 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-09-05 23:05:15,276 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-09-05 23:05:15,280 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-09-05 23:05:15,293 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-09-05 23:05:15,297 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-09-05 23:05:19,739 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 33
+2026-09-05 23:05:19,740 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 33
+2026-09-05 23:05:19,772 | INFO | learning_resource.py:13 | Learning resources request received. Analysis ID: 33
+2026-09-05 23:05:19,773 | INFO | learning_resource_service.py:30 | Fetching learning resources. Analysis ID: 33
+2026-09-05 23:05:24,063 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-09-05 23:05:24,066 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-09-05 23:05:24,079 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-09-05 23:05:24,083 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-09-05 23:05:24,098 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-09-05 23:05:24,101 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-09-05 23:05:25,942 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-09-05 23:05:25,944 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-09-05 23:05:25,949 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-09-05 23:05:25,993 | INFO | interview_preparation.py:12 | Interview preparation request received. Role ID: 1, Skill: None, Difficulty: None, Question Type: None
+2026-09-05 23:05:25,994 | INFO | interview_prepration.py:10 | Fetching Interview Preparation for Role ID:1 , skill:None , difficulty:None , question_type:None
+2026-09-05 23:05:25,997 | INFO | interview_prepration.py:23 | Roles fetched successfully. Roles ID: 1
+2026-09-05 23:05:31,481 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-09-05 23:05:31,485 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-09-05 23:05:31,500 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-09-05 23:05:31,504 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-09-05 23:05:31,518 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-09-05 23:05:31,521 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-09-05 23:05:48,311 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-09-05 23:05:48,315 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-09-05 23:05:48,331 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-09-05 23:05:48,336 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-09-05 23:05:48,349 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 33
+2026-09-05 23:05:48,352 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 33
+2026-09-05 23:06:43,988 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:06:43,988 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:06:44,013 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:06:44,021 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:06:44,022 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:06:44,025 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:15:06,917 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:15:06,918 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:15:06,922 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:15:20,913 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:15:20,914 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:15:20,918 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:23:03,914 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:23:03,917 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:23:03,920 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:23:03,928 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:23:03,929 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:23:03,932 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:23:34,467 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:23:34,468 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:23:34,474 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:23:34,482 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:23:34,483 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:23:34,487 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:24:10,935 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:24:10,936 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:24:10,940 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:24:10,947 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:24:10,949 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:24:10,952 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:24:34,110 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:24:34,110 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:24:34,113 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:24:34,122 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:24:34,122 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:24:34,127 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:25:33,944 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:25:33,944 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:25:33,946 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:25:33,949 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:25:33,949 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:25:33,951 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:26:33,967 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:26:33,967 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:26:33,969 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:26:33,973 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:26:33,973 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:26:33,975 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:27:33,956 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:27:33,956 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:27:33,957 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:27:33,960 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:27:33,960 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:27:33,961 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:29:15,699 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:29:15,699 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:29:15,701 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:29:15,705 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:29:15,705 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:29:15,706 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:29:53,345 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:29:53,345 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:29:53,347 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:29:53,351 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:29:53,351 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:29:53,353 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:31:43,668 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:31:43,668 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:31:43,671 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-05 23:31:43,675 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-05 23:31:43,675 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-05 23:31:43,676 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-06 00:35:19,111 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 00:35:19,114 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 00:35:19,125 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-06 00:35:19,131 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 00:35:19,132 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 00:35:19,133 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-06 00:35:21,743 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 00:35:21,744 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 00:35:21,745 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-06 00:35:21,748 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 00:35:21,748 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 00:35:21,749 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-06 00:39:46,845 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 00:39:46,846 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 00:39:46,848 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-06 00:39:46,852 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 00:39:46,852 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 00:39:46,852 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-06 00:40:26,837 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 2
+2026-09-06 00:40:26,837 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 00:40:26,839 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 2
+2026-09-06 00:40:26,842 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 2
+2026-09-06 00:40:26,843 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 00:40:26,844 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 2
+2026-09-06 00:40:34,512 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 00:40:34,512 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 00:40:34,513 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-06 00:40:34,517 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 00:40:34,517 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 00:40:34,518 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-06 00:58:47,465 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 00:58:47,469 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 00:58:47,495 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-06 00:58:47,501 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 00:58:47,501 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 00:58:47,506 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 1
+2026-09-06 00:58:54,655 | INFO | career_chat.py:21 | Career Chat Request Received. Resume ID: 1
+2026-09-06 00:58:54,655 | INFO | career_chat_service.py:187 | Send message started for Resume ID: 1
+2026-09-06 00:58:54,655 | INFO | career_chat_service.py:12 | Fetching analysis using Resume ID: 1
+2026-09-06 00:58:54,673 | INFO | career_chat_service.py:57 | Analysis and Role found successfully. Resume ID: 1, Role: Backend Developer
+2026-09-06 00:58:54,673 | INFO | career_chat_service.py:87 | Building career context for analysis ID: 38
+2026-09-06 00:58:54,673 | INFO | career_chat_service.py:105 | Career context built successfully for analysis ID: 38
+2026-09-06 00:58:54,673 | INFO | career_chat_service.py:114 | AI career chat request started.
+2026-09-06 00:58:54,673 | INFO | career_chat_service.py:132 | Sending career context to AI for role: Backend Developer
+2026-09-06 00:59:34,227 | INFO | career_chat_service.py:140 | AI career chat response received successfully.
+2026-09-06 00:59:34,228 | INFO | career_chat_service.py:154 | save chat history function started 
+2026-09-06 00:59:34,432 | INFO | career_chat_service.py:167 | Carrer Chat saved sussfully for this resume_id : 1
+2026-09-06 00:59:34,433 | INFO | career_chat_service.py:209 | Career chat completed for Resume ID: 1
+2026-09-06 01:00:45,230 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 2
+2026-09-06 01:00:45,231 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:00:45,233 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 2
+2026-09-06 01:00:45,240 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 2
+2026-09-06 01:00:45,241 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:00:45,243 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 2
+2026-09-06 01:00:51,404 | INFO | career_chat.py:21 | Career Chat Request Received. Resume ID: 2
+2026-09-06 01:00:51,405 | INFO | career_chat_service.py:187 | Send message started for Resume ID: 2
+2026-09-06 01:00:51,405 | INFO | career_chat_service.py:12 | Fetching analysis using Resume ID: 2
+2026-09-06 01:00:51,408 | WARNING | career_chat_service.py:28 | Analysis not found for Resume ID: 2
+2026-09-06 01:01:49,616 | INFO | career_chat.py:21 | Career Chat Request Received. Resume ID: 2
+2026-09-06 01:01:49,616 | INFO | career_chat_service.py:187 | Send message started for Resume ID: 2
+2026-09-06 01:01:49,616 | INFO | career_chat_service.py:12 | Fetching analysis using Resume ID: 2
+2026-09-06 01:01:49,616 | WARNING | career_chat_service.py:28 | Analysis not found for Resume ID: 2
+2026-09-06 01:03:56,673 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 2
+2026-09-06 01:03:56,674 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:03:56,676 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 2
+2026-09-06 01:03:56,683 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 2
+2026-09-06 01:03:56,684 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:03:56,686 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 2
+2026-09-06 01:05:23,563 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 18
+2026-09-06 01:05:23,563 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:05:23,566 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 18
+2026-09-06 01:05:23,573 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 18
+2026-09-06 01:05:23,574 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:05:23,577 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 18
+2026-09-06 01:05:44,595 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:05:44,596 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:05:44,599 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 167
+2026-09-06 01:05:44,606 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:05:44,608 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:05:44,610 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 167
+2026-09-06 01:07:05,581 | INFO | career_chat.py:21 | Career Chat Request Received. Resume ID: 167
+2026-09-06 01:07:05,582 | INFO | career_chat_service.py:187 | Send message started for Resume ID: 167
+2026-09-06 01:07:05,584 | INFO | career_chat_service.py:12 | Fetching analysis using Resume ID: 167
+2026-09-06 01:07:05,598 | INFO | career_chat_service.py:57 | Analysis and Role found successfully. Resume ID: 167, Role: Python Developer
+2026-09-06 01:07:05,600 | INFO | career_chat_service.py:87 | Building career context for analysis ID: 63
+2026-09-06 01:07:05,600 | INFO | career_chat_service.py:105 | Career context built successfully for analysis ID: 63
+2026-09-06 01:07:05,601 | INFO | career_chat_service.py:114 | AI career chat request started.
+2026-09-06 01:07:05,601 | INFO | career_chat_service.py:132 | Sending career context to AI for role: Python Developer
+2026-09-06 01:07:43,196 | INFO | career_chat_service.py:140 | AI career chat response received successfully.
+2026-09-06 01:07:43,198 | INFO | career_chat_service.py:154 | save chat history function started 
+2026-09-06 01:07:43,204 | INFO | career_chat_service.py:167 | Carrer Chat saved sussfully for this resume_id : 167
+2026-09-06 01:07:43,204 | INFO | career_chat_service.py:209 | Career chat completed for Resume ID: 167
+2026-09-06 01:07:51,567 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:07:51,567 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:07:51,571 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 167
+2026-09-06 01:07:51,580 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:07:51,581 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:07:51,583 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 167
+2026-09-06 01:11:12,916 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:11:12,917 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:11:12,920 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 167
+2026-09-06 01:25:03,934 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:25:03,936 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:25:03,939 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 167
+2026-09-06 01:25:03,949 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:25:03,951 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:25:03,954 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 167
+2026-09-06 01:25:07,291 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:25:07,292 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:25:07,297 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 167
+2026-09-06 01:25:07,305 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:25:07,306 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:25:07,311 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 167
+2026-09-06 01:27:27,758 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:27:27,759 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:27:27,764 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 167
+2026-09-06 01:27:27,773 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:27:27,774 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:27:27,778 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 167
+2026-09-06 01:28:14,306 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:28:14,308 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:28:14,313 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 167
+2026-09-06 01:28:14,320 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:28:14,321 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:28:14,336 | INFO | career_chat_service.py:223 | Found 1 chat records for Resume ID: 167
+2026-09-06 01:30:22,463 | INFO | career_chat.py:21 | Career Chat Request Received. Resume ID: 167
+2026-09-06 01:30:22,463 | INFO | career_chat_service.py:187 | Send message started for Resume ID: 167
+2026-09-06 01:30:22,466 | INFO | career_chat_service.py:12 | Fetching analysis using Resume ID: 167
+2026-09-06 01:30:22,482 | INFO | career_chat_service.py:57 | Analysis and Role found successfully. Resume ID: 167, Role: Python Developer
+2026-09-06 01:30:22,485 | INFO | career_chat_service.py:87 | Building career context for analysis ID: 63
+2026-09-06 01:30:22,485 | INFO | career_chat_service.py:105 | Career context built successfully for analysis ID: 63
+2026-09-06 01:30:22,485 | INFO | career_chat_service.py:114 | AI career chat request started.
+2026-09-06 01:30:22,488 | INFO | career_chat_service.py:132 | Sending career context to AI for role: Python Developer
+2026-09-06 01:31:27,521 | INFO | career_chat_service.py:140 | AI career chat response received successfully.
+2026-09-06 01:31:27,521 | INFO | career_chat_service.py:154 | save chat history function started 
+2026-09-06 01:31:27,531 | INFO | career_chat_service.py:167 | Carrer Chat saved sussfully for this resume_id : 167
+2026-09-06 01:31:27,531 | INFO | career_chat_service.py:209 | Career chat completed for Resume ID: 167
+2026-09-06 01:38:54,917 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:38:54,917 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:38:54,921 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 167
+2026-09-06 01:38:54,925 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:38:54,925 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:38:54,927 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 167
+2026-09-06 01:38:58,769 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:38:58,770 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:38:58,772 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 167
+2026-09-06 01:38:58,775 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:38:58,775 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:38:58,779 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 167
+2026-09-06 01:39:02,947 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:39:02,948 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:39:02,951 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 167
+2026-09-06 01:39:02,954 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:39:02,954 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:39:02,956 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 167
+2026-09-06 01:39:05,193 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:39:05,194 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:39:05,196 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 167
+2026-09-06 01:39:05,198 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:39:05,199 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:39:05,200 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 167
+2026-09-06 01:39:06,159 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:39:06,159 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:39:06,162 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 167
+2026-09-06 01:39:06,164 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:39:06,164 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:39:06,167 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 167
+2026-09-06 01:39:25,829 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-09-06 01:39:25,861 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-09-06 01:39:25,867 | INFO | analysis.py:15 | Fetching analysis. Analysis ID: 38
+2026-09-06 01:39:25,870 | INFO | analysis.py:34 | Analysis fetched successfully. Analysis ID: 38
+2026-09-06 01:39:34,845 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 01:39:34,845 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:39:34,848 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 1
+2026-09-06 01:39:34,851 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 01:39:34,851 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:39:34,855 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 1
+2026-09-06 01:39:42,317 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:39:42,320 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:39:42,321 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 167
+2026-09-06 01:39:42,321 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:39:42,321 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:39:42,321 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 167
+2026-09-06 01:39:51,212 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 2
+2026-09-06 01:39:51,212 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:39:51,214 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 2
+2026-09-06 01:39:51,217 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 2
+2026-09-06 01:39:51,218 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:39:51,219 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 2
+2026-09-06 01:47:09,135 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 2
+2026-09-06 01:47:09,135 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:47:09,137 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 2
+2026-09-06 01:47:09,140 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 2
+2026-09-06 01:47:09,141 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:47:09,142 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 2
+2026-09-06 01:56:40,806 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 2
+2026-09-06 01:56:40,806 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:56:40,806 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 2
+2026-09-06 01:56:40,810 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 2
+2026-09-06 01:56:40,810 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:56:40,811 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 2
+2026-09-06 01:56:54,025 | INFO | career_chat.py:45 | Career Delete History Request Received. Resume ID: 2
+2026-09-06 01:56:54,026 | INFO | career_chat_service.py:260 | Clear career chat request received. Resume ID: 2
+2026-09-06 01:56:54,054 | INFO | career_chat_service.py:277 | Deleted 0 chat records for Resume ID: 2
+2026-09-06 01:57:07,216 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:57:07,216 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:57:07,219 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 167
+2026-09-06 01:57:07,223 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:57:07,223 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:57:07,224 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 167
+2026-09-06 01:57:13,421 | INFO | career_chat.py:45 | Career Delete History Request Received. Resume ID: 167
+2026-09-06 01:57:13,422 | INFO | career_chat_service.py:260 | Clear career chat request received. Resume ID: 167
+2026-09-06 01:57:13,425 | INFO | career_chat_service.py:277 | Deleted 2 chat records for Resume ID: 167
+2026-09-06 01:58:53,898 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:58:53,898 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:58:53,900 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 167
+2026-09-06 01:58:58,897 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:58:58,897 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:58:58,898 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 167
+2026-09-06 01:59:26,909 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 01:59:26,911 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 01:59:26,911 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 167
+2026-09-06 02:01:53,472 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 02:01:53,472 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:01:53,474 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 167
+2026-09-06 02:01:53,477 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 02:01:53,478 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:01:53,479 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 167
+2026-09-06 02:08:48,966 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 02:08:48,969 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:08:48,980 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 167
+2026-09-06 02:10:49,373 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 167
+2026-09-06 02:10:49,375 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:10:49,387 | INFO | career_chat_service.py:223 | Found 0 chat records for Resume ID: 167
+2026-09-06 02:11:06,381 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 02:11:06,382 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:11:06,388 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 1
+2026-09-06 02:11:06,398 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 02:11:06,398 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:11:06,400 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 1
+2026-09-06 02:13:40,979 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 02:13:40,979 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:13:40,981 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 1
+2026-09-06 02:13:40,988 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 02:13:40,989 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:13:40,991 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 1
+2026-09-06 02:14:02,294 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 02:14:02,294 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:14:02,297 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 1
+2026-09-06 02:14:02,305 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 02:14:02,306 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:14:02,308 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 1
+2026-09-06 02:14:24,437 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 02:14:24,438 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:14:24,439 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 1
+2026-09-06 02:14:24,445 | INFO | career_chat.py:34 | Career Chat History Request Received. Resume ID: 1
+2026-09-06 02:14:24,445 | INFO | career_chat_service.py:217 | Inside Get Chat History Function
+2026-09-06 02:14:24,447 | INFO | career_chat_service.py:223 | Found 2 chat records for Resume ID: 1
