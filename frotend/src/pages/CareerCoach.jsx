@@ -41,7 +41,7 @@ function CareerCoach() {
   }
 
   try {
-    setisloading(true);
+    setIsLoading(true);
     setChatError("");
 
     const data = await sendCareerChatMessage(
@@ -57,7 +57,7 @@ function CareerCoach() {
 
     setChatError("Unable to send your message. Please try again.");
   } finally {
-    setisloading(false);
+    setIsLoading(false);
   }
 };
 
