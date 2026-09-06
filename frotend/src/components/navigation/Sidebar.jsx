@@ -55,7 +55,7 @@ function Sidebar({ analysis_id, role_id, resume_id }) {
         <button
     className="sidebar-item"
     onClick={() =>
-      navigate(`/career-coach/${resume_id}`)
+      navigate(`/carrer-chat/${resume_id}`)
     }
   >
     🤖 Career Coach
