@@ -1,4 +1,5 @@
 🤖 AI Resume Analyzer
+
 A full-stack AI-powered Resume Analyzer built using React.js, FastAPI, PostgreSQL, ChromaDB, and Qwen LLM. The application analyzes resumes against a target role and provides ATS scoring, skill gap analysis, personalized learning roadmaps, learning resources, interview preparation, progress tracking, and an AI Career Coach.
 
 React FastAPI PostgreSQL AI Status
