@@ -100,6 +100,32 @@ AI Resume Analyzer offers an end-to-end resume analysis experience by combining 
 
 ![Dashboard](screenshot/all_skill .png.png)
 
+
+## 📚 Learning Resources
+
+> Explore skill-based learning resources recommended based on your identified skill gaps.
+
+![Learning Resources](screenshot/Learning_resources.png)
+
+## 🎯 Interview Preparation
+
+> Prepare for interviews with skill-based questions organized by difficulty and question type.
+
+![Interview Preparation](screenshot/interview_prepration.png)
+
+## 📈 Learning Progress
+
+> Track your learning progress and current learning stage.
+
+![Learning Progress](screenshot/learning_progresc.png)
+
+## 💬 AI Career Coach
+
+> Get personalized career guidance and ask questions based on your resume analysis and target role.
+
+![AI Career Coach](screenshot/carrer-chat.png)
+
+
 # 🛠 Tech Stack
 
 | Category | Technologies |
