@@ -3,6 +3,7 @@
 A full-stack AI-powered Resume Analyzer built using React.js, FastAPI, PostgreSQL, ChromaDB, and Qwen LLM. The application analyzes resumes against a target role and provides ATS scoring, skill gap analysis, personalized learning roadmaps, learning resources, interview preparation, progress tracking, and an AI Career Coach.
 
 React FastAPI PostgreSQL AI Status
+
 🚀 Key Highlights
 📄 Upload resumes in PDF format
 🤖 AI-powered resume analysis using Gemma & Qwen LLMs
@@ -23,6 +24,7 @@ React FastAPI PostgreSQL AI Status
 
 
 📖 Project Overview
+
 AI Resume Analyzer is a full-stack AI-powered web application that helps job seekers evaluate and improve their resumes based on their target career role using Large Language Models (LLMs).
 
 The application allows users to upload a resume in PDF format, extract the resume content, select a target role, and receive structured AI-powered insights such as an ATS score, technical skills, soft skills, missing skills, personalized improvement suggestions, and a learning roadmap.
@@ -35,6 +37,7 @@ The project demonstrates the integration of LLMs, Retrieval-Augmented Generation
 
 
 🎯 Problem Statement
+
 Many job seekers struggle to understand whether their resumes are optimized for Applicant Tracking Systems (ATS) and aligned with the requirements of their target roles. Traditional resume reviews are often time-consuming, subjective, or expensive.
 
 Even after identifying resume weaknesses, job seekers often face additional challenges in understanding what skills they need to learn, which resources to use, how to prepare for interviews, and how to track their learning progress.
@@ -55,6 +58,7 @@ AI Resume Analyzer addresses these challenges by analyzing resumes against targe
 
 
 💡 Solution
+
 AI Resume Analyzer provides an intelligent and automated solution for resume evaluation and career development by leveraging Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and modern web technologies.
 
 The application enables users to upload a resume in PDF format, select a target career role, and receive AI-powered analysis based on the selected role. The system extracts the resume content and generates structured insights such as ATS score, technical skills, soft skills, missing skills, personalized recommendations, and career improvement suggestions.
@@ -79,6 +83,7 @@ The platform helps job seekers by providing:
 This automated workflow allows users to quickly understand the strengths and weaknesses of their resumes and improve them before applying for jobs.
 
 # ✨ Features
+
 AI Resume Analyzer offers an end-to-end resume analysis experience by combining AI-powered insights with a modern and responsive user interface.
 
 ## 📄 Resume Upload
