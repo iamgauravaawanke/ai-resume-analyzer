@@ -1,268 +1,421 @@
-🤖 AI Resume Analyzer
+# 🤖 AI Resume Analyzer
 
-A full-stack AI-powered Resume Analyzer built using React.js, FastAPI, PostgreSQL, ChromaDB, and Qwen LLM. The application analyzes resumes against a target role and provides ATS scoring, skill gap analysis, personalized learning roadmaps, learning resources, interview preparation, progress tracking, and an AI Career Coach.
+A full-stack AI-powered Resume Analyzer built using **React.js, FastAPI, PostgreSQL, ChromaDB, and Qwen/Gemma LLMs**.
 
-React FastAPI PostgreSQL AI Status
+The application analyzes resumes against a target career role and provides **ATS scoring, skill gap analysis, personalized learning roadmaps, learning resources, interview preparation, progress tracking, and an AI Career Coach**.
 
-🚀 Key Highlights
-📄 Upload resumes in PDF format
-🤖 AI-powered resume analysis using Gemma & Qwen LLMs
-📊 ATS Score with detailed evaluation
-🛠 Technical & Soft Skills extraction
-📉 Missing Skills identification
-💡 Personalized improvement suggestions
-📚 Personalized Learning Roadmap
-🧑‍💻 Recommended Projects based on career goals
-📖 Skill-based Learning Resources
-🎯 Interview Preparation with skill, difficulty, and question-type filters
-📈 Learning Progress Tracking
-💬 AI Career Coach with personalized career guidance
-📱 Fully responsive modern dashboard
-⚡ FastAPI backend with PostgreSQL
-🎨 Modern UI built with React, Tailwind CSS, and shadcn/ui
-🧠 RAG-based knowledge retrieval using ChromaDB
+**React.js · FastAPI · PostgreSQL · ChromaDB · Gemma · Qwen · RAG**
 
+---
 
-📖 Project Overview
+## 🚀 Key Highlights
 
-AI Resume Analyzer is a full-stack AI-powered web application that helps job seekers evaluate and improve their resumes based on their target career role using Large Language Models (LLMs).
+* 📄 Upload resumes in PDF format
+* 🤖 AI-powered resume analysis using Gemma & Qwen LLMs
+* 📊 ATS score with detailed evaluation
+* 🛠️ Technical & soft skills extraction
+* 📉 Missing skills identification
+* 💡 Personalized resume improvement suggestions
+* 📚 Personalized learning roadmap
+* 🧑‍💻 Recommended projects based on career goals
+* 📖 Skill-based learning resources
+* 🎯 Interview preparation with skill, difficulty, and question-type filters
+* 📈 Learning progress tracking
+* 💬 AI Career Coach with personalized career guidance
+* 📱 Fully responsive modern dashboard
+* ⚡ FastAPI backend with PostgreSQL
+* 🎨 Modern UI built with React, Tailwind CSS, and shadcn/ui
+* 🧠 RAG-based knowledge retrieval using ChromaDB
 
-The application allows users to upload a resume in PDF format, extract the resume content, select a target role, and receive structured AI-powered insights such as an ATS score, technical skills, soft skills, missing skills, personalized improvement suggestions, and a learning roadmap.
+---
 
-Beyond resume analysis, the application provides personalized learning resources, recommended projects, interview preparation, learning progress tracking, and an AI Career Coach for ongoing career guidance.
+# 📖 Project Overview
 
-The backend is built with FastAPI and PostgreSQL, while the frontend is developed using React, Tailwind CSS, and shadcn/ui, providing a clean, responsive, and modern dashboard experience.
+**AI Resume Analyzer** is a full-stack AI-powered web application designed to help job seekers evaluate and improve their resumes based on their target career role using **Large Language Models (LLMs)**.
 
-The project demonstrates the integration of LLMs, Retrieval-Augmented Generation (RAG), ChromaDB, REST APIs, relational databases, and modern frontend development to build a practical AI-powered career development platform.
+Users can upload a resume in PDF format, select a target role, and receive structured AI-powered insights, including:
 
+* ATS score
+* Professional resume summary
+* Technical skills
+* Soft skills
+* Missing skills
+* Personalized improvement suggestions
+* Career improvement recommendations
+* Personalized learning roadmap
 
-🎯 Problem Statement
+The platform goes beyond traditional resume analysis by providing:
 
-Many job seekers struggle to understand whether their resumes are optimized for Applicant Tracking Systems (ATS) and aligned with the requirements of their target roles. Traditional resume reviews are often time-consuming, subjective, or expensive.
+* Personalized learning resources
+* Recommended projects
+* Interview preparation
+* Learning progress tracking
+* AI-powered career guidance
 
-Even after identifying resume weaknesses, job seekers often face additional challenges in understanding what skills they need to learn, which resources to use, how to prepare for interviews, and how to track their learning progress.
+The backend is built with **FastAPI and PostgreSQL**, while the frontend uses **React, Tailwind CSS, and shadcn/ui** to provide a clean, responsive, and modern dashboard experience.
 
-Common challenges include:
+The project demonstrates the integration of:
 
-Not knowing whether the resume is ATS-friendly.
-Difficulty identifying technical and soft skills present in the resume.
-Missing technical skills required for target roles.
-Difficulty identifying strengths and areas for improvement.
-Lack of personalized recommendations to improve career readiness.
-Difficulty creating a structured learning path based on skill gaps.
-Difficulty finding relevant learning resources and projects.
-Limited personalized interview preparation.
-Lack of a simple way to track learning progress.
-Limited guidance after the initial resume review.
-AI Resume Analyzer addresses these challenges by analyzing resumes against target roles using Large Language Models (LLMs) and providing actionable career insights, including ATS scores, skills assessment, missing skills, personalized recommendations, learning roadmaps, learning resources, interview preparation, progress tracking, and AI-powered career guidance.
+* Large Language Models (LLMs)
+* Retrieval-Augmented Generation (RAG)
+* ChromaDB
+* REST APIs
+* PostgreSQL
+* Modern frontend development
 
+to build a practical AI-powered career development platform.
 
-💡 Solution
+---
 
-AI Resume Analyzer provides an intelligent and automated solution for resume evaluation and career development by leveraging Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and modern web technologies.
+# 🎯 Problem Statement
 
-The application enables users to upload a resume in PDF format, select a target career role, and receive AI-powered analysis based on the selected role. The system extracts the resume content and generates structured insights such as ATS score, technical skills, soft skills, missing skills, personalized recommendations, and career improvement suggestions.
+Many job seekers struggle to understand whether their resumes are optimized for **Applicant Tracking Systems (ATS)** and aligned with the requirements of their target roles.
 
-The platform goes beyond resume analysis by helping users understand what to learn and how to prepare for their target role. It provides personalized learning roadmaps, recommended projects, skill-based learning resources, interview preparation, learning progress tracking, and an AI Career Coach for ongoing guidance.
+Traditional resume reviews can be:
 
-The platform helps job seekers by providing:
+* Time-consuming
+* Subjective
+* Expensive
 
-📊 ATS Compatibility Score
-📝 Professional Resume Summary
-💻 Technical Skills Identification
-🤝 Soft Skills Analysis
-⚠️ Missing Skills Detection
-💡 Personalized AI Recommendations
-🗺️ Personalized Learning Roadmap
-🧑‍💻 Recommended Projects
-📚 Skill-based Learning Resources
-🎯 Interview Preparation
-📈 Learning Progress Tracking
-💬 AI Career Coach This automated workflow allows users to quickly understand the strengths and weaknesses of their resumes and improve them before applying for jobs.
+Even after identifying resume weaknesses, job seekers often face additional challenges in understanding:
 
-This automated workflow allows users to quickly understand the strengths and weaknesses of their resumes and improve them before applying for jobs.
+* What skills they need to learn
+* Which resources they should use
+* Which projects they should build
+* How to prepare for interviews
+* How to track their learning progress
+* What career steps they should take next
+
+### Common Challenges
+
+* ❌ Not knowing whether the resume is ATS-friendly
+* ❌ Difficulty identifying technical and soft skills
+* ❌ Missing technical skills required for target roles
+* ❌ Difficulty identifying strengths and improvement areas
+* ❌ Lack of personalized career recommendations
+* ❌ Difficulty creating a structured learning path
+* ❌ Difficulty finding relevant learning resources
+* ❌ Difficulty finding suitable projects
+* ❌ Limited personalized interview preparation
+* ❌ Lack of learning progress tracking
+* ❌ Limited guidance after the initial resume review
+
+### How AI Resume Analyzer Helps
+
+AI Resume Analyzer addresses these challenges by analyzing resumes against target roles using **Large Language Models (LLMs)** and providing actionable career insights.
+
+The platform provides:
+
+**ATS Scoring → Skills Assessment → Skill Gap Analysis → Learning Roadmap → Resources → Projects → Interview Preparation → Progress Tracking → AI Career Coaching**
+
+---
+
+# 💡 Solution
+
+AI Resume Analyzer provides an intelligent and automated solution for **resume evaluation and career development** by leveraging:
+
+* Large Language Models (LLMs)
+* Retrieval-Augmented Generation (RAG)
+* ChromaDB
+* FastAPI
+* PostgreSQL
+* React.js
+
+The application enables users to upload a resume in PDF format, select a target career role, and receive AI-powered analysis based on the selected role.
+
+The system extracts the resume content and generates structured insights such as:
+
+* 📊 ATS Compatibility Score
+* 📝 Professional Resume Summary
+* 💻 Technical Skills Identification
+* 🤝 Soft Skills Analysis
+* ⚠️ Missing Skills Detection
+* 💡 Personalized AI Recommendations
+* 🗺️ Personalized Learning Roadmap
+* 🧑‍💻 Recommended Projects
+* 📚 Skill-based Learning Resources
+* 🎯 Interview Preparation
+* 📈 Learning Progress Tracking
+* 💬 AI Career Coach
+
+This automated workflow allows users to quickly understand the strengths and weaknesses of their resumes and take actionable steps to improve their career readiness.
+
+---
 
 # ✨ Features
 
-AI Resume Analyzer offers an end-to-end resume analysis experience by combining AI-powered insights with a modern and responsive user interface.
+AI Resume Analyzer provides an end-to-end resume analysis and career development experience.
 
 ## 📄 Resume Upload
 
-- Upload resumes in PDF format
-- Drag & Drop file upload support
-- File validation before processing
-- Secure resume upload
+* Upload resumes in PDF format
+* Drag & Drop file upload support
+* File validation before processing
+* Secure resume upload
 
 ---
+
+## 🤖 AI Resume Analysis
+
+* 📊 ATS Score Calculation
+* 📝 Professional Summary Generation
+* 💻 Technical Skills Extraction
+* 🤝 Soft Skills Identification
+* ⚠️ Missing Skills Detection
+* 💡 AI-Powered Improvement Suggestions
+
+---
+
+## 🗺️ Personalized Learning Roadmap
+
+The application creates a personalized learning path based on:
+
+* Target career role
+* Current skills
+* Missing skills
+* Career goals
+
+---
+
+## 🧑‍💻 Recommended Projects
+
+Users receive project recommendations designed to help them:
+
+* Practice missing skills
+* Build practical experience
+* Strengthen their portfolio
+* Improve career readiness
+
+---
+
+## 📚 Learning Resources
+
+The platform recommends skill-based learning resources based on identified skill gaps.
+
+Resources can help users develop the technical knowledge required for their target role.
+
+---
+
+## 🎯 Interview Preparation
+
+Users can prepare for interviews using questions organized by:
+
+* Skill
+* Difficulty
+* Question type
+
+This provides a more targeted interview preparation experience.
+
+---
+
+## 📈 Learning Progress Tracking
+
+Users can track their learning progress and monitor their current learning stage.
+
+---
+
+## 💬 AI Career Coach
+
+The AI Career Coach provides personalized career guidance based on:
+
+* Resume analysis
+* Target career role
+* Identified skills
+* Missing skills
+* Learning progress
+
+Users can ask career-related questions and receive personalized guidance.
+
+---
+
 # 📸 Screenshots
 
 ## 🏠 Landing Page
 
-> Modern landing page with project introduction and resume upload section.
+Modern landing page with project introduction and resume upload section.
 
 ![Landing Page](screenshot/Complete_Dashboard.png.png)
+
+---
+
 ## 📄 Resume Upload
 
-> Upload your resume in PDF format and start AI analysis.
+Upload your resume in PDF format and start AI analysis.
 
 ![Resume Upload](screenshot/Upload_Resume.png.png)
+
+---
+
 ## 📊 Resume Analysis Dashboard
 
-> AI-generated ATS score, professional summary, skills analysis, and personalized recommendations.
+AI-generated ATS score, professional summary, skills analysis, and personalized recommendations.
 
 ![Dashboard](screenshot/resul_ats_score.png.png)
-## 📊 Resume Analysis Dashboard
 
-> AI-generated ATS score, professional summary, skills analysis, and personalized recommendations.
+---
 
-![Dashboard](screenshot/all_skill .png.png)
+## 🛠️ Skills Analysis
 
+View technical and soft skills identified from the resume.
+
+![Skills Analysis](screenshot/all_skill .png.png)
+
+---
 
 ## 📚 Learning Resources
 
-> Explore skill-based learning resources recommended based on your identified skill gaps.
+Explore skill-based learning resources recommended based on identified skill gaps.
 
 ![Learning Resources](screenshot/Learning_resources.png)
 
+---
+
 ## 🎯 Interview Preparation
 
-> Prepare for interviews with skill-based questions organized by difficulty and question type.
+Prepare for interviews with skill-based questions organized by difficulty and question type.
 
 ![Interview Preparation](screenshot/interview_prepration.png)
 
+---
+
 ## 📈 Learning Progress
 
-> Track your learning progress and current learning stage.
+Track learning progress and monitor your current learning stage.
 
 ![Learning Progress](screenshot/learning_progresc.png)
 
+---
+
 ## 💬 AI Career Coach
 
-> Get personalized career guidance and ask questions based on your resume analysis and target role.
+Get personalized career guidance and ask questions based on your resume analysis and target role.
 
 ![AI Career Coach](screenshot/carrer-chat.png)
 
-
-# 🛠 Tech Stack
-
-| Category | Technologies |
-|----------|--------------|
-| Frontend | React.js, Tailwind CSS, shadcn/ui, React Router, Axios |
-| Backend | FastAPI, SQLAlchemy |
-| Database | PostgreSQL |
-| AI / LLM | Google Gemma, Qwen 2.5, LM Studio |
-| Tools | Git, GitHub, VS Code, Postman |
-
-
-# 🏗 System Architecture
-
-User
-  │
-  ▼
-React Frontend
-  │
-  ▼
-Axios API
-  │
-  ▼
-FastAPI Backend
-  │
-  ├── Resume Processing
-  │       │
-  │       ▼
-  │   PDF Text Extraction
-  │
-  ├── Role Selection
-  │
-  ├── RAG Pipeline
-  │       │
-  │       ├── Embeddings
-  │       └── ChromaDB
-  │
-  ▼
-Gemma / Qwen LLM
-  │
-  ▼
-Structured AI Analysis
-  │
-  ▼
-PostgreSQL
-  │
-  ▼
-React Dashboard
-  │
-  ├── Resume Analysis
-  ├── Learning Roadmap
-  ├── Resources
-  ├── Interview Preparation
-  ├── Progress Tracking
-  └── AI Career Coach
 ---
 
-# 🚀 Installation
+# 🛠️ Tech Stack
 
-## 🤖 AI Resume Analysis
+| Category                  | Technologies                                           |
+| ------------------------- | ------------------------------------------------------ |
+| **Frontend**              | React.js, Tailwind CSS, shadcn/ui, React Router, Axios |
+| **Backend**               | FastAPI, SQLAlchemy                                    |
+| **Database**              | PostgreSQL                                             |
+| **AI / LLM**              | Google Gemma, Qwen 2.5, LM Studio                      |
+| **RAG / Vector Database** | ChromaDB                                               |
+| **Document Processing**   | PyPDF                                                  |
+| **Tools**                 | Git, GitHub, VS Code, Postman                          |
 
-- ATS Score Calculation
-- Professional Summary Generation
-- Technical Skills Extraction
-- Soft Skills Identification
-- Missing Skills Detection
-- AI-Powered Improvement Suggestions
+---
+
+# 🏗️ System Architecture
+
+```text
+                         User
+                           │
+                           ▼
+                  React Frontend
+                           │
+                           ▼
+                       Axios API
+                           │
+                           ▼
+                   FastAPI Backend
+                           │
+             ┌─────────────┴─────────────┐
+             │                           │
+             ▼                           ▼
+     Resume Processing             Role Selection
+             │
+             ▼
+      PDF Text Extraction
+             │
+             ▼
+        RAG Pipeline
+             │
+      ┌──────┴──────┐
+      │             │
+      ▼             ▼
+ Embeddings      ChromaDB
+      │             │
+      └──────┬──────┘
+             │
+             ▼
+       Gemma / Qwen LLM
+             │
+             ▼
+      Structured AI Analysis
+             │
+             ▼
+         PostgreSQL
+             │
+             ▼
+       React Dashboard
+             │
+    ┌────────┼─────────┬──────────────┐
+    ▼        ▼         ▼              ▼
+ Analysis  Roadmap  Resources   Interview Prep
+    │        │         │              │
+    └────────┴─────────┴──────────────┘
+                       │
+                       ▼
+                Progress Tracking
+                       │
+                       ▼
+                 AI Career Coach
+```
 
 ---
 
 # 🔄 Application Workflow
 
-The following workflow illustrates how the AI Resume Analyzer processes a resume from upload to AI-generated insights.
+The following workflow illustrates how AI Resume Analyzer processes a resume from upload to AI-generated insights.
 
 ```text
-                                 User
-                     │
-                     ▼
-            Upload Resume (PDF)
-                     │
-                     ▼
-            Select Target Role
-                     │
-                     ▼
-           Validate Resume File
-                     │
-                     ▼
-          Extract Resume Text
-                 (PyPDF)
-                     │
-                     ▼
-          Retrieve Knowledge
-                (ChromaDB)
-                     │
-                     ▼
-        Send Context + Resume
-              to LLM
-          (Gemma / Qwen)
-                     │
-                     ▼
-      Generate Structured JSON
-                     │
-                     ▼
-     Store Analysis in PostgreSQL
-                     │
-                     ▼
-        Return analysis_id
-                     │
-                     ▼
- Navigate to /results/{analysis_id}
-                     │
-                     ▼
-      Fetch Analysis via FastAPI
-                     │
-                     ▼
-        Display Results Dashboard
+                              User
+                               │
+                               ▼
+                     Upload Resume (PDF)
+                               │
+                               ▼
+                     Select Target Role
+                               │
+                               ▼
+                    Validate Resume File
+                               │
+                               ▼
+                     Extract Resume Text
+                           (PyPDF)
+                               │
+                               ▼
+                      Retrieve Knowledge
+                          (ChromaDB)
+                               │
+                               ▼
+                   Send Context + Resume
+                           to LLM
+                       (Gemma / Qwen)
+                               │
+                               ▼
+                    Generate Structured JSON
+                               │
+                               ▼
+                  Store Analysis in PostgreSQL
+                               │
+                               ▼
+                     Return analysis_id
+                               │
+                               ▼
+                  Navigate to /results/{analysis_id}
+                               │
+                               ▼
+                  Fetch Analysis via FastAPI
+                               │
+                               ▼
+                  Display Results Dashboard
 ```
 
-### Workflow Summary
-
-### Workflow Summary
+## Workflow Summary
 
 1. User uploads a resume in PDF format.
 2. The backend validates and processes the uploaded file.
@@ -273,24 +426,40 @@ The following workflow illustrates how the AI Resume Analyzer processes a resume
 7. The AI generates structured JSON containing ATS score, skills, missing skills, suggestions, and career insights.
 8. The analysis is stored in **PostgreSQL**.
 9. The backend returns an `analysis_id`.
-10. React fetches the analysis and displays the results dashboard.
+10. React fetches the analysis using the FastAPI backend.
+11. The results are displayed on the dashboard.
+12. Users can continue with learning, interview preparation, progress tracking, and AI career coaching.
 
+---
 
 # 📂 Folder Structure
+
+```text
 resume-analyzer/
 │
 ├── frontend/
+│
 ├── backend/
+│
 ├── screenshots/
+│
 └── README.md
+```
 
-🚀 Installation
+---
+
+# 🚀 Installation
+
+## 1. Clone the Repository
+
 ```bash
 git clone https://github.com/your-username/ai-resume-analyzer.git
 cd ai-resume-analyzer
 ```
 
-## Frontend
+---
+
+## 2. Frontend Setup
 
 ```bash
 cd frontend
@@ -298,16 +467,21 @@ npm install
 npm run dev
 ```
 
-## Backend
+---
+
+## 3. Backend Setup
 
 ```bash
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
-# ⚙ Environment Variables
 
-Create a `.env` file in the backend directory.
+---
+
+# ⚙️ Environment Variables
+
+Create a `.env` file inside the `backend` directory.
 
 ```env
 DATABASE_URL=your_postgresql_connection
@@ -315,48 +489,82 @@ LM_STUDIO_BASE_URL=http://localhost:1234/v1
 MODEL_NAME=gemma-or-qwen
 UPLOAD_FOLDER=upload/
 ```
+
+---
+
 # 📡 API Endpoints
 
-### Resume
+## 📄 Resume
 
-- `POST /upload`
-- `GET /analysis/{analysis_id}`
+| Method | Endpoint                  | Description                 |
+| ------ | ------------------------- | --------------------------- |
+| `POST` | `/upload`                 | Upload and analyze a resume |
+| `GET`  | `/analysis/{analysis_id}` | Fetch resume analysis       |
 
-### Roles
+## 🎯 Roles
 
-- `GET /roles`
-- `GET /roles/{role_id}`
+| Method | Endpoint           | Description         |
+| ------ | ------------------ | ------------------- |
+| `GET`  | `/roles`           | Get available roles |
+| `GET`  | `/roles/{role_id}` | Get role details    |
 
-### Learning Roadmap
+## 🗺️ Learning Roadmap
 
-- `GET /learning-roadmap/{resume_id}`
+| Method | Endpoint                        | Description                       |
+| ------ | ------------------------------- | --------------------------------- |
+| `GET`  | `/learning-roadmap/{resume_id}` | Get personalized learning roadmap |
 
-### Learning Resources
+## 📚 Learning Resources
 
-- `GET /learning-resources/{resume_id}`
+| Method | Endpoint                          | Description                        |
+| ------ | --------------------------------- | ---------------------------------- |
+| `GET`  | `/learning-resources/{resume_id}` | Get recommended learning resources |
 
-### Interview Preparation
+## 🎯 Interview Preparation
 
-- `GET /interview-preparation/{resume_id}`
+| Method | Endpoint                             | Description                       |
+| ------ | ------------------------------------ | --------------------------------- |
+| `GET`  | `/interview-preparation/{resume_id}` | Get interview preparation content |
 
-### Progress Tracking
+## 📈 Progress Tracking
 
-- `GET /progress_tracking/{resume_id}`
-- `PUT /progress_tracking/{resume_id}`
-- `POST /progress-tracking/{resume_id}/reset`
+| Method | Endpoint                               | Description              |
+| ------ | -------------------------------------- | ------------------------ |
+| `GET`  | `/progress_tracking/{resume_id}`       | Get learning progress    |
+| `PUT`  | `/progress_tracking/{resume_id}`       | Update learning progress |
+| `POST` | `/progress-tracking/{resume_id}/reset` | Reset learning progress  |
 
-### Career Coach
+## 💬 Career Coach
 
-- `POST /career-chat`
-- `GET /career-chat/history/{resume_id}`
-- `DELETE /career-chat/history/{resume_id}`
+| Method   | Endpoint                           | Description                       |
+| -------- | ---------------------------------- | --------------------------------- |
+| `POST`   | `/career-chat`                     | Send a message to AI Career Coach |
+| `GET`    | `/career-chat/history/{resume_id}` | Get career chat history           |
+| `DELETE` | `/career-chat/history/{resume_id}` | Delete career chat history        |
+
+---
+
+# 🔮 Future Improvements
+
+Potential future enhancements include:
+
+* Resume template generation
+* Resume rewriting using AI
+* Job description matching
+* Job recommendation system
+* LinkedIn profile analysis
+* Multiple resume version management
+* Resume comparison
+* Advanced analytics and progress insights
+* More LLM provider integrations
+
+---
+
 # 👨‍💻 Author
 
 **Gaurav Aawanke**
 
-AI Backend & GenAI Engineer
+**AI Backend & GenAI Engineer**
 
-- GitHub: https://github.com/iamgauravaawanke
-- LinkedIn: https://www.linkedin.com/in/iamgauravaawanke/
-
-
+* GitHub: https://github.com/iamgauravaawanke
+* LinkedIn: https://www.linkedin.com/in/iamgauravaawanke/
